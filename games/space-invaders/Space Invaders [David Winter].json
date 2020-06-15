@@ -1,0 +1,107 @@
+{
+  "title": "Space Invaders",
+  "authors": [
+    {
+      "id": "david-winter",
+      "name": "David Winter"
+    }
+  ],
+  "release": "1978",
+  "category": "GAME",
+  "description": "The well known game. Destroy the invaders with your ship.",
+  "images": [
+    "./Space Invaders [David Winter] - main screen.png",
+    "./Space Invaders [David Winter] - game play.png"
+  ],
+  "interpreter": {
+    "id": "chip8-david-winter",
+    "name": "CHIP8 by David Winter"
+  },
+  "binaries": {
+    "names": [
+      { "value": "Space Invaders [David Winter] - 0.9.1" },
+      { "value": "Space Invaders [David Winter]" },
+
+      { "value": "Space Invaders [David Winter] - 0.9.0" },
+      { "value": "Space Invaders [David Winter] (alt)" },
+      { "value": "INVADERS" }
+    ],
+    "extensions": [
+      "c8",
+      "ch8",
+      ""
+    ],
+    "hashes": [
+      {
+        "type": "SHA256",
+        "value": "00bb7001de52b562d98357d33375406c6d0308466d7d95c2580537d2451a75cd"
+      },
+      {
+        "type": "SHA256",
+        "value": "2d0e1fa53216b297e74041d4fb766f42327a42893e83bb4ec931a9dff5c2dd10"
+      }
+    ]
+  },
+  "sources": {
+    "names": [
+      {
+        "type": "DISASSEMBLED",
+        "value": "Space Invaders [David Winter] - 0.9.0"
+      },
+      {
+        "type": "DISASSEMBLED",
+        "value": "Space Invaders [David Winter] - 0.9.1"
+      }
+    ],
+    "extensions": [
+      "8o",
+      "asm",
+      "txt",
+      ""
+    ]
+  },
+  "platform": {
+    "name": "chip8",
+    "resolution": {
+      "width": 64,
+      "height": 32
+    }
+  },
+  "keys": [
+    {
+      "label": "Start",
+      "action": "START",
+      "stroke": "ENTER",
+      "value": "0x5"
+    },
+    {
+      "label": "Fly left",
+      "action": "LEFT",
+      "stroke": "LEFT",
+      "value": "0x4"
+    },
+    {
+      "label": "Fly right",
+      "action": "RIGHT",
+      "stroke": "RIGHT",
+      "value": "0x6"
+    },
+    {
+      "label": "Shoot",
+      "action": "X",
+      "stroke": "SPACE",
+      "value": "0x5"
+    }
+  ],
+  "options": {
+    "opsPerSec": 1500,
+
+    "shiftOp": "MODERN",
+    "loadStoreOp": "UNUSED",
+    "yClipping": "UNUSED",
+
+    "stageColor": "0x808080",
+    "backgroundColor": "0x000000",
+    "foregroundColor": "0xFFFFFF"
+  }
+}
