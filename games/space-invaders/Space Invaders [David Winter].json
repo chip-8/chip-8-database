@@ -62,6 +62,7 @@
   },
   "platform": {
     "name": "chip8",
+    "startAddress": "0x200",
     "resolution": {
       "width": 64,
       "height": 32
