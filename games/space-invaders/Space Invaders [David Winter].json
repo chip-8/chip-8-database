@@ -11,10 +11,20 @@
   "description": "The well known game. Destroy the invaders with your ship.",
   "images": [
     {
-      "path": "./Space Invaders [David Winter] - main screen.png"
+      "path": "./Space Invaders [David Winter] - main screen.png",
+      "width": 640,
+      "height": 320
     },
     {
-      "path": "./Space Invaders [David Winter] - game play.png"
+      "path": "./Space Invaders [David Winter] - main screen.svg"
+    },
+    {
+      "path": "./Space Invaders [David Winter] - game play.png",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "path": "./Space Invaders [David Winter] - game play.svg"
     }
   ],
   "interpreter": {
