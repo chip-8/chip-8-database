@@ -1,0 +1,126 @@
+{
+  "title": "Space Invaders",
+  "authors": [
+    {
+      "id": "david-winter",
+      "name": "David Winter"
+    }
+  ],
+  "release": "1978",
+  "category": "GAME",
+  "description": "The well known game. Destroy the invaders with your ship.",
+  "images": [
+    {
+      "path": "./Space Invaders [David Winter] - main screen.png",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "path": "./Space Invaders [David Winter] - main screen.svg"
+    },
+    {
+      "path": "./Space Invaders [David Winter] - game play.png",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "path": "./Space Invaders [David Winter] - game play.svg"
+    }
+  ],
+  "interpreter": {
+    "id": "chip8-david-winter",
+    "name": "CHIP8 by David Winter"
+  },
+  "binaries": [
+    {
+      "version": "0.9.1",
+      "name": "Space Invaders [David Winter] - 0.9.1",
+      "altNames": [
+        "Space Invaders [David Winter]"
+      ],
+      "hash": {
+        "alg": "SHA1",
+        "value": "5c28a5f85289c9d859f95fd5eadbdcb1c30bb08b"
+      }
+    },
+    {
+      "version": "0.9.0",
+      "name": "Space Invaders [David Winter] - 0.9.0",
+      "altNames": [
+        "Space Invaders [David Winter] (alt)",
+        "INVADERS"
+      ],
+      "hash": {
+        "alg": "SHA1",
+        "value": "f100197f0f2f05b4f3c8c31ab9c2c3930d3e9571"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "version": "0.9.1",
+      "name": "Space Invaders [David Winter] - 0.9.1",
+      "comment": "Disassembled using Octo"
+    },
+    {
+      "version": "0.9.0",
+      "name": "Space Invaders [David Winter] - 0.9.0",
+      "comment": "Disassembled using Octo"
+    }
+  ],
+  "platform": {
+    "name": "chip8",
+    "variant": null,
+
+    "resolution": {
+      "width": 64,
+      "height": 32
+    },
+    "options": {
+      "opsPerSec": 1500,
+      "startAddress": "0x200",
+
+      "shiftQuirk": "IGNORE_Y",
+      "loadStoreQuirk": null,
+
+      "yClipping": null,
+
+      "stageColor": "0x808080",
+      "backgroundColor": "0x000000",
+      "foregroundColor": "0xFFFFFF"
+    },
+    "nativeRoutines": [
+      {
+        "opcode": "0x001N",
+        "required": false,
+        "description": "Exit emulator with a return value of N"
+      }
+    ]
+  },
+  "keys": [
+    {
+      "label": "Start",
+      "code": "0x5",
+      "gamepad": "START",
+      "keyboard": "ENTER"
+    },
+    {
+      "label": "Fly left",
+      "code": "0x4",
+      "gamepad": "LEFT",
+      "keyboard": "LEFT"
+    },
+    {
+      "label": "Fly right",
+      "code": "0x6",
+      "gamepad": "RIGHT",
+      "keyboard": "RIGHT"
+    },
+    {
+      "label": "Shoot",
+      "code": "0x5",
+      "gamepad": "X",
+      "keyboard": "SPACE"
+    }
+  ]
+}

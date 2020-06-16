@@ -78,7 +78,7 @@ The `options` key takes a list of keys and values.
 
 General options:
 
-tickrate - how many cycles to run per frame?   ":500,
+* `tickrate`: How many cycles to run per frame? e.g. 500,
 * `backgroundColor`: The color used for the background, or pixels that are "off".
 * `fillColor`: The color used for pixels that are "on". For XO-CHIP, this is specifically for graphics plane 1.
 * `fillColor2`: The color used for pixels that are "on" in graphics plane 2 for XO-CHIP.
@@ -86,9 +86,9 @@ tickrate - how many cycles to run per frame?   ":500,
 * `buzzColor`: For a visual sound buzzer, this is the color used when the buzzer is active.
 * `quietColor`: The color used when the buzzer is not active.
 * `maxSize`: The memory size needed. A reasonable default is `4096`; this option will usually be used for programs that require more memory than `4096`.
-touchInputMode - 
-`enableXO`: Whether this game requires XO-CHIP capabilities (such as multiple graphics planes).
-screenRotation
+* `touchInputMode`: XO-CHIP specific touch option. One of: `none`, `swipe`, `seg16`, `seg16-fill`, `gamepad`, `vip-keyboard`
+* `enableXO`: Whether this app requires XO-CHIP capabilities (such as multiple graphics planes).
+* `screenRotation`: Whether the app is drawing on a rotated screen. One of: `0` (default), `90`, `180`, `270`
 
 In addition, there are several options that describe "quirks" that the game depends on. "Quirks" are behavioral differences. Some CHIP-8 interpreters have historically implemented certain instructions differently, causing incompatible CHIP-8 specifications. If a game relies on a certain behavior, these options tell you that.
 
