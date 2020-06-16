@@ -10,99 +10,107 @@
   "category": "GAME",
   "description": "The well known game. Destroy the invaders with your ship.",
   "images": [
-    "./Space Invaders [David Winter] - main screen.png",
-    "./Space Invaders [David Winter] - game play.png"
+    {
+      "path": "./Space Invaders [David Winter] - main screen.png"
+    },
+    {
+      "path": "./Space Invaders [David Winter] - game play.png"
+    }
   ],
   "interpreter": {
     "id": "chip8-david-winter",
     "name": "CHIP8 by David Winter"
   },
-  "binaries": {
-    "names": [
-      { "value": "Space Invaders [David Winter] - 0.9.1" },
-      { "value": "Space Invaders [David Winter]" },
-
-      { "value": "Space Invaders [David Winter] - 0.9.0" },
-      { "value": "Space Invaders [David Winter] (alt)" },
-      { "value": "INVADERS" }
-    ],
-    "extensions": [
-      "c8",
-      "ch8",
-      ""
-    ],
-    "hashes": [
-      {
-        "type": "SHA256",
-        "value": "00bb7001de52b562d98357d33375406c6d0308466d7d95c2580537d2451a75cd"
-      },
-      {
-        "type": "SHA256",
-        "value": "2d0e1fa53216b297e74041d4fb766f42327a42893e83bb4ec931a9dff5c2dd10"
+  "binaries": [
+    {
+      "version": "0.9.1",
+      "name": "Space Invaders [David Winter] - 0.9.1",
+      "altNames": [
+        "Space Invaders [David Winter]"
+      ],
+      "hash": {
+        "alg": "SHA1",
+        "value": "5c28a5f85289c9d859f95fd5eadbdcb1c30bb08b"
       }
-    ]
-  },
-  "sources": {
-    "names": [
-      {
-        "type": "DISASSEMBLED",
-        "value": "Space Invaders [David Winter] - 0.9.0"
-      },
-      {
-        "type": "DISASSEMBLED",
-        "value": "Space Invaders [David Winter] - 0.9.1"
+    },
+    {
+      "version": "0.9.0",
+      "name": "Space Invaders [David Winter] - 0.9.0",
+      "altNames": [
+        "Space Invaders [David Winter] (alt)",
+        "INVADERS"
+      ],
+      "hash": {
+        "alg": "SHA1",
+        "value": "f100197f0f2f05b4f3c8c31ab9c2c3930d3e9571"
       }
-    ],
-    "extensions": [
-      "8o",
-      "asm",
-      "txt",
-      ""
-    ]
-  },
+    }
+  ],
+  "sources": [
+    {
+      "version": "0.9.1",
+      "name": "Space Invaders [David Winter] - 0.9.1",
+      "comment": "Disassembled using Octo"
+    },
+    {
+      "version": "0.9.0",
+      "name": "Space Invaders [David Winter] - 0.9.0",
+      "comment": "Disassembled using Octo"
+    }
+  ],
   "platform": {
     "name": "chip8",
-    "startAddress": "0x200",
+    "variant": null,
+
     "resolution": {
       "width": 64,
       "height": 32
-    }
+    },
+    "options": {
+      "opsPerSec": 1500,
+      "startAddress": "0x200",
+
+      "shiftQuirk": "IGNORE_Y",
+      "loadStoreQuirk": null,
+
+      "yClipping": null,
+
+      "stageColor": "0x808080",
+      "backgroundColor": "0x000000",
+      "foregroundColor": "0xFFFFFF"
+    },
+    "nativeRoutines": [
+      {
+        "opcode": "0x001N",
+        "required": false,
+        "description": "Exit emulator with a return value of N"
+      }
+    ]
   },
   "keys": [
     {
       "label": "Start",
-      "action": "START",
-      "stroke": "ENTER",
-      "value": "0x5"
+      "code": "0x5",
+      "gamepad": "START",
+      "keyboard": "ENTER"
     },
     {
       "label": "Fly left",
-      "action": "LEFT",
-      "stroke": "LEFT",
-      "value": "0x4"
+      "code": "0x4",
+      "gamepad": "LEFT",
+      "keyboard": "LEFT"
     },
     {
       "label": "Fly right",
-      "action": "RIGHT",
-      "stroke": "RIGHT",
-      "value": "0x6"
+      "code": "0x6",
+      "gamepad": "RIGHT",
+      "keyboard": "RIGHT"
     },
     {
       "label": "Shoot",
-      "action": "X",
-      "stroke": "SPACE",
-      "value": "0x5"
+      "code": "0x5",
+      "gamepad": "X",
+      "keyboard": "SPACE"
     }
-  ],
-  "options": {
-    "opsPerSec": 1500,
-
-    "shiftOp": "MODERN",
-    "loadStoreOp": "UNUSED",
-    "yClipping": "UNUSED",
-
-    "stageColor": "0x808080",
-    "backgroundColor": "0x000000",
-    "foregroundColor": "0xFFFFFF"
-  }
+  ]
 }
