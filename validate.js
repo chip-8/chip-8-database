@@ -8,10 +8,7 @@ require('colors');
 
 // Which files to test?
 
-const checks = [
-    check('authors'),
-    check('roms')
-];
+const checks = [check("roms")];
 
 // Script start
 

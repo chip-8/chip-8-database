@@ -1,0 +1,185 @@
+{
+  "definitions": {
+    "Roms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "sha1": {
+            "type": "string",
+            "format": "sha1"
+          },
+          "event": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "release": {
+            "type": "string",
+            "format": "date"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "file": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "release": {
+                        "type": "string"
+                    },
+                    "platform": {
+                        "type": "string"
+                    },
+                    "authors": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "images": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "options": {
+                        "type": "object",
+                        "properties": {
+                            "tickrate":30,
+                                "fillColor": {
+                                    "type": "string"
+                                },
+                                "fillColor2": {
+                                    "type": "string"
+                                },
+                                "blendColor": {
+                                    "type": "string"
+                                },
+                                "backgroundColor": {
+                                    "type": "string"
+                                },
+                                "buzzColor": {
+                                    "type": "string"
+                                },
+                                "quietColor": {
+                                    "type": "#000000"
+                                },
+                                "shiftQuirks": {
+                                    "type": "boolean"
+                                },
+                                "loadStoreQuirks": {
+                                    "type": "boolean"
+                                },
+                                "vfOrderQuirks": {
+                                    "type": "boolean"
+                                },
+                                "clipQuirks": {
+                                    "type": "boolean"
+                                },
+                                "jumpQuirks": {
+                                    "type": "boolean"
+                                },
+                                "enableXO": {
+                                    "type": "boolean"
+                                },
+                                "screenRotation": {
+                                    "type": "integer"
+                                }
+                        }
+                    }
+                },
+                "required": ["title", "file"]
+            }
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "options": {
+            "type": "object",
+            "properties": {
+              "tickrate": {
+                "type": "integer"
+              },
+              "fillColor": {
+                "type": "string"
+              },
+              "fillColor2": {
+                "type": "string"
+              },
+              "blendColor": {
+                "type": "string"
+              },
+              "backgroundColor": {
+                "type": "string"
+              },
+              "buzzColor": {
+                "type": "string"
+              },
+              "quietColor": {
+                "type": "#000000"
+              },
+              "shiftQuirks": {
+                "type": "boolean"
+              },
+              "loadStoreQuirks": {
+                "type": "boolean"
+              },
+              "vfOrderQuirks": {
+                "type": "boolean"
+              },
+              "clipQuirks": {
+                "type": "boolean"
+              },
+              "jumpQuirks": {
+                "type": "boolean"
+              },
+              "vBlankQuirks": {
+                "type": "boolean"
+              },
+              "logicQuirks": {
+                "type": "boolean"
+              },
+              "enableXO": {
+                "type": "boolean"
+              },
+              "screenRotation": {
+                "type": "integer"
+              },
+              "touchInputMode": {
+                "type": "string"
+              },
+              "fontStyle": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": ["title", "file"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "$ref": "#/definitions/Roms"
+}
