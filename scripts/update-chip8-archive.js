@@ -1,8 +1,9 @@
 const fs = require("fs");
+const path = require("path");
 const crypto = require("crypto");
 const prettier = require("prettier");
 
-const programsFile = "./database/programs.json";
+const programsFile = path.resolve("./database/programs.json");
 const programs = require(programsFile);
 
 const archiveUrl =
