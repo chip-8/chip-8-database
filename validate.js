@@ -8,7 +8,7 @@ require("colors");
 
 // Which files to test?
 
-const checks = [check("roms")];
+const checks = [check("programs")];
 
 // Script start
 
