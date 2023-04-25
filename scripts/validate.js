@@ -8,7 +8,7 @@ require("colors");
 
 // Which files to test?
 
-const checks = [check("programs")];
+const checks = [check("programs"), check("sha1-hashes")];
 
 // Script start
 

@@ -1,0 +1,19 @@
+{
+  "definitions": {
+    "Hashes": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "format": "sha1"
+      },
+      "patternProperties": {
+        ".*": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$ref": "#/definitions/Hashes"
+}

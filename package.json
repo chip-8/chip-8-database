@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "A database of CHIP-8 game metadata",
   "scripts": {
-    "start": "npm run update-chip8-archive && npm run check-formatting && npm run test",
+    "start": "npm run update-chip8-archive && npm run generate-hashes-file && npm run check-formatting && npm run test",
     "test": "node ./scripts/validate.js",
     "check-formatting": "prettier --check .",
     "format": "prettier --write .",
-    "update-chip8-archive": "node ./scripts/update-chip8-archive.js"
+    "update-chip8-archive": "node ./scripts/update-chip8-archive.js",
+    "generate-hashes-file": "node ./scripts/generate-hashes-file.js"
   },
   "repository": {
     "type": "git",
