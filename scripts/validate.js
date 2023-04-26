@@ -4,6 +4,7 @@
 
 const fs = require("fs");
 const { Validator } = require("jsonschema");
+const jsonSchemaSchema = require("../schemas/schema-schema.json");
 require("colors");
 
 // Which files to test?
@@ -49,11 +50,19 @@ function check(file) {
 
   if (subject === undefined || schema === undefined) return false;
 
-  const validator = new Validator();
-  const result = validator.validate(subject, schema);
-  if (!result.valid) {
+  const schemaValidator = new Validator();
+  const schemaResult = schemaValidator.validate(schema, jsonSchemaSchema);
+  if (!schemaResult.valid) {
+    console.error(indent(`𝘅 Schema is not valid JSON schema:`, 1).red);
+    console.error(indent(schemaResult.toString(), 2));
+    return false;
+  }
+
+  const dataValidator = new Validator();
+  const dataResult = dataValidator.validate(subject, schema);
+  if (!dataResult.valid) {
     console.error(indent(`𝘅 File does not adhere to the schema:`, 1).red);
-    console.error(indent(result.toString(), 2));
+    console.error(indent(dataResult.toString(), 2));
     return false;
   }
 

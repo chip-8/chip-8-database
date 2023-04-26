@@ -1,19 +1,15 @@
 {
-  "definitions": {
-    "Hashes": {
-      "type": "object",
-      "propertyNames": {
-        "type": "string",
-        "format": "sha1"
-      },
-      "patternProperties": {
-        ".*": {
-          "type": "string",
-          "format": "integer"
-        }
-      },
-      "additionalProperties": false
+  "description": "JSON Schema definition of the sha1-hashes.json structure for the CHIP-8 database.",
+  "type": "object",
+  "propertyNames": {
+    "type": "string",
+    "format": "sha1"
+  },
+  "patternProperties": {
+    ".*": {
+      "type": "string",
+      "format": "integer"
     }
   },
-  "$ref": "#/definitions/Hashes"
+  "additionalProperties": false
 }
