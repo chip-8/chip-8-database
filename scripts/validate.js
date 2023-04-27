@@ -23,28 +23,50 @@ console.log(resultString[success ? "brightGreen" : "brightRed"].bold);
 // Check consistency between JSON files
 
 console.log("\nChecking internal consistency of JSON files...");
-const hashes = require('../database/sha1-hashes.json');
-const programs = require('../database/programs.json');
-const programHashes = programs.map(prog => prog.sha1);
+const hashes = require("../database/sha1-hashes.json");
+const programs = require("../database/programs.json");
+const programHashes = programs.map((prog) => prog.sha1);
 const hashesHashes = Object.keys(hashes);
-const notInPrograms = hashesHashes.filter(hash => !programHashes.includes(hash));
-const notInHashes = programHashes.filter(hash => !hashesHashes.includes(hash));
+const notInPrograms = hashesHashes.filter(
+  (hash) => !programHashes.includes(hash)
+);
+const notInHashes = programHashes.filter(
+  (hash) => !hashesHashes.includes(hash)
+);
 if (notInPrograms.length > 0) {
   success = false;
-  console.log(indent(`𝘅 ${notInPrograms.length} hashes are in sha1-hashes.json but not in programs.json`, 1).red);
+  console.log(
+    indent(
+      `𝘅 ${notInPrograms.length} hashes are in sha1-hashes.json but not in programs.json`,
+      1
+    ).red
+  );
 } else {
-  console.log(indent(`✔ All hashes in sha1-hashes.json are also in programs.json`, 1).green);
+  console.log(
+    indent(`✔ All hashes in sha1-hashes.json are also in programs.json`, 1)
+      .green
+  );
 }
 if (notInHashes.length > 0) {
   success = false;
-  console.log(indent(`𝘅 ${notInHashes.length} hashes are in programs.json but not in sha1-hashes.json`, 1).red);
+  console.log(
+    indent(
+      `𝘅 ${notInHashes.length} hashes are in programs.json but not in sha1-hashes.json`,
+      1
+    ).red
+  );
 } else {
-  console.log(indent(`✔ All hashes in programs.json are also in sha1-hashes.json`, 1).green);
+  console.log(
+    indent(`✔ All hashes in programs.json are also in sha1-hashes.json`, 1)
+      .green
+  );
 }
 
 // Show friendly counters
 
-console.log(`\nCHIP-8 database contains ${hashesHashes.length} SHA1 hashes for ${programs.length} programs`);
+console.log(
+  `\nCHIP-8 database contains ${hashesHashes.length} SHA1 hashes for ${programs.length} programs`
+);
 process.exit(success ? 0 : 1);
 
 // Helper functions

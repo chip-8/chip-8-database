@@ -26,7 +26,15 @@
         },
         "platform": {
           "type": "string",
-          "enum": ["chip8", "schip", "xochip", "chip8x", "megachip8", "hybrid-vip", "hires-chip8"]
+          "enum": [
+            "chip8",
+            "schip",
+            "xochip",
+            "chip8x",
+            "megachip8",
+            "hybrid-vip",
+            "hires-chip8"
+          ]
         },
         "authors": {
           "type": "array",
