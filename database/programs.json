@@ -1,6 +1,6 @@
 [
   {
-    "title": "15 PUZZLE",
+    "title": "15 Puzzle",
     "file": "15 Puzzle [Roger Ivie].ch8",
     "description": "15 Puzzle, by Roger Ivie\n\nRearrange the tiles into the sequence 0-F. Moves tile by it associated key.",
     "sha1": "ea9af3c09b0d9e265fcd92bcc5d51a2939fdf27a",
@@ -9,7 +9,7 @@
     "authors": ["Roger Ivie"]
   },
   {
-    "title": "ADDITION PROBLEMS",
+    "title": "Addition Problems",
     "file": "Addition Problems [Paul C. Moews].ch8",
     "description": "Addition Problems, by Paul C. Moews\n\nDo simple math.",
     "sha1": "feaa2b999737630a6402e990df4d0558f79ba43e",
@@ -18,7 +18,7 @@
     "authors": ["Paul C. Moews"]
   },
   {
-    "title": "AIRPLANE",
+    "title": "Airplane",
     "file": "Airplane.ch8",
     "description": "Airplane - Blitz type of bombing game. Hit \"8\" to drop a bomb.",
     "sha1": "fca71182a8838b686573e69b22aff945d79fe1d0",
@@ -26,15 +26,15 @@
     "release": "19xx"
   },
   {
-    "title": "ANIMAL RACE",
+    "title": "Animal Race",
     "file": "Animal Race [Brian Astle].ch8",
-    "description": "Animal Race, by Brian Astle\n\nAnimal Race is a fun game for one person, with an element of luck - sure to put a smile on your face.  Five different animals race against one another and you have the chance to test your expertise at picking the winner.",
+    "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where score won't increment and rendered garbage). \n\nI believe this is the original version.\n\n\n\n\n\n\n9. VIP Animal Race\n==================\nAnimal Race is a fun game for one person, with an element of luck - sure to\nput a smile on your face.  Five different animals race against one another\nand you have the chance to test your expertise at picking the winner.\n\n\nHow To Play Animal Race\n\n1. Load the CHIP-8 interpretor at 0000-01FF\n   and the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. Wait until the animals are lined up and read to start, then select an animal\n   by pressing a letter A through E.  A mark will appear to the left of the\n   animal to remind you of the one you have selected.\n\n4. Decide how much you want to bet (up to a limit of $9), then press that key.\n\n5. After the race is over, press zero (or any key) to start the next race.\n   Your winnings or losses will be computed and the new total displayed at\n   the begining of the next race.\n\nHints for expert players\nAll animals move at approximately the same speed, but they start from different\npositions.  The odds for each animal are related to the starting position but\ninclude a random element.  Some races favor the player and you should bet up to\nthe limit on these.  Some races are unfavorable and you should bet carefully\non these.\n\nYou can win the game by accumulating $256 or more.\n\n-----------------------------------------------------------------------------------\n\n",
     "sha1": "a27dcf88a931f70c3ccf3c01a5410b263bac48bc",
     "platform": "chip8",
     "authors": ["Brian Astle"]
   },
   {
-    "title": "ASTRO DODGE",
+    "title": "Astro Dodge",
     "file": "Astro Dodge [Revival Studios, 2008].ch8",
     "options": {
       "loadStoreQuirks": true
@@ -43,15 +43,15 @@
     "sha1": "ac621d9fcada302ba6965768229ef130630bc525"
   },
   {
-    "title": "BIORHYTHM",
+    "title": "Biorhythm",
     "file": "Biorhythm [Jef Winsor].ch8",
-    "description": "Biorhythm, by Jef Winsor\n\nThe theory of Biorhythm states that there are thre predominant cycles that can influence human behavior. These include a 23-day physical cycle, a 28-day emotional cycle and a 33-day intellectual cycle.  All three cycles start at birth and continue throughout life.\n\nEach cycle consists of a positive and a negative period.  Physical, Emotional and Intellectual aspects are enhanced during positive periods.  Poor performance is indicated by the negative period of a cycle.\n\nA critical day occurs on the crossover from the positive to the negative period or vice versa. A critical day indicates instability in a particular aspect. \n\nHow to Use Biorhythm: \n\n1. Enter birthdate using 2-digit month, 2-digit day, and 4-digit year.\n\n2. Enter start date using 2-digit month, 2-digit day, and 4-digit year. The start date indicates the first day of the 32-day Biorhythm chart the program will generate.\n\n3. After a period of calculation proportional to the span of time involved, the three cycle curves will be shown for a 32-day period. Each horizontal bit position represents one day in the cycle. The start day, on the left, and every seventh day are indicated by week markers. The first day of a positive or negative period is a critical day.\n\n4. To advance the start date, hold key F down until the desired date is reached. To decrement the start date, hold key B down. These functions allow changing the start date slightly without reentering all the dates and waiting for the calculations to be preformed.\n\n5. Press Key 0 to clear the screen and enter a new set of dates.",
+    "description": "13. VIP Biorhythm\n\nThe theory of Biorhythm states that there are thre predominant cycles that can influence\nhuman behavior.  These include a 23-day physical cycle, a 28-day emotional cycle and a\n33-day intellectual cycle.  All three cycles start at birth and continue throughout life.\n\nEach cycle consists of a positive and a negative period.  Physical, Emotional and\nIntellectual aspects are enhanced during positive periods.  Poor performance is\nindicated by the negative period of a cycle.\n\nA critical day occurs on the crossover from the positive to the negative period or\nvice versa.  A critical day indicates instability in a particular aspect.\n\n\nHow to Use VIP Biorhythm\n\n1. Load the CHIP-8 interpreter at 0000-01FF and\n   the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. Enter birthdate using 2-digit month, 2-digit day, and 4-digit year.\n\n4. Enter start date using 2-digit month, 2-digit day, and 4-digit year. The start date\n   indicates the first day of the 32-day Biorhythm chart the program will generate.\n\n5. After a period of calculation proportional to the span of time involved, the three\n   cycle curves will be shown for a 32-day period.  Each horizontal bit position\n   represents one day in the cycle.  The start day, on the left, and every seventh\n   day are indicated by week markers.  The first day of a positive or negative period\n   is a critical day.\n\n6. To advance the start date, hold key F down until the desired date is reached.\n   To decrement the start date, hold key B down.  These functions allow changing the\n   start date slightly without reentering all the dates and waiting for the calculations\n   to be preformed.\n  \n7. Press Key 0 to clear the screen and enter a new set of dates.\n\n   \n\n   See VIPG1-13.jpg\n\n\nINTERPRETATION\n\n\n\t\t\tPhysical\t\tEmotional\t\tIntellectual\n\nPositive Period\t\tStrong, \t\tGood moods, \t\tGood Judgement\n(Up)\t\t\tVigorous\t\tCooperative\t\tSharp Mentally\n\nNegative Period\t\tTire easily,\t\tLow Enthusiasm,\t\tLow attentiveness\n(Down)\t\t\tLess Stamina\t\tFeelings Subdued\tand concentration\n\nCritical Days\t\tSusceptible to injury\temotionally unstable,\tPoor memory,\n(Crossover)\t\tor Illness,\t\tUpset easily\t\tProne to mistakes\n\t\t\tLow endurance\n",
     "sha1": "3368d56efeb584c509bafb548f1ee5e71ac1bc70",
     "platform": "chip8",
     "authors": ["Jef Winsor"]
   },
   {
-    "title": "BLINKY",
+    "title": "Blinky",
     "file": "Blinky [Hans Christian Egeberg, 1991].ch8",
     "options": {
       "loadStoreQuirks": true,
@@ -61,13 +61,13 @@
     "sha1": "d40abc54374e4343639f993e897e00904ddf85d9"
   },
   {
-    "title": "BLITZ",
+    "title": "Blitz",
     "file": "Blitz [David Winter].ch8",
     "description": "Blitz, by David Winter\n\nThis game is a BOMBER clone. You are in a plane, and you must destroy the towers of a town. Your plane is flying left to right, and goes down. Use 5 to drop a bomb. The game ends when you crash yourself on a tower...",
     "sha1": "6f6509f38220e057a7e32ebb22dd353c1078e3e7"
   },
   {
-    "title": "BMP VIEWER",
+    "title": "BMP Viewer",
     "file": "BMP Viewer - Hello (C8 example) [Hap, 2005].ch8",
     "options": {
       "shiftQuirks": true
@@ -76,15 +76,15 @@
     "sha1": "72c2cbfea48000e25891dd4968ae9f1adef1e7e3"
   },
   {
-    "title": "BOWLING",
+    "title": "Bowling",
     "file": "Bowling [Gooitzen van der Wal].ch8",
-    "description": "Bowling, by Gooitzen van der Wal\n\nBowling is a great game for recreation and competion requiring skill and a little bit of luck.  This program simulates bowling closely with regular scoring and the option of using three different spins on the ball.",
+    "description": "7. VIP Bowling\n\nBowling is a great game for recreation and competion requiring skill and a little\nbit of luck.  This program simulates bowling closely with regular scoring and the\noption of using three different spins on the ball.\n\nHow to play VIP Bowling\n\n1. Load the CHIP-8 interpretor at 0000-01FF\n   and the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. Up to 6 persons can compete.  Make the choice by pressing Key 1,2,3,4,5 or 6.\n   The players will be referred to as A,B,C,D,E and F.\n\n4. It is possible to play up to 10 frames in one game.  Make your choice of the\n   number of frames by pressing Key 1,2,3,4,5,6,7,8,9 or 0 (for 10 frames).\n\n5. It is possible to choose 3 ball speeds (Key 1,2 or 3).  The speed option only\n   affects the ball after it is released.\n\n6. At the start of a player's turn, the video will display whose turn it is and\n   whether he is working on a spare, strike, 2 strikes or nothing.\n   Release the ball by pressing on of the following keys: Key 1,2,3,5,7,8 or 9.\n   -Key 5 will cause a straight ball.\n   -Key 1,2 and 3 will cause the ball to spin up.\n     -Key 1 before the first pin\n     -Key 2 after  the first pin\n     -Key 3 after  the second pin\n   -Key 7,8 and 9 will cause the ball to spin up.\n     -Key 7 before the first pin\n     -Key 8 after  the first pin\n     -Key 9 after  the second pin\n\n7. After the player's turn ends, the video will display whose turn it was, the\n   frame, and the score.  The next players follows the instructions at 6 above.\n\n8. After all players have had their turn in a frame, the video will display the\n   total of each player and whether he is working on a spare, 1 strike, 2 strikes\n   or nothing.  It will display the frame number and the total number of frames\n   to go (unless the last frame was played).\n   After pressing Any key, player A can start in the next frame.  Continue with\n   instruction 6 above.\n\n9. If all frames in the game have been finished, press any key again.  The player's\n   who are still working on a spare will recieve 1 more ball, and those working\n   on 1 or 2 strikes will receive 2 balls.\n\n10. After all players have finished the game, the final score will be displayed.\n\n\n    ",
     "sha1": "b3fed4ed1eb0ed693c9731dbe53b29a76236c781",
     "platform": "chip8",
     "authors": ["Gooitzen van der Wal"]
   },
   {
-    "title": "BREAKOUT",
+    "title": "Breakout",
     "file": "Breakout (Brix hack) [David Winter, 1997].ch8",
     "description": "Breakout (Brix hack) 1997, by David Winter\n\nThis game is an \"arkanoid\" precursor. You have 5 lives, and your goal is the destruction of all the brixs. Use 4 and 6 to move your paddle. The game ends when all the brixs are destroyed. This game is the same than BRIX, but has graphics looking like the game on the Atari 2600 console.",
     "sha1": "237756a4014fb3aa82a29246a7cdd534f8dc2dbb",
@@ -93,7 +93,7 @@
     "authors": ["David Winter"]
   },
   {
-    "title": "BRICK",
+    "title": "Brick",
     "file": "Brick (Brix hack, 1990).ch8",
     "description": "BRICK (Brix hack), 1990\n\nA modified version of BRIX, a CHIP-8 game. Original BRIX by Andreas Gustafsson. This one is a solid wall; no air between bricks! 4, 6 - left/right",
     "sha1": "91442577a6bbf8c3267f2df95fdfc50baebe176d",
@@ -101,16 +101,16 @@
     "release": "1990"
   },
   {
-    "title": "BRIX",
+    "title": "Brix",
     "file": "Brix [Andreas Gustafsson, 1990].ch8",
-    "description": "Brix (1999), by Andres Gustafsson\n\nArkanoid clone. 4, 6 - left/right",
+    "description": "\nBrix - by Andreas Gustafsson (1990)\n-----------------------------------\n\nThis game is an \"arkanoid\" precursor. You have 5 lives, and your\ngoal is the destruction of all the brixs. Use 4 and 6 to move\nyour paddle. The game ends when all the brixs are destroyed.\n\n\n",
     "sha1": "f13766c14aeb02ad8d4d103cb5eadd282d20cddc",
     "platform": "chip8",
     "release": "1990",
     "authors": ["Andreas Gustafsson"]
   },
   {
-    "title": "CAVE",
+    "title": "Cave",
     "file": "Cave.ch8",
     "description": "Cave (199x)\n\nGuide the dot to end of the cave maze without bumping into a wall. Navigation: 4, 6, 2, 8.",
     "sha1": "5c82520906073287a3ef781746c67207ca084d93",
@@ -118,7 +118,7 @@
     "release": "19xx"
   },
   {
-    "title": "CHIP8 EMULATOR LOGO",
+    "title": "Chip8 emulator Logo",
     "file": "Chip8 emulator Logo [Garstyciuks].ch8",
     "description": "Chip8 test program",
     "sha1": "d92c71b955b7634370571bd707715cf8bb0e2fb4",
@@ -126,20 +126,20 @@
     "authors": ["Garstyciuks"]
   },
   {
-    "title": "CHIP8 PICTURE",
+    "title": "Chip8 Picture",
     "file": "Chip8 Picture.ch8",
     "description": "Chip8 test program",
     "sha1": "a82ca5c53e1dcedfab4f65efef02229145771b7d",
     "platform": "chip8"
   },
   {
-    "title": "CLOCK PROGRAM",
+    "title": "Clock Program",
     "file": "Clock Program [Bill Fisher, 1981].ch8",
     "description": "Clock Program (1981), by Bill Fisher\n\nThis neat little clock program is the perfect program to run when someone asks: \"That's nice, but what can your computer DO?\" The program features \"reverse\" video numerals on the screen, which is a nice change from the usual white numbers on a black background. Instructions:\n- Type six digits on the hex keypad for the desired clock starting time, using 23 hour format (ex.173055)\n- Hit any hex key to start clock running at the above time setting.",
     "sha1": "016345d75eef34448840845a9590d41e6bfdf46a"
   },
   {
-    "title": "COIN FLIPPING",
+    "title": "Coin Flipping",
     "file": "Coin Flipping [Carmelo Cortez, 1978].ch8",
     "description": "Coin Flipping (1978), by Carmelo Cortez\n\nThe game is a Coin FlLpping program. Flip run up and the computer starts to flip a coin, and at the same tine shosing heads and tails on the screen, stopping at the value set in VC.",
     "sha1": "614a2b3d0bb5d62a16d963ac2d3a79eb3dd22742",
@@ -148,13 +148,13 @@
     "authors": ["Carmelo Cortez"]
   },
   {
-    "title": "CONNECT 4",
+    "title": "Connect 4",
     "file": "Connect 4 [David Winter].ch8",
     "description": "Connect 4, by David Winter\n\nThis game is for two players. The goal is to align 4 coins in the game area. Each player's coins are colored. When you drop a coin, it is paced on the latest dropped coin in the same column, or at the bottom if the column is empty. Once the column is full, you cannot place any more coins in it. To select a column, use 4 and 6.\n\nTo drop a coin, use 5. There is no winner detection yet. This will be soon avalaible (Hey! I don't spend my life on CHIP8 !).",
     "sha1": "2d10c07b532f4fa7c07a07324ba26ca39fe484fd"
   },
   {
-    "title": "CRAPS",
+    "title": "Craps",
     "file": "Craps [Camerlo Cortez, 1978].ch8",
     "description": "Craps (1978) by: Camerlo Cortez\n\nTo use the Craps program, press any key to roll dice. 7 or 11 wins, 12, 2 or 3 loses on first roll. The second roll must match the first to win, but if you roll a seven you lose. This program could be expanded to include on-the-screen scoring of bets.",
     "sha1": "35158696bd94ea22ef34e899fff1f15f7154d4fd",
@@ -163,50 +163,50 @@
     "authors": ["Camerlo Cortez"]
   },
   {
-    "title": "DEFLECTION",
+    "title": "Deflection",
     "file": "Deflection [John Fort].ch8",
-    "description": "Deflection, by John Fort\n\nIn the VIP Deflection game you position mirrors anywhere on the display screen. The object of the game is to deflect a ball of the mirrors a maximum number of times before hitting the target.\n\nThe number of deflections times the target number gives you deflection points. These are added to your previous point total. If you fail to hit the target you get no points. The winner of the game is the player who accumulates 257 or more deflected points.\n\nTo program the mirrors, select the proper mirror type. Key 1 will place a horizontal mirror on the board. Key 2 selects a vertical mirror, Key 3 a slant-left mirror, Key 4 a slant-right mirror.\n\nAfter a mirror has been selected, you may position the mirror by using keys 1 through 4 and 6 through 9. Once a mirror has been selected and positioned, it may be fixed into position by pressing Key 5.\n\nYou may position up to 10 mirrors on the game board. After you have the maximum amount on the board you must press Key 0 to progress to the fire mode. If you wish to progress to the fire mode with less than 10 mirrors programmed, you may do so by pressing Key 0. You fire the ball in the direction you want by using Keys 1 through 4 and Keys 6 through 9.",
+    "description": "8.  VIP DEFLECTION\n\nIn the VIP Deflection game you position mirrors anywhere on the display screen.\nThe object of the game is to deflect a ball of the mirrors a maximum number of\ntimes before hitting the target.\n\nThe number of deflections times the target number gives you deflection points.\nThese are added to your previous point total.  If you fail to hit the target you\nget no points.  The winner of the game is the player who accumulates 257 or\nmore deflected points.\n\nHow to Play VIP Deflection\n\n1. Load the CHIP-8 interpretor at 0000-01FF\n   and the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. After the scores appear a letter, the target with a number and a ball.  The\n   letter signifies the player who will program the mirrors.  This sequence will\n   be repeated until there is a winner.\n\n4. To program the mirrors, select the proper mirror type by using Table 1 (VIP1-8.jpg)\n   as a guide.  Key 1 will place a horizontal mirror on the board.  Key 2 selects a\n   vertical mirror, Key 3 a slant-left mirror, Key 4 a slant-right mirror.\n\n5. After a mirror has been selected, you may position the mirror by using keys 1\n   through 4 and 6 through 9 (see Table 2 for movement of a mirror).  Once a\n   mirror has been selected and positioned, it may be fixed into position by pressing\n   Key 5.\n\n   Table 2 - Mirror Positioning and Ball Direction\n   Key Selection     |  Positioning and Direction\n   ------------------+---------------------------\n         1           |  up and to the left\n         2           |  up\n         3           |  up and to the right\n         4           |  left\n         5           |  right\n         7           |  down and to the left\n         8           |  down\n         9           |  down and to the right\n\n6. You may position up to 10 mirrors on the game board.  After you have the maximum\n   amount on the board you must press Key 0 to progress to the fire mode.  If you\n   wish to progress to the fire mode with less than 10 mirrors programmed, you may\n   do so by pressing Key 0.  You fire the ball in the direction you want by using\n   Keys 1 through 4 and Keys 6 through 9 (see Table 2).\n\n7. After the ball has reached the target or leaves the game board, the player's\n   score is computed and displayed and a new ball and target appear.\n\n\n\n",
     "sha1": "8e5f19d8ae9f3346779613359610967a5ed95fa8",
     "platform": "chip8",
     "authors": ["John Fort"]
   },
   {
-    "title": "DELAY TIMER TEST",
+    "title": "Delay Timer Test",
     "file": "Delay Timer Test [Matthew Mikolay, 2010].ch8",
     "description": "Delay Timer Test (2010), by Matthew Mikolay\n\nHere's another little program I wrote to test out a feature in my game. This program allows the user to change the value of the V3 register using the 2 and 8 keys. When the 5 key is pressed, the delay timer starts counting down from the value the user placed into the V3 register, and the screen is updated as the value changes.",
     "sha1": "082c71b67e36e033c2e615ad89ba4ed5d55a56d0"
   },
   {
-    "title": "DIVISION TEST",
+    "title": "Division Test",
     "file": "Division Test [Sergey Naydenov, 2010].ch8",
     "description": "Division Test (2010), by Sergey Naydenov",
     "sha1": "064492173cf4ccac3cce8fe307fc164b397013b9"
   },
   {
-    "title": "FIGURES",
+    "title": "Figures",
     "file": "Figures.ch8",
-    "description": "Figures\n\nTetris like game with numbers.",
+    "description": "\nFigures - by ??? (unknown author)(xxxx)\n---------------------------------------\n\nKind of Tetris with numbers. \n\n\nControls:\n---------\n4 and 6 to move\n2 to do something (?)\n\n",
     "sha1": "3b2bf5dc7ffb5f3fbe168e802079f79730535ca8",
     "platform": "chip8"
   },
   {
-    "title": "FILTER",
+    "title": "Filter",
     "file": "Filter.ch8",
     "description": "Filter\n\nCatch the drop coming from the pipe at the top of the screen with your paddle.",
     "sha1": "ae71a7b081a947f1760cdc147759803aea45e751",
     "platform": "chip8"
   },
   {
-    "title": "FISHIE",
+    "title": "Fishie",
     "file": "Fishie [Hap, 2005].ch8",
     "description": "Fishie (2005), by Hap\n\nused as internal rom for fish n chips",
     "sha1": "49c7234a1733db355560a13c57b26f055533c233",
     "platform": "chip8",
-    "release": "2005",
+    "release": "2005-07-10",
     "authors": ["Hap"]
   },
   {
-    "title": "FRAMED MK1",
+    "title": "Framed MK1",
     "file": "Framed MK1 [GV Samways, 1980].ch8",
     "description": "Framed Mk1 (1980), by G.V. Samways\n\nThis program displays a random movement of dots. You will notice a repetition in the pattern after a time.",
     "sha1": "ac7c8db7865beb22c9ec9001c9c0319e02f5d5c2",
@@ -215,7 +215,7 @@
     "authors": ["GV Samways"]
   },
   {
-    "title": "FRAMED MK2",
+    "title": "Framed MK2",
     "file": "Framed MK2 [GV Samways, 1980].ch8",
     "description": "Framed Mk2 (1980), by G.V. Samways\n\nThis program displays a random movement of dots. You will notice a repetition in the pattern after a time.",
     "sha1": "eb72a25bd58e122e65a540807e7a1816abaa4f41",
@@ -224,7 +224,7 @@
     "authors": ["GV Samways"]
   },
   {
-    "title": "GUESS",
+    "title": "Guess the Number",
     "file": "Guess [David Winter].ch8",
     "description": "Guess, by David Winter\n\nThink to a number between 1 and 63. CHIP8 shows you several boards and you have to tell if you see your number in them. Press 5 if so, or another key if not. CHIP8 gives you the number...",
     "sha1": "137cb8397456f53fcab216124458238bc18c0965",
@@ -232,42 +232,46 @@
     "authors": ["David Winter"]
   },
   {
-    "title": "HIDDEN",
+    "title": "Hidden",
     "file": "Hidden [David Winter, 1996].ch8",
     "description": "Hidden (1996), by David Winter\n\nHIDDEN is a \"memory\" game. It is very simple to play. The rules are as follow: your goal is to find all the identical cards in a minimum time. You are playing in a 4*4 card grid. You can see only two cards at the same time. Once this time passed, these two cards will remain shown if they are identical, otherwise they will be hidden again. When the game is finished, two scores are shown: SC is your score, corresponding to the number of tries HI is the best score (smallest number of tries made to finish) The keys are: [8] - Move DOWN, [4] - Move LEFT, [5] - Show card, [6] -  Move RIGHT, [2] - Move UP",
-    "sha1": "050f07a54371da79f924dd0227b89d07b4f2aed0"
+    "sha1": "050f07a54371da79f924dd0227b89d07b4f2aed0",
+    "authors": ["David Winter"],
+    "release": "1996"
   },
   {
-    "title": "HI-LO",
+    "title": "Hi-Lo",
     "file": "Hi-Lo [Jef Winsor, 1978].ch8",
     "description": "Hi-Lo, by Jef Winsor\n\nYou have 10 chances to guess the value of a random number between 00 and 99 selected by the program. The number at the right of the screen shows the number of the guess you are using. Enter a two digit number and the computer tells you if you are high or low. Press any key to erase this number and then, try again. If you have failed after ten guesses, press any key and the number will be shown. If you are good you will never need more than seven guesses.",
     "sha1": "dbb52193db4063149c3d8768ab47dd740d90955c",
     "platform": "chip8",
-    "authors": ["Jef Winsor"]
+    "authors": ["Jef Winsor"],
+    "release": "1978"
   },
   {
-    "title": "IBM LOGO",
+    "title": "IBM Logo",
     "file": "IBM Logo.ch8",
     "description": "IBM logo",
     "sha1": "1ba58656810b67fd131eb9af3e3987863bf26c90",
     "platform": "chip8"
   },
   {
-    "title": "JUMPING X AND O",
+    "title": "Jumping X and O",
     "file": "Jumping X and O [Harry Kleinberg, 1977].ch8",
     "description": "Jumping X and O (1997), by Harry Kleinberg\n\nHere is what the program is written to do. First, a solid 6×6spot block appears in the upper right quadrant of the tv display. A 5×5 \"X\" pattern appears in the center and jumps randomly to a new location every 1/5 second. When the X overlaps the 6×6 block, the X disappears, an \"0\" pattern appears in the center of the screen, and repeats the process, being replaced by the X when an overlap with the block occurs. The program continues until the machine IS stopped",
     "sha1": "5b29263763be401c31d805bc35a4cd211d552881",
     "platform": "chip8",
-    "release": "2011",
-    "authors": ["Martin Janiczek"]
+    "release": "1977",
+    "authors": ["Harry Kleinberg"]
   },
   {
-    "title": "KALEIDOSCOPE",
+    "title": "Kaleidoscope",
     "file": "Kaleidoscope [Joseph Weisbecker, 1978].ch8",
     "description": "Kaleidoscope (1978), by Joseph Weisbecker\n\nFour spots appear in a group at the center of the screen. Press keys 2, 4,  6, or 8 to create a pattern. Keep your pattern smaller than 138 key depressions. Push key 0 to terminate pattern entry. Pushing key 0 causes your pattern to be continuously repeated forming a fascinating, changing kaleidoscope display on the screen. A \"44444442220\" key sequence provides a very nice effect Experiment to find other nice patterns.",
     "sha1": "fc724ae0125f5f1ac94a79fe3afc6318b1f57556",
     "platform": "chip8",
-    "authors": ["Joseph Weisbecker"]
+    "authors": ["Joseph Weisbecker"],
+    "release": "1978"
   },
   {
     "title": "KEYPAD TEST",
@@ -279,14 +283,14 @@
     "sha1": "0ebc4b92c6059d6193565644fb00108161d03d23"
   },
   {
-    "title": "LANDING",
+    "title": "Landing",
     "file": "Landing.ch8",
-    "description": "Landing\n\nBlitz type game.",
+    "description": "\nLanding - by ??? (unknown author)(xxxx)\n---------------------------------------\n\nTry to flatten the field for landing (?). \n\n\n\nControls:\n---------\nKey 9 drops a bomb.",
     "sha1": "72fb3e0a4572bdb81f484df7948a8bc736fe78d0",
     "platform": "chip8"
   },
   {
-    "title": "LIFE",
+    "title": "Life",
     "file": "Life [GV Samways, 1980].ch8",
     "description": "Life (1980), by G.V. Samways\n\nThis is a display of cell growth, in accordance with the following rules:\n1. A cell is born if 3 cells are adjecent to an empty space.\n2. A cell lives if 2 or 3 cells are adjacent, and dies otherwise.\n3. All events take place simultaneously.\nTo start the game, you make a pattern by entering the cell coordinates, first the \"Y\" from 0-7 downwards, then the \"X\" from 0-F across. F initialises the program, and the number of scans is entered plus one, so that 1 gives 0 scans to F giving 14, and 0 giving 255. The sit back and watch the colony live, or die.",
     "sha1": "efa6bc8f1f35baaa16700d68a83dc4919797e2fe",
@@ -294,31 +298,33 @@
     "authors": ["GV Samways"]
   },
   {
-    "title": "LUNAR LANDER",
+    "title": "Lunar Lander",
     "file": "Lunar Lander (Udo Pernisz, 1979).ch8",
-    "description": "Lunar Lander (1979), by Udo Pernisz\n\nYou are descending to the floor of a 250-foot crater. The right side of the TV display shows amount of fuel, feet from bottom and fall rate per cycle. Lenght of fall rate cycle changes from about 1/4 second to one second.  The fall rate increases by one foot per second/per cycle. The computer will update the display only at the end of each cycle.\n\nThe left side of the display shows the Lunar Lander descending from 250 feet. The Lander will first appear at one of sixteen locations. It will then slowly drop down the crater. The crater walls have rock formations protruding from them which must be avoided.  If either rocket motor should touch any part of the crater, the Lander will explode in a cloud of smoke and disintegrate. (Remember, these are atomic thrusters and react like miniature atomic bombs upon impact).\n\nWhen you reach 32 feet, the display will change, and you will see the crater floor. You must now land between the rock formations on the floo and maintain a minimum fall rate.  As you drop your fall rate to zero, you soon discover that the Lander becomes more and more unstable just as any hovering object would. And now with perfect skill you guide the ship in for a perfect touch down, or?",
+    "description": "15. Lunar Lander\n\nYou are descending to the floor of a 250-foot crater.  The right side of the TV display\nshows amount of fuel, feet from bottom and fall rate per cycle.  Lenght of fall rate\ncycle changes from about 1/4 second to one second.  The fall rate increases by one\nfoot per second/per cycle.  The computer will update the display only at the end of\neach cycle.\n\nThe left side of the display shows the Lunar Lander descending from 250 feet.  The\nLander will first appear at one of sixteen locations.  It will then slowly drop down\nthe crater.  The crater walls have rock formations protruding from them which must\nbe avoided.  If either rocket motor should touch any part of the crater, the Lander\nwill explode in a cloud of smoke and disintegrate.  (Remember, these are atomic\nthrusters and react like miniature atomic bombs upon impact).\n\nWhen you reach 32 feet, the display will change, and you will see the crater floor.\nYou must now ladn between the rock formations on the floo and maintain a minimum fall\nrate.  As you drop your fall rate to zero, you soon discover that the Lander becomes\nmore and more unstable just as any hovering object would.  And now with perfect skill\nyou guide the ship in for a perfect touch down, or?\n\nHow to Play VIP Lunar Lander\n\n1. Load the CHIP-8 interpreter at 0000-01FF and teh game starting at 0200.\n\n2. Key 2 controls the thrust of the Lunar Lander.  One tone beep equals one pound\n   of fuel and one foot of thrust.\n\n3. Key 4 controlls the horizontal stabilizing engine,  and moves the Lander one\n   foot to the left per one pound of fuel.\n\n4. Key 6 controls the stabilization to the right.\n\n5. Stabilization controls only react after: (a) a complete fall cycle, or (b) after\n   the Key 2 thrust control is pressed.  You must be aware of this at all times or\n   you will crash even though either key 4 or 6 is pressed.\n\n6. At the end of each cycle, the Lunar Lander will move randomly at the rate of one\n   foot either right or left.  Therefore, as the fall rate approaches zero, the Lander\n   becomes more uncontrollable, and your horizontal stabilizers react more quickly.\n   (Just like the real thing).\n\n7. If you land too fast, the Lander will bounce and flip over.\n\n8. If you run out of fuel, the Lander will crash.\n\n9. You will not be allowed to go above 250 feet.  If you try to do so, you will just\n   waste precious fuel.\n\n10. Once you reach 32 feet and move into the landing display, you will not be allowed\n    to rise above 26 feet.  Trying to do so will waste more precious fuel.\n\n11. Game options\n  \n    You may select one of three options at the begining of the game.\n\n    Option 1: You start at 250 feet.  You are given 150 pounds of fuel.  You must land\n              at 5 feet per second or less.  The initial descent display is easy to\n              maneuver through.\n\n    Option 2: You start at 250 feet.  You have 200 pounds of fuel.  You must land at 3 feet\n              per second or less.  The initial descent display is hard to maneuver through.\n\n    Option 3: You start at 32 feet.  You have 100 pounds of fuel.  You must land at 3 feet\n              per second or less.  This display allows you to practice landing.  \n\n    You should consider Option 2 as the complete game when trying for Astronaut Ratings.\n\n12. Astronaut Ratings\n\n    The computer will award you with ratings depending on how good a lander you are.\n\n    You will obtain the rating of Astronaut by landing without regard to fall rate or\n    fuel.  You must not exceed fall rate, or zero fuel.\n    \n    You will obtain the rating of Astronaut Pilot, by ladning with regard to fuel.  80\n    pounds or more if you land between the two rock formations on the floor, and 50\n    pounds or more if you land between the crater wall and a rock formation.\n\n    You will obtain the rating of Astronaut Captain by landing the ship with regard to\n    fuel as per above and if the fall rate is two feet per second or less.  (Not an\n    easy task, as you will soon discover).\n\n13. About Graphics\n\n    This game has some interesting graphic displays when you run out of fuel, crash,\n    land too fast, when you land successfully.  I will leave them to your discovery,\n    as they are fun to watch.\n\n14. Landing Sites\n\n    The final landing display will appear somewhat like the illustration below\n    (VIPG1-15.jpg).  You may land in any of the three locations pointed to.  To land\n    between the crater walls and rock formations, you will have to first bring the\n    Lander to a zero fall rate while hovering in the center landing area.  Then bring\n    the ship up and just over the rock formation, and let it drop down to the landing\n    site.  At the last moment, a few taps on the thruster button will slow the lander\n    to the required fall rate.  It will take you many tries to land here, but don't\n    give up, it can be done!!\n\nNOTE:  VIP Lunar Lander requires at least 3K of RAM.  RAM memories are available to\n       increase your VIP from 2K to 3K at your local computer store or by contacting:\n                        RCA VIP Marketing\n                        New Holland Avenue\n                        Lancaster, PA 17604\n",
     "sha1": "72e8f3a10a32bd7fb91322ecab87249f95e81e57",
     "platform": "chip8"
   },
   {
-    "title": "MASTERMIND",
+    "title": "Mastermind FourRow",
     "file": "Mastermind FourRow (Robert Lindley, 1978).ch8",
-    "description": "Mastermind FourRow (1978), by Robert Lindley\n\nThe game starts by displaying a series of dashes arranged in rows. As the game progresses, the player attempts to  deduce the hidden code by replacing the dashes with digits entered via the hex keyboard. Each tlme a hex key is used, the selected digit replaces a dash in  one vertical column. This vertical column is one guess of the ten allowed to deduce the hidden number. When the bottom dash in any column is replaced by a digit,  that try is imidiately scored. This score appears below the current column. If any digit in the column exactly matches the hidden number digit in the same row, a broken bar will appear. then four or five (one for each row in the game) appear, the hidden number has been deduced and it will be revealed at the right end of  the screen. If any digit in the column matches a hidden digit, but in an incorrect erorr, a white bar will appear. Note that the scoring is across all rows. For example, if there are two fives in a column and one of then is in the correct row and there is only one five in the hidden numbers, one broken bar will appear. When all allowed ten tries  have been used, the hidden number will be revealed. ",
+    "description": "\t\tMASTERMIND\n\t\t   by\n\t      Robert Lindley\n\nI have progranmed two versLons of the game Mastermind. This game is distributed by Invicta Plastics, Suite 940, 200 - 5th Ave., New York, NY 10010, and is available most pLaces where toys and games are sold.\nFor complete details of the game, please refer to their instructions. The information given here refers to this particular VIP iurplementation.\nThe two versions are essentially the same except that the first has a four number code and the second has a five  nr:mber hidden code selected at random..  In the four number version, the digits one through six are used and in the five  number version the diglts zero through seven are used.\nWhile the game is running, the other hex keys, except key F, have no effect. Key F is used when you change your mind and want to change your input. This key erases the current partial entry.\nThe game starts by displaying a series of dashes arranged in rows. As the game progresses, the player attempts to  deduce the hidden code by replacing the dashes with digits entered via the hex keyboard. Each tlme a hex key is used, the selected digit replaces a dash in  one vertical column. This vertical column is one guess of the ten allowed to deduce\nthe hidden number. When the bottom dash in any column is replaced by a digit,  that try is imidiately scored. This score appears below the current column. If any digit in the column exactly matches the hidden number digit in the same row, a broken bar will appear. then four or five (one for each row in the game) appear, the hidden number has been deduced\nand it will be revealed at the right end of  the screen. If any digit in the column matches a hidden digit, but in an incorrect erorr, a white bar will appear. Note that the scoring is across all rows. For example, if there are two fives in a column and one of then is in the correct row and there is only one five in the hidden numbers, one broken bar will appear.\nWhen all allowed ten tries  have been used, the hidden number will be revealed. \n\n",
     "sha1": "669e32b6f42f52da658e428f501aabcdfa37fb2e",
     "platform": "chip8",
-    "authors": ["Robert Lindley"]
+    "authors": ["Robert Lindley"],
+    "release": "1978"
   },
   {
-    "title": "MAZE DEMO",
+    "title": "Maze",
     "file": "Maze [David Winter, 199x].ch8",
     "description": "Maze (199x), by David Winter\n\nDrawing a random maze like this one consists in drawing random diagonal lines. There are two possibilities: right-to-left line, and left-to-right line. Each line is composed of a 4*4 bitmap. As the lines must form non-circular angles, the two bitmaps won't be \"/\" and \"\\\". The first one (right line) will be a little bit modified. See at the end of this source.\n\nThe maze is composed of 16 lines (as the bitmaps are 4 pixels high), each line consists of 32 bitmaps. Bitmaps are drawn in random mode. We choose a random value (0 or 1). If it is 1, we draw a left line bitmap. If it is 0, we draw a right one.",
     "sha1": "b9272ae1acdaaa79ab649f6b48b72088ca2b1d74",
     "platform": "chip8",
     "authors": ["David Winter"],
-    "images": ["Maze_SCHIP__1.png"]
+    "images": ["Maze_SCHIP__1.png"],
+    "release": "199x"
   },
   {
-    "title": "MERLIN",
+    "title": "Merlin",
     "file": "Merlin [David Winter].ch8",
     "description": "Merlin, by David Winter\n\nThis is the SIMON game. The goal is to remember in which order the squares are lighted. The game begins by lighting 4 random squares, and then asks you to light the squares in the correct order. You win a level when you give the exact order, and each increasing level shows a additionnal square. The game ends when you light an incorrect square. Keys are 4 and 5 for the two upper squares, then 7 and 8 for the two other ones.",
     "sha1": "d979858bb9ffd07b48f52f92a8bcac0199f3623e",
@@ -326,7 +332,7 @@
     "authors": ["David Winter"]
   },
   {
-    "title": "MINIMAL GAME",
+    "title": "Minimal game",
     "file": "Minimal game [Revival Studios, 2007].ch8",
     "description": "Minimal Game (2007), by Revival Studios",
     "sha1": "4a4123320d841ed04d8c1cd2ad6132a06b83dfa0",
@@ -335,24 +341,24 @@
     "authors": ["Revival Studios"]
   },
   {
-    "title": "MISSILE",
+    "title": "Missile Command",
     "file": "Missile [David Winter].ch8",
-    "description": "Missile, by David Winter\n\nShoot the targets with the moving gun.",
+    "description": "\nMissile Command - by David Winter (19xx)\n----------------------------------------\n\nYou must shoot the 8 targets on the screen using key 8. \n\nYour shooter moves a little bit faster each time you shoot. \nYou have 12 missiles to shoot all the targets, and you win 5\npoints per target shot.\n\n\n",
     "sha1": "0d0cc129dad3c45ba672f85fec71a668232212cc",
     "platform": "chip8",
     "release": "19xx",
     "authors": ["David Winter"]
   },
   {
-    "title": "MOST DANGEROUS GAME",
+    "title": "Most Dangerous Game",
     "file": "Most Dangerous Game [Peter Maruhnic].ch8",
-    "description": "Most Dangerous Game, by Peter Maruhnic\n\nMost Dangerous Game pits a hunter against a hunted in a maze.  The hunter must shoot the hunted before either time runs out or the hunted escapes the maze. However, neither the hunted nor the hunter can see a wall in the maze until he runs into it.  There is always at least one path through the maze.",
+    "description": "10. VIP Most Dangerous Game\n\nVIP Most Dangerous Game pits a hunter against a hunted in a maze.  The hunter must\nshoot the hunted before either time runs out or the hunted escapes the maze.\nHowever, neither the hunted nor the hunter can see a wall in the maze until he runs\ninto it.  There is always at least one path through the maze.\n\nHow To Play VIP Most Dangerous Game\n\n1. Load the CHIP-8 interpretor at 0000-01FF\n   and the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. Hunted's turn:\n   When the arrow appears in the lower left, it is the hunted's turn.  Keys 2-4-6-8\n   control direction (up-left-right-down, respectively).  The hunted continues to\n   move until a) he makes 5 moves, b) he hits a wall or c) key 0 is pressed.\n\n4. Hunter's turn\n   When the arrow appears in the lower right, it is the hunter's turn.  The hunter's\n   turn consists of two modes, the move and the shoot.  Keys 2-4-6-8 and 0 control both\n   modes.  Like the hunted, the hunter continues to move until a) he makes 3 moves,\n   b) he hits a wall or c) key 0 is pressed.  If he hits the wall, case b), he cannot\n   fire a bullet.  The hunter may fire one of his bullets using the direction keys\n   2-4-6-8.  The bullet will travel four squares in the corresponding direction, unless\n   a wall is encountered.  If the hunter prefers not to use a bullet, he must press key 0.\n\n5. Repeat steps 3 and 4 until:\n   a) The number of turns (upper left on the display) expire.  The hunted wins.\n   b) The hunter lands on or shoots the hunted.  The hunter wins.\n   c) The hunted lands on hunter, thereby giving up.  The hunter wins.\n   d) The hunted reaches the lower right corner of the maze with at least 1 move\n      remaining in his turn.  The hunted wins, by escaping the maze.\n\n6. Variations of VIP Most Dangerous Game may be played by changing certain bytes in\n   the program.\n\nLocation Default Meaning\n0215\t 0F\t Number of turns in the game.\n0217\t 06\t Number of bullets hunter has at start.\n0219\t 03\t Number of moves per turn for the hunter.\n0221\t 01\t Number of squares per move (hunted and hunter).\n022B\t 05\t Number of moves per turn for the hunted.\n024B\t 01\t If zero, walls are invisible.\n0355\t 04\t Number of squares a bullet will go.\n04E3\t 70\t Probability (out of 100Hex) of a wall appearing.\n04EB\t FE\t If FF, a wall may appear at previously tested boundaries.\n",
     "sha1": "fa7c04f68d78e0faf6d136a3babe3943fc2e02f1",
     "platform": "chip8",
     "authors": ["Peter Maruhnic"]
   },
   {
-    "title": "NIM",
+    "title": "Nim",
     "file": "Nim [Carmelo Cortez, 1978].ch8",
     "description": "Nim (1978), by Carmelo Cortez\n\nThe Nim Game is a little less graphic than most games. The player may go first by pressing. \"F\" key, any other let the computer go first. You subtract 1, 2 or 3 fron the score. The one who ends up with the  last number loses!",
     "sha1": "4031dae5c7545a1adc160a661be36f19fc1d47b2",
@@ -360,14 +366,14 @@
     "authors": ["Carmelo Cortez"]
   },
   {
-    "title": "PADDLES",
+    "title": "Paddles",
     "file": "Paddles.ch8",
-    "description": "Paddles\n\nSimple pong game.",
+    "description": "\nPaddles - Simple Pong game\n---------------------------------------\n\n\nControls:\n---------\nF = 1P game\nE = 2P game \n\n7/9 = P1 left/right\n4/6 = P2 left/right\n\n\n",
     "sha1": "a18f1e3897416180b32e47ddc82cba9aca2c8d52",
     "platform": "chip8"
   },
   {
-    "title": "PARTICLE DEMO",
+    "title": "Particle Demo",
     "file": "Particle Demo [zeroZshadow, 2008].ch8",
     "description": "Particle Demo (2008), by zeroZshadow\n\nThis is my particledemo for the Chip-8, SuperChip and MegaChip8. Works on real hardware as well as emulators. Enjoy!",
     "sha1": "507e7dc6783565071dfe4b72154af431d4466958",
@@ -376,24 +382,25 @@
     "authors": ["zeroZshadow"]
   },
   {
-    "title": "PONG",
+    "title": "Pong",
     "file": "Pong [Paul Vervalin, 1990].ch8",
-    "description": "Pong (1990), by Paul Vervalin",
+    "description": "OK. here is PONG version 1.1.  The ball is a little faster in this\nversion making play a little more realistic.  I know PONG 1.0 was\njust posted yesterday, but I think this version is significantly\nbetter, so here it is.\n\nUse keys 7 and 4 move left player and / and * move right player.\n\nEnjoy!!\n\n",
     "sha1": "b232ef880bd6060fb45fa6effed7edf0ae95670e",
     "platform": "chip8",
-    "authors": ["Paul Vervalin"]
+    "authors": ["Paul Vervalin"],
+    "release": "1990"
   },
   {
-    "title": "PONG 2",
+    "title": "Pong 2",
     "file": "Pong 2 (Pong hack) [David Winter, 1997].ch8",
-    "description": "Pong 2 (Pong hack, 1997), by David Winter",
+    "description": "\nPong 2 (Pong hack) - by David Winter (1997)\n-------------------------------------------\n\nHere is the well known pong game. Two versions are available.\nThe only difference is that PONG2 is mostly like the original game. \n\n\nPlayer 1 uses 1 and 4, player 2 uses C and D.",
     "sha1": "1830eb401ba8789a477dfcf294873a5479ebcfe8",
     "platform": "chip8",
     "release": "1997",
     "authors": ["David Winter"]
   },
   {
-    "title": "PONG (1 PLAYER)",
+    "title": "Pong",
     "file": "Pong (1 player).ch8",
     "description": "Single player pong game",
     "sha1": "607c4f7f4e4dce9f99d96b3182bfe7e88bb090ee",
@@ -401,28 +408,30 @@
     "authors": ["1 player"]
   },
   {
-    "title": "PUZZLE",
+    "title": "Puzzle",
     "file": "Puzzle.ch8",
-    "description": "4x4 tile puzzle - rearrange them into the order 0-F.",
+    "description": "\nPuzzle - 4x4 tile puzzle - rearrange them into the order 0-F\n--------------------------------------\n\nWait for randomization... Instead of moving the item by pressing his \nassociated key, move it UP DOWN LEFT RIGHT with respectively 2 8 4 6. \n\nUp and Down are inverted as the game uses the original CHIP8 keyboard.\n\t  \n\n*NOTE: must exchange up and down keys.",
     "sha1": "1293db0ccccbe7dd3fc5a09a2abc5d7b175e18e0",
     "platform": "chip8",
     "release": "199x"
   },
   {
-    "title": "RANDOM NUMBER TEST",
+    "title": "Random Number Test",
     "file": "Random Number Test [Matthew Mikolay, 2010].ch8",
     "description": "Random Number Test (2010), by Matthew Mikolay\n\nI don't know if any of you will be interested in this, but I wrote this small program while coding my game to test out the random number generator. I wanted to see if there is a chance that zero will show up as the random number, and it turns out it can. Anyway, when you run the program, it brings a random number up on the screen. When you press any of the keys, it brings another random number up on the screen. This goes on until you quit the program. Address 0x202 holds the C0FF instruction, which commands the CHIP-8 interpreter to set V0 to a random number with the mask 0xFF. This yields 256 different possible numbers (0-255). If C0FF is changed to something like C00A, then the mask will change. This would yield 11 different possible numbers (0-10).",
-    "sha1": "f1e036fb93b482b1ddfcb2bc1a4de43c8cf51def"
+    "sha1": "f1e036fb93b482b1ddfcb2bc1a4de43c8cf51def",
+    "authors": ["Matthew Mikolay"],
+    "release": "2010"
   },
   {
-    "title": "REVERSI",
+    "title": "Reversi",
     "file": "Reversi [Philip Baltzer].ch8",
-    "description": "Reversi, by Philip Baltzer\n\nReversi is a game over 100 years old, which has become popular recently under the name Othello.  The game is played on a 8x8 square, using two kinds of markers. In VIP Reversi one player has the open markers and the other player the solid markers. The score for either player at any time is the total number of his markers on the square.",
+    "description": "6. VIP REVERSI\nReversi is a game over 100 years old, which has become popular recently under the\nname Othello.  The game is played on a 8x8 square, using two kinds of markers.\nIn VIP Reversi one player has the open markers and the other player the solid\nmarkers.  The score for either player at any time is the total number of his markers\non the square.\n\nHow to play VIP Reversi\n\n1. Load the CHIP-8 interpretor at 0000-01FF\n   and the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. The 8x8 square will be formed and the starting marker configuration shown, having\n   two of each kind of marker in the center four locations of the square.  The starting\n   score for each player is shown as 02 above a line of his markers.\n\n4. Your VIP indicates the player's turn by blinking that player's score and also blinking\n   a cursor dot in the 8x8 square.  A player moves the blinking cursor dot in the 8x8\n   square by pressing the direction keys 1-4 and 6-9 as shown. (VIPG1-6.JPG)\n\n5. When the cursor-dot is properly located, the player presses key 5 to place his marker\n   on the square.  You will find that your VIP will not allow you to make a non-valid\n   play.  The only placements allowed are onces for which at least one of the other\n   player's markers is surrounded between an existing marker of your own and your new\n   marker being placed.  All these markers must be in consecutive positions on the\n   square and can be in any horizontal, vertical or diagonal direction.  Once a new\n   marker has been placed, your VIP will change all such surrounded markers of the\n   other player to your kind and change the scores.\n\n6. Sometimes it may not be possible for a player to make a valid move.  If this happens\n   he must forfeit his move by pressing the \"F\" key! The game ends when neither player\n   can play or when the 8x8 square is completely filled with markers.  The goal is to\n   end the game with the highest score.  Do not be discouraged if during the game you\n   seem to be losing because this is a game with dramatic reversals!  Develop a winning\n   strategem and become a champion!!\n",
     "sha1": "ff639eceaf221ae66151a03779b41fae7118d2d8",
     "platform": "chip8"
   },
   {
-    "title": "ROCKET",
+    "title": "Rocket",
     "file": "Rocket [Joseph Weisbecker, 1978].ch8",
     "description": "Rocket (1978), by Joseph Weisbecker\n\nLaunch your rocket and earn points.",
     "sha1": "3d1d029d6e31206d245c0ba881c0d1f003953bad",
@@ -430,14 +439,14 @@
     "authors": ["Joseph Weisbecker"]
   },
   {
-    "title": "ROCKET LAUNCHER",
+    "title": "Rocket Launcher",
     "file": "Rocket Launcher.ch8",
-    "description": "Rocket Launcher game",
+    "description": "\nRocket Launch - by Jonas Lindstedt (19xx)\n-----------------------------------------\n\nPress \"B\" to start. Press \"4\" to go LEFT and \"6\" to go RIGHT.\n\n",
     "sha1": "e2005db6391f589534dd2d63a95b429338bd667c",
     "platform": "chip8"
   },
   {
-    "title": "ROCKET LAUNCH",
+    "title": "Rocket Launch",
     "file": "Rocket Launch [Jonas Lindstedt].ch8",
     "options": {
       "loadStoreQuirks": true
@@ -449,15 +458,16 @@
     "authors": ["Jonas Lindstedt"]
   },
   {
-    "title": "RUSH HOUR",
+    "title": "Rush Hour",
     "file": "Rush Hour [Hap, 2006].ch8",
-    "description": "Rush Hour (2006), by Hap\n\nThe goal of the game is to slide the arrow block(s) out of the 6*6 grid. Completing 10 boards will be awarded with the inclusion of the next boardset(s) as seen from the connections on the boardset select screen, a password will be given so you don't have to complete the game in a single session.",
+    "description": "Rush Hour (v1.1) for CHIP-8 by hap 08-02-08, http://hap.samor.nl/\nOriginally released on 17-12-06. Version 1.1 improves a few things.\nBased on a boardgame by Nobuyuki Yoshigahara \"Nob\" and ThinkFun,\nhttp://www.thinkfun.com/\n\nThis game contains 170 puzzles. Most were taken from the original cardsets,\nsome were made by me, and some were generated with Michel's PyTraffic,\nhttp://alpha.uhasselt.be/Research/Algebra/Members/pytraffic . Refer to\nthe source code for detailed information on this.\n\nHOW TO PLAY\n===========\n\nThe goal of the game is to slide the arrow block(s) out of the 6*6 grid.\nCompleting 10 boards will be awarded with the inclusion of the next boardset(s)\nas seen from the connections on the boardset select screen, a password will be\ngiven so you don't have to complete the game in a single session.\n\n HEX key   PC key*   Use\n---------------------------\n 5         W         up\n 8         S         down\n 7         A         left\n 9         D         right\n A         Z         ok/hold to slide\n 1         1         option(in-game)/back\n\n* = for interpreters that have the 4*4 keypad at 1234/QWER/ASDF/ZXCV.\n",
     "sha1": "4639f86beb0a203ae512b85d3b56d813b2dea7b4",
     "platform": "chip8",
-    "authors": ["Hap"]
+    "authors": ["Hap"],
+    "release": "2006-12-17"
   },
   {
-    "title": "RUSSIAN ROULETTE",
+    "title": "Russian Roulette",
     "file": "Russian Roulette [Carmelo Cortez, 1978].ch8",
     "description": "Russian Roulette (1978), by Carmelo Cortez\n\nThis game is called Russian RouLette. Press any key to Spin and pull the Trigger. A \"Click\" or \"Bang\" will show, get ten \"clicks\" in a row and you win.",
     "sha1": "24960090b2afc9de2a4cb3ee7daf6a21456bb49b",
@@ -465,22 +475,24 @@
     "authors": ["Carmelo Cortez"]
   },
   {
-    "title": "SEQUENCE SHOOT",
+    "title": "Sequence Shoot",
     "file": "Sequence Shoot [Joyce Weisbecker].ch8",
-    "description": "Sequence Shoot, by Joyce Weisbecker\n\nYou score points by having the sharp-shooter hit the targets in the proper sequence. Pressing the Key C causes the little man to shoot the top target, Key D shoots the one below it, Key E the next lower and Key F the bottom target.",
+    "description": "12. VIP Sequence Shoot\n\nYou score points by having the sharp-shooter hit the targets in the proper sequence.\n\nHow to Play VIP Sequence Shoot\n\n1. Load the CHIP-8 interpreter at 0000-01FF and\n   the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. Pressing the Key C causes the little man to shoot the top target, Key D shoots the\n   one below it, Key E the next lower and Key F the bottom target.\n\n4. One of the four targets flashes and the computer waits for you to shoot it.  When\n   you press teh correct key, you get one point.  Then two flash, on after the other.\n   Shoot the one that flashed first, then shoot the other.  This gives you two more\n   points.  Three targets (when hit in the same order as they flashed) add three\n   points to your score.\n\n5. Each time you shoot such a series of targets in proper sequence, your score\n   increases by the number of targets you hit.  An the next series you see is longer\n   by one target.  The maximum length of sequence is 22 targets, that is a score of 254.\n\n6. Improper sequencing of shots in any series ends the game.",
     "sha1": "448f9d30d2157ab42679b809d4fb0b43d145f74f",
     "platform": "chip8",
     "authors": ["Joyce Weisbecker"]
   },
   {
-    "title": "SHOOTING STARS",
+    "title": "Shooting Stars",
     "file": "Shooting Stars [Philip Baltzer, 1978].ch8",
     "description": "Shooting Stars (1978), by Philip Baltzer",
     "sha1": "443550abf646bc7f475ef0466f8e1232ec7474f3",
-    "platform": "chip8"
+    "platform": "chip8",
+    "authors": ["Philip Baltzer"],
+    "release": "1978"
   },
   {
-    "title": "SIERPINSKI",
+    "title": "Sirpinski",
     "file": "Sierpinski [Sergey Naydenov, 2010].ch8",
     "description": "Sierpinski Carpet Demo (2010), by Sergey Naydenov",
     "sha1": "a0073e944d5ae9ca14324543fdf818907de80449",
@@ -489,23 +501,23 @@
     "authors": ["Sergey Naydenov"]
   },
   {
-    "title": "SLIDE",
+    "title": "Slide",
     "file": "Slide [Joyce Weisbecker].ch8",
-    "description": "Slide, by Joyce Weisbecker\n\nSlide is a two-person game. Each player tries to slide a \"puck\" over the high-scoring \"spots\" without hitting the back wall. The puck moves up and down randomly. Press \"0\" key to stop the puck. The puck will move towards the spots after you release the key. The longer you hold the key down, the further the puck travels (maximum time approximately 2.5 seconds).",
+    "description": "5. VIP SLIDE\n\nSlide is a two-person game.  Each player tries to slide a \"puck\" over the high-scoring\n\"spots\" without hitting the back wall.\n\nHow To Play VIP Slide\n\n1. Load the CHIP-8 interpretor at 0000-01FF\n   and the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. The puck moves up and down randomly.  Press \"0\" key to stop the puck.  The puck\n   will move towards the spots after you release the key.  The longer you hold the\n   key down, the further the puck travels (maximum time approximately 2.5 seconds).\n\n4. You get 2 points for hitting the first spot, 4 points for either of the next two\n   spots and 8 points for either of the last two.  The highest score possible is 216\n   (two spots can be hit on one slide).\n\n5. If you hit the back wall, though, you get zero points for that slide, even though\n   you've hit a spot.\n\n6. Each player gets 3 pucks per turn and 6 turns in a game.\n",
     "sha1": "7623fa0fa915979226566b24107360e7537735f4",
     "platform": "chip8",
     "authors": ["Joyce Weisbecker"]
   },
   {
-    "title": "SOCCER",
+    "title": "Soccer",
     "file": "Soccer.ch8",
-    "description": "Pong type of game",
+    "description": "\nSoccer - by ??? (unknown author)(19xx)\n--------------------------------------\n\nPong-like. \n\n1/4 = P1 up/down\n\nC/D = P2 up/down ",
     "sha1": "6df358d77961a0bf21e98876f9f616791cba31e3",
     "platform": "chip8",
     "release": "19xx"
   },
   {
-    "title": "SPACE FLIGHT",
+    "title": "Space Flight",
     "file": "Space Flight.ch8",
     "description": "Space flight game\n</br>Fly through the asteroid field. Use 1 and 4 key to navigate space ship and E/F to start the game.",
     "sha1": "aa4f1a282bd64a2364102abf5737a4205365a2b4",
@@ -513,21 +525,21 @@
     "release": "19xx"
   },
   {
-    "title": "SPACEFIGHTERS",
+    "title": "Programmable Spacefighters",
     "file": "Programmable Spacefighters [Jef Winsor].ch8",
-    "description": "Programmable Spacefighters, by Jef Winsor\n\nProgrammable Spacefighters is a combat game involving 2 to 8 spaceships competing for the domination of a contained field in space. The field of play is a two-dimensional representation of an oblong spheroid.",
+    "description": "14. VIP Programmable Spacefighters\n\nProgrammable Spacefighters is a combat game involving 2 to 8 spaceships competing\nfor the domination of a contained field in space.  The field of play is a \ntwo-dimensional representation of an oblong spheroid.\n\nThe movement and fire of each spacefighter is controlled by programming a series of\ncommands into each fighter's instruction storage table.  Once all the spacefighters\nare programmed, they carry out their commands by sequentially executing a single step\nat a time.  The play of the game ins divided into rounds.  Each spacefighter may\nexecute between 1 and 15 commands per round.\n\nThe fighters all have the same appearance and capabilities.  Players distinguish\nbetween fighters by examining the defense strength and position of their fighters\nat the begining of every round.\n\nEach fighter may face in any of 8 directions.  All firing and forward movement\noccurs in the direction the fighter is currently facing.  As a spacefighter crosses\noutside the two-dimensional field of play, it wraps around and re-enters on the\nopposite side of the field.  Laser bursts terminate when they travel outside the\nfield or hit a target.\n\nEach round consists of a selected number of steps.  Each step is executed in 2 parts.\nDuring the first part, every spacefighter wishing to fire may execute a fire operation.\nThe defense strength of any fighter which is hit by a laser burst is reduced by 1\nand a small flash appears.\n\nAfter all fighters have had an opportunity to execute fire instructions, the movement\npart of the step begins.  Any fighter which has had its defense strength reduced to 0\nis destroyed and a longer flash appears.  The defense strength is changed to a special\ncode so that the fighter will no longer be programmable or take part in the execution\nphase.  The destroyed fighter will still be open to examination during the Defense/\nPosition Check phase.  Fighers having a defense strength greater than 0 may execute\na movement command if there is one.  Breaking each step into 2 such parts removes any\nstrategic advantage to moving first.\n\nThe nature of the game, in that there are variable parameters and no fixed victory\nconditions, allows the players a lot of freedom.  Two to eight players can command\nsingle fighters.  Four or less players can each command multiple fighters.  Two\nfleets could complete to destroy their opponents' flagship first.  Handicaps can\nbe implemented through an imbalance of fighters in different fleets.  An odd number\nof players can play in a free for all or team game.  In a non-combat approach, a full\ncomplement of space fighters could be programmed to preform in kaleidoscope or other\ntype formations.\n\n\nHow to Play VIP Programmable Spacefighters\n\n1. Load the CHIP-8 interpreter at 0000-01FF and\n   the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. Initalization of Game.\n   Various parameters are entered at the start of the game to determine the number\n   of spacefighters and other aspects of play.\n\n   S: Enter number of spacefighters.  1 to 8 spacefighters may be used.  The program\n      will adjust invalid enteries to the nearest valid number.\n\n   D: Enter defense strength.  A spacefighter may be hit from 1 to F times by laser\n      before being destroyed.\n\n   E: Enter number of command entries.  A spacefighter may be programmed with 1 to F\n      commands during the programming phase of each round.\n\n   C: Enter clock duration/no clock.  A timer clock 1 to F phorseks in duration may\n      be selected.  Each phorsek equals 4 seconds.  The clock is not enabled if a 0\n      is entered.  The clock time is the time allowed for each fighter to be set up.\n\n   F: Enter fire power available.  A spacefighter may be allowed to fire 1 to F\n      laser bursts per round.\n\n   A: Enter accumulation/no accumulation.  A spacefighter may be allowed to accumulate\n      all unused laser bursts by entering 1 to F.  Accumulation is not allowed if a\n      0 is entered.\n\n4. Presentation of Field and Spacefighters.\n   The two-dimensional representation of the palying fields consists of 10 vertical\n   by 15 horizontal positons indicated by grid markings around the perimeter.  The\n   spacefighters will be in their initial positions.\n\n5. Defense/Position Check.\n     Enter number of spacefighter to be examined.\n     S: Current spacefighter being examined.\n     D: Defense strength of current spacefighter.\n     Enter 0 to end defense/position check phase.\n\n6. Program Spacefighters.\n   Surviving spacefighters are programmed in ascending order.  Enter 0 to begin\n   programming first spacefighter.  Defense strength and position are shown during\n   programming.\n     E: indicates number of enteries left after current command.\n     C: indicates time remaining to program current fighter if clock was entered.\n\n    COMMAND   FUNCTION\n      1        Rotate 45 ccw, Move fwd\n      2        Move fwd\n      3        Rotate 45 cw, Move fwd\n      4        Rotate 45 ccw\n      5        Fire\n      6        Rotate 45 cw\n      B        Erase all commands and reprogram current spacefighter\n      E        End programming of current spacefighter\n      7-A,C,D,F  Rest, No operation\n      0        Rest, Begin programming next spacefighter\n\n   Enter 0 to begin programming each successive spacefighter.\n\n7. Execute Commands.\n   Enter 0 after all spacefighters are programmed to start execution of commands.\n\n8. The recommended starting point when tryint the game out is with 1 or 2 spacefighters,\n   any defense, F (15) entries per round, no clock, F (15) fire power and any accumulation\n      S: 1 or 2\n      D: 1\n      E: F\n      C: 0\n      F: F\n      A: 0\n\n   Use the above to try out the movement and fire execution of the fighters.  Try\n   performing loops, figure 8's, tight turns, maximum fire coverage techniques, etc.\n   Start out simple when first playing the game against an opponent.  \n   Eight spacefighters can get very complicated.\n\n9. Changing different parameters creates very different effects on the play of the game.\n   The main effect of a large number of fighters is a more complicated game.  A large\n   number of enteries per round results in a more lively game involving farsighted\n   planning.  Fewer enteries involves more thinking and reacting to immediate developments\n   but is not without strategy when there are multiple fighters opposing each other.\n   The clock provides pressure which can be greatly increased by the moves-to-time ratio.\n   More fire power increases the importance of movement and positioning.  Accumulation\n   of fire power can have long range effects if there is low fire power and a large\n   number of moves per round.\n",
     "sha1": "726cb39afa7e17725af7fab37d153277d86bff77",
     "platform": "chip8",
     "authors": ["Jef Winsor"]
   },
   {
-    "title": "SPACE INTERCEPT",
+    "title": "Space Intercept",
     "file": "Space Intercept [Joseph Weisbecker, 1978].ch8",
     "description": "Space Intercept (1978), by Joseph Weisbecker\n\nAt startup, Press 1 to select the large UFO which counts 5 points when hit or 2 to select the small UFO which counts 15 points when hit. Launch your rocket by pressing key 4,5 or 6. You get 15 rockets as shown in the lower right corner of the screen. Your score is shown in the lower left corner of the screen.",
     "sha1": "ed829190e37815771e7a8c675ba0074996a2ddb0"
   },
   {
-    "title": "SPACE INVADERS",
+    "title": "Space Invaders",
     "file": "Space Invaders [David Winter].ch8",
     "options": {
       "shiftQuirks": true
@@ -535,10 +547,11 @@
     "description": "Space Invaders (1978), by David Winter\n\nThe well known game. Destroy the invaders with your ship. Shoot with 5, move with 4 and 6. Press 5 to begin a game.",
     "sha1": "5c28a5f85289c9d859f95fd5eadbdcb1c30bb08b",
     "platform": "chip8",
-    "authors": ["David Winter"]
+    "authors": ["David Winter"],
+    "release": "1978"
   },
   {
-    "title": "SPOOKY SPOT",
+    "title": "Spooky Spot",
     "file": "Spooky Spot [Joseph Weisbecker, 1978].ch8",
     "description": "Spooky Spot (1978), by Joseph Weisbecker\n\nNow you can let the computer make your big decisions or predict the future just like governmentt or industry leaders do. You will see the words YES and NO at the right of the screen. Ask the computer any question that can be answered with YES or NO. Press KEY 0 and the spooky spot will show you the computer's answer. This program replaces your old fashioned mechanical OUIJA board.",
     "sha1": "1bd92042717c3bc4f7f34cab34be2887145a6704",
@@ -552,7 +565,7 @@
     "sha1": "2dbb5b53121ec84cb2377fcb645e57cc8b5eaa09"
   },
   {
-    "title": "SQUASH",
+    "title": "Squash",
     "file": "Squash [David Winter].ch8",
     "description": "Squash, by David Winter\n\nBounce a ball around a squash court with your paddle",
     "sha1": "a58ec7cc63707f9e7274026de27c15ec1d9945bd",
@@ -561,7 +574,7 @@
     "authors": ["David Winter"]
   },
   {
-    "title": "STARS DEMO",
+    "title": "Stars",
     "file": "Stars [Sergey Naydenov, 2010].ch8",
     "options": {
       "loadStoreQuirks": true
@@ -573,7 +586,7 @@
     "authors": ["Sergey Naydenov"]
   },
   {
-    "title": "SUBMARINE",
+    "title": "Submarine",
     "file": "Submarine [Carmelo Cortez, 1978].ch8",
     "description": "Submarine (1978), by Carmelo Cortez\n\nThe Sub Game is my favorite. Press \"5\" key to fire depth charges at the subs below. You score 15 points for a small sub and 5 points for the larger. You get 25 depth charges to start.",
     "sha1": "89aadf7c28bcd1c11e71ad9bd6eeaf0e7be474f3",
@@ -581,32 +594,33 @@
     "authors": ["Carmelo Cortez"]
   },
   {
-    "title": "SUM FUN",
+    "title": "Sum Fun",
     "file": "Sum Fun [Joyce Weisbecker].ch8",
-    "description": "Sum Fun, by Joyce Weisbecker\n\nThe object of this game is to add up the three digits which appear in the middle of the screen and then hit the key representing the total as fast as you can.",
+    "description": "11. VIP Sum Fun\n\nThe object of this game is to add up the three digits\nwhich appear in the middle of the screen and then hit\nthe key representing the total as fast as you can.\n\nHow to Play VIP Sum FUn\n\n1. Load the CHIP-8 interpreter at 0000-01FF and\n   the game starting at 0200.\n\n2. Turn RUN switch on.\n\n3. You get twenty sets of three digits per game and\n   between zero and ten points per set.  The faster you\n   enter the correct total, the more points you win.\n\n4. If you wait more that 3 seconds, you get zero points.\n   The correct sum is shown above the three digits after\n   you enter it,  and there is a pause before the next\n   set appears.\n\n5. The score is shown in the upper right-hand corner of\n   the screen.  The maximum number of points you can score\n   is 200.  Between 120 and 159 points is above average.\n   A score of 160 or higher is outstanding.\n\n",
     "sha1": "83a2f9c8153be955c28e788bd803aa1d25131330",
     "platform": "chip8",
     "authors": ["Joyce Weisbecker"]
   },
   {
-    "title": "SUPERWORM V4",
+    "title": "SuperWorm V4",
     "file": "Worm V4 [RB-Revival Studios, 2007].ch8",
-    "description": "SuperWorm V4 (2007), by Revival Studios\n\nSuperWorm V4 is an update of the SuperChip8 game: Worm3 by RB. The original game was only for SuperChip, so i've created a Chip-8 port. It also includes several speed fixes and a new control system.",
+    "description": "-----------------------------------------------------------------------------\n\t\t\t      /////////////////\n\t                      //////////////////\n        \t              ////          ////\n\t               \t      ////   ///////////\n\t                      ////  ///////////\n                              ////  ////\n                              ////  ///////////\n                              ////   //////////\n  \t     \t   \t\n  \t\t\t   www.revival-studios.com\n-----------------------------------------------------------------------------\nTitle\t\t:\tSuperWorm V4\nAuthor\t\t:\tRB (Original game)\n\t\t \tUpdates and fixes by: Martijn Wenting / Revival Studios\nGenre\t\t:\tGame\nSystem\t\t:\tChip-8 / SuperChip8\nDate\t\t:\t10/08/2007 \nProduct ID\t:\tRS-C8001\n-----------------------------------------------------------------------------\n\nAll the contents of this package are (c)Copyright 2007 Revival Studios.\nOriginal game: SuperWorm is (c)Copyright 1992 RB\n\nThe contents of the package may only be spread in its original form, and may not be\npublished or distributed otherwise without the written permission of the authors.\n\nDescription:\n------------\nSuperWorm V4 is an update of the SuperChip8 game: Worm3 by RB.\nThe original game was only for SuperChip, so i've created a Chip-8 port.\nIt also includes several speed fixes and a new control system.\n\nRunning the game:\n-----------------\nUse the Megachip emulator or any other Chip-8/SuperChip compatible emulator to run the game.\n\nCredits:\n--------\nChip-8 version, Updates and fixes by: Martijn Wenting\nOriginal game by: RB\n\nDistribution:\n-------------\nThis package can be freely distributed in its original form.\nIf you would like to include this game in your rom package, please let me know.\n\nWatch out for more releases soon!\n\n\n\tMartijn Wenting / Revival Studios\n\n",
     "sha1": "a1c1e0e7b01004be3ee77c69030e6b536cb316e6",
     "platform": "chip8",
     "release": "2007",
-    "authors": ["RB-Revival Studios"]
+    "authors": ["RB-Revival Studios", "Martijn Wenting"]
   },
   {
-    "title": "SYZYGY",
+    "title": "Syzygy",
     "file": "Syzygy [Roy Trevino, 1990].ch8",
-    "description": "Syzygy (1990), by Roy Trevino\n\nThe object of the game is to seek out \"targets\". You do this with your syzygy. Initially small, the syzygy will grow by some amount each time a target is hit. Eventually, your syzygy will be so long as to make tougher and tougher to get any points (and easier and easier to get killed). Confused? Just try it. To play: 3 - up, 6 - down, 7 - left, 8 - right",
+    "description": "SYZYGY v0.1\n\nOne of the first games I remember playing on a computer was \ncalled \"syzygy\" on a now ancient TRS-80 Model 1.  It has since\nappeared on other computers under various names.  Why it was\ncalled syzygy, I have no idea (consult Websters).  However, since\nthe HP48SX has approximately the same memory, graphics and cpu\npower as my TRS-80 did (something like 16kB, 128x64, and a 1.2Mhz Z80),\nI thought it would be amusing to play it again.  Now, approximately\nto my recollection, and with many apologies to the original author,\nhere is a CHIP48 version of SYZYGY.  Enough drivel.\n\nThe object of the game is to seek out \"targets\".  You do this with\nyour syzygy.  Initially small, the syzygy will grow by some amount\neach time a target is hit.  Eventually, your syzygy will\nbe so long as to make tougher and tougher to get any points (and easier\nand easier to get killed).  Confused?  Just try it.\n\nAnyways, the syzygy is not allowed to run into anything except targets.\nIt cannot run into the screen border (if present), or itself (this \nincludes backing into itself).  Fast and immediate death will result.\nDon't worry if you die quickly a few times.  The keys take a few \nminutes to get used to.\n\nTo start:     +      start/restart game with border\n              -      start/restart borderless game\n       \nTo play:      9      up\n              6      down\n              1      left\n              2      right\n\n[Hint for frustrated beginners: hold left hand on 1 & 2, and right hand on\n 6 & 9 keys.  Alternate between left hand, right hand, left hand...  -jkh-]\n\n\nFine print (borrowed from Andreas Gustafsson, author of CHIP-48):\n\n  SYZYGY is (c) copyright 1990 by Roy Trevino (RTT)\n\n  Noncommercial distribution allowed, provided that this\n  copyright message is preserved, and any modified versions\n  are clearly marked as such.\n\n  SYZYGY, via CHIP-48, makes use of undocumented low-level features\n  of the HP48SX calculator, and may or may not cause loss of data,\n  excessive battery drainage, and/or damage to the calcultor\n  hardware.  The Author takes no responsibility whatsoever for\n  any damage caused by the use of this program.\n  \n  THIS SOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\n  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n  PURPOSE.\n\nRoy\n\n  --------------------------------------------------------------\n  Roy Trevino                                        Intel Corp.\n  E-mail: rtrevino@sedona.intel.com          Tel: (602) 554 2816\n  UUCP:  decwrl!apple!oliveb!orc!inews!rtrevino@sedona.intel.com\n\u001a",
     "sha1": "1bdb4ddaa7049266fa3226851f28855a365cfd12",
     "platform": "chip8",
-    "authors": ["Roy Trevino"]
+    "authors": ["Roy Trevino"],
+    "release": "1990"
   },
   {
-    "title": "TANK",
+    "title": "Tank Battle",
     "file": "Tank.ch8",
     "description": "You are in a tank which has 25 bombs. Your goal is to hit 25 times a mobile target. The game ends when all your bombs are shot. If your tank hits the target, you lose 5 bombs. Use 2 4 6 and 8 to move. This game uses the original CHIP8 keyboard, so directions 2 and 8 are swapped.",
     "sha1": "18b9d15f4c159e1f0ed58c2d8ec1d89325d3a3b6",
@@ -614,7 +628,7 @@
     "release": "197x"
   },
   {
-    "title": "TAPEWORM",
+    "title": "Tapeworm",
     "file": "Tapeworm [JDR, 1999].ch8",
     "description": "Tapeworm (1999)\n\nTron clone; guide the snake around and around.",
     "sha1": "775e82a36c93f1b41b42eca94b55acbc4a48cebe",
@@ -623,7 +637,7 @@
     "authors": ["JDR"]
   },
   {
-    "title": "TETRIS",
+    "title": "Tetris",
     "file": "Tetris [Fran Dachille, 1991].ch8",
     "description": "Tetris (1991), by Fran Dachille",
     "sha1": "5f518084744bf3cb8733f6e5454dfd1634320563",
@@ -638,26 +652,26 @@
     "sha1": "429d455a4bc53167942bf6fd934d72b0f648dce3"
   },
   {
-    "title": "TIMEBOMB",
+    "title": "Timebomb",
     "file": "Timebomb.ch8",
-    "description": "Reset the bomb.",
+    "description": "\nTimebomb - by ??? (unknown author)(19xx)\n----------------------------------------\n\nChronometer. \n\n2/8: Set time. \n5: Start.",
     "sha1": "67996195539c0ddcd98533a01dffeec6a53a6da1",
     "platform": "chip8",
     "release": "19xx"
   },
   {
-    "title": "TRIP8 DEMO",
+    "title": "Trip-8 Demo",
     "file": "Trip8 Demo (2008) [Revival Studios].ch8",
-    "description": "Trip8 Demo (2008), by Revival Studios\n\nThe Trip8/SuperTrip8 demo are demo's for the Chip-8 and SuperChip8 systems. The demo consists of an intro, 3D vectorballs, and 4 randomized dot-effects.\n\nWriting a demo for the original Chip-8 interpreter was a real pain, since your framerate basically drops in half for every sprite you need to draw. So even clearing and redrawing a few dots will cause the framerate to drop to near zero :) Originally the demo was going to be bigger and there were much more graphical effects programmed/prototyped, but a lot of these effects turned out to be too much for the original unoptimized Chip-8 interpreters to handle.",
+    "description": "-----------------------------------------------------------------------------\n\t\t\t      /////////////////\n\t                      //////////////////\n        \t              ////          ////\n\t               \t      ////   ///////////\n\t                      ////  ///////////\n                              ////  ////\n                              ////  ///////////\n                              ////   //////////\n  \t     \t   \t\n  \t\t\t   www.revival-studios.com\n-----------------------------------------------------------------------------\nTitle\t\t:\tTrip8 / SuperTrip8 demo\nAuthor\t\t:\tMartijn Wenting / Revival Studios\nGenre\t\t:\tDemo\nSystem\t\t:\tChip-8 / SuperChip8\nDate\t\t:\t14/10/2008\nProduct ID\t:\tRS-C8004\n-----------------------------------------------------------------------------\n\nAll the contents of this package are (c)Copyright 2008 Revival Studios.\n\nThe contents of the package may only be spread in its original form, and may not be\npublished or distributed otherwise without the written permission of the authors.\n\nDescription:\n------------\nThe Trip8/SuperTrip8 demo are demo's for the Chip-8 and SuperChip8 systems. The demo consists of an intro, 3D vectorballs, and 4 randomized dot-effects.  \n\nWriting a demo for the original Chip-8 interpreter was a real pain, since your framerate basically drops in half for every sprite you need to draw. So even clearing and redrawing a few dots will cause the framerate to drop to near zero :) Originally the demo was going to be bigger and there were much more graphical effects programmed/prototyped, but a lot of these effects turned out to be too much for the original unoptimized Chip-8 interpreters to handle. \n\nRunning the Demo:\n-----------------\nUse the Megachip emulator or any other Chip-8/SuperChip compatible emulator to run the slideshow.\n\nCredits:\n--------\nProgramming/Graphics/Design by: Martijn Wenting\n\nDistribution:\n-------------\nThis package can be freely distributed in its original form.\nIf you would like to include this slideshow in your rom package, please let me know.\n\nWatch out for more releases soon!\n\n\n\tMartijn Wenting / Revival Studios\n\n",
     "sha1": "032408f1f1d8e6058ecf0f23f421783c87701b39",
     "platform": "chip8",
     "release": "2008",
-    "authors": ["Revival Studios"]
+    "authors": ["Revival Studios", "Martijn Wenting"]
   },
   {
-    "title": "TRON",
+    "title": "Tron",
     "file": "Tron.ch8",
-    "description": "Tron",
+    "description": "\nTron - by ??? (unknown)(19xx)\n-----------------------------\n\nControls:\n---------\nB=with borders. \nF=without borders. \n\n0=start. \n\nPlayer 1: 1/4 3/C.\nPlayer 2: 7/A 9/E.",
     "sha1": "a6a6cb2351c20b8f904da07c0ce91bd8161e9317",
     "platform": "chip8",
     "release": "19xx"
@@ -665,57 +679,57 @@
   {
     "title": "UFO",
     "file": "UFO [Lutz V, 1992].ch8",
-    "description": "UFO (1992)\n\nYou have a stationary missle launcher at the bottom of the screen. You can shoot in three directions; left diagonal, straight up, and right diagonal.. using the keys 4, 5, and 6 respectively... You try to hit one of two objects flying by... at apparently varying speeds... Your score is displayed on your left, the number of missles you have left is displayed on your right.",
+    "description": "Here's how to play UFO:\n\nYou have a stationary missle launcher at the bottom of the screen. You\ncan shoot in three directions; left diagonal, straight up, and right\ndiagonal.. using the keys 4, 5, and 6 respectively.. You try to hit\none of two objects flying by.. at apparently varying speeds..  Your\nscore is displayed on your left, the number of missles you have left\nis displayed on your right. (You get 15)..\n\nThis game (\"UFO\") is not new.  I have a copy of it from 1977 (!).  It\nwas one of the original CHIP-8 games on the audio cassette that was\nincluded when I bought my first computer, the Finnish-made Telmac\n1800.\n\nIt was also the first real program to run under CHIP-48 (it was used\nas a test case during the development of the CHIP-48 interpreter). The\nreason I have not posted it to the net myself is that I have no idea\nabout its copyright status.  I don't even know where it originated\n(RCA, perhaps?).\n\nThe cassette that was bundled with the Telmac 1800 contains more than\na dozen CHIP-8 programs.  If someone could convince me that these\nprograms are indeed freely redistributable, the other programs could\nalso be posted.  Otherwise, perhaps this one shouldn't have been.\n",
     "sha1": "bdb92475acfe11bc7814a2f5eade13fcd09b756a",
     "platform": "chip8",
-    "release": "1978",
-    "authors": ["Joseph Weisbecker"]
+    "release": "1992",
+    "authors": ["Lutz V"]
   },
   {
-    "title": "VERS",
+    "title": "Vers",
     "file": "Vers [JMN, 1991].ch8",
-    "description": "Vers (1991), by JMN\n\nTwo-player Tron game.",
+    "description": "\nVers - by JMN (1991)\n--------------------\n\nAnother Tron clone.\n\n\nKeys     Left Pl.   Right Pl.\n------------------------------\nUP          7          C\nDOWN        A          D\nLEFT        1          B\nRIGHT       2          F\n------------------------------\n",
     "sha1": "ade839585ddeb0e3633177df03c1d91589e629eb",
     "platform": "chip8",
     "release": "1991",
     "authors": ["JMN"]
   },
   {
-    "title": "VERTICAL BRIX",
+    "title": "Vertical Brix",
     "file": "Vertical Brix [Paul Robson, 1996].ch8",
-    "description": "Vertical Brix (1996), by Paul Robson\n\nVertical breakout type of game.",
+    "description": "\nVertical Brix - by Paul Robson (1996)\n-------------------------------------\n\nLike BRIX, but the brix are put vertically, and the pad also moves vertically. \n\nStart by pressing 7, and move using 4 and 1.\n\n*NOTE: 7->5 1->2 4->6",
     "sha1": "da710f631f8e35534d0b9170bcf892a60f49c43d",
     "platform": "chip8",
     "release": "1996",
     "authors": ["Paul Robson"]
   },
   {
-    "title": "WALL",
+    "title": "Wall",
     "file": "Wall [David Winter].ch8",
-    "description": "Wall, by David Winter\n\nSquash type game.",
+    "description": "\nWall - by David Winter (19xx)\n-----------------------------\n\nOne of these PONG variations. \n\nMove using 1 and 4. \n\nAs said in the early seventies: \"AVOID MISSING BALL FOR HIGH SCORE\" !!!\n\n*NOTE: 1->2 4->6",
     "sha1": "09ce01c54ddddda42ca5cd171f1ffcfd47355d12",
     "platform": "chip8",
     "release": "19xx",
-    "authors": ["David Winte"]
+    "authors": ["David Winter"]
   },
   {
-    "title": "WIPE OFF",
+    "title": "Wipe Off",
     "file": "Wipe Off [Joseph Weisbecker].ch8",
-    "description": "Wipe Off, by Joseph Weisbecker\n\nAnother Breakout variant. Your score is displayed when the game is over.",
+    "description": "\nWipe Off - by Joseph Weisbecker (19xx)\n--------------------------------------\nCosmac VIP CDP18S711 Book - Page 42 (VIP-311)\n\n\nThis program uses the CHIP-8 INTERPRETER at 0000-01FF Serve the ball by \npressing any key. Move the paddle left or right by pressing key 4 or 6. \n\nTry to wipe out as many spots as possible. Each spot counts one point. \nYou get 20 balls. You see your final score at the end of the game. You can \nmake the paddle wider by changing the E0 byte at 02CD to F8 or FF. ",
     "sha1": "d666688a8fce468a7d88b536bc1ef5f35ba12031",
     "platform": "chip8",
     "release": "19xx",
     "authors": ["Joseph Weisbecker"]
   },
   {
-    "title": "X-MIRROR",
+    "title": "X-Mirror",
     "file": "X-Mirror.ch8",
-    "description": "Kaleidoscope type game.",
+    "description": "\nX-Mirror - by ??? (unknown author)(19xx)\n----------------------------------------\n\nA Kaleidoscope variant.\n\n\nDraws symmetric patterns using 2/4/6/8.",
     "sha1": "bc158d819890f16f105b8a316eeeefe4a0bad875",
     "platform": "chip8"
   },
   {
-    "title": "ZERO",
+    "title": "Zero Demo",
     "file": "Zero Demo [zeroZshadow, 2007].ch8",
     "description": "Zero Demo (2007), by zeroZshadow\n\nsimple demo with 4 bouncing sprites. Enjoy!",
     "sha1": "09f47bea104b86169b9aeb3bdee6e26315ed0a53",
@@ -724,9 +738,9 @@
     "authors": ["ZeroShadowZ"]
   },
   {
-    "title": "ZERO PONG",
+    "title": "ZeroPong",
     "file": "ZeroPong [zeroZshadow, 2007].ch8",
-    "description": "Zero Pong (2007), by zeroZshadow\n\nAnother pong game",
+    "description": "\nZeroPong - by zeroZshadow (2007)\n--------------------------------\n\nPlayer 1: Press \"B\" to move up and \"A\" to move down.\nPlayer 2: Press \"2\" to move up and \"8\" to move down.\nPress \"F\" to start moving the ball.",
     "sha1": "f2e9c480af31a4039af02dd7a2b8d5d1f859704d",
     "platform": "chip8",
     "release": "2007",
@@ -3203,7 +3217,7 @@
     "platform": "schip",
     "title": "10 Bytes Pattern",
     "release": "2015",
-    "authors": ["Bjorn Kempen"]
+    "authors": ["Björn Kempen"]
   },
   {
     "file": "2048 (Andrew James)(2021).ch8",
@@ -5134,7 +5148,7 @@
     "platform": "xochip",
     "title": "Replicator",
     "release": "2015",
-    "authors": ["Bjorn Kempen"]
+    "authors": ["Björn Kempen"]
   },
   {
     "file": "Robot (unknown author)(20xx).sc8",
@@ -5221,7 +5235,7 @@
     "platform": "xochip",
     "title": "Scroll Pattern 1",
     "release": "2015",
-    "authors": ["Bjorn Kempen"]
+    "authors": ["Björn Kempen"]
   },
   {
     "file": "Seconds Counter (by Michael Wales)(2014).ch8",
