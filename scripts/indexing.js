@@ -69,8 +69,9 @@ console.log(
 
 for (let cutOff = 0.8; cutOff > 0.05; cutOff -= 0.01) {
   for (const program of newPrograms) {
-    if (!program.description) addDocumentation(program, documentation, cutOff);
-    addImages(program, images, cutOff);
+    if (documentation.length > 0 && !program.description)
+      addDocumentation(program, documentation, cutOff);
+    if (images.length > 0) addImages(program, images, cutOff);
   }
 }
 
