@@ -22,10 +22,11 @@
         },
         "release": {
           "type": "string",
-          "format": "date"
+          "pattern": "^[\\dx\\?]{4}(\\-\\d{1,2}){0,2}$"
         },
         "platform": {
-          "type": "string"
+          "type": "string",
+          "enum": ["chip8", "schip", "xochip", "chip8x", "megachip8", "hybrid-vip", "hires-chip8"]
         },
         "authors": {
           "type": "array",
