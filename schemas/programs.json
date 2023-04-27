@@ -48,6 +48,12 @@
             "type": "string"
           }
         },
+        "urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
         "options": {
           "type": "object",
           "$ref": "#/definitions/options"
