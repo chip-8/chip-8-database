@@ -33,6 +33,7 @@
   "homepage": "https://github.com/chip-8/chip-8-database#readme",
   "devDependencies": {
     "colors": "^1.4.0",
+    "css-color-names": "^1.0.1",
     "jsonschema": "^1.4.1",
     "prettier": "^2.8.8"
   }
