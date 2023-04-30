@@ -9,7 +9,12 @@ require("colors");
 
 // Which files to test?
 
-const checks = [check("programs"), check("sha1-hashes")];
+const checks = [
+  check("programs"),
+  check("sha1-hashes"),
+  check("quirks"),
+  check("platforms"),
+];
 
 // Do JSON Schema checks
 

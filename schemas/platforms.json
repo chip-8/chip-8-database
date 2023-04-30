@@ -1,0 +1,65 @@
+{
+  "description": "JSON Schema definition of the known CHIP-8 platforms.",
+  "definitions": {
+    "platform": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "release": {
+          "type": "string",
+          "pattern": "^[\\dx\\?]{4}(\\-\\d{1,2}){0,2}$"
+        },
+        "displayResolutions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^\\d+x\\d+$"
+          }
+        },
+        "defaultCyclesPerFrame": {
+          "type": "integer"
+        },
+        "quirks": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "enum": [
+              "shift",
+              "memoryIncrementByX",
+              "memoryLeaveIUnchanged",
+              "wrap",
+              "jump",
+              "vblank",
+              "logic"
+            ]
+          },
+          "patternProperties": {
+            ".*": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "displayResolutions",
+        "defaultCyclesPerFrame",
+        "quirks"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/platform"
+  }
+}

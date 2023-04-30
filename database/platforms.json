@@ -1,0 +1,111 @@
+[
+  {
+    "id": "originalChip8",
+    "name": "Cosmac VIP CHIP-8",
+    "description": "CHIP-8 was first designed by Joseph Weisbecker for the Cosmac VIP hobbyist DIY computer in 1977. After publishing about the virtual instruction set in the december 1978 issue of Byte magazine (under the title \"An easy programming system\") it took off on more hobbyist computers.",
+    "release": "1978-12",
+    "displayResolutions": ["64x32"],
+    "defaultCyclesPerFrame": 15,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": true,
+      "logic": true
+    }
+  },
+  {
+    "id": "hybridVIP",
+    "name": "CHIP-8 with Cosmac VIP instructions",
+    "description": "Some CHIP-8 games would first patch the Cosmac VIP interpreter to gain more features. Others would jump to parts of the interpreter that were not necessarily supposed to be used that way. One way or another, they would execute native Cosmac VIP instructions and by doing so leave the realm of \"compatible CHIP-8\".",
+    "displayResolutions": ["64x32"],
+    "defaultCyclesPerFrame": 15,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": true,
+      "logic": true
+    }
+  },
+  {
+    "id": "modernChip8",
+    "name": "Modern CHIP-8",
+    "displayResolutions": ["64x32"],
+    "defaultCyclesPerFrame": 12,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "chip48",
+    "name": "CHIP48 for the HP48",
+    "displayResolutions": ["64x32"],
+    "defaultCyclesPerFrame": 30,
+    "quirks": {
+      "shift": true,
+      "memoryIncrementByX": true,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "superchip1",
+    "name": "Superchip 1.0",
+    "displayResolutions": ["64x32", "128x64"],
+    "defaultCyclesPerFrame": 30,
+    "quirks": {
+      "shift": true,
+      "memoryIncrementByX": true,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "superchip",
+    "name": "Superchip 1.1",
+    "displayResolutions": ["64x32", "128x64"],
+    "defaultCyclesPerFrame": 30,
+    "quirks": {
+      "shift": true,
+      "memoryLeaveIUnchanged": true,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "xochip",
+    "name": "XO-CHIP",
+    "description": "First designed by John Earnest aka Internet Janitor in 2014, later improved in several incremental steps. XO-CHIP brings several big improvements over \"plain\" CHIP-8, like more memory, more musical sound and more flexible saving and loading of registers. It also allows the developer to double the display buffer (using \"planes\"), bringing four colour graphics to CHIP-8. The colours are defined by the user or the interpreter and not by the program.",
+    "release": "2014-11-5",
+    "displayResolutions": ["64x32", "128x64"],
+    "defaultCyclesPerFrame": 100,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": true,
+      "jump": false,
+      "vblank": false,
+      "logic": false
+    }
+  }
+]
