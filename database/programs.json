@@ -5860,7 +5860,8 @@
     "platform": "chip8",
     "title": "YAS",
     "release": "2015",
-    "authors": ["Marco Varesio"]
+    "authors": ["Marco Varesio"],
+    "description": "YAS (Marco Varesio, 2015)\nhttps://retrobits.altervista.org\nhttps://somebitsofme.altervista.org\n\nDescription:\n\nYAS is a yet another snake/nibbles-like game for CHIP-8.\n4 mazes are available and game can run at 4 different speeds,\nfor a total of 16 game modes. The player can select the\ndesired game mode by pressing one of the 16 keys when the title\nscreen is displayed. After game is over, player can choose to play\nagain the same maze at the same speed, or to go to title screen and\nchoose different maze and speed. In this case, hi-score is reset.\n\nKeys:\n\n- Title screen:\nStart maze 0, fastest speed     0\nStart maze 0, fast speed        1\nStart maze 0, slow speed        2\nStart maze 0, slowest speed     3\nStart maze 1, fastest speed     4\nStart maze 1, fast speed        5\nStart maze 1, slow speed        6\nStart maze 1, slowest speed     7\nStart maze 2, fastest speed     8\nStart maze 2, fast speed        9\nStart maze 2, slow speed        A\nStart maze 2, slowest speed     B\nStart maze 3, fastest speed     C\nStart maze 3, fast speed        D\nStart maze 3, slow speed        E\nStart maze 3, slowest speed     F\n\n- Game:\nUp                              2\nDown                            8\nLeft                            4\nRight                           6\n\n- Game over:\nRestart from title screen       0\nRestart game with last settins  Any other\n\nThe Author takes no responsibility whatsoever for \nany damage caused by the use of this program."
   },
   {
     "file": "You're Correct Horse ((sound)(unknown author)(201x).xo8",
