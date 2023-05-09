@@ -2,12 +2,16 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const prettier = require("prettier");
-const csscolors = require("css-color-names");
+
+const programs = require("../database/programs.json");
+const hashes = require("../database/sha1-hashes.json");
 
 module.exports = {
   sha1Hash,
-  mergeIn,
+  mergeWithPrograms,
   writeProgramsJSON,
+  getEmbeddedTitle,
+  findProgram,
 };
 
 // Returns a SHA1 hash of the given binary data
@@ -17,19 +21,50 @@ function sha1Hash(data) {
   return shasum.digest("hex");
 }
 
+function getEmbeddedTitle(data) {
+  // Does the binary start with a jump?
+  if ((data[0] & 0xf0) != 0x10) return false;
+
+  // Find the potential name!
+  const end = ((data[0] & 0x0f) << 8) + data[1];
+  const bytes = data.slice(2, end - 0x200);
+
+  // Does the jump go over data in the ASCII range?
+  if (!bytes.every((byte) => byte >= 32 && byte < 127)) return false;
+
+  // Then we've probably found a name
+  const string = String.fromCharCode(...bytes).trim();
+
+  // Empty names are not relevant
+  if (string.length == 0) return false;
+
+  return string;
+}
+
 // Merges array newPrograms into array programs, modifies and returns programs
-function mergeIn(programs, newPrograms, override = true) {
-  for (let program of newPrograms) {
-    program = cleanUp(program);
-    const duplicate = programs.find((p) => p.sha1 == program.sha1);
+function mergeWithPrograms(newPrograms, override = false) {
+  for (const program of newPrograms) {
+    const duplicate = findProgram(Object.keys(program.roms)[0]);
     if (duplicate) {
-      if (!override) Object.assign(program, duplicate);
-      Object.assign(duplicate, program);
+      if (!override) merge(program, duplicate);
+      merge(duplicate, program);
     } else {
       programs.push(program);
     }
   }
   return programs;
+}
+
+function merge(target, source) {
+  for (const property in source) {
+    if (typeof source[property] === "object" && !Array.isArray(source[property])) {
+      if (property in target && typeof target[property] === "object")
+        merge(target[property], source[property]);
+      else target[property] = source[property];
+    } else {
+      target[property] = source[property];
+    }
+  }
 }
 
 // Overwrite programs.json with the given parameter
@@ -40,90 +75,6 @@ function writeProgramsJSON(programs) {
   );
 }
 
-function cleanUp(program) {
-  for (const property in program) {
-    if (allowedProgramProperties.includes(property)) continue;
-    if (property == "desc") program.description = program.desc;
-    delete program[property];
-  }
-  for (const property in program.options) {
-    if (Object.keys(allowedProgramOptions).includes(property)) {
-      program.options[property] = cast(
-        program.options[property],
-        allowedProgramOptions[property]
-      );
-      continue;
-    }
-    delete program.options[property];
-  }
-  return program;
+function findProgram(hash) {
+  return programs[hashes[hash]];
 }
-
-const colorMatcher = /^#[0-9a-f]{6}$/;
-
-function cast(input, type) {
-  switch (type) {
-    case "string":
-      return input.toString();
-    case "boolean":
-      return !!input;
-    case "integer":
-      return +input;
-    case "color":
-      // The colours in the CHIP-8 Archive are a bit of a mess. Attempt to clean
-      // up all the fancy css colour names, colours without a '#' prefix and
-      // colours like '#000'.
-      input = input.toString().toLowerCase();
-      if (input.match(colorMatcher)) return input;
-      if (input in csscolors) return csscolors[input].toLowerCase();
-      const prefixed = "#" + input;
-      if (prefixed.match(colorMatcher)) return prefixed;
-      const doubled =
-        "#" +
-        input
-          .replace("#", "")
-          .split("")
-          .map((hex) => [hex, hex])
-          .flat()
-          .join("");
-      if (doubled.match(colorMatcher)) return doubled;
-      // Still not a valid colour, return for the JSON schema to complain about
-      return input;
-  }
-}
-
-const allowedProgramProperties = [
-  "title",
-  "file",
-  "sha1",
-  "event",
-  "description",
-  "release",
-  "platform",
-  "authors",
-  "images",
-  "urls",
-  "options",
-  // "remarks"
-];
-
-const allowedProgramOptions = {
-  tickrate: "integer",
-  fillColor: "color",
-  fillColor2: "color",
-  blendColor: "color",
-  backgroundColor: "color",
-  buzzColor: "color",
-  quietColor: "color",
-  shiftQuirks: "boolean",
-  loadStoreQuirks: "boolean",
-  vfOrderQuirks: "boolean",
-  clipQuirks: "boolean",
-  jumpQuirks: "boolean",
-  vBlankQuirks: "boolean",
-  logicQuirks: "boolean",
-  enableXO: "boolean",
-  screenRotation: "integer",
-  touchInputMode: "string",
-  fontStyle: "string",
-};

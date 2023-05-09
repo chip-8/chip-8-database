@@ -8,7 +8,9 @@ const programs = require(programsFile);
 
 const hashes = {};
 for (const id in programs) {
-  hashes[programs[id].sha1] = id;
+  for (const hash of Object.keys(programs[id].roms)) {
+    hashes[hash] = id;
+  }
 }
 
 fs.writeFileSync(

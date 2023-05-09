@@ -30,7 +30,7 @@ console.log(resultString[success ? "brightGreen" : "brightRed"].bold);
 console.log("\nChecking internal consistency of JSON files...");
 const hashes = require("../database/sha1-hashes.json");
 const programs = require("../database/programs.json");
-const programHashes = programs.map((prog) => prog.sha1);
+const programHashes = programs.map((prog) => Object.keys(prog.roms)).flat();
 const hashesHashes = Object.keys(hashes);
 const notInPrograms = hashesHashes.filter(
   (hash) => !programHashes.includes(hash)
