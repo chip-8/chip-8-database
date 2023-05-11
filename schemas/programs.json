@@ -1,0 +1,124 @@
+{
+  "description": "JSON Schema definition of the programs.json structure for the CHIP-8 database.",
+  "definitions": {
+    "rom": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "sha1": {
+          "type": "string",
+          "format": "sha1"
+        },
+        "event": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "release": {
+          "type": "string",
+          "pattern": "^[\\dx\\?]{4}(\\-\\d{1,2}){0,2}$"
+        },
+        "platform": {
+          "type": "string",
+          "enum": [
+            "chip8",
+            "schip",
+            "xochip",
+            "chip8x",
+            "megachip8",
+            "hybrid-vip",
+            "hires-chip8"
+          ]
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "options": {
+          "type": "object",
+          "$ref": "#/definitions/options"
+        }
+      },
+      "required": ["title", "file", "sha1"],
+      "additionalProperties": false
+    },
+    "options": {
+      "type": "object",
+      "properties": {
+        "tickrate": {
+          "type": "integer"
+        },
+        "fillColor": {
+          "type": "string"
+        },
+        "fillColor2": {
+          "type": "string"
+        },
+        "blendColor": {
+          "type": "string"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "buzzColor": {
+          "type": "string"
+        },
+        "quietColor": {
+          "type": "string"
+        },
+        "shiftQuirks": {
+          "type": "boolean"
+        },
+        "loadStoreQuirks": {
+          "type": "boolean"
+        },
+        "vfOrderQuirks": {
+          "type": "boolean"
+        },
+        "clipQuirks": {
+          "type": "boolean"
+        },
+        "jumpQuirks": {
+          "type": "boolean"
+        },
+        "vBlankQuirks": {
+          "type": "boolean"
+        },
+        "logicQuirks": {
+          "type": "boolean"
+        },
+        "enableXO": {
+          "type": "boolean"
+        },
+        "screenRotation": {
+          "type": "integer"
+        },
+        "touchInputMode": {
+          "type": "string"
+        },
+        "fontStyle": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/rom"
+  }
+}

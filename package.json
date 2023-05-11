@@ -1,0 +1,38 @@
+{
+  "name": "chip-8-database",
+  "version": "0.0.1",
+  "description": "A database of CHIP-8 game metadata",
+  "scripts": {
+    "start": "npm run update-chip8-archive && npm run generate-hashes-file && npm run check-formatting && npm run test",
+    "test": "node ./scripts/validate.js",
+    "check-formatting": "prettier --check .",
+    "format": "prettier --write .",
+    "update-chip8-archive": "node ./scripts/update-chip8-archive.js",
+    "generate-hashes-file": "node ./scripts/generate-hashes-file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chip-8/chip-8-database.git"
+  },
+  "contributors": [
+    {
+      "name": "Tobias V. Langhoff",
+      "email": "tobias@langhoff.no",
+      "url": "http://tobiasvl.github.io/"
+    },
+    {
+      "name": "Timendus",
+      "email": "mail@timendus.com",
+      "url": "https://github.com/Timendus"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/chip-8/chip-8-database/issues"
+  },
+  "homepage": "https://github.com/chip-8/chip-8-database#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "jsonschema": "^1.4.1",
+    "prettier": "^2.8.8"
+  }
+}
