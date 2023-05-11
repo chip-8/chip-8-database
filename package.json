@@ -8,7 +8,8 @@
     "check-formatting": "prettier --check .",
     "format": "prettier --write .",
     "update-chip8-archive": "node ./scripts/update-chip8-archive.js",
-    "generate-hashes-file": "node ./scripts/generate-hashes-file.js"
+    "generate-hashes-file": "node ./scripts/generate-hashes-file.js",
+    "index-directory": "node ./scripts/indexing.js"
   },
   "repository": {
     "type": "git",
