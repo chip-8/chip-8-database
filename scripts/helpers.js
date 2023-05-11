@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const prettier = require("prettier");
+const csscolors = require("css-color-names");
 
 module.exports = {
   sha1Hash,
@@ -58,6 +59,8 @@ function cleanUp(program) {
   return program;
 }
 
+const colorMatcher = /^#[0-9a-f]{6}$/;
+
 function cast(input, type) {
   switch (type) {
     case "string":
@@ -66,6 +69,26 @@ function cast(input, type) {
       return !!input;
     case "integer":
       return +input;
+    case "color":
+      // The colours in the CHIP-8 Archive are a bit of a mess. Attempt to clean
+      // up all the fancy css colour names, colours without a '#' prefix and
+      // colours like '#000'.
+      input = input.toString().toLowerCase();
+      if (input.match(colorMatcher)) return input;
+      if (input in csscolors) return csscolors[input].toLowerCase();
+      const prefixed = "#" + input;
+      if (prefixed.match(colorMatcher)) return prefixed;
+      const doubled =
+        "#" +
+        input
+          .replace("#", "")
+          .split("")
+          .map((hex) => [hex, hex])
+          .flat()
+          .join("");
+      if (doubled.match(colorMatcher)) return doubled;
+      // Still not a valid colour, return for the JSON schema to complain about
+      return input;
   }
 }
 
@@ -79,18 +102,19 @@ const allowedProgramProperties = [
   "platform",
   "authors",
   "images",
+  "urls",
   "options",
   // "remarks"
 ];
 
 const allowedProgramOptions = {
   tickrate: "integer",
-  fillColor: "string",
-  fillColor2: "string",
-  blendColor: "string",
-  backgroundColor: "string",
-  buzzColor: "string",
-  quietColor: "string",
+  fillColor: "color",
+  fillColor2: "color",
+  blendColor: "color",
+  backgroundColor: "color",
+  buzzColor: "color",
+  quietColor: "color",
   shiftQuirks: "boolean",
   loadStoreQuirks: "boolean",
   vfOrderQuirks: "boolean",

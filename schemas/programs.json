@@ -69,22 +69,28 @@
           "type": "integer"
         },
         "fillColor": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
         },
         "fillColor2": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
         },
         "blendColor": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
         },
         "backgroundColor": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
         },
         "buzzColor": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
         },
         "quietColor": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
         },
         "shiftQuirks": {
           "type": "boolean"
