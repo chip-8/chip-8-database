@@ -57,7 +57,10 @@ function mergeWithPrograms(newPrograms, override = false) {
 
 function merge(target, source) {
   for (const property in source) {
-    if (typeof source[property] === "object" && !Array.isArray(source[property])) {
+    if (
+      typeof source[property] === "object" &&
+      !Array.isArray(source[property])
+    ) {
       if (property in target && typeof target[property] === "object")
         merge(target[property], source[property]);
       else target[property] = source[property];

@@ -93,11 +93,17 @@
   },
   {
     "title": "Blitz",
+    "authors": ["David Winter"],
     "description": "Blitz, by David Winter\n\nThis game is a BOMBER clone. You are in a plane, and you must destroy the towers of a town. Your plane is flying left to right, and goes down. Use 5 to drop a bomb. The game ends when you crash yourself on a tower...",
     "roms": {
       "6f6509f38220e057a7e32ebb22dd353c1078e3e7": {
         "file": "Blitz [David Winter].ch8",
         "platforms": ["originalChip8"]
+      },
+      "a3b80d4a9efa8e7700d348d3e3ddf81d3c7e92a9": {
+        "file": "Blitz (fix) (by David Winter).ch8",
+        "platforms": ["originalChip8"],
+        "embeddedTitle": "BLITZ fixed by J0hn"
       }
     }
   },
@@ -207,16 +213,6 @@
     "roms": {
       "614a2b3d0bb5d62a16d963ac2d3a79eb3dd22742": {
         "file": "Coin Flipping [Carmelo Cortez, 1978].ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Connect 4",
-    "description": "Connect 4, by David Winter\n\nThis game is for two players. The goal is to align 4 coins in the game area. Each player's coins are colored. When you drop a coin, it is paced on the latest dropped coin in the same column, or at the bottom if the column is empty. Once the column is full, you cannot place any more coins in it. To select a column, use 4 and 6.\n\nTo drop a coin, use 5. There is no winner detection yet. This will be soon avalaible (Hey! I don't spend my life on CHIP8 !).",
-    "roms": {
-      "2d10c07b532f4fa7c07a07324ba26ca39fe484fd": {
-        "file": "Connect 4 [David Winter].ch8",
         "platforms": ["originalChip8"]
       }
     }
@@ -333,13 +329,19 @@
   },
   {
     "title": "Hidden",
-    "description": "Hidden (1996), by David Winter\n\nHIDDEN is a \"memory\" game. It is very simple to play. The rules are as follow: your goal is to find all the identical cards in a minimum time. You are playing in a 4*4 card grid. You can see only two cards at the same time. Once this time passed, these two cards will remain shown if they are identical, otherwise they will be hidden again. When the game is finished, two scores are shown: SC is your score, corresponding to the number of tries HI is the best score (smallest number of tries made to finish) The keys are: [8] - Move DOWN, [4] - Move LEFT, [5] - Show card, [6] -  Move RIGHT, [2] - Move UP",
+    "description": "HIDDEN is a \"memory\" game. It is very simple to play. The rules are as follow: your goal is to find all the identical cards in a minimum time. You are playing in a 4*4 card grid. You can see only two cards at the same time. Once this time passed, these two cards will remain shown if they are identical, otherwise they will be hidden again. When the game is finished, two scores are shown: SC is your score, corresponding to the number of tries HI is the best score (smallest number of tries made to finish) The keys are: [8] - Move DOWN, [4] - Move LEFT, [5] - Show card, [6] -  Move RIGHT, [2] - Move UP",
     "authors": ["David Winter"],
     "release": "1996",
     "roms": {
       "050f07a54371da79f924dd0227b89d07b4f2aed0": {
         "file": "Hidden [David Winter, 1996].ch8",
         "platforms": ["originalChip8"]
+      },
+      "9b72b6656cb714cd64de00ac78dc7bf8374adec6": {
+        "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where the last two tiles left are different, so you can't beat the game.)",
+        "file": "Hidden (fix)[David Winter, 1996].ch8",
+        "platforms": ["originalChip8"],
+        "embeddedTitle": "HIDDEN! 1.0 By David WINTER"
       }
     }
   },
@@ -463,6 +465,10 @@
     "roms": {
       "b9272ae1acdaaa79ab649f6b48b72088ca2b1d74": {
         "file": "Maze [David Winter, 199x].ch8",
+        "platforms": ["originalChip8"]
+      },
+      "8b70080adbac44513ec60005734a816372b845ec": {
+        "file": "Maze (alt) (by David Winter)(199x).ch8",
         "platforms": ["originalChip8"]
       }
     }
@@ -618,12 +624,25 @@
   },
   {
     "title": "Rocket",
-    "description": "Rocket (1978), by Joseph Weisbecker\n\nLaunch your rocket and earn points.",
+    "release": "1978-12",
     "authors": ["Joseph Weisbecker"],
+    "description": "Rocket - by Joseph Weisbecker (1978)\n------------------------------------\nfrom Byte Magazine Dec.1978\n\n\nAn enemy UFO will be constantly moving from left to right across the top of the screen.\nA single digit score will be displayed at the lower right. A rocket ship will appear at \na random horizontal position along the bottom edge of the display area. You can launch\nthis rocket by pressing \"F\" on the hexadecimal keyboard.\n\nThe rocket will then move vertically toward the top of the screen. When it reaches the\ntop or hits the target UFO it will be erased and a new rocket will appear at the bottom\nof the screen.\n\nAfter nine rockets have been launched the game ends and no new rockets will appear. If\nyou hit the UFO with a rocket the score will incremented by 1.\n\n\nControls:\n---------\nF = launch rocket\n\n",
     "roms": {
       "3d1d029d6e31206d245c0ba881c0d1f003953bad": {
         "file": "Rocket [Joseph Weisbecker, 1978].ch8",
         "platforms": ["originalChip8"]
+      }
+    }
+  },
+  {
+    "title": "Rocket",
+    "release": "2020",
+    "authors": ["Jason DuPertuis"],
+    "roms": {
+      "466ce147503c536b23a7548d6adf027c26d28df3": {
+        "file": "Rocket (Jason DuPertuis)(2020).xo8",
+        "release": "2020",
+        "platforms": ["xochip"]
       }
     }
   },
@@ -779,7 +798,12 @@
       },
       "f100197f0f2f05b4f3c8c31ab9c2c3930d3e9571": {
         "file": "Space Invaders [David Winter] (alt).ch8",
-        "platforms": ["superchip"]
+        "platforms": ["superchip"],
+        "keys": {
+          "left": 4,
+          "right": 6,
+          "a": 5
+        }
       }
     }
   },
@@ -865,6 +889,10 @@
       "a1c1e0e7b01004be3ee77c69030e6b536cb316e6": {
         "file": "Worm V4 [RB-Revival Studios, 2007].ch8",
         "platforms": ["originalChip8"]
+      },
+      "2d415bf1f31777b22ad73208c4d1ad27d5d4f367": {
+        "file": "SuperWorm V4 (by RB & Revival Studios)(2007).sc8",
+        "platforms": ["superchip"]
       }
     }
   },
@@ -905,13 +933,19 @@
   },
   {
     "title": "Tetris",
-    "description": "Tetris (1991), by Fran Dachille",
     "release": "1991",
     "authors": ["Fran Dachille"],
+    "description": "                               TETRIS\n                          by Fran Dachille\n\nThis is my first release of the famous Tetris game on the HP48S. I was\ninspired by the lack enjoyable games for our favorite handheld.  [Not since the\nGoodies Disks have been available!  -jkh-]  This game, though it lacks some of\nthe whistles and bangs of fancy versions, performs on par with quality arcade\nversions (nota bene -> SPEED).  At my college, every person who picks up my\ncalculator is immediately hooked for hours.\n\nThis version is written for the CHIP48 game interpreter (c)\ncopyright 1990 Andreas Gustafsson.  \n\nThe 4 key is left rotate, 5 - left move, 6 - right move, 1\n- drop, ENTER - restart, DROP - end.  After every 5 lines, the speed\nincreases slightly and peaks at 45 lines.\n\nThere is room for improvement in this version.  Notably, background\npictures, a pause key (for now, hold ON), two rotate keys, various\nstarting skill levels, a B version which starts with randomn blocks,\nfinishing graphics, and high scores, just to name a few.\n\nIn order for improvements, I need to know if there is reasonable\ndemand.  If this game is worth playing for hours upon hours, please let\nme know.  If you wish to support the improvements, want future versions,\nand want to see other games ported to the HP48S, send $5.00 to:\n\n          FRAN DACHILLE\n          WEBB INSTITUTE\n          GLEN COVE, NY 11542\n\n",
     "roms": {
       "5f518084744bf3cb8733f6e5454dfd1634320563": {
         "file": "Tetris [Fran Dachille, 1991].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["chip48", "originalChip8", "modernChip8"],
+        "keys": {
+          "left": 5,
+          "right": 6,
+          "down": 7,
+          "a": 4
+        }
       }
     }
   },
@@ -1391,7 +1425,7 @@
     "images": ["slipperyslope.gif"],
     "event": "Octojam5",
     "release": "2018-10-31",
-    "description": "The ice we skate is getting pretty thin. The water's getting warm so you might as well swim.",
+    "description": "The ice we skate is getting pretty thin. The water's getting warm so you might as well swim.\n\nWhen you've finished the game, make your own levels: http://beyondloom.com/tools/slipedit.html",
     "roms": {
       "9d834860f455aec7e95fb886984497e5be501610": {
         "file": "slipperyslope.ch8",
@@ -1404,6 +1438,24 @@
           "backgroundColor": "#b0e0e6",
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
+        },
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9,
+          "a": 6
+        }
+      },
+      "d73d48484a8fc60e8650f4228d6963a19a4de6c3": {
+        "file": "Slippery Slope (by John Earnest)(2018).ch8",
+        "platforms": ["modernChip8", "originalChip8"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9,
+          "a": 6
         }
       }
     }
@@ -2261,7 +2313,7 @@
   },
   {
     "title": "Mini Lights Out",
-    "authors": ["tobiasvl"],
+    "authors": ["Tobias V. Langhoff"],
     "images": ["mini-lights-out.gif"],
     "event": "Octojam6",
     "release": "2019-10-04",
@@ -2271,8 +2323,11 @@
         "file": "mini-lights-out.ch8",
         "platforms": ["modernChip8"],
         "tickrate": 7,
-        "touchInputMode": "seg16",
-        "colors": {}
+        "touchInputMode": "seg16"
+      },
+      "2e2d9b370e08d6994fd2ded938a56b32b07ad768": {
+        "file": "Mini Lights Out (by Tobias V. Langhoff)(2019).ch8",
+        "platforms": ["originalChip8"]
       }
     }
   },
@@ -2286,6 +2341,19 @@
     "roms": {
       "afd9fee7565c54970b6bd7758aa8aa7843dd2e86": {
         "file": "anEveningToDieFor.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 500,
+        "colors": {
+          "fillColor": "#000000",
+          "fillColor2": "#ff0000",
+          "blendColor": "#ff0000",
+          "backgroundColor": "#ffffff",
+          "buzzColor": "#808080",
+          "quietColor": "#000000"
+        }
+      },
+      "0893dd3b5fafa013f07acc9aa98876f84f328d54": {
+        "file": "An Evening to Die For (by John Earnest)(2019).xo8",
         "platforms": ["xochip"],
         "tickrate": 500,
         "colors": {
@@ -2317,6 +2385,10 @@
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
         }
+      },
+      "84d612c7eccf24835eb585711a49964572444737": {
+        "file": "Horse World Online (TomR)(2014).ch8",
+        "platforms": ["originalChip8"]
       }
     }
   },
@@ -2345,6 +2417,16 @@
           "backgroundColor": "#006c00",
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
+        }
+      },
+      "45f7c33b284b0f3e1393f0dd97e4b3b9fd9c63c9": {
+        "file": "Horsey Jump (by Team Horse)(2015).sc8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false
+          }
         }
       }
     }
@@ -2426,7 +2508,7 @@
   },
   {
     "title": "Flutter By",
-    "authors": ["TomRintjema"],
+    "authors": ["Tom Rintjema"],
     "images": ["flutterby.gif"],
     "event": "Octojam6",
     "release": "2019-10-08",
@@ -2444,6 +2526,10 @@
           "buzzColor": "#333333",
           "quietColor": "#000000"
         }
+      },
+      "808aeb072604809e0ef13c245115a81f40422d1d": {
+        "file": "Flutter By (by Tom Rintjema)(2019).sc8",
+        "platforms": ["superchip"]
       }
     }
   },
@@ -2453,10 +2539,21 @@
     "images": ["breakout.gif"],
     "event": "Octojam1",
     "release": "2014-09-01",
-    "description": "You can't even imagine how amazing this breakout clone is!",
+    "description": "You can't even imagine how amazing this breakout clone is!\n\nWONDER as you watch a ball bounce back and forth\n\nAMAZE at the pixel perfect collision detection\n\nDIE when your ball reaches the bottom of the screen\n\nLAUGH when you inevitably discover bugs in the game\n\nMOVE your paddle with \"7\" and \"9\"",
     "roms": {
       "31fc1c53cc610a9f4b9c5705c5a0f33fc028d123": {
         "file": "br8kout.ch8",
+        "platforms": ["modernChip8"],
+        "tickrate": 7,
+        "colors": {
+          "fillColor": "#ff84fe",
+          "backgroundColor": "#ca2553",
+          "buzzColor": "#ffaa00",
+          "quietColor": "#f090e4"
+        }
+      },
+      "c9a13c00d8391f352488661fc3b15217f0e8d9fd": {
+        "file": "Br8kout (by SharpenedSpoon)(2014).ch8",
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
@@ -2600,6 +2697,10 @@
           "buzzColor": "#990099",
           "quietColor": "#330033"
         }
+      },
+      "f12038dcd28ca71661162bfb6fc92a8826f7d6b9": {
+        "file": "SK8 H8 1988 (by Team Out of Left Field)(2015).xo8",
+        "platforms": ["xochip"]
       }
     }
   },
@@ -2620,6 +2721,22 @@
           "backgroundColor": "#30283e",
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
+        },
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9
+        }
+      },
+      "0920bfcaf974a10621af7ef0e48929c86dd0df2e": {
+        "file": "Snake (Timo Triisa)(2014).ch8",
+        "platforms": ["modernChip8"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9
         }
       }
     }
@@ -2649,11 +2766,11 @@
   },
   {
     "title": "Mastermind",
-    "authors": ["WilliamDonnelly"],
+    "authors": ["William Donnelly"],
     "images": ["title.gif"],
     "event": "Octojam3",
     "release": "2015-11-08",
-    "description": "The classic puzzle game of deduction.",
+    "description": "The classic puzzle game of deduction.\n\nMasterMind was originally intended to be written for the 2015 OctoJam Octo-ber Jam II contest.\nBut there wasn't enough time to finish it.\n\nInstructions and rules for playing the game are included in the game play.\n\n\nControls:\n---------\nUses all keys to play.",
     "roms": {
       "898ef1505c874065697ffc6cba688367e143d82e": {
         "file": "mastermind.ch8",
@@ -2667,12 +2784,16 @@
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
         }
+      },
+      "d2fa3927b31f81fc06cd9466123309c59264fa41": {
+        "file": "Mastermind (William Donnelly)(2015).ch8",
+        "platforms": ["modernChip8"]
       }
     }
   },
   {
     "title": "Space Racer",
-    "authors": ["WilliamDonnelly"],
+    "authors": ["William Donnelly"],
     "images": ["title.gif"],
     "event": "Octojam4",
     "release": "2017-10-30",
@@ -2689,6 +2810,23 @@
           "backgroundColor": "#111111",
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
+        },
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9
+        }
+      },
+      "d11e76793c231cdce513c09f0511202ed076834d": {
+        "file": "Space Racer (by William Donnely)(2017).ch8",
+        "description": "'Space Racer' is based on the classic 2-player 'Space Race' video game. It is in \nCHIP-8 32x64 format. \n\nAlthough it is written in Standard CHIP-8, it won't run well on the old COSMAC Elf, \nVIP, or Studio II and similar computers and game consoles as-is. To work well, it \nneeds a Scroll Screen call-to-subroutine, which is not (yet) supported by Octo. But \nit can be modified as such to work on the old machines, at which point it should be \nplayable. \n\nIt would be nice if Octo supported Call-To-Subroutine Machine Language functionality \n(I suggest RCA CDP 1802 emulation). Or, at the very least, an \"Add-On Subroutine Pack\" \nsimulation, that gives us additional features, like a Scroll Screen Left/Right X1, X2 \nand Up/Down Y1, Y2 call, and even Non-XOR Set/Reset Pixel, XOR and Non-XOR X1, Y1 to \nX2, Y2 Draw/Clear Line, Non-XOR Display Sprite, and possibly some other nice features \nlike that. (these are the routines I will/would write if I could) Maybe next year.\n\n\n\nControls:\n---------\n5 = Up\n7 = Left\n8 = Down\n9 = Right\n\n",
+        "platforms": ["modernChip8", "originalChip8"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9
         }
       }
     }
@@ -2733,29 +2871,10 @@
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
         }
-      }
-    }
-  },
-  {
-    "title": "Danm8ku",
-    "authors": ["buffi"],
-    "images": ["title.gif", "gameplay.gif"],
-    "event": "Octojam2",
-    "release": "2015-10-31",
-    "description": "Bullet hell for the Chip-8! Survive 8 waves of exciting bullet patterns!",
-    "roms": {
-      "ff6b8ac59bf281cd4b5ab6e161600b00f85a0265": {
-        "file": "danm8ku.ch8",
-        "platforms": ["modernChip8"],
-        "tickrate": 1000,
-        "colors": {
-          "fillColor": "#00ff00",
-          "fillColor2": "#ff0000",
-          "blendColor": "#ffff00",
-          "backgroundColor": "#000000",
-          "buzzColor": "#999900",
-          "quietColor": "#333300"
-        }
+      },
+      "018e6da9937173b1ac44d4261e848af485dcd305": {
+        "file": "Truck Simul8or (by Bjorn Kempen)(2015).xo8",
+        "platforms": ["xochip"]
       }
     }
   },
@@ -2807,11 +2926,13 @@
   },
   {
     "title": "Knight",
-    "authors": ["simonpacis"],
+    "authors": ["Simon Pacis"],
     "images": ["knight.gif"],
+    "urls": ["https://github.com/simonpacis/Knight"],
     "event": "Octojam3",
+    "copyright": "No license. Copy, steal, distribute. Credit if you want to.",
     "release": "2016-10-07",
-    "description": "You're Artore the Puny, littlebrother and inferior to your great big brother, King Arthur.",
+    "description": "You're Artore the Puny, littlebrother and inferior to your great big brother, King Arthur.\n\nThere have been speculations that the village alchemist, Nefarious Richard, has developed a potion that will allow him to turn into a highly dangerous bat-like creature. You've embarked on a quest to slay Nefarious Richard, who rumor will have it has had too much of his own potion, and is now permanently a bat-like creature.\nYour big brother King Arthur has promised you that if you slay Nefarious Richard, you earn the rights to the throne!\n\nGood luck!",
     "roms": {
       "fcecf90496dadd214486a7a769e3a07f2b8f4eab": {
         "file": "knight.ch8",
@@ -2824,6 +2945,26 @@
           "backgroundColor": "#996600",
           "buzzColor": "#ffaa00",
           "quietColor": "#000000"
+        },
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9,
+          "a": 6,
+          "b": 4
+        }
+      },
+      "b3dcfd85a76a678960359e1ce9f742a4f9c35ed8": {
+        "file": "Knight (by Simon Klit-Johnson)(2016).sc8",
+        "platforms": ["superchip"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9,
+          "a": 6,
+          "b": 4
         }
       }
     }
@@ -2854,11 +2995,11 @@
   },
   {
     "title": "Glitch Ghost",
-    "authors": ["JackieKircher"],
+    "authors": ["Jackie Kircher"],
     "images": ["glitchGhost.gif"],
     "event": "Octojam1",
     "release": "2014-10-29",
-    "description": "glitch ghost is all alone in the cemetery, please help them make some friends by turning the trespassing humans into new ghosts!",
+    "description": "Glitch ghost is all alone in the cemetery, please help them make some friends by turning the trespassing humans into new ghosts!\n\nControls:\n---------\n\"6\" - advance the title screen\n\n\"6\" - haunt! if there is a person on the screen then they will run away from you. \n      you can move while the person is running.\n\n\"5\",\"7\",\"8\",\"9\" - move up, left, down, and right respectively.\n\n\nGoal:\n-----\nEach screen of the cemetery has a unique layout of tombstones. you'll need to figure \nout how to get each person to run into their own graves. once scared, each person \nwill run away from glitch ghost and turn right whenever they encounter an obstacle, \nbe it a grave, the fence, or even glitch ghost themselves. only one person will enter \nthe cemetery at a time, and they'll always come in through the front gate.",
     "roms": {
       "2cdcb3c29a5f013a991db5909ca8e18e27b3c42b": {
         "file": "glitchGhost.ch8",
@@ -2869,17 +3010,35 @@
           "backgroundColor": "#555555",
           "buzzColor": "#ffffff",
           "quietColor": "#000000"
+        },
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9,
+          "a": 6
+        }
+      },
+      "ad612a1409c96cc24fc5fc1368fab71463480e9b": {
+        "file": "Glitch Ghost (by Jackie Kircher)(2014).ch8",
+        "platforms": ["originalChip8"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "down": 8,
+          "right": 9,
+          "a": 6
         }
       }
     }
   },
   {
     "title": "Octovore",
-    "authors": ["JackieKircher"],
+    "authors": ["Jackie Kircher"],
     "images": ["octovore.gif"],
     "event": "Octojam2",
     "release": "2015-11-02",
-    "description": "a game of hungry hungry octopods",
+    "description": "O C T O V O R E\na game of hungry hungry octopods\nplay as a starving octopus who just has to eat everything in sight, from crumbs to fishies to donuts. you control its ever-extending arms as it frenzies for food.\nyou must collect every piece of food to advance to the next level. can you beat all 9?\nfor an extra challenge, try raising the clock speed above the default 120 cycles/frame ;)\ncontrols\nmenu\n4 (C) to procede through menus and start the game\nR (D) to toggle between menu options\nleft arm\nthe left arm controls WASD style, but shifted up a row\n2 (2) to steer the left arm up\nQ (4) to steer the left arm left\nW (5) to steer the left arm down\nE (6) to steer the left arm right\nright arm\nthe right arm similarly controls WASD style, but shifted down a row\nS (8) to steer the right arm up\nZ (A) to steer the right arm left\nX (0) to steer the right arm down\nC (B) to steer the right arm right\nshoutouts\nthank you to\n@ColourTann - for the name octovore!\n@lindseybieda - for brainstorming the central mechanics with me!",
     "roms": {
       "74936ffb0db233c722f5a39932d75240b6437a72": {
         "file": "octovore.ch8",
@@ -2893,6 +3052,10 @@
           "buzzColor": "#68e022",
           "quietColor": "#000000"
         }
+      },
+      "1ff6e2a8920c5b48def34348df65226285f39ce9": {
+        "file": "Octovore (by Pangasaurus Rex)(2015).sc8",
+        "platforms": ["superchip"]
       }
     }
   },
@@ -2999,7 +3162,7 @@
     "images": ["gameplay.gif"],
     "event": "Octojam7",
     "release": "2020-10-28",
-    "description": "What if Pac-Man, but Chicken?",
+    "description": "What if Pac-Man, but Chicken?\n\nControls:\n---------\n* Use \"5/7/8/9\" to run. Press and hold to dash, which is only slightly faster than running.\n* Press \"6\" to peck at bugs. (or dirt. or small rocks. you can peck at anything, really.)\n* Press \"4\" to use echolocation (an ability chickens have) to find distant bugs.",
     "roms": {
       "c606d52970b86edcca4e87e9f6fae4b1ccbbbb0f": {
         "file": "chickenScratch.ch8",
@@ -3014,6 +3177,26 @@
           "backgroundColor": "#d5a08c",
           "buzzColor": "#3c2300",
           "quietColor": "#000000"
+        },
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9,
+          "a": 6,
+          "b": 4
+        }
+      },
+      "2cc98ab06cd250960118585971e842b56af3085e": {
+        "file": "Chicken Scratch (John Earnest)(2020).xo8",
+        "platforms": ["xochip"],
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9,
+          "a": 6,
+          "b": 4
         }
       }
     }
@@ -3500,17 +3683,6 @@
     }
   },
   {
-    "title": "An Evening to Die For",
-    "release": "2019",
-    "authors": ["John Earnest"],
-    "roms": {
-      "0893dd3b5fafa013f07acc9aa98876f84f328d54": {
-        "file": "An Evening to Die For (by John Earnest)(2019).xo8",
-        "platforms": ["xochip"]
-      }
-    }
-  },
-  {
     "title": "Angle of Death",
     "release": "2020",
     "authors": ["Chromatophore"],
@@ -3666,18 +3838,6 @@
     }
   },
   {
-    "title": "Blitz",
-    "authors": ["David Winter"],
-    "description": "Blitz, by: David Winter\n\nThis game is a BOMBER clone. You are in a plane, and you must destroy the towers of a town. Your plane is flying left to right, and goes down. Use 5 to drop a bomb. The game ends when you crash yourself on a tower...\n\n",
-    "roms": {
-      "a3b80d4a9efa8e7700d348d3e3ddf81d3c7e92a9": {
-        "file": "Blitz (fix) (by David Winter).ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "BLITZ fixed by J0hn"
-      }
-    }
-  },
-  {
     "title": "Bongocat",
     "release": "2021",
     "authors": ["Andrew James"],
@@ -3711,18 +3871,6 @@
     }
   },
   {
-    "title": "Br8kout",
-    "release": "2014",
-    "authors": ["SharpenedSpoon"],
-    "description": "\nBr8kout - by SharpenedSpoon (2014)\n----------------------------------\nOcto-Jam 1\n\n\nYou can't even imagine how amazing this breakout clone is!\n\nWONDER as you watch a ball bounce back and forth\n\nAMAZE at the pixel perfect collision detection\n\nDIE when your ball reaches the bottom of the screen\n\nLAUGH when you inevitably discover bugs in the game\n\nMOVE your paddle with \"7\" and \"9\"\n\n\n",
-    "roms": {
-      "c9a13c00d8391f352488661fc3b15217f0e8d9fd": {
-        "file": "Br8kout (by SharpenedSpoon)(2014).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
     "title": "Breakfree",
     "authors": ["David Winter"],
     "description": "\nBreakfree - by David Winter (199x)\n----------------------------------\n\nEach players needs to destroy the player's wall. The first player to destroy\nall the bricks of the opposite player wins. \n\nPlayer 1: 1 to go UP and 4 to go DOWN.\nPlayer 2: 6 to go UP and 9 to go DOWN.\n\n",
@@ -3736,7 +3884,8 @@
   },
   {
     "title": "Breakout",
-    "authors": ["Carmelo Cortez0(1979"],
+    "authors": ["Carmelo Cortez"],
+    "release": "1979",
     "description": "Breakout, by: Carmelo Cortez\n\nThe game, Breakout, is a variation of the Wipe-Off game.\nYou have six walls and 20 balls to start. To win you must get through all walls to the top of the screen. At the end of the game the program will show the number of times you hit the walls and will show \"FREE!\" if you get through.",
     "roms": {
       "193915dcde1365ae054c4eaa21a35baa27cd3356": {
@@ -3827,11 +3976,22 @@
   },
   {
     "title": "CHIP-8 Snake",
-    "description": "\nCHIP-8 Snake\n============\nby steveRoll (Octojam 7)\n\n\nAbout:\n------\nA snake game made for the CHIP-8. Due to technical restrictions, you can achieve a maximum score of 125.\n\n\nControls:\n---------\n2, 4, 6, 8 to move, F to restart.\n(arrow keys to move, r to restart)",
     "roms": {
       "b05dfd6bc0dca5106fb51ebc185406d633c96b44": {
         "file": "CHIP-8 Snake.xo8",
         "platforms": ["xochip"]
+      }
+    }
+  },
+  {
+    "title": "Chip-8 Snake",
+    "description": "\nCHIP-8 Snake\n============\nby steveRoll (Octojam 7)\n\n\nAbout:\n------\nA snake game made for the CHIP-8. Due to technical restrictions, you can achieve a maximum score of 125.\n\n\nControls:\n---------\n2, 4, 6, 8 to move, F to restart.\n(arrow keys to move, r to restart)",
+    "release": "2020",
+    "authors": ["steveRoll"],
+    "roms": {
+      "27868be46213718792ab3b8415855a1975366dbe": {
+        "file": "Chip-8 Snake (steveRoll)(2020).ch8",
+        "platforms": ["originalChip8"]
       }
     }
   },
@@ -3883,18 +4043,6 @@
     }
   },
   {
-    "title": "Chicken Scratch",
-    "release": "2020",
-    "authors": ["John Earnest"],
-    "description": "\nChicken Scratch\n===============\nby John Earnest (Octojam 7)\n\n\nAbout:\n------\nYou're a chicken. You want to eat bugs. How fast can you get 'em?\n\n\nControls:\n---------\n* Use \"5/7/8/9\" to run. Press and hold to dash, which is only slightly faster than running.\n* Press \"6\" to peck at bugs. (or dirt. or small rocks. you can peck at anything, really.)\n* Press \"4\" to use echolocation (an ability chickens have) to find distant bugs.\n",
-    "roms": {
-      "2cc98ab06cd250960118585971e842b56af3085e": {
-        "file": "Chicken Scratch (John Earnest)(2020).xo8",
-        "platforms": ["xochip"]
-      }
-    }
-  },
-  {
     "title": "Chip War",
     "release": "2014",
     "authors": ["John Earnest"],
@@ -3923,17 +4071,6 @@
     "roms": {
       "417ba551bc92751d3e0dc25e01e76373d0e504ea": {
         "file": "Chip-8 Dino (by Anthony Pham)(2019).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Chip-8 Snake",
-    "release": "2020",
-    "authors": ["steveRoll"],
-    "roms": {
-      "27868be46213718792ab3b8415855a1975366dbe": {
-        "file": "Chip-8 Snake (steveRoll)(2020).ch8",
         "platforms": ["originalChip8"]
       }
     }
@@ -4143,12 +4280,17 @@
   {
     "title": "Connect 4",
     "authors": ["David Winter"],
-    "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where game pieces overwrite each other and only stack diagonally)\n\n\n\n\nConnect 4, by: David Winter\n\nThis game is for two players. The goal is to align 4 coins in the\ngame area. Each player's coins are colored. When you drop a coin,\nit is paced on the latest dropped coin in the same column, or at\nthe bottom if the column is empty. Once the column is full, you\ncannot place any more coins in it. To select a column, use 4 and 6.\n\nTo drop a coin, use 5. There is no winner detection yet. This will\nbe soon avalaible (Hey! I don't spend my life on CHIP8 !).\n",
+    "description": "Connect 4, by David Winter\n\nThis game is for two players. The goal is to align 4 coins in the game area. Each player's coins are colored. When you drop a coin, it is paced on the latest dropped coin in the same column, or at the bottom if the column is empty. Once the column is full, you cannot place any more coins in it. To select a column, use 4 and 6.\n\nTo drop a coin, use 5. There is no winner detection yet. This will be soon avalaible (Hey! I don't spend my life on CHIP8 !).",
     "roms": {
       "c8d2ebbc16551a4bee1f0e2b33f0510e4170afcf": {
         "file": "Connect 4 (fix)[David Winter].ch8",
+        "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where game pieces overwrite each other and only stack diagonally)",
         "platforms": ["originalChip8"],
         "embeddedTitle": "CONNECT4 by David WINTER"
+      },
+      "2d10c07b532f4fa7c07a07324ba26ca39fe484fd": {
+        "file": "Connect 4 [David Winter].ch8",
+        "platforms": ["originalChip8"]
       }
     }
   },
@@ -4200,13 +4342,48 @@
   },
   {
     "title": "Danm8ku",
-    "release": "2015",
-    "authors": ["buffis"],
-    "description": "\nDanm8ku - by buffis (2015)\n--------------------------\n\nBullet hell for the Chip-8! \nSurvive 8 waves of exciting bullet patterns!\n\n\nControls:\n---------\n5 = Up\n7 = Left\n8 = Down\n9 = Right",
+    "release": "2015-10-31",
+    "event": "Octojam2",
+    "authors": ["buffi"],
+    "images": ["title.gif", "gameplay.gif"],
+    "description": "Bullet hell for the Chip-8!\nSurvive 8 waves of exciting bullet patterns!",
     "roms": {
       "b8be39922f38d0160e257de75899119dc5137e6e": {
         "file": "Danm8ku (by buffis)(2015).ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["modernChip8"],
+        "colors": {
+          "fillColor": "#00ff00",
+          "fillColor2": "#ff0000",
+          "blendColor": "#ffff00",
+          "backgroundColor": "#000000",
+          "buzzColor": "#999900",
+          "quietColor": "#333300"
+        },
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9
+        }
+      },
+      "ff6b8ac59bf281cd4b5ab6e161600b00f85a0265": {
+        "file": "danm8ku.ch8",
+        "platforms": ["modernChip8"],
+        "tickrate": 1000,
+        "colors": {
+          "fillColor": "#00ff00",
+          "fillColor2": "#ff0000",
+          "blendColor": "#ffff00",
+          "backgroundColor": "#000000",
+          "buzzColor": "#999900",
+          "quietColor": "#333300"
+        },
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9
+        }
       }
     }
   },
@@ -4226,22 +4403,28 @@
     "title": "Ded-Lok",
     "release": "2016",
     "authors": ["ParityB1t"],
-    "description": "\nDed-Lok - by ParityB1t (2016)\n-----------------------------\n\nDodge enemy arrows!\n\nShooting a lot of arrows creates an 'arrow forest' making it hard to estimate \nenemy position, so be vigilant! ( Doesn't apply to enemy :D )\n\n\nControls:\n---------\n'7' and '9' to move left and right.\n'5' to shoot\n\nPress '6' to reset once the game is over.\n",
+    "description": "Dodge enemy arrows!\n\nShooting a lot of arrows creates an 'arrow forest' making it hard to estimate \nenemy position, so be vigilant! ( Doesn't apply to enemy :D )\n\n\nControls:\n---------\n'7' and '9' to move left and right.\n'5' to shoot\n\nPress '6' to reset once the game is over.\n",
     "roms": {
       "09d8e40f143f808ff379f04a473f58cbba5f3838": {
         "file": "Ded-Lok (by ParityB1t)(2016).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Ded-Lok",
-    "release": "2015",
-    "authors": ["parityb1t"],
-    "roms": {
+        "platforms": ["originalChip8"],
+        "keys": {
+          "left": 7,
+          "right": 9,
+          "a": 5,
+          "b": 6
+        }
+      },
       "044021b046cf207c0b555ea884d61a726f7a3c22": {
         "file": "Ded-Lok (by parityb1t)(2015).sc8",
-        "platforms": ["superchip"]
+        "release": "2015",
+        "platforms": ["superchip"],
+        "keys": {
+          "left": 7,
+          "right": 9,
+          "a": 5,
+          "b": 6
+        }
       }
     }
   },
@@ -4620,17 +4803,6 @@
     }
   },
   {
-    "title": "Flutter By",
-    "release": "2019",
-    "authors": ["Tom Rintjema"],
-    "roms": {
-      "808aeb072604809e0ef13c245115a81f40422d1d": {
-        "file": "Flutter By (by Tom Rintjema)(2019).sc8",
-        "platforms": ["superchip"]
-      }
-    }
-  },
-  {
     "title": "Fractal Set",
     "release": "2018",
     "authors": ["A-KouZ1"],
@@ -4694,18 +4866,6 @@
       "f5c666c33ed66a9662cef78b1ef62f80a33b0358": {
         "file": "Ghostbusters! (sound)(unknown author)(201x).xo8",
         "platforms": ["xochip"]
-      }
-    }
-  },
-  {
-    "title": "Glitch Ghost",
-    "release": "2014",
-    "authors": ["Jackie Kircher"],
-    "description": "\nGlitch Ghost - by Jackie Kircher (2014)\n---------------------------------------\nGlitch ghost is all alone in the cemetery, please help them make some friends by \nturning the trespassing humans into new ghosts!\n\n\nControls:\n---------\n\"6\" - advance the title screen\n\n\"6\" - haunt! if there is a person on the screen then they will run away from you. \n      you can move while the person is running.\n\n\"5\",\"7\",\"8\",\"9\" - move up, left, down, and right respectively.\n\n\nGoal:\n-----\nEach screen of the cemetery has a unique layout of tombstones. you'll need to figure \nout how to get each person to run into their own graves. once scared, each person \nwill run away from glitch ghost and turn right whenever they encounter an obstacle, \nbe it a grave, the fence, or even glitch ghost themselves. only one person will enter \nthe cemetery at a time, and they'll always come in through the front gate.",
-    "roms": {
-      "ad612a1409c96cc24fc5fc1368fab71463480e9b": {
-        "file": "Glitch Ghost (by Jackie Kircher)(2014).ch8",
-        "platforms": ["originalChip8"]
       }
     }
   },
@@ -4848,18 +5008,6 @@
     }
   },
   {
-    "title": "Hidden",
-    "authors": ["David Winter"],
-    "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where the last two tiles left are different, so you can't beat the game.)\n\n                \n\n\n                ----------------------------------------\n                                 HIDDEN!\n                    Copyright (1996) by David WINTER\n                ----------------------------------------\n\n\nHIDDEN is a \"memory\" game. It is very simple to play.\n\nThe rules are as follow: your goal is to find all the identical cards\nin a minimum time.\n\nYou are playing in a 4*4 card grid. You can see only two cards at the\nsame time. Once this time passed, these two cards will remain shown\nif they are identical, otherwise they will be hidden again.\n\nWhen the game is finished, two scores are shown:\n        SC is your score, corresponding to the number of tries\n        HI is the best score (smallest number of tries made to finish)\n\nThe keys are:\n\n        [2] : More DOWN\n        [4] : Move LEFT\n        [5] : Show card\n        [6] : Move RIGHT\n        [8] : Move UP\n\nEnjoy !!!\n",
-    "roms": {
-      "9b72b6656cb714cd64de00ac78dc7bf8374adec6": {
-        "file": "Hidden (fix)[David Winter, 1996].ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "HIDDEN! 1.0 By David WINTER"
-      }
-    }
-  },
-  {
     "title": "Horde",
     "release": "2017",
     "authors": ["Dupersaurus"],
@@ -4878,29 +5026,6 @@
     "roms": {
       "b8be672909554abc17ed1ea0c694726f9a87b43d": {
         "file": "Hors (by TomR)(2015).sc8",
-        "platforms": ["superchip"]
-      }
-    }
-  },
-  {
-    "title": "Horse World Online",
-    "release": "2014",
-    "authors": ["TomR"],
-    "description": "\nHorse World Online - by TomR (2014)\n-----------------------------------\nOcto-Ber Jam 1\n\n\nAn online horse breeding game. Breed horses to win. \n\n\nControls:\n---------\nHold the A (z) key to breed.",
-    "roms": {
-      "84d612c7eccf24835eb585711a49964572444737": {
-        "file": "Horse World Online (TomR)(2014).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Horsey Jump",
-    "release": "2015",
-    "authors": ["Team Horse"],
-    "roms": {
-      "45f7c33b284b0f3e1393f0dd97e4b3b9fd9c63c9": {
-        "file": "Horsey Jump (by Team Horse)(2015).sc8",
         "platforms": ["superchip"]
       }
     }
@@ -5045,17 +5170,6 @@
     }
   },
   {
-    "title": "Knight",
-    "release": "2016",
-    "authors": ["Simon Klit-Johnson"],
-    "roms": {
-      "b3dcfd85a76a678960359e1ce9f742a4f9c35ed8": {
-        "file": "Knight (by Simon Klit-Johnson)(2016).sc8",
-        "platforms": ["superchip"]
-      }
-    }
-  },
-  {
     "title": "LabVIEW Splash Screen",
     "release": "2019",
     "authors": ["Richard James Lewis"],
@@ -5063,17 +5177,10 @@
       "fb8d0807a00353ae8071238a2eb7f1e555afe525": {
         "file": "LabVIEW Splash Screen (by Richard James Lewis)(2019).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "LabVIEW Splash Screen",
-    "release": "2019",
-    "authors": ["Richard James Lewis"],
-    "description": "Code correction done by Marcel van Tongeren:\n\nReplaced SYS 0FF @200 with JP 202 as SYS 0FF is an invalid Chip 8 instruction and crashes the VIP\n.",
-    "roms": {
+      },
       "4333eff4cbb49e57f8c0fb12f1e4cd0ac1dedd56": {
         "file": "LabVIEW Splash Screen (fix)(by Richard James Lewis)(2019).ch8",
+        "description": "Code correction done by Marcel van Tongeren:\n\nReplaced SYS 0FF @200 with JP 202 as SYS 0FF is an invalid Chip 8 instruction and crashes the VIP.",
         "platforms": ["originalChip8"]
       }
     }
@@ -5110,17 +5217,10 @@
       "cbbbc76a440b4020ecb9a6c95e95e636a8b23214": {
         "file": "Lainchain (by Ashton Harding)(2018).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Lainchain",
-    "release": "2018",
-    "authors": ["Ashton Harding"],
-    "description": "Code correction done by Marcel van Tongeren:\n\nAdded a JP 200 at end of code to get Code to loop instead of executing SYS 000 which would crash the VIP\nor any other undefined instruction that would be @272\n",
-    "roms": {
+      },
       "004fa49c91fbd387484bda62f843e8c5bd2c53d2": {
         "file": "Lainchain (fix)(by Ashton Harding)(2018).ch8",
+        "description": "Code correction done by Marcel van Tongeren:\n\nAdded a JP 200 at end of code to get Code to loop instead of executing SYS 000 which would crash the VIP\nor any other undefined instruction that would be @272",
         "platforms": ["originalChip8"]
       }
     }
@@ -5259,18 +5359,13 @@
         "file": "Loopz (by Andreas Daumann)(1993).sc8",
         "platforms": ["superchip"],
         "embeddedTitle": "(c) A.Daumann"
-      }
-    }
-  },
-  {
-    "title": "Loopz",
-    "release": "2006",
-    "authors": ["hap"],
-    "description": "difficulty select for Loopz, by hap, feb 17th 2006\n\nAndreas Daumann's Loopz was originally only for HP48\nthis change adds difficulty select within the SCHIP program, so it'll work\non SCHIP emulators, no changes were made in the main program\n\nto select difficulty:\nsame keys as in loopz: c=up, d=down, 5=ok\n\nv0,v1,v2 are set before running loopz\nv1 and v2 should be $AA, dunno why\nv0 is the difficulty (0 to 9)\nsaved into flags and the game runs as normal\n\noriginal loopz program: $200-$f9d\ndifficulty select: $f9e-$fff (full ;p )\n\n",
-    "roms": {
+      },
       "a2788177b820a28cd27e6d2d180340cb7f4948fb": {
         "file": "Loopz (with difficulty select) (by hap)(2006).sc8",
-        "platforms": ["superchip"]
+        "description": "difficulty select for Loopz, by hap, feb 17th 2006\n\nAndreas Daumann's Loopz was originally only for HP48\nthis change adds difficulty select within the SCHIP program, so it'll work\non SCHIP emulators, no changes were made in the main program\n\nto select difficulty:\nsame keys as in loopz: c=up, d=down, 5=ok\n\nv0,v1,v2 are set before running loopz\nv1 and v2 should be $AA, dunno why\nv0 is the difficulty (0 to 9)\nsaved into flags and the game runs as normal\n\noriginal loopz program: $200-$f9d\ndifficulty select: $f9e-$fff (full ;p )\n\n",
+        "release": "2006-02-17",
+        "platforms": ["superchip"],
+        "authors": ["Andreas Daumann", "Hap"]
       }
     }
   },
@@ -5280,15 +5375,10 @@
       "238585615069ec905aa56f0048880fc6eb456d4e": {
         "file": "Loose Cannon (demo).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Loose Cannon",
-    "description": "Code correction done by Marcel van Tongeren:\n\nAdded a JP 200 at end of code to get Code to loop instead of executing SYS 000 which would crash the VIP \nor any other undefined instruction that would be @2D6\n.",
-    "roms": {
+      },
       "ed96881bf0d1e97157b04d8a4632f911067fe9e6": {
         "file": "Loose Cannon (fix)(demo).ch8",
+        "description": "Code correction done by Marcel van Tongeren:\n\nAdded a JP 200 at end of code to get Code to loop instead of executing SYS 000 which would crash the VIP \nor any other undefined instruction that would be @2D6.",
         "platforms": ["originalChip8"]
       }
     }
@@ -5394,18 +5484,6 @@
     }
   },
   {
-    "title": "Mastermind",
-    "release": "2015",
-    "authors": ["William Donnelly"],
-    "description": "\nMastermind - by William Donnelly (2015)\n---------------------------------------\nOctoJam 2\n\n\nMasterMind was originally intended to be written for the 2015 OctoJam Octo-ber Jam II contest.\nBut there wasn't enough time to finish it.\n\nInstructions and rules for playing the game are included in the game play.\n\n\nControls:\n---------\nUses all keys to play.\n",
-    "roms": {
-      "d2fa3927b31f81fc06cd9466123309c59264fa41": {
-        "file": "Mastermind (William Donnelly)(2015).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
     "title": "Matches",
     "release": "199x",
     "images": ["Matches_SCHIP__1.png", "Matches_SCHIP__2.png"],
@@ -5413,18 +5491,6 @@
       "24fd50a95b84e3a42e336a06567a9752f17b9979": {
         "file": "Matches (unknown author)(199x).sc8",
         "platforms": ["superchip"]
-      }
-    }
-  },
-  {
-    "title": "Maze",
-    "release": "199x",
-    "authors": ["David Winter"],
-    "description": "Maze, by David Winter\n\nDrawing a random maze like this one consists in drawing random diagonal\nlines. There are two possibilities: right-to-left line, and left-to-right\nline. Each line is composed of a 4*4 bitmap. As the lines must form non-\ncircular angles, the two bitmaps won't be '/' and '\\'. The first one\n(right line) will be a little bit modified. See at the end of this source.\n\nThe maze is composed of 16 lines (as the bitmaps are 4 pixels high), each\nline consists of 32 bitmaps.\nBitmaps are drawn in random mode. We choose a random value (0 or 1).\nIf it is 1, we draw a left line bitmap. If it is 0, we draw a right one.\n",
-    "roms": {
-      "8b70080adbac44513ec60005734a816372b845ec": {
-        "file": "Maze (alt) (by David Winter)(199x).ch8",
-        "platforms": ["originalChip8"]
       }
     }
   },
@@ -5487,17 +5553,6 @@
       "99a97c772fc93d669b73016761ea6fee0210497e": {
         "file": "Minesweeper (by AKouZ1)(2017).sc8",
         "platforms": ["superchip"]
-      }
-    }
-  },
-  {
-    "title": "Mini Lights Out",
-    "release": "2019",
-    "authors": ["Tobias V. Langhoff"],
-    "roms": {
-      "2e2d9b370e08d6994fd2ded938a56b32b07ad768": {
-        "file": "Mini Lights Out (by Tobias V. Langhoff)(2019).ch8",
-        "platforms": ["originalChip8"]
       }
     }
   },
@@ -5797,17 +5852,6 @@
     }
   },
   {
-    "title": "Octovore",
-    "release": "2015",
-    "authors": ["Pangasaurus Rex"],
-    "roms": {
-      "1ff6e2a8920c5b48def34348df65226285f39ce9": {
-        "file": "Octovore (by Pangasaurus Rex)(2015).sc8",
-        "platforms": ["superchip"]
-      }
-    }
-  },
-  {
     "title": "Only the Good Die Neil Young",
     "release": "2020",
     "authors": ["cishetkayfaber"],
@@ -5927,7 +5971,13 @@
     "roms": {
       "a60611339661e3ab2d8af024ad1da5880a6f8665": {
         "file": "Pong (center-line)(unknown author)(19xx).ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8"],
+        "keys": {
+          "up": 1,
+          "down": 4,
+          "player2Up": 12,
+          "player2Down": 13
+        }
       }
     }
   },
@@ -5976,18 +6026,6 @@
     }
   },
   {
-    "title": "Rocket",
-    "release": "2020",
-    "authors": ["Jason DuPertuis"],
-    "description": "\nRocket - by Joseph Weisbecker (1978)\n------------------------------------\nfrom Byte Magazine Dec.1978\n\n\nAn enemy UFO will be constantly moving from left to right across the top of the screen.\nA single digit score will be displayed at the lower right. A rocket ship will appear at \na random horizontal position along the bottom edge of the display area. You can launch\nthis rocket by pressing \"F\" on the hexadecimal keyboard.\n\nThe rocket will then move vertically toward the top of the screen. When it reaches the\ntop or hits the target UFO it will be erased and a new rocket will appear at the bottom\nof the screen.\n\nAfter nine rockets have been launched the game ends and no new rockets will appear. If\nyou hit the UFO with a rocket the score will incremented by 1.\n\n\nControls:\n---------\nF = launch rocket\n\n",
-    "roms": {
-      "466ce147503c536b23a7548d6adf027c26d28df3": {
-        "file": "Rocket (Jason DuPertuis)(2020).xo8",
-        "platforms": ["xochip"]
-      }
-    }
-  },
-  {
     "title": "Rocket-70",
     "authors": ["Sly DC-2020"],
     "roms": {
@@ -6028,17 +6066,6 @@
       "7dc6605ed7b139330ee7e1dec33efba76486f4d7": {
         "file": "RulerBrain (by Group 8 Team)(2019).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "SK8 H8 1988",
-    "release": "2015",
-    "authors": ["Team Out of Left Field"],
-    "roms": {
-      "f12038dcd28ca71661162bfb6fc92a8826f7d6b9": {
-        "file": "SK8 H8 1988 (by Team Out of Left Field)(2015).xo8",
-        "platforms": ["xochip"]
       }
     }
   },
@@ -6092,14 +6119,7 @@
       "ea4ec4c07c97e1ad77eb9bfe237d2a1578795fbf": {
         "file": "Seconds Counter (by Michael Wales)(2014).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Seconds Counter",
-    "release": "2014",
-    "authors": ["Michael Wales"],
-    "roms": {
+      },
       "51a31cc51414b4dd6c5c54081574f915e6f53744": {
         "file": "Seconds Counter (by Michael Wales)(2014).sc8",
         "platforms": ["superchip"]
@@ -6174,17 +6194,10 @@
       "9be0cc119f8e3c18b7f0203c54b30c50b8f438a9": {
         "file": "SierpChaos (by Marco Varesio)(2015).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "SierpChaos",
-    "release": "2015",
-    "authors": ["Marco Varesio"],
-    "description": "Code correction done by Marcel van Tongeren:\n\nReplaced SHL V2, V0 with SHL V2 @20C, replaced SHR V3, V0 with SHR V3 @216 and SHR V4, V0 with SHR V4 @21A. \nAs Any SHL/SHR Vx, V0 on a VIP would shift V0 and store the result in Vx. Intention of the code is actually \nto shift value of Vx.\n",
-    "roms": {
+      },
       "ec1824ccdcc6c3b4390004946e551d4aa2058820": {
         "file": "SierpChaos (fix)(by Marco Varesio)(2015).ch8",
+        "description": "Code correction done by Marcel van Tongeren:\n\nReplaced SHL V2, V0 with SHL V2 @20C, replaced SHR V3, V0 with SHR V3 @216 and SHR V4, V0 with SHR V4 @21A. \nAs Any SHL/SHR Vx, V0 on a VIP would shift V0 and store the result in Vx. Intention of the code is actually \nto shift value of Vx.",
         "platforms": ["originalChip8"]
       }
     }
@@ -6228,26 +6241,18 @@
     "release": "199x",
     "authors": ["David Nurser"],
     "description": "Greetings All...\n\nI have written the first part of a game called \"Single Dragon\"\nwhich is, if you didn't already guess, a spin off of \"Double Dragon\".\n\nThe only problem is that I didn't think that doing two degrees could be so\nmuch work, and lately it has ground to a halt (exam time ;[).\n\nI have included the ASCed directory of everything I have done so far,\nand am asking you to help me finish this great game off.\n\nHERE IS THE GAME STRATEGY\n\nStages 1-4   ::  Fight Scenes.\n                 Max of 3 enemys on screen @ once\n                 Enemys do not home in on your position in level #1\n                 A big guy to kill @ the end of stage 4\n                 after killing the big guy you jump into a helicopter and\n                      onto stage #5\n\nStage 5      ::  Helicopter Scene - landscape scrolls in from the right\n                 you can bomb ground lauched missiles etc (u get the pic)\n\nStage 6      ::  Car Scene, screen scrolls in from the top\n\nStage 7-10   ::  Fight Scenes of major proportions to finish off.\n\n\nSo, what have I already done?\n-> Stages 1-4 (no big guy @ end yet)\n-> 1/2 of stage 5\n\nAs you can see, I'm about half way through the game and will probably get more\ntime to finish it in about a month, but would really like some moral support\nand perhaps a helping hand.\n\nHOW WAS IT ALL WRITTEN ?\nThe bomber stage (a bit flickery at the moment) and all of the fight\nsequences were written in Super-Chip (Which of course you will need to have\nto run these stages).  All stages are linked by User-Rpl (Flags determine\nmovement between levels.  The introduction is in User-Rpl.  The Fading\nis courtesy of Mr.Meuller (I think...I hope - please correct me if I am wrong)\nwhich was written in System-Rpl.\n\nEventually, all this stuff will be contained in a library, and will be self\nuncompressing as you reach each stage (for those without RAM cards), using\nof course RFU (System-RPL).\n\n\nPlease take the time to have a brief look and tell me what yu think, what I\ncan do with it .... and most importantly ... WHO CAN GIVE ME A BIT OF A HAND\n(I will finish it, but I will surely finish it much faster with your aide)\n\nHere is what is in the directory:\n[INTRO] - speaks for itself - Introduction (1st half - haven't done the second\n                                        yet)\n[BOMB] - Schip Hex String for Bomber Section (what I have done so far)\n[ST1]  - Schip Hex String for Stages 1-2 (that all I'm going to post for the\n         moment ;])\n[DIE]  - The death sequence\n\nMANY THANKS go to my graphic designer Stuart Fisher, and to [Zoom] for\nhis patience...don't worry Zoom, I will finish it ;].\n\nEnjoy.\nDavid Nurser\nitb675nurser@redgum.qut.edu.au\n\n\nPerhaps the lack of response to Single Dragon is because you couldn't\nfigure out the keys...So far, only one person has expressed interest\n...and to tell the truth, it's rather depressing.\nI will gladly send anyone parts of it personally if they are still\nhaving problems downloading etc.\n\nKeys Are:\n[3] - Up\n[SPC] - Down\n[.] - Left\n[+] - Right\n[7] - Punch\n[8] - Kick\n\nHelicopter Scene:\n[8] - Up\n[2] = Down\n[4] = Left\n[6] = Right\n[5] = Bomb\n\nCaio\nDave. [Fish]\n\n",
-    "images": ["Single_Dragon_Bomber_Section_SCHIP__1.png"],
+    "images": [
+      "Single_Dragon_Stages_1-2_SCHIP__1.png",
+      "Single_Dragon_Stages_1-2_SCHIP__2.png",
+      "Single_Dragon_Bomber_Section_SCHIP__1.png",
+      "Single_Dragon_Bomber_Section_SCHIP__2.png"
+    ],
     "roms": {
       "6b6502b03183e492f8170172308df9876c29d1d9": {
         "file": "Single Dragon (Bomber Section) (by David Nurser)(199x).sc8",
         "platforms": ["superchip"],
         "embeddedTitle": "(C) D.NURSER"
-      }
-    }
-  },
-  {
-    "title": "Single Dragon",
-    "release": "199x",
-    "authors": ["David Nurser"],
-    "description": "Greetings All...\n\nI have written the first part of a game called \"Single Dragon\"\nwhich is, if you didn't already guess, a spin off of \"Double Dragon\".\n\nThe only problem is that I didn't think that doing two degrees could be so\nmuch work, and lately it has ground to a halt (exam time ;[).\n\nI have included the ASCed directory of everything I have done so far,\nand am asking you to help me finish this great game off.\n\nHERE IS THE GAME STRATEGY\n\nStages 1-4   ::  Fight Scenes.\n                 Max of 3 enemys on screen @ once\n                 Enemys do not home in on your position in level #1\n                 A big guy to kill @ the end of stage 4\n                 after killing the big guy you jump into a helicopter and\n                      onto stage #5\n\nStage 5      ::  Helicopter Scene - landscape scrolls in from the right\n                 you can bomb ground lauched missiles etc (u get the pic)\n\nStage 6      ::  Car Scene, screen scrolls in from the top\n\nStage 7-10   ::  Fight Scenes of major proportions to finish off.\n\n\nSo, what have I already done?\n-> Stages 1-4 (no big guy @ end yet)\n-> 1/2 of stage 5\n\nAs you can see, I'm about half way through the game and will probably get more\ntime to finish it in about a month, but would really like some moral support\nand perhaps a helping hand.\n\nHOW WAS IT ALL WRITTEN ?\nThe bomber stage (a bit flickery at the moment) and all of the fight\nsequences were written in Super-Chip (Which of course you will need to have\nto run these stages).  All stages are linked by User-Rpl (Flags determine\nmovement between levels.  The introduction is in User-Rpl.  The Fading\nis courtesy of Mr.Meuller (I think...I hope - please correct me if I am wrong)\nwhich was written in System-Rpl.\n\nEventually, all this stuff will be contained in a library, and will be self\nuncompressing as you reach each stage (for those without RAM cards), using\nof course RFU (System-RPL).\n\n\nPlease take the time to have a brief look and tell me what yu think, what I\ncan do with it .... and most importantly ... WHO CAN GIVE ME A BIT OF A HAND\n(I will finish it, but I will surely finish it much faster with your aide)\n\nHere is what is in the directory:\n[INTRO] - speaks for itself - Introduction (1st half - haven't done the second\n                                        yet)\n[BOMB] - Schip Hex String for Bomber Section (what I have done so far)\n[ST1]  - Schip Hex String for Stages 1-2 (that all I'm going to post for the\n         moment ;])\n[DIE]  - The death sequence\n\nMANY THANKS go to my graphic designer Stuart Fisher, and to [Zoom] for\nhis patience...don't worry Zoom, I will finish it ;].\n\nEnjoy.\nDavid Nurser\nitb675nurser@redgum.qut.edu.au\n\n\nPerhaps the lack of response to Single Dragon is because you couldn't\nfigure out the keys...So far, only one person has expressed interest\n...and to tell the truth, it's rather depressing.\nI will gladly send anyone parts of it personally if they are still\nhaving problems downloading etc.\n\nKeys Are:\n[3] - Up\n[SPC] - Down\n[.] - Left\n[+] - Right\n[7] - Punch\n[8] - Kick\n\nHelicopter Scene:\n[8] - Up\n[2] = Down\n[4] = Left\n[6] = Right\n[5] = Bomb\n\nCaio\nDave. [Fish]\n\n",
-    "images": [
-      "Single_Dragon_Stages_1-2_SCHIP__1.png",
-      "Single_Dragon_Stages_1-2_SCHIP__2.png",
-      "Single_Dragon_Bomber_Section_SCHIP__2.png"
-    ],
-    "roms": {
+      },
       "d6cbd3af85b4c55b83c4e01f3a17c66fcebe9ccc": {
         "file": "Single Dragon (Stages 1-2) (by David Nurser)(199x).sc8",
         "platforms": ["superchip"]
@@ -6276,18 +6281,6 @@
     }
   },
   {
-    "title": "Slippery Slope",
-    "release": "2018",
-    "authors": ["John Earnest"],
-    "description": "\nSlippery Slope - by John Earnest (2018)\n---------------------------------------\nOctoJam 5\n\n\nThe ice we skate is getting pretty thin. The water's getting warm so you might as well swim.\n\n\n7/8/5/9 (ASWD) = move\n\n6 (E) resets the current level\n\nWhen you've finished the game, make your own levels:\n\nhttp://beyondloom.com/tools/slipedit.html",
-    "roms": {
-      "d73d48484a8fc60e8650f4228d6963a19a4de6c3": {
-        "file": "Slippery Slope (by John Earnest)(2018).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
     "title": "Smile",
     "roms": {
       "a6ad3ff3a6e969f87535e9733850630e9d221e51": {
@@ -6304,18 +6297,6 @@
     "roms": {
       "97a65f7c877f923a93e7b423ad39187e91e938fd": {
         "file": "Snafu (Shendo)(2010).ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Snake",
-    "release": "2014",
-    "authors": ["Timo Triisa"],
-    "description": "\nSnake - by Timo Triisa (2014)\n-----------------------------\nOcto-Ber Jam 1\n\n\nClassic Snake game without walls. \n\nUse 5, 7, 8 and 9 to move. \n\nPress any key to start over.",
-    "roms": {
-      "0920bfcaf974a10621af7ef0e48929c86dd0df2e": {
-        "file": "Snake (Timo Triisa)(2014).ch8",
         "platforms": ["originalChip8"]
       }
     }
@@ -6416,18 +6397,6 @@
     "roms": {
       "4200636c4d2a4495d10d6348049d21b887e8d1be": {
         "file": "Space Explorer [TCNJ S.572.2, 3].ch8",
-        "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Space Racer",
-    "release": "2017",
-    "authors": ["William Donnely"],
-    "description": "\nSpace Racer - by William Donnely (2017)\n---------------------------------------\nOctoJam 4\n\n\n'Space Racer' is based on the classic 2-player 'Space Race' video game. It is in \nCHIP-8 32x64 format. \n\nAlthough it is written in Standard CHIP-8, it won't run well on the old COSMAC Elf, \nVIP, or Studio II and similar computers and game consoles as-is. To work well, it \nneeds a Scroll Screen call-to-subroutine, which is not (yet) supported by Octo. But \nit can be modified as such to work on the old machines, at which point it should be \nplayable. \n\nIt would be nice if Octo supported Call-To-Subroutine Machine Language functionality \n(I suggest RCA CDP 1802 emulation). Or, at the very least, an \"Add-On Subroutine Pack\" \nsimulation, that gives us additional features, like a Scroll Screen Left/Right X1, X2 \nand Up/Down Y1, Y2 call, and even Non-XOR Set/Reset Pixel, XOR and Non-XOR X1, Y1 to \nX2, Y2 Draw/Clear Line, Non-XOR Display Sprite, and possibly some other nice features \nlike that. (these are the routines I will/would write if I could) Maybe next year.\n\n\n\nControls:\n---------\n5 = Up\n7 = Left\n8 = Down\n9 = Right\n\n",
-    "roms": {
-      "d11e76793c231cdce513c09f0511202ed076834d": {
-        "file": "Space Racer (by William Donnely)(2017).ch8",
         "platforms": ["originalChip8"]
       }
     }
@@ -6590,17 +6559,6 @@
     }
   },
   {
-    "title": "SuperWorm V4",
-    "release": "2007",
-    "authors": ["RB & Revival Studios"],
-    "roms": {
-      "2d415bf1f31777b22ad73208c4d1ad27d5d4f367": {
-        "file": "SuperWorm V4 (by RB & Revival Studios)(2007).sc8",
-        "platforms": ["superchip"]
-      }
-    }
-  },
-  {
     "title": "TMNT-NES",
     "release": "201x",
     "roms": {
@@ -6655,7 +6613,6 @@
     "title": "Tetris",
     "release": "2020",
     "authors": ["Verisimilitudes"],
-    "description": "                               TETRIS\n                          by Fran Dachille\n\nThis is my first release of the famous Tetris game on the HP48S. I was\ninspired by the lack enjoyable games for our favorite handheld.  [Not since the\nGoodies Disks have been available!  -jkh-]  This game, though it lacks some of\nthe whistles and bangs of fancy versions, performs on par with quality arcade\nversions (nota bene -> SPEED).  At my college, every person who picks up my\ncalculator is immediately hooked for hours.\n\nThis version is written for the CHIP48 game interpreter (c)\ncopyright 1990 Andreas Gustafsson.  \n\nThe 4 key is left rotate, 5 - left move, 6 - right move, 1\n- drop, ENTER - restart, DROP - end.  After every 5 lines, the speed\nincreases slightly and peaks at 45 lines.\n\nThere is room for improvement in this version.  Notably, background\npictures, a pause key (for now, hold ON), two rotate keys, various\nstarting skill levels, a B version which starts with randomn blocks,\nfinishing graphics, and high scores, just to name a few.\n\nIn order for improvements, I need to know if there is reasonable\ndemand.  If this game is worth playing for hours upon hours, please let\nme know.  If you wish to support the improvements, want future versions,\nand want to see other games ported to the HP48S, send $5.00 to:\n\n          FRAN DACHILLE\n          WEBB INSTITUTE\n          GLEN COVE, NY 11542\n\n",
     "roms": {
       "6194da2a89a3f431674d7323bf30f5ffe2f7190d": {
         "file": "Tetris (Verisimilitudes)(2020).ch8",
@@ -6742,17 +6699,6 @@
       "1f386e1ae47957dec485d3e4034dff706d316d15": {
         "file": "Traffic (by Christian Kosman)(2018).sc8",
         "platforms": ["superchip"]
-      }
-    }
-  },
-  {
-    "title": "Truck Simul8or",
-    "release": "2015",
-    "authors": ["Bjorn Kempen"],
-    "roms": {
-      "018e6da9937173b1ac44d4261e848af485dcd305": {
-        "file": "Truck Simul8or (by Bjorn Kempen)(2015).xo8",
-        "platforms": ["xochip"]
       }
     }
   },

@@ -66,6 +66,54 @@ if (notInHashes.length > 0) {
       .green
   );
 }
+const complete = Object.keys(hashes).map((hash) =>
+  Object.keys(programs[hashes[hash]]?.roms ?? []).includes(hash)
+);
+if (!complete.every((h) => h)) {
+  success = false;
+  console.log(
+    indent(
+      `𝘅 ${complete.reduce(
+        (a, h) => a + h,
+        0
+      )} hashes in sha1-hashes.json do not point to the right programs`,
+      1
+    ).red
+  );
+} else {
+  console.log(
+    indent(`✔ All hashes in sha1-hashes.json point to the right programs`, 1)
+      .green
+  );
+}
+
+// Check if all programs are unique
+
+const seen = [];
+let doubles = 0;
+for (const program of programs) {
+  const matcher = `${program.title} (${program.authors})`;
+  if (seen.includes(matcher)) {
+    console.log(indent(`* ${matcher}`, 2));
+    doubles++;
+  } else {
+    seen.push(matcher);
+  }
+}
+
+if (doubles > 0) {
+  success = false;
+  console.log(
+    indent(
+      `𝘅 ${doubles} programs have the same title and author in programs.json`,
+      1
+    ).red
+  );
+} else {
+  console.log(
+    indent(`✔ All program titles in programs.json are unique`, 1).green
+  );
+}
 
 // Show friendly counters
 
