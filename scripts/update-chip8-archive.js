@@ -46,18 +46,14 @@ function cleanedProgram(archiveProgram) {
   const result = { ...archiveProgram };
   for (const property in result) {
     if (
-      [
-        "title",
-        "event",
-        "description",
-        "release",
-        "authors",
-        "images",
-        "urls",
-      ].includes(property)
+      ["title", "description", "release", "authors", "images", "urls"].includes(
+        property
+      )
     )
       continue;
     if (property == "desc") result.description = result.desc;
+    if (property == "event")
+      result.origin = { type: "gamejam", reference: result.event };
     delete result[property];
   }
   return result;

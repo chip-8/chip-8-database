@@ -8,9 +8,18 @@
           "type": "string",
           "description": "The title of the program, preferably in the way the original author intended it."
         },
-        "event": {
-          "type": "string",
-          "description": "If the program was created for or at some event, like a game jam, this event can be referenced using this field."
+        "origin": {
+          "type": "object",
+          "description": "The origin of this program; was it created at some event, for a game jam, or published in a magazine somewhere?",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["gamejam", "event", "magazine", "manual"]
+            },
+            "reference": {
+              "type": "string"
+            }
+          }
         },
         "description": {
           "type": "string",

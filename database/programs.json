@@ -1093,7 +1093,6 @@
     "title": "Octojam 1 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam1title.gif"],
-    "event": "Octojam1",
     "release": "2014-09-29",
     "description": "Greeting program for the Octo-ber 2014 Chip8 Game Jam.",
     "roms": {
@@ -1108,13 +1107,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Octojam 2 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam2title.gif"],
-    "event": "Octojam2",
     "release": "2015-09-21",
     "description": "This title card draws a nearly full screen 64x30 animation with very low flicker.",
     "roms": {
@@ -1131,13 +1133,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Octojam 3 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam3title.gif"],
-    "event": "Octojam3",
     "release": "2016-09-25",
     "description": "This title card disambiguates at runtime between a COSMAC VIP, SCHIP, and Octo.",
     "roms": {
@@ -1154,13 +1159,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Octojam 4 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam4title.gif"],
-    "event": "Octojam4",
     "release": "2017-09-23",
     "description": "This title card demonstrates the new :macro and :calc directives.",
     "roms": {
@@ -1177,13 +1185,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
     "title": "Octojam 5 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam5title.gif"],
-    "event": "Octojam5",
     "release": "2018-09-24",
     "description": "Greeting program for the fifth annual 2018 Octojam.",
     "roms": {
@@ -1200,13 +1211,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
     "title": "Octojam 6 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam6title.gif"],
-    "event": "Octojam6",
     "release": "2019-09-07",
     "description": "Greeting program for the sixth annual 2019 Octojam.",
     "roms": {
@@ -1223,13 +1237,16 @@
           "quietColor": "#330033"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam6"
     }
   },
   {
     "title": "Octojam 7 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam7title.gif"],
-    "event": "Octojam7",
     "release": "2020-08-07",
     "description": "Greeting program for the seventh annual 2020 Octojam.",
     "roms": {
@@ -1248,13 +1265,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Octojam 8 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam8title.gif"],
-    "event": "Octojam8",
     "release": "2021-10-01",
     "description": "Greeting program for the eighth annual 2021 Octojam.",
     "roms": {
@@ -1273,13 +1293,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam8"
     }
   },
   {
     "title": "Octojam 9 Title",
     "authors": ["JohnEarnest"],
     "images": ["octojam9title.gif"],
-    "event": "Octojam9",
     "release": "2022-10-01",
     "description": "Greetings program for the ninth annual 2022 Octojam.",
     "roms": {
@@ -1298,13 +1321,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam9"
     }
   },
   {
     "title": "Into The GarlicScape",
     "authors": ["JohnEarnest"],
     "images": ["recording.gif"],
-    "event": "Octojam7",
     "release": "2020-08-01",
     "description": "Collect aliums, avoid moths, pet llamas. A template program for Octojam 7.",
     "roms": {
@@ -1323,13 +1349,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Super NeatBoy",
     "authors": ["JohnEarnest"],
     "images": ["recording.gif"],
-    "event": "Octojam7",
     "release": "2020-08-01",
     "description": "Jump, fall, tidy up leaves. A template program for Octojam 7.",
     "roms": {
@@ -1348,13 +1377,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Eaty The Alien",
     "authors": ["JohnEarnest"],
     "images": ["eaty.gif"],
-    "event": "Octojam2",
     "release": "2015-10-31",
     "description": "An incredible intergalactic adventure.",
     "roms": {
@@ -1371,13 +1403,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Fuse",
     "authors": ["JohnEarnest"],
     "images": ["fuse.gif"],
-    "event": "Octojam3",
     "release": "2016-10-27",
     "description": "A minimalist reinterpretation of the classic Pipe Dream.",
     "roms": {
@@ -1394,13 +1429,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Black Rainbow",
     "authors": ["JohnEarnest"],
     "images": ["blackrainbow.gif"],
-    "event": "Octojam3",
     "release": "2016-11-01",
     "description": "Plumb the depths of your subconscious and bring back the motherlode...",
     "roms": {
@@ -1417,13 +1455,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Slippery Slope",
     "authors": ["JohnEarnest"],
     "images": ["slipperyslope.gif"],
-    "event": "Octojam5",
     "release": "2018-10-31",
     "description": "The ice we skate is getting pretty thin. The water's getting warm so you might as well swim.\n\nWhen you've finished the game, make your own levels: http://beyondloom.com/tools/slipedit.html",
     "roms": {
@@ -1458,6 +1499,10 @@
           "a": 6
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
@@ -1524,7 +1569,6 @@
     "title": "Wonky Pong",
     "authors": ["TomRintjema"],
     "images": ["wonkypong.gif"],
-    "event": "Octojam4",
     "release": "2018-11-01",
     "description": "Pong, but wonky. Made for Octojam IV.",
     "roms": {
@@ -1539,6 +1583,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
@@ -1606,7 +1654,6 @@
     "authors": ["SystemLogoff"],
     "images": ["rps_oj1.gif"],
     "release": "2015-10-25",
-    "event": "Octojam1",
     "description": "Classic \"Rock Paper Scissors\" game for the Chip8.",
     "roms": {
       "a6f3ac2d89cdc1d7b22013301863bad6a4fb7318": {
@@ -1620,6 +1667,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
@@ -1627,7 +1678,6 @@
     "authors": ["SystemLogoff"],
     "images": ["octoachip8story.gif"],
     "release": "2015-10-29",
-    "event": "Octojam1",
     "description": "A visual novel game for the Chip8.",
     "roms": {
       "39970ccfd3a3f00180d53464d4fd7862193eaf0f": {
@@ -1641,6 +1691,10 @@
           "quietColor": "#222222"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
@@ -1648,7 +1702,6 @@
     "authors": ["SystemLogoff"],
     "images": ["pumpkindressup.gif"],
     "release": "2015-11-01",
-    "event": "Octojam1",
     "description": "Classic Adobe Flash games, now in Chip8.",
     "roms": {
       "b2abb5312f0ad28421c1190a65a73d98d4ebf401": {
@@ -1662,6 +1715,10 @@
           "quietColor": "#222222"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
@@ -1669,7 +1726,6 @@
     "authors": ["SystemLogoff"],
     "images": ["petdog.gif"],
     "release": "2015-10-31",
-    "event": "Octojam2",
     "description": "Undertale fangame made in Chip8.",
     "roms": {
       "3be683d1ac0b27ae47a09984e420853fff0b7e0d": {
@@ -1685,6 +1741,10 @@
           "quietColor": "#1a1a1a"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
@@ -1692,7 +1752,6 @@
     "authors": ["SystemLogoff"],
     "images": ["8ceattourny_d1.gif"],
     "release": "2016-10-30",
-    "event": "Octojam3",
     "description": "Exciting court battles in Chip8! Disc 1/3 of an exciting multi-tape game.",
     "roms": {
       "3ddf7b76b8f63d0089e00e3b518f78c213b74b1e": {
@@ -1708,6 +1767,10 @@
           "quietColor": "#777777"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
@@ -1715,7 +1778,6 @@
     "authors": ["SystemLogoff"],
     "images": ["8ceattourny_d2.gif"],
     "release": "2016-10-30",
-    "event": "Octojam3",
     "description": "Exciting court battles in Chip8! Disc 2/3 of an exciting multi-tape game.",
     "roms": {
       "82fd0d202a068bedfb869fc303fdeae0c814024f": {
@@ -1731,6 +1793,10 @@
           "quietColor": "#777777"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
@@ -1738,7 +1804,6 @@
     "authors": ["SystemLogoff"],
     "images": ["8ceattourny_d3.gif"],
     "release": "2016-10-30",
-    "event": "Octojam3",
     "description": "Exciting court battles in Chip8! Disc 3/3 of an exciting multi-tape game.",
     "roms": {
       "419a0110d41332457c15ae09fff62cbd7ad197fc": {
@@ -1754,6 +1819,10 @@
           "quietColor": "#777777"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
@@ -1761,7 +1830,6 @@
     "authors": ["SystemLogoff"],
     "images": ["DVN8.gif"],
     "release": "2017-10-30",
-    "event": "Octojam4",
     "description": "This is your great-grandma's dungeon crawler. You can see it with the manual at https://systemlogoff.com/share/DVN8/index.html",
     "roms": {
       "627f01b20ce4d33f6df1aa88acb405a3a732bde0": {
@@ -1777,6 +1845,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
@@ -1784,7 +1856,6 @@
     "authors": ["SystemLogoff"],
     "images": ["octorancher.gif"],
     "release": "2018-10-30",
-    "event": "Octojam5",
     "description": "Train monsters and become a real ranching champion. Read the manual at https://systemlogoff.com/share/Octo-Rancher-Manual.pdf",
     "roms": {
       "8263bac7d98d94097171f0a5dc6f210f77543080": {
@@ -1800,13 +1871,16 @@
           "quietColor": "#777777"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
     "title": "Tank!",
     "authors": ["Rectus"],
     "images": ["tank.gif"],
-    "event": "Octojam5",
     "release": "2018-10-31",
     "description": "A two player artillery game.",
     "roms": {
@@ -1816,13 +1890,16 @@
         "tickrate": 200,
         "colors": {}
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
     "title": "Rockto",
     "authors": ["SupSuper"],
     "images": ["rockto.gif"],
-    "event": "Octojam1",
     "release": "2014-11-01",
     "description": "An adaptation of \"Boulder Dash\" for the Chip8.",
     "roms": {
@@ -1837,13 +1914,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Flight Runner",
     "authors": ["TodPunk"],
     "images": ["flightrunner.gif"],
-    "event": "Octojam1",
     "release": "2014-11-01",
     "description": "A simple flight runner for the Chip8.",
     "roms": {
@@ -1858,13 +1938,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Turnover '77",
     "authors": ["your name here"],
     "images": ["turnover.gif"],
-    "event": "Octojam1",
     "release": "2014-08-31",
     "description": "Roundabout de-make",
     "roms": {
@@ -1879,13 +1962,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Ultimate Tic-tac-toe",
     "authors": ["your name here"],
     "images": ["tictac.gif"],
-    "event": "Octojam1",
     "release": "2014-09-01",
     "description": "Two player game",
     "roms": {
@@ -1900,13 +1986,16 @@
           "quietColor": "#ffffff"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "T8NKS",
     "authors": ["your name here"],
     "images": ["tanks.gif"],
-    "event": "Octojam2",
     "release": "2015-08-31",
     "description": "Artillery game",
     "roms": {
@@ -1923,6 +2012,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
@@ -1951,7 +2044,6 @@
     "title": "jub8 Song 1",
     "authors": ["your name here"],
     "images": ["j1title.gif"],
-    "event": "Octojam3",
     "release": "2016-08-31",
     "description": "Rhythm game. WARNING: Volume",
     "roms": {
@@ -1968,13 +2060,16 @@
           "quietColor": "#353c41"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "jub8 Song 2",
     "authors": ["your name here"],
     "images": ["j2title.gif"],
-    "event": "Octojam3",
     "release": "2016-08-31",
     "description": "Rhythm game. WARNING: Volume",
     "roms": {
@@ -1991,13 +2086,16 @@
           "quietColor": "#353c41"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "jub8 Song 3",
     "authors": ["your name here"],
     "images": ["j3title.gif"],
-    "event": "Octojam3",
     "release": "2016-08-31",
     "description": "Rhythm game. WARNING: Volume",
     "roms": {
@@ -2014,13 +2112,16 @@
           "quietColor": "#353c41"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "jub8 Song 4",
     "authors": ["your name here"],
     "images": ["j4title.gif"],
-    "event": "Octojam3",
     "release": "2016-08-31",
     "description": "Rhythm game. WARNING: Volume",
     "roms": {
@@ -2037,13 +2138,16 @@
           "quietColor": "#353c41"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "jub8 Song 5",
     "authors": ["your name here"],
     "images": ["j5title.gif"],
-    "event": "Octojam3",
     "release": "2016-08-31",
     "description": "Rhythm game. WARNING: Volume",
     "roms": {
@@ -2060,13 +2164,16 @@
           "quietColor": "#353c41"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "jub8 Song 6",
     "authors": ["your name here"],
     "images": ["j6title.gif"],
-    "event": "Octojam3",
     "release": "2016-08-31",
     "description": "Rhythm game. WARNING: Volume",
     "roms": {
@@ -2083,13 +2190,16 @@
           "quietColor": "#353c41"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Sub-Terr8nia",
     "authors": ["your name here"],
     "images": ["sub8.gif"],
-    "event": "Octojam4",
     "release": "2017-08-31",
     "description": "Lander game",
     "roms": {
@@ -2107,13 +2217,16 @@
           "quietColor": "#111111"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
     "title": "Octopeg",
     "authors": ["Chromatophore"],
     "images": ["octopeg.gif"],
-    "event": "Octojam2",
     "release": "2015-10-29",
     "description": "Peggle clone for Superchip",
     "roms": {
@@ -2130,13 +2243,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Masquer8",
     "authors": ["Chromatophore"],
     "images": ["masquer8.gif"],
-    "event": "Octojam2",
     "release": "2015-10-30",
     "description": "Cuttlefish pattern matching game for chip8.",
     "roms": {
@@ -2153,13 +2269,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Sens8tion",
     "authors": ["Chromatophore"],
     "images": ["sens8tion.gif"],
-    "event": "Octojam3",
     "release": "2016-11-01",
     "description": "Equilibrium faithfully reproduced in schip.",
     "roms": {
@@ -2176,13 +2295,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Carbon8",
     "authors": ["Chromatophore"],
     "images": ["carbon8.gif"],
-    "event": "Octojam5",
     "release": "2018-11-01",
     "description": "A period correct movie tie in game for a popular 1980s franchise.",
     "roms": {
@@ -2197,13 +2319,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
     "title": "Bad Kaiju Ju",
     "authors": ["MattBooth"],
     "images": ["kaiju.gif"],
-    "event": "Ludum Dare",
     "release": "2015-08-24",
     "description": "The year is 1977. 90% of the world's landmass is now underwater and the world is at war...",
     "roms": {
@@ -2216,13 +2341,16 @@
           "backgroundColor": "#aaaaff"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Ludum Dare"
     }
   },
   {
     "title": "Piper",
     "authors": ["Aeris", "JordanMecom", "LillianWang"],
     "images": ["piper.gif"],
-    "event": "GlobalGameJam2017",
     "release": "2017-01-23",
     "description": "Play as a small bird to collect goodies and avoid waves.",
     "roms": {
@@ -2237,13 +2365,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "GlobalGameJam2017"
     }
   },
   {
     "title": "Super Square",
     "authors": ["tann"],
     "images": ["square.png"],
-    "event": "Octojam1",
     "release": "2014-11-04",
     "description": "Inspired by Super Hexagon",
     "roms": {
@@ -2258,13 +2389,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Civiliz8n",
     "authors": ["tann"],
     "images": ["civiliz8n.png"],
-    "event": "Octojam2",
     "release": "2016-09-26",
     "description": "Grow a tiny civilization in 10 turns",
     "roms": {
@@ -2281,13 +2415,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Skyward",
     "authors": ["tann", "JackieKircher"],
     "images": ["skyward.png"],
-    "event": "Octojam3",
     "release": "2016-11-01",
     "description": "Climb as high as you can!",
     "roms": {
@@ -2309,13 +2446,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Mini Lights Out",
     "authors": ["Tobias V. Langhoff"],
     "images": ["mini-lights-out.gif"],
-    "event": "Octojam6",
     "release": "2019-10-04",
     "description": "Turn the lights out",
     "roms": {
@@ -2329,13 +2469,16 @@
         "file": "Mini Lights Out (by Tobias V. Langhoff)(2019).ch8",
         "platforms": ["originalChip8"]
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam6"
     }
   },
   {
     "title": "An Evening to Die For",
     "authors": ["JohnEarnest"],
     "images": ["murder.gif"],
-    "event": "Octojam6",
     "release": "2019-10-22",
     "description": "It is a dark and stormy night. A murder has been committed...",
     "roms": {
@@ -2365,13 +2508,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam6"
     }
   },
   {
     "title": "Horse World Online",
     "authors": ["TomRintjema"],
     "images": ["title.gif"],
-    "event": "Octojam1",
     "release": "2014-10-28",
     "description": "An online horse breeding game.",
     "roms": {
@@ -2390,13 +2536,16 @@
         "file": "Horse World Online (TomR)(2014).ch8",
         "platforms": ["originalChip8"]
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Horsey Jump",
     "authors": ["LarissaR"],
     "images": ["jump.gif"],
-    "event": "Octojam2",
     "release": "2015-10-30",
     "description": "Press the X button to make the horse jump over the fence.",
     "roms": {
@@ -2429,13 +2578,16 @@
           }
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Super Octo Track XO",
     "authors": ["TomRintjema"],
     "images": ["title.gif"],
-    "event": "Octojam2",
     "release": "2015-10-15",
     "description": "Compose songs with the XO-Chip audio system.",
     "roms": {
@@ -2457,13 +2609,16 @@
           "quietColor": "#330033"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Ghost Escape",
     "authors": ["TomRintjema"],
     "images": ["ghostescape.gif"],
-    "event": "Octojam3",
     "release": "2016-10-29",
     "description": "Seek revenge on mortal men in this exciting adventure!",
     "roms": {
@@ -2480,13 +2635,16 @@
           "quietColor": "#330033"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "TOMB STON TIPP",
     "authors": ["TomRintjema"],
     "images": ["tomb.gif"],
-    "event": "Octojam5",
     "release": "2018-10-12",
     "description": "Take turns pressing buttons to see who wins.",
     "roms": {
@@ -2504,13 +2662,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
     "title": "Flutter By",
     "authors": ["Tom Rintjema"],
     "images": ["flutterby.gif"],
-    "event": "Octojam6",
     "release": "2019-10-08",
     "description": "A game where you are a butterfly trying to get to flowers.",
     "roms": {
@@ -2531,13 +2692,16 @@
         "file": "Flutter By (by Tom Rintjema)(2019).sc8",
         "platforms": ["superchip"]
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam6"
     }
   },
   {
     "title": "Br8kout",
     "authors": ["SharpenedSpoon"],
     "images": ["breakout.gif"],
-    "event": "Octojam1",
     "release": "2014-09-01",
     "description": "You can't even imagine how amazing this breakout clone is!\n\nWONDER as you watch a ball bounce back and forth\n\nAMAZE at the pixel perfect collision detection\n\nDIE when your ball reaches the bottom of the screen\n\nLAUGH when you inevitably discover bugs in the game\n\nMOVE your paddle with \"7\" and \"9\"",
     "roms": {
@@ -2563,13 +2727,16 @@
           "quietColor": "#f090e4"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "1D Cellular Automata",
     "authors": ["SharpenedSpoon"],
     "images": ["cellular.gif"],
-    "event": "Octojam1",
     "release": "2014-10-26",
     "description": "An implementation of 1D Cellular Automata.",
     "roms": {
@@ -2584,6 +2751,10 @@
           "quietColor": "#142a12"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
@@ -2612,7 +2783,6 @@
     "title": "Kesha Was Biird",
     "authors": ["Kesha"],
     "images": ["kesha.gif"],
-    "event": "Octojam3",
     "release": "2016-10-31",
     "description": "Second installment in epic saga about Kesha.",
     "roms": {
@@ -2629,13 +2799,16 @@
           "quietColor": "#212110"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Kesha Was Niiinja",
     "authors": ["Kesha"],
     "images": ["kesha.gif"],
-    "event": "Octojam4",
     "release": "2017-10-31",
     "description": "Legendary ninja returns! Who is he? Ruthless killer? Absolute evil? Character with his own purpose? His motives are still unclear, and his story is for you to unfold.",
     "roms": {
@@ -2652,13 +2825,16 @@
           "quietColor": "#182583"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
     "title": "Red October V",
     "authors": ["Kesha"],
     "images": ["title.gif"],
-    "event": "Octojam5",
     "release": "2018-10-31",
     "description": "A futuristic RPG.",
     "roms": {
@@ -2675,13 +2851,16 @@
           "quietColor": "#400000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
     "title": "SK8 H8 1988",
     "authors": ["Willfor"],
     "images": ["sk8.gif"],
-    "event": "Octojam2",
     "release": "2015-10-28",
     "description": "Don't get trashed out there, GRRL!",
     "roms": {
@@ -2702,13 +2881,16 @@
         "file": "SK8 H8 1988 (by Team Out of Left Field)(2015).xo8",
         "platforms": ["xochip"]
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Snake",
     "authors": ["TimoTriisa"],
     "images": ["snake.gif"],
-    "event": "Octojam1",
     "release": "2014-10-11",
     "description": "Classic Snake game without walls.",
     "roms": {
@@ -2739,13 +2921,16 @@
           "right": 9
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Spacejam!",
     "authors": ["WilliamDonnelly"],
     "images": ["title.gif"],
-    "event": "Octojam2",
     "release": "2015-10-30",
     "description": "An extended and enhanced version loosely based on ShipTunnel from the 2014 OctoJam.",
     "roms": {
@@ -2762,13 +2947,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Mastermind",
     "authors": ["William Donnelly"],
     "images": ["title.gif"],
-    "event": "Octojam3",
     "release": "2015-11-08",
     "description": "The classic puzzle game of deduction.\n\nMasterMind was originally intended to be written for the 2015 OctoJam Octo-ber Jam II contest.\nBut there wasn't enough time to finish it.\n\nInstructions and rules for playing the game are included in the game play.\n\n\nControls:\n---------\nUses all keys to play.",
     "roms": {
@@ -2789,13 +2977,16 @@
         "file": "Mastermind (William Donnelly)(2015).ch8",
         "platforms": ["modernChip8"]
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Space Racer",
     "authors": ["William Donnelly"],
     "images": ["title.gif"],
-    "event": "Octojam4",
     "release": "2017-10-30",
     "description": "Based on the classic 2-player 'Space Race' video game.",
     "roms": {
@@ -2829,13 +3020,16 @@
           "right": 9
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
     "title": "down8",
     "authors": ["tinaun"],
     "images": ["down8.gif"],
-    "event": "Octojam2",
     "release": "2015-10-28",
     "description": "you fall down an endless hole and then you die!",
     "roms": {
@@ -2850,6 +3044,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
@@ -2882,7 +3080,6 @@
     "title": "The Binding of COSMAC",
     "authors": ["buffi"],
     "images": ["title.gif"],
-    "event": "Octojam3",
     "release": "2016-10-21",
     "description": "Simplified Isaac demake for SCHIP. 42 screens across three floors with an exciting boss battle at the end!",
     "roms": {
@@ -2899,13 +3096,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Chipcross",
     "authors": ["buffi"],
     "images": ["chipcross.gif"],
-    "event": "Octojam5",
     "release": "2018-10-15",
     "description": "16 levels of Picross implemented in CHIP8. 800 bytes of fun.",
     "roms": {
@@ -2922,6 +3122,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam5"
     }
   },
   {
@@ -2929,7 +3133,6 @@
     "authors": ["Simon Pacis"],
     "images": ["knight.gif"],
     "urls": ["https://github.com/simonpacis/Knight"],
-    "event": "Octojam3",
     "copyright": "No license. Copy, steal, distribute. Credit if you want to.",
     "release": "2016-10-07",
     "description": "You're Artore the Puny, littlebrother and inferior to your great big brother, King Arthur.\n\nThere have been speculations that the village alchemist, Nefarious Richard, has developed a potion that will allow him to turn into a highly dangerous bat-like creature. You've embarked on a quest to slay Nefarious Richard, who rumor will have it has had too much of his own potion, and is now permanently a bat-like creature.\nYour big brother King Arthur has promised you that if you slay Nefarious Richard, you earn the rights to the throne!\n\nGood luck!",
@@ -2967,13 +3170,16 @@
           "b": 4
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Chipquarium",
     "authors": ["mattmik"],
     "images": ["chipquarium.gif"],
-    "event": "Octojam3",
     "release": "2016-10-31",
     "description": "A CHIP-8 fish tank simulator.",
     "roms": {
@@ -2991,13 +3197,16 @@
           "quietColor": "#0000ff"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
     "title": "Glitch Ghost",
     "authors": ["Jackie Kircher"],
     "images": ["glitchGhost.gif"],
-    "event": "Octojam1",
     "release": "2014-10-29",
     "description": "Glitch ghost is all alone in the cemetery, please help them make some friends by turning the trespassing humans into new ghosts!\n\nControls:\n---------\n\"6\" - advance the title screen\n\n\"6\" - haunt! if there is a person on the screen then they will run away from you. \n      you can move while the person is running.\n\n\"5\",\"7\",\"8\",\"9\" - move up, left, down, and right respectively.\n\n\nGoal:\n-----\nEach screen of the cemetery has a unique layout of tombstones. you'll need to figure \nout how to get each person to run into their own graves. once scared, each person \nwill run away from glitch ghost and turn right whenever they encounter an obstacle, \nbe it a grave, the fence, or even glitch ghost themselves. only one person will enter \nthe cemetery at a time, and they'll always come in through the front gate.",
     "roms": {
@@ -3030,13 +3239,16 @@
           "a": 6
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
     "title": "Octovore",
     "authors": ["Jackie Kircher"],
     "images": ["octovore.gif"],
-    "event": "Octojam2",
     "release": "2015-11-02",
     "description": "O C T O V O R E\na game of hungry hungry octopods\nplay as a starving octopus who just has to eat everything in sight, from crumbs to fishies to donuts. you control its ever-extending arms as it frenzies for food.\nyou must collect every piece of food to advance to the next level. can you beat all 9?\nfor an extra challenge, try raising the clock speed above the default 120 cycles/frame ;)\ncontrols\nmenu\n4 (C) to procede through menus and start the game\nR (D) to toggle between menu options\nleft arm\nthe left arm controls WASD style, but shifted up a row\n2 (2) to steer the left arm up\nQ (4) to steer the left arm left\nW (5) to steer the left arm down\nE (6) to steer the left arm right\nright arm\nthe right arm similarly controls WASD style, but shifted down a row\nS (8) to steer the right arm up\nZ (A) to steer the right arm left\nX (0) to steer the right arm down\nC (B) to steer the right arm right\nshoutouts\nthank you to\n@ColourTann - for the name octovore!\n@lindseybieda - for brainstorming the central mechanics with me!",
     "roms": {
@@ -3057,13 +3269,16 @@
         "file": "Octovore (by Pangasaurus Rex)(2015).sc8",
         "platforms": ["superchip"]
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
     "title": "Business Is Contagious",
     "authors": ["JohnEarnest"],
     "images": ["business.gif"],
-    "event": "NokiaJam",
     "release": "2020-02-05",
     "description": "capitalism.txt",
     "roms": {
@@ -3081,13 +3296,16 @@
           "quietColor": "#43523d"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "NokiaJam"
     }
   },
   {
     "title": "Nokia 3310 Template",
     "authors": ["JohnEarnest"],
     "images": ["simcard.gif"],
-    "event": "NokiaJam",
     "release": "2020-01-20",
     "description": "SCHIP template program for resembling the Nokia 3310",
     "roms": {
@@ -3104,13 +3322,16 @@
           "quietColor": "#43523d"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "NokiaJam"
     }
   },
   {
     "title": "Expedition.",
     "authors": ["JohnEarnest"],
     "images": ["recording.gif"],
-    "event": "NokiaJam",
     "release": "2021-01-06",
     "description": "A short narrative about going outside.",
     "roms": {
@@ -3129,13 +3350,16 @@
           "quietColor": "#43523d"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "NokiaJam"
     }
   },
   {
     "title": "Octo Party Mix!",
     "authors": ["Cratmang"],
     "images": ["recording.gif"],
-    "event": "Octojam7",
     "release": "2020-10-29",
     "description": "It's basically Warioware. But with cute octo buddies!",
     "roms": {
@@ -3154,13 +3378,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Chicken Scratch",
     "authors": ["JohnEarnest"],
     "images": ["gameplay.gif"],
-    "event": "Octojam7",
     "release": "2020-10-28",
     "description": "What if Pac-Man, but Chicken?\n\nControls:\n---------\n* Use \"5/7/8/9\" to run. Press and hold to dash, which is only slightly faster than running.\n* Press \"6\" to peck at bugs. (or dirt. or small rocks. you can peck at anything, really.)\n* Press \"4\" to use echolocation (an ability chickens have) to find distant bugs.",
     "roms": {
@@ -3199,13 +3426,16 @@
           "b": 4
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Applejak",
     "authors": ["JohnEarnest"],
     "images": ["recording.gif"],
-    "event": "Octojam7",
     "release": "2020-10-07",
     "description": "Interpreter for a subset of APL/K.",
     "roms": {
@@ -3223,13 +3453,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Bulb",
     "authors": ["JohnEarnest"],
     "images": ["llama.gif"],
-    "event": "Octojam7",
     "release": "2020-10-15",
     "description": "Interpreter for a language which resembles toenail clippings.",
     "roms": {
@@ -3248,13 +3481,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Squad",
     "authors": ["JohnEarnest"],
     "images": ["fibs.gif"],
-    "event": "Octojam7",
     "release": "2020-10-25",
     "description": "Interpreter for a regular-sized Forth.",
     "roms": {
@@ -3273,13 +3509,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Spock Paper Scissors",
     "authors": ["fontz"],
     "images": ["spockpaperscissors.gif"],
-    "event": "Octojam7",
     "release": "2020-11-01",
     "description": "Intergalactic Rock Paper Scissors.",
     "roms": {
@@ -3298,13 +3537,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam7"
     }
   },
   {
     "title": "Dodge",
     "authors": ["JohnEarnest"],
     "images": ["dodge.gif"],
-    "event": "Octojam8",
     "release": "2021-10-01",
     "description": "Dodging asteroids in 56 bytes.",
     "roms": {
@@ -3323,13 +3565,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam8"
     }
   },
   {
     "title": "Snek",
     "authors": ["JohnEarnest"],
     "images": ["snek.gif"],
-    "event": "Octojam8",
     "release": "2021-10-01",
     "description": "Minimalist Snake in 65 bytes.",
     "roms": {
@@ -3348,13 +3593,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam8"
     }
   },
   {
     "title": "Super Octogon",
     "authors": ["JohnEarnest"],
     "images": ["octogon.gif"],
-    "event": "Octojam8",
     "release": "2021-10-30",
     "description": "Eight fantastic sides, and eight awesome angles.",
     "roms": {
@@ -3373,13 +3621,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam8"
     }
   },
   {
     "title": "Ordinary Idle Garden",
     "authors": ["Cratmang"],
     "images": ["recording.gif"],
-    "event": "NokiaJam",
     "release": "2021-02-05",
     "description": "Grow a tiny garden filled with dandelions, pumpkins... lanturns... skeletons?",
     "roms": {
@@ -3398,13 +3649,16 @@
           "quietColor": "#43523d"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "NokiaJam"
     }
   },
   {
     "title": "Octoma",
     "authors": ["Cratmang"],
     "images": ["recording.gif"],
-    "event": "Octojam8",
     "release": "2021-10-25",
     "description": "A simplified clone of Ultima. Go forth and save the Octo Princess!",
     "roms": {
@@ -3423,13 +3677,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam8"
     }
   },
   {
     "title": "Super Pong",
     "authors": ["offstatic"],
     "images": ["superpong.gif"],
-    "event": "Octojam8",
     "release": "2021-10-15",
     "description": "A fast pong-like.",
     "roms": {
@@ -3448,13 +3705,16 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam8"
     }
   },
   {
     "title": "WDL",
     "authors": ["JohnEarnest"],
     "images": ["wdl.gif"],
-    "event": "Octojam9",
     "release": "2022-10-10",
     "description": "That word game, but shorter.",
     "roms": {
@@ -3473,6 +3733,10 @@
           "quietColor": "#000000"
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam9"
     }
   },
   {
@@ -4343,7 +4607,6 @@
   {
     "title": "Danm8ku",
     "release": "2015-10-31",
-    "event": "Octojam2",
     "authors": ["buffi"],
     "images": ["title.gif", "gameplay.gif"],
     "description": "Bullet hell for the Chip-8!\nSurvive 8 waves of exciting bullet patterns!",
@@ -4385,6 +4648,10 @@
           "right": 9
         }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
