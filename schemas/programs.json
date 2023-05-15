@@ -14,8 +14,7 @@
         },
         "description": {
           "type": "string",
-          "description": "A description of the program, preferably in the way the original author described or published it.",
-          "format": "textarea"
+          "description": "A description of the program, preferably in the way the original author described or published it."
         },
         "release": {
           "type": "string",
@@ -102,8 +101,7 @@
               "superchip",
               "xochip",
               "chip8x",
-              "megachip8",
-              "hiresChip8"
+              "megachip8"
             ]
           }
         },
@@ -136,9 +134,6 @@
               "$ref": "#/definitions/quirkset"
             },
             "megachip8": {
-              "$ref": "#/definitions/quirkset"
-            },
-            "hiresChip8": {
               "$ref": "#/definitions/quirkset"
             }
           }
