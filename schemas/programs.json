@@ -278,39 +278,24 @@
     },
     "colors": {
       "type": "object",
-      "description": "An object with hexadecimal color properties (#RRGGBB) in 'Octo style'.",
+      "description": "An object with hexadecimal color properties (#RRGGBB).",
       "properties": {
-        "fillColor": {
-          "type": "string",
-          "description": "The foreground (or 'on') color, when a pixel's bit is one.",
-          "pattern": "^#[0-9a-f]{6}$",
-          "format": "color"
+        "pixels": {
+          "type": "array",
+          "description": "Colors for all the states a pixel can be in. The length of this array depends on the platform and the number of colors used by the ROM. The colors are sorted by the binary values that represent the pixel's state. So for a single plane, the first color is the 'off' or background color (`0`) and the second color is the 'on' or foreground color (`1`). For programs with two planes the order of colors is: both 'off' (`00`), plane 2 'off' and plane 1 'on' (`01`), plane 2 'on' and plane 1 'off' (`10`) and finally both 'on' (`11`). This extends to more planes for the few programs that support them: adding another plane adds another most significant bit.",
+          "items": {
+            "type": "string",
+            "pattern": "^#[0-9a-f]{6}$",
+            "format": "color"
+          }
         },
-        "fillColor2": {
-          "type": "string",
-          "description": "The secondary foreground (or 'on') color, when a pixel's bit is one in the second XO-CHIP plane.",
-          "pattern": "^#[0-9a-f]{6}$",
-          "format": "color"
-        },
-        "blendColor": {
-          "type": "string",
-          "description": "The color when a pixel's bit is one (or 'on') in both XO-CHIP planes.",
-          "pattern": "^#[0-9a-f]{6}$",
-          "format": "color"
-        },
-        "backgroundColor": {
-          "type": "string",
-          "description": "The background (or 'off') color, when a pixel's bit is zero.",
-          "pattern": "^#[0-9a-f]{6}$",
-          "format": "color"
-        },
-        "buzzColor": {
+        "buzzer": {
           "type": "string",
           "description": "A color that can be used to show a visual 'beep', to accompany the sound timer.",
           "pattern": "^#[0-9a-f]{6}$",
           "format": "color"
         },
-        "quietColor": {
+        "silence": {
           "type": "string",
           "description": "The color of the visual 'beep' when there is no sound (the sound timer is zero).",
           "pattern": "^#[0-9a-f]{6}$",

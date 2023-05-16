@@ -83,11 +83,17 @@ function cleanedROM(archiveProgram) {
       allowedROMOptions[property]
     );
   }
-  for (const property in archiveProgram.options) {
-    if (!allowedColors.includes(property)) continue;
-    result.colors ??= {};
-    result.colors[property] = cast(archiveProgram.options[property], "color");
-  }
+  result.colors = {
+    pixels: [
+      cast(archiveProgram.options.backgroundColor, "color") || "missing color",
+      cast(archiveProgram.options.fillColor, "color") || "missing color",
+      cast(archiveProgram.options.fillColor2, "color") || "missing color",
+      cast(archiveProgram.options.blendColor, "color") || "missing color",
+    ],
+    buzzer: cast(archiveProgram.options.buzzColor, "color"),
+    silence: cast(archiveProgram.options.quietColor, "color"),
+  };
+  if (!result.platforms.includes("xochip")) result.colors.pixels.splice(2);
   if (result.screenRotation == "0") delete result.screenRotation;
   return result;
 }
@@ -160,6 +166,7 @@ function cast(input, type) {
       // The colours in the CHIP-8 Archive are a bit of a mess. Attempt to clean
       // up all the fancy css colour names, colours without a '#' prefix and
       // colours like '#000'.
+      if (!input) return input; // Not a valid color, return for the JSON schema to complain about
       input = input.toString().toLowerCase();
       if (input.match(colorMatcher)) return input;
       if (input in csscolors) return csscolors[input].toLowerCase();
@@ -185,12 +192,3 @@ const allowedROMOptions = {
   touchInputMode: "string",
   fontStyle: "string",
 };
-
-const allowedColors = [
-  "fillColor",
-  "fillColor2",
-  "blendColor",
-  "backgroundColor",
-  "buzzColor",
-  "quietColor",
-];

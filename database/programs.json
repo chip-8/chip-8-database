@@ -1101,10 +1101,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#ffaa00",
-          "backgroundColor": "#aa4400",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa4400", "#ffaa00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1125,12 +1124,9 @@
         "platforms": ["modernChip8", "originalChip8", "superchip", "xochip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#ffaa00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#aa4400",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1151,12 +1147,9 @@
         "platforms": ["modernChip8", "originalChip8", "superchip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#ffaa00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#aa4400",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1177,12 +1170,9 @@
         "platforms": ["modernChip8", "superchip", "xochip"],
         "tickrate": 30,
         "colors": {
-          "fillColor": "#ffaa00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#aa4400",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1203,12 +1193,9 @@
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#000080",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#ff69b4",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#ff69b4", "#000080", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1229,12 +1216,9 @@
         "platforms": ["modernChip8", "superchip", "xochip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#330033",
-          "fillColor2": "#00ffff",
-          "blendColor": "#ffffff",
-          "backgroundColor": "#aaaaff",
-          "buzzColor": "#990099",
-          "quietColor": "#330033"
+          "pixels": ["#aaaaff", "#330033", "#00ffff", "#ffffff"],
+          "buzzer": "#990099",
+          "silence": "#330033"
         }
       }
     },
@@ -1257,12 +1241,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#ff8c1f",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#662200",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#662200", "#ff8c1f", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1285,12 +1266,9 @@
         "touchInputMode": "none",
         "fontStyle": "fish",
         "colors": {
-          "fillColor": "#ffaa00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#aa4400",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1313,12 +1291,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1341,12 +1316,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#e0ffff",
-          "fillColor2": "#7fffd4",
-          "blendColor": "#7fffd4",
-          "backgroundColor": "#001000",
-          "buzzColor": "#333333",
-          "quietColor": "#000000"
+          "pixels": ["#001000", "#e0ffff", "#7fffd4", "#7fffd4"],
+          "buzzer": "#333333",
+          "silence": "#000000"
         }
       }
     },
@@ -1369,12 +1341,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#e6e6fa",
-          "fillColor2": "#ff1493",
-          "blendColor": "#ff1493",
-          "backgroundColor": "#100010",
-          "buzzColor": "#000000",
-          "quietColor": "#000000"
+          "pixels": ["#100010", "#e6e6fa", "#ff1493", "#ff1493"],
+          "buzzer": "#000000",
+          "silence": "#000000"
         }
       }
     },
@@ -1395,12 +1364,9 @@
         "platforms": ["xochip"],
         "tickrate": 200,
         "colors": {
-          "fillColor": "#443300",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#aa7700",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa7700", "#443300", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1421,12 +1387,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#306230",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#8bac0f",
-          "buzzColor": "#333333",
-          "quietColor": "#000000"
+          "pixels": ["#8bac0f", "#306230", "#ff6600", "#662200"],
+          "buzzer": "#333333",
+          "silence": "#000000"
         }
       }
     },
@@ -1447,12 +1410,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#d3d3d3",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#808080",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#808080", "#d3d3d3", "#ff6600", "#662200"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -1473,12 +1433,9 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 30,
         "colors": {
-          "fillColor": "#000080",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#b0e0e6",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#b0e0e6", "#000080", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         },
         "keys": {
           "up": 5,
@@ -1517,10 +1474,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "backgroundColor": "#6699ff",
-          "fillColor": "#000066",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#6699ff", "#000066"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     }
@@ -1537,10 +1493,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 20,
         "colors": {
-          "backgroundColor": "#996600",
-          "fillColor": "#ffcc00",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     }
@@ -1557,10 +1512,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 100,
         "colors": {
-          "backgroundColor": "#117799",
-          "fillColor": "#ffffff",
-          "buzzColor": "#1166dd",
-          "quietColor": "#000000"
+          "pixels": ["#117799", "#ffffff"],
+          "buzzer": "#1166dd",
+          "silence": "#000000"
         }
       }
     }
@@ -1577,10 +1531,9 @@
         "platforms": ["xochip"],
         "tickrate": 100,
         "colors": {
-          "backgroundColor": "#ffffff",
-          "fillColor": "#000000",
-          "buzzColor": "#666666",
-          "quietColor": "#000000"
+          "pixels": ["#ffffff", "#000000"],
+          "buzzer": "#666666",
+          "silence": "#000000"
         }
       }
     },
@@ -1601,10 +1554,9 @@
         "platforms": ["xochip"],
         "tickrate": 20,
         "colors": {
-          "backgroundColor": "#808080",
-          "fillColor": "#000000",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#808080", "#000000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     }
@@ -1621,10 +1573,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 100,
         "colors": {
-          "backgroundColor": "#996600",
-          "fillColor": "#ffcc00",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     }
@@ -1641,10 +1592,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "backgroundColor": "#664400",
-          "fillColor": "#aa4400",
-          "buzzColor": "#ff7f50",
-          "quietColor": "#000000"
+          "pixels": ["#664400", "#aa4400"],
+          "buzzer": "#ff7f50",
+          "silence": "#000000"
         }
       }
     }
@@ -1661,10 +1611,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "backgroundColor": "#aa9999",
-          "fillColor": "#220000",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#aa9999", "#220000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1685,10 +1634,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "backgroundColor": "#111111",
-          "fillColor": "#eeeeee",
-          "buzzColor": "#ffff00",
-          "quietColor": "#222222"
+          "pixels": ["#111111", "#eeeeee"],
+          "buzzer": "#ffff00",
+          "silence": "#222222"
         }
       }
     },
@@ -1709,10 +1657,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "backgroundColor": "#ffa500",
-          "fillColor": "#111122",
-          "buzzColor": "#ffff00",
-          "quietColor": "#222222"
+          "pixels": ["#ffa500", "#111122"],
+          "buzzer": "#ffff00",
+          "silence": "#222222"
         }
       }
     },
@@ -1733,12 +1680,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#fafafa",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#0c0c0c",
-          "buzzColor": "#fafafa",
-          "quietColor": "#1a1a1a"
+          "pixels": ["#0c0c0c", "#fafafa", "#ff6600", "#662200"],
+          "buzzer": "#fafafa",
+          "silence": "#1a1a1a"
         }
       }
     },
@@ -1759,12 +1703,9 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#f1f1f1",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#0f0f0f",
-          "buzzColor": "#aaff55",
-          "quietColor": "#777777"
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
         }
       }
     },
@@ -1785,12 +1726,9 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#f1f1f1",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#0f0f0f",
-          "buzzColor": "#aaff55",
-          "quietColor": "#777777"
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
         }
       }
     },
@@ -1811,12 +1749,9 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#f1f1f1",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#0f0f0f",
-          "buzzColor": "#aaff55",
-          "quietColor": "#777777"
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
         }
       }
     },
@@ -1837,12 +1772,9 @@
         "platforms": ["superchip"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#1f1f1f",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#f0f0f0",
-          "buzzColor": "#aa2222",
-          "quietColor": "#000000"
+          "pixels": ["#f0f0f0", "#1f1f1f", "#ff6600", "#662200"],
+          "buzzer": "#aa2222",
+          "silence": "#000000"
         }
       }
     },
@@ -1863,12 +1795,9 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#f1f1f1",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#0f0f0f",
-          "buzzColor": "#aaff55",
-          "quietColor": "#777777"
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
         }
       }
     },
@@ -1887,8 +1816,7 @@
       "3f9ef8dec999574a188ec3b9615cff9888283c85": {
         "file": "tank.ch8",
         "platforms": ["modernChip8"],
-        "tickrate": 200,
-        "colors": {}
+        "tickrate": 200
       }
     },
     "origin": {
@@ -1908,10 +1836,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#cccccc",
-          "backgroundColor": "#333333",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#333333", "#cccccc"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -1932,10 +1859,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#ffcc00",
-          "backgroundColor": "#0000ff",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#0000ff", "#ffcc00"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -1956,10 +1882,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 200,
         "colors": {
-          "fillColor": "#ffe900",
-          "backgroundColor": "#ed7f37",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#ed7f37", "#ffe900"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -1980,10 +1905,9 @@
         "platforms": ["superchip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#553300",
-          "backgroundColor": "#ffffff",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#ffffff"
+          "pixels": ["#ffffff", "#553300"],
+          "buzzer": "#ffaa00",
+          "silence": "#ffffff"
         }
       }
     },
@@ -2004,12 +1928,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#554422",
-          "fillColor2": "#456543",
-          "blendColor": "#eeeeff",
-          "backgroundColor": "#87ceeb",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#87ceeb", "#554422", "#456543", "#eeeeff"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -2030,12 +1951,9 @@
         "platforms": ["xochip"],
         "tickrate": 30,
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     }
@@ -2052,12 +1970,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#fdffd5",
-          "blendColor": "#ba5a1a",
-          "backgroundColor": "#353c41",
-          "buzzColor": "#353c41",
-          "quietColor": "#353c41"
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
         }
       }
     },
@@ -2078,12 +1993,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#fdffd5",
-          "blendColor": "#ba5a1a",
-          "backgroundColor": "#353c41",
-          "buzzColor": "#353c41",
-          "quietColor": "#353c41"
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
         }
       }
     },
@@ -2104,12 +2016,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#fdffd5",
-          "blendColor": "#ba5a1a",
-          "backgroundColor": "#353c41",
-          "buzzColor": "#353c41",
-          "quietColor": "#353c41"
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
         }
       }
     },
@@ -2130,12 +2039,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#fdffd5",
-          "blendColor": "#ba5a1a",
-          "backgroundColor": "#353c41",
-          "buzzColor": "#353c41",
-          "quietColor": "#353c41"
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
         }
       }
     },
@@ -2156,12 +2062,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#fdffd5",
-          "blendColor": "#ba5a1a",
-          "backgroundColor": "#353c41",
-          "buzzColor": "#353c41",
-          "quietColor": "#353c41"
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
         }
       }
     },
@@ -2182,12 +2085,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#fdffd5",
-          "blendColor": "#ba5a1a",
-          "backgroundColor": "#353c41",
-          "buzzColor": "#353c41",
-          "quietColor": "#353c41"
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
         }
       }
     },
@@ -2209,12 +2109,9 @@
         "tickrate": 60,
         "screenRotation": 270,
         "colors": {
-          "fillColor": "#ffffff",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#000000",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#111111"
+          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#111111"
         }
       }
     },
@@ -2235,12 +2132,9 @@
         "platforms": ["superchip"],
         "tickrate": 200,
         "colors": {
-          "fillColor": "#acd5ff",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#113152",
-          "buzzColor": "#264c74",
-          "quietColor": "#000000"
+          "pixels": ["#113152", "#acd5ff", "#ff6600", "#662200"],
+          "buzzer": "#264c74",
+          "silence": "#000000"
         }
       }
     },
@@ -2261,12 +2155,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#ff6666",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#1a3674",
-          "buzzColor": "#3b6c83",
-          "quietColor": "#000000"
+          "pixels": ["#1a3674", "#ff6666", "#ff6600", "#662200"],
+          "buzzer": "#3b6c83",
+          "silence": "#000000"
         }
       }
     },
@@ -2287,12 +2178,9 @@
         "platforms": ["superchip"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#1a3279",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#bad9b6",
-          "buzzColor": "#fff6d6",
-          "quietColor": "#000000"
+          "pixels": ["#bad9b6", "#1a3279", "#ff6600", "#662200"],
+          "buzzer": "#fff6d6",
+          "silence": "#000000"
         }
       }
     },
@@ -2313,10 +2201,9 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#ffcc00",
-          "backgroundColor": "#0000ff",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#0000ff", "#ffcc00"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -2337,8 +2224,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#330033",
-          "backgroundColor": "#aaaaff"
+          "pixels": ["#aaaaff", "#330033"]
         }
       }
     },
@@ -2359,10 +2245,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 200,
         "colors": {
-          "fillColor": "#ffcc00",
-          "backgroundColor": "#0000ff",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#0000ff", "#ffcc00"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -2383,10 +2268,9 @@
         "platforms": ["superchip"],
         "tickrate": 500,
         "colors": {
-          "fillColor": "#ffffff",
-          "backgroundColor": "#552200",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#552200", "#ffffff"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -2407,12 +2291,9 @@
         "platforms": ["xochip"],
         "tickrate": 100,
         "colors": {
-          "fillColor": "#754d27",
-          "fillColor2": "#738c3a",
-          "blendColor": "#e2cb8a",
-          "backgroundColor": "#141421",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#141421", "#754d27", "#738c3a", "#e2cb8a"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -2438,12 +2319,9 @@
         },
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#4b636f",
-          "fillColor2": "#af2d3d",
-          "blendColor": "#af2d3d",
-          "backgroundColor": "#121212",
-          "buzzColor": "#000000",
-          "quietColor": "#000000"
+          "pixels": ["#121212", "#4b636f", "#af2d3d", "#af2d3d"],
+          "buzzer": "#000000",
+          "silence": "#000000"
         }
       }
     },
@@ -2487,12 +2365,9 @@
         "platforms": ["xochip"],
         "tickrate": 500,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#ff0000",
-          "blendColor": "#ff0000",
-          "backgroundColor": "#ffffff",
-          "buzzColor": "#808080",
-          "quietColor": "#000000"
+          "pixels": ["#ffffff", "#000000", "#ff0000", "#ff0000"],
+          "buzzer": "#808080",
+          "silence": "#000000"
         }
       },
       "0893dd3b5fafa013f07acc9aa98876f84f328d54": {
@@ -2500,12 +2375,9 @@
         "platforms": ["xochip"],
         "tickrate": 500,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#ff0000",
-          "blendColor": "#ff0000",
-          "backgroundColor": "#ffffff",
-          "buzzColor": "#808080",
-          "quietColor": "#000000"
+          "pixels": ["#ffffff", "#000000", "#ff0000", "#ff0000"],
+          "buzzer": "#808080",
+          "silence": "#000000"
         }
       }
     },
@@ -2526,10 +2398,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 30,
         "colors": {
-          "fillColor": "#783809",
-          "backgroundColor": "#a0cb6d",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#a0cb6d", "#783809"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       },
       "84d612c7eccf24835eb585711a49964572444737": {
@@ -2560,12 +2431,9 @@
         },
         "tickrate": 20,
         "colors": {
-          "fillColor": "#c3c3c3",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#006c00",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#006c00", "#c3c3c3", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       },
       "45f7c33b284b0f3e1393f0dd97e4b3b9fd9c63c9": {
@@ -2601,12 +2469,9 @@
         },
         "tickrate": 100,
         "colors": {
-          "fillColor": "#ff00ff",
-          "fillColor2": "#00ffff",
-          "blendColor": "#ffffff",
-          "backgroundColor": "#000000",
-          "buzzColor": "#990099",
-          "quietColor": "#330033"
+          "pixels": ["#000000", "#ff00ff", "#00ffff", "#ffffff"],
+          "buzzer": "#990099",
+          "silence": "#330033"
         }
       }
     },
@@ -2627,12 +2492,9 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#ff00ff",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#00ffff",
-          "buzzColor": "#990099",
-          "quietColor": "#330033"
+          "pixels": ["#00ffff", "#ff00ff", "#ff6600", "#662200"],
+          "buzzer": "#990099",
+          "silence": "#330033"
         }
       }
     },
@@ -2654,12 +2516,9 @@
         "tickrate": 7,
         "touchInputMode": "seg16",
         "colors": {
-          "fillColor": "#ffffff",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#000000",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -2680,12 +2539,9 @@
         "platforms": ["xochip"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#9bbc0f",
-          "fillColor2": "#8bac0f",
-          "blendColor": "#306230",
-          "backgroundColor": "#0f380f",
-          "buzzColor": "#333333",
-          "quietColor": "#000000"
+          "pixels": ["#0f380f", "#9bbc0f", "#8bac0f", "#306230"],
+          "buzzer": "#333333",
+          "silence": "#000000"
         }
       },
       "808aeb072604809e0ef13c245115a81f40422d1d": {
@@ -2710,10 +2566,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#ff84fe",
-          "backgroundColor": "#ca2553",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#f090e4"
+          "pixels": ["#ca2553", "#ff84fe"],
+          "buzzer": "#ffaa00",
+          "silence": "#f090e4"
         }
       },
       "c9a13c00d8391f352488661fc3b15217f0e8d9fd": {
@@ -2721,10 +2576,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "fillColor": "#ff84fe",
-          "backgroundColor": "#ca2553",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#f090e4"
+          "pixels": ["#ca2553", "#ff84fe"],
+          "buzzer": "#ffaa00",
+          "silence": "#f090e4"
         }
       }
     },
@@ -2745,10 +2599,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#00f80a",
-          "backgroundColor": "#274a17",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#142a12"
+          "pixels": ["#274a17", "#00f80a"],
+          "buzzer": "#ffaa00",
+          "silence": "#142a12"
         }
       }
     },
@@ -2769,12 +2622,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#b8cd9e",
-          "fillColor2": "#ed656b",
-          "blendColor": "#55989e",
-          "backgroundColor": "#59755e",
-          "buzzColor": "#000000",
-          "quietColor": "#000000"
+          "pixels": ["#59755e", "#b8cd9e", "#ed656b", "#55989e"],
+          "buzzer": "#000000",
+          "silence": "#000000"
         }
       }
     }
@@ -2791,12 +2641,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#1a1c19",
-          "fillColor2": "#a0a29f",
-          "blendColor": "#5d5b5d",
-          "backgroundColor": "#fafdf9",
-          "buzzColor": "#222211",
-          "quietColor": "#212110"
+          "pixels": ["#fafdf9", "#1a1c19", "#a0a29f", "#5d5b5d"],
+          "buzzer": "#222211",
+          "silence": "#212110"
         }
       }
     },
@@ -2817,12 +2664,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#b22d10",
-          "fillColor2": "#10b258",
-          "blendColor": "#ffffff",
-          "backgroundColor": "#283593",
-          "buzzColor": "#182583",
-          "quietColor": "#182583"
+          "pixels": ["#283593", "#b22d10", "#10b258", "#ffffff"],
+          "buzzer": "#182583",
+          "silence": "#182583"
         }
       }
     },
@@ -2843,12 +2687,9 @@
         "platforms": ["xochip"],
         "tickrate": 10000,
         "colors": {
-          "fillColor": "#000000",
-          "fillColor2": "#ffff00",
-          "blendColor": "#808000",
-          "backgroundColor": "#b22d10",
-          "buzzColor": "#400000",
-          "quietColor": "#400000"
+          "pixels": ["#b22d10", "#000000", "#ffff00", "#808000"],
+          "buzzer": "#400000",
+          "silence": "#400000"
         }
       }
     },
@@ -2869,12 +2710,9 @@
         "platforms": ["xochip"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#7b0201",
-          "fillColor2": "#f2faf7",
-          "blendColor": "#e7ed3e",
-          "backgroundColor": "#d4d4d4",
-          "buzzColor": "#990099",
-          "quietColor": "#330033"
+          "pixels": ["#d4d4d4", "#7b0201", "#f2faf7", "#e7ed3e"],
+          "buzzer": "#990099",
+          "silence": "#330033"
         }
       },
       "f12038dcd28ca71661162bfb6fc92a8826f7d6b9": {
@@ -2899,10 +2737,9 @@
         "platforms": ["superchip"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#84a174",
-          "backgroundColor": "#30283e",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#30283e", "#84a174"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         },
         "keys": {
           "up": 5,
@@ -2939,12 +2776,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 100,
         "colors": {
-          "fillColor": "#fcfcfc",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#111111",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#111111", "#fcfcfc", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -2965,12 +2799,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#fcfcfc",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#005e20",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#005e20", "#fcfcfc", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       },
       "d2fa3927b31f81fc06cd9466123309c59264fa41": {
@@ -2995,12 +2826,9 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#fcfcfc",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#111111",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#111111", "#fcfcfc", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         },
         "keys": {
           "up": 5,
@@ -3038,10 +2866,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "fillColor": "#27130f",
-          "backgroundColor": "#3dbdfa",
-          "buzzColor": "#ff6600",
-          "quietColor": "#000000"
+          "pixels": ["#3dbdfa", "#27130f"],
+          "buzzer": "#ff6600",
+          "silence": "#000000"
         }
       }
     },
@@ -3062,12 +2889,9 @@
         "platforms": ["xochip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       },
       "018e6da9937173b1ac44d4261e848af485dcd305": {
@@ -3088,12 +2912,9 @@
         "platforms": ["superchip"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3114,12 +2935,9 @@
         "platforms": ["xochip"],
         "tickrate": 20,
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3142,12 +2960,9 @@
         "platforms": ["superchip", "xochip"],
         "tickrate": 200,
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         },
         "keys": {
           "up": 5,
@@ -3189,12 +3004,9 @@
         "tickrate": 15,
         "touchInputMode": "none",
         "colors": {
-          "fillColor": "#ffffff",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#0072ff",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#0000ff"
+          "pixels": ["#0072ff", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#0000ff"
         }
       }
     },
@@ -3215,10 +3027,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 200,
         "colors": {
-          "fillColor": "#ffffff",
-          "backgroundColor": "#555555",
-          "buzzColor": "#ffffff",
-          "quietColor": "#000000"
+          "pixels": ["#555555", "#ffffff"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         },
         "keys": {
           "up": 5,
@@ -3257,12 +3068,9 @@
         "platforms": ["xochip"],
         "tickrate": 120,
         "colors": {
-          "fillColor": "#5b1b96",
-          "fillColor2": "#e03b22",
-          "blendColor": "#68e022",
-          "backgroundColor": "#8bdce8",
-          "buzzColor": "#68e022",
-          "quietColor": "#000000"
+          "pixels": ["#8bdce8", "#5b1b96", "#e03b22", "#68e022"],
+          "buzzer": "#68e022",
+          "silence": "#000000"
         }
       },
       "1ff6e2a8920c5b48def34348df65226285f39ce9": {
@@ -3288,12 +3096,9 @@
         "tickrate": 1000,
         "touchInputMode": "gamepad",
         "colors": {
-          "fillColor": "#43523d",
-          "fillColor2": "#43523d",
-          "blendColor": "#43523d",
-          "backgroundColor": "#c7f0d8",
-          "buzzColor": "#43523d",
-          "quietColor": "#43523d"
+          "pixels": ["#c7f0d8", "#43523d", "#43523d", "#43523d"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
         }
       }
     },
@@ -3314,12 +3119,9 @@
         "platforms": ["superchip"],
         "tickrate": 30,
         "colors": {
-          "fillColor": "#c7f0d8",
-          "fillColor2": "#c7f0d8",
-          "blendColor": "#c7f0d8",
-          "backgroundColor": "#43523d",
-          "buzzColor": "#43523d",
-          "quietColor": "#43523d"
+          "pixels": ["#43523d", "#c7f0d8", "#c7f0d8", "#c7f0d8"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
         }
       }
     },
@@ -3342,12 +3144,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#43523d",
-          "fillColor2": "#43523d",
-          "blendColor": "#43523d",
-          "backgroundColor": "#c7f0d8",
-          "buzzColor": "#43523d",
-          "quietColor": "#43523d"
+          "pixels": ["#c7f0d8", "#43523d", "#43523d", "#43523d"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
         }
       }
     },
@@ -3370,12 +3169,9 @@
         "touchInputMode": "swipe",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#55ff55",
-          "fillColor2": "#ff7700",
-          "blendColor": "#ffffff",
-          "backgroundColor": "#000000",
-          "buzzColor": "#000000",
-          "quietColor": "#000000"
+          "pixels": ["#000000", "#55ff55", "#ff7700", "#ffffff"],
+          "buzzer": "#000000",
+          "silence": "#000000"
         }
       }
     },
@@ -3398,12 +3194,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#7c4300",
-          "fillColor2": "#fd8100",
-          "blendColor": "#fd8100",
-          "backgroundColor": "#d5a08c",
-          "buzzColor": "#3c2300",
-          "quietColor": "#000000"
+          "pixels": ["#d5a08c", "#7c4300", "#fd8100", "#fd8100"],
+          "buzzer": "#3c2300",
+          "silence": "#000000"
         },
         "keys": {
           "up": 5,
@@ -3445,12 +3238,9 @@
         "tickrate": 100,
         "touchInputMode": "none",
         "colors": {
-          "fillColor": "#b00000",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#001000",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#001000", "#b00000", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3473,12 +3263,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#1e90ff",
-          "fillColor2": "#abcc47",
-          "blendColor": "#00131a",
-          "backgroundColor": "#f9ffb3",
-          "buzzColor": "#f9ffb3",
-          "quietColor": "#000000"
+          "pixels": ["#f9ffb3", "#1e90ff", "#abcc47", "#00131a"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
         }
       }
     },
@@ -3501,12 +3288,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#ffaf00",
-          "fillColor2": "#fd8100",
-          "blendColor": "#fd8100",
-          "backgroundColor": "#663300",
-          "buzzColor": "#f9ffb3",
-          "quietColor": "#000000"
+          "pixels": ["#663300", "#ffaf00", "#fd8100", "#fd8100"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
         }
       }
     },
@@ -3529,12 +3313,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#b4b4b4",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#323232",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#323232", "#b4b4b4", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3557,12 +3338,9 @@
         "touchInputMode": "swipe",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3585,12 +3363,9 @@
         "touchInputMode": "swipe",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#ffcc00",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#996600",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3613,12 +3388,9 @@
         "touchInputMode": "swipe",
         "fontStyle": "fish",
         "colors": {
-          "fillColor": "#ff69b4",
-          "fillColor2": "#333333",
-          "blendColor": "#ffffff",
-          "backgroundColor": "#000000",
-          "buzzColor": "#111111",
-          "quietColor": "#000000"
+          "pixels": ["#000000", "#ff69b4", "#333333", "#ffffff"],
+          "buzzer": "#111111",
+          "silence": "#000000"
         }
       }
     },
@@ -3641,12 +3413,9 @@
         "touchInputMode": "none",
         "fontStyle": "fish",
         "colors": {
-          "fillColor": "#43523d",
-          "fillColor2": "#43523d",
-          "blendColor": "#43523d",
-          "backgroundColor": "#c7f0d8",
-          "buzzColor": "#43523d",
-          "quietColor": "#43523d"
+          "pixels": ["#c7f0d8", "#43523d", "#43523d", "#43523d"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
         }
       }
     },
@@ -3669,12 +3438,9 @@
         "touchInputMode": "none",
         "fontStyle": "fish",
         "colors": {
-          "fillColor": "#ff00ff",
-          "fillColor2": "#00ffff",
-          "blendColor": "#ffffff",
-          "backgroundColor": "#000000",
-          "buzzColor": "#000000",
-          "quietColor": "#000000"
+          "pixels": ["#000000", "#ff00ff", "#00ffff", "#ffffff"],
+          "buzzer": "#000000",
+          "silence": "#000000"
         }
       }
     },
@@ -3697,12 +3463,9 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#43523d",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#c7f0d8",
-          "buzzColor": "#ffaa00",
-          "quietColor": "#000000"
+          "pixels": ["#c7f0d8", "#43523d", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
         }
       }
     },
@@ -3725,12 +3488,9 @@
         "touchInputMode": "swipe",
         "fontStyle": "octo",
         "colors": {
-          "fillColor": "#808080",
-          "fillColor2": "#ff6600",
-          "blendColor": "#662200",
-          "backgroundColor": "#d3d3d3",
-          "buzzColor": "#ff0000",
-          "quietColor": "#000000"
+          "pixels": ["#d3d3d3", "#808080", "#ff6600", "#662200"],
+          "buzzer": "#ff0000",
+          "silence": "#000000"
         }
       }
     },
@@ -4615,12 +4375,9 @@
         "file": "Danm8ku (by buffis)(2015).ch8",
         "platforms": ["modernChip8"],
         "colors": {
-          "fillColor": "#00ff00",
-          "fillColor2": "#ff0000",
-          "blendColor": "#ffff00",
-          "backgroundColor": "#000000",
-          "buzzColor": "#999900",
-          "quietColor": "#333300"
+          "pixels": ["#000000", "#00ff00", "#ff0000", "#ffff00"],
+          "buzzer": "#999900",
+          "silence": "#333300"
         },
         "keys": {
           "up": 5,
@@ -4634,12 +4391,9 @@
         "platforms": ["modernChip8"],
         "tickrate": 1000,
         "colors": {
-          "fillColor": "#00ff00",
-          "fillColor2": "#ff0000",
-          "blendColor": "#ffff00",
-          "backgroundColor": "#000000",
-          "buzzColor": "#999900",
-          "quietColor": "#333300"
+          "pixels": ["#000000", "#00ff00", "#ff0000", "#ffff00"],
+          "buzzer": "#999900",
+          "silence": "#333300"
         },
         "keys": {
           "up": 5,
