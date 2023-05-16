@@ -1147,7 +1147,7 @@
         "platforms": ["modernChip8", "originalChip8", "superchip"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
+          "pixels": ["#aa4400", "#ffaa00"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -1387,7 +1387,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "pixels": ["#8bac0f", "#306230", "#ff6600", "#662200"],
+          "pixels": ["#8bac0f", "#306230"],
           "buzzer": "#333333",
           "silence": "#000000"
         }
@@ -1433,7 +1433,7 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 30,
         "colors": {
-          "pixels": ["#b0e0e6", "#000080", "#ff6600", "#662200"],
+          "pixels": ["#b0e0e6", "#000080"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         },
@@ -1680,7 +1680,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#0c0c0c", "#fafafa", "#ff6600", "#662200"],
+          "pixels": ["#0c0c0c", "#fafafa"],
           "buzzer": "#fafafa",
           "silence": "#1a1a1a"
         }
@@ -1703,7 +1703,7 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "pixels": ["#0f0f0f", "#f1f1f1"],
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
@@ -1726,7 +1726,7 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "pixels": ["#0f0f0f", "#f1f1f1"],
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
@@ -1749,7 +1749,7 @@
         "platforms": ["originalChip8", "modernChip8"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "pixels": ["#0f0f0f", "#f1f1f1"],
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
@@ -1772,7 +1772,7 @@
         "platforms": ["superchip"],
         "tickrate": 20,
         "colors": {
-          "pixels": ["#f0f0f0", "#1f1f1f", "#ff6600", "#662200"],
+          "pixels": ["#f0f0f0", "#1f1f1f"],
           "buzzer": "#aa2222",
           "silence": "#000000"
         }
@@ -1795,7 +1795,7 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "pixels": ["#0f0f0f", "#f1f1f1"],
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
@@ -2132,7 +2132,7 @@
         "platforms": ["superchip"],
         "tickrate": 200,
         "colors": {
-          "pixels": ["#113152", "#acd5ff", "#ff6600", "#662200"],
+          "pixels": ["#113152", "#acd5ff"],
           "buzzer": "#264c74",
           "silence": "#000000"
         }
@@ -2155,7 +2155,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 15,
         "colors": {
-          "pixels": ["#1a3674", "#ff6666", "#ff6600", "#662200"],
+          "pixels": ["#1a3674", "#ff6666"],
           "buzzer": "#3b6c83",
           "silence": "#000000"
         }
@@ -2178,7 +2178,7 @@
         "platforms": ["superchip"],
         "tickrate": 20,
         "colors": {
-          "pixels": ["#bad9b6", "#1a3279", "#ff6600", "#662200"],
+          "pixels": ["#bad9b6", "#1a3279"],
           "buzzer": "#fff6d6",
           "silence": "#000000"
         }
@@ -2431,7 +2431,7 @@
         },
         "tickrate": 20,
         "colors": {
-          "pixels": ["#006c00", "#c3c3c3", "#ff6600", "#662200"],
+          "pixels": ["#006c00", "#c3c3c3"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -2492,7 +2492,7 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 7,
         "colors": {
-          "pixels": ["#00ffff", "#ff00ff", "#ff6600", "#662200"],
+          "pixels": ["#00ffff", "#ff00ff"],
           "buzzer": "#990099",
           "silence": "#330033"
         }
@@ -2516,7 +2516,7 @@
         "tickrate": 7,
         "touchInputMode": "seg16",
         "colors": {
-          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "pixels": ["#000000", "#ffffff"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -2776,7 +2776,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 100,
         "colors": {
-          "pixels": ["#111111", "#fcfcfc", "#ff6600", "#662200"],
+          "pixels": ["#111111", "#fcfcfc"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -2799,7 +2799,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 20,
         "colors": {
-          "pixels": ["#005e20", "#fcfcfc", "#ff6600", "#662200"],
+          "pixels": ["#005e20", "#fcfcfc"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -2826,7 +2826,7 @@
         "platforms": ["modernChip8", "originalChip8"],
         "tickrate": 20,
         "colors": {
-          "pixels": ["#111111", "#fcfcfc", "#ff6600", "#662200"],
+          "pixels": ["#111111", "#fcfcfc"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         },
@@ -2912,7 +2912,7 @@
         "platforms": ["superchip"],
         "tickrate": 1000,
         "colors": {
-          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "pixels": ["#996600", "#ffcc00"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -3004,7 +3004,7 @@
         "tickrate": 15,
         "touchInputMode": "none",
         "colors": {
-          "pixels": ["#0072ff", "#ffffff", "#ff6600", "#662200"],
+          "pixels": ["#0072ff", "#ffffff"],
           "buzzer": "#ffaa00",
           "silence": "#0000ff"
         }
@@ -3119,7 +3119,7 @@
         "platforms": ["superchip"],
         "tickrate": 30,
         "colors": {
-          "pixels": ["#43523d", "#c7f0d8", "#c7f0d8", "#c7f0d8"],
+          "pixels": ["#43523d", "#c7f0d8"],
           "buzzer": "#43523d",
           "silence": "#43523d"
         }
@@ -3238,7 +3238,7 @@
         "tickrate": 100,
         "touchInputMode": "none",
         "colors": {
-          "pixels": ["#001000", "#b00000", "#ff6600", "#662200"],
+          "pixels": ["#001000", "#b00000"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -3263,7 +3263,7 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "pixels": ["#f9ffb3", "#1e90ff", "#abcc47", "#00131a"],
+          "pixels": ["#f9ffb3", "#1e90ff"],
           "buzzer": "#f9ffb3",
           "silence": "#000000"
         }
@@ -3288,7 +3288,7 @@
         "touchInputMode": "none",
         "fontStyle": "octo",
         "colors": {
-          "pixels": ["#663300", "#ffaf00", "#fd8100", "#fd8100"],
+          "pixels": ["#663300", "#ffaf00"],
           "buzzer": "#f9ffb3",
           "silence": "#000000"
         }
@@ -3388,7 +3388,7 @@
         "touchInputMode": "swipe",
         "fontStyle": "fish",
         "colors": {
-          "pixels": ["#000000", "#ff69b4", "#333333", "#ffffff"],
+          "pixels": ["#000000", "#ff69b4"],
           "buzzer": "#111111",
           "silence": "#000000"
         }
@@ -3488,7 +3488,7 @@
         "touchInputMode": "swipe",
         "fontStyle": "octo",
         "colors": {
-          "pixels": ["#d3d3d3", "#808080", "#ff6600", "#662200"],
+          "pixels": ["#d3d3d3", "#808080"],
           "buzzer": "#ff0000",
           "silence": "#000000"
         }
@@ -4375,7 +4375,7 @@
         "file": "Danm8ku (by buffis)(2015).ch8",
         "platforms": ["modernChip8"],
         "colors": {
-          "pixels": ["#000000", "#00ff00", "#ff0000", "#ffff00"],
+          "pixels": ["#000000", "#00ff00"],
           "buzzer": "#999900",
           "silence": "#333300"
         },
@@ -4391,7 +4391,7 @@
         "platforms": ["modernChip8"],
         "tickrate": 1000,
         "colors": {
-          "pixels": ["#000000", "#00ff00", "#ff0000", "#ffff00"],
+          "pixels": ["#000000", "#00ff00"],
           "buzzer": "#999900",
           "silence": "#333300"
         },
