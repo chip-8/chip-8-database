@@ -44,7 +44,8 @@
       "d40abc54374e4343639f993e897e00904ddf85d9": {
         "file": "Blinky [Hans Christian Egeberg, 1991].ch8",
         "platforms": ["superchip"],
-        "description": "Blinky (1991), by Hans Christian Egeberg\n\nPacman clone.\n3, 6 - down/up. 7, 8 - left/right"
+        "description": "Blinky (1991), by Hans Christian Egeberg\n\nPacman clone.\n3, 6 - down/up. 7, 8 - left/right",
+        "embeddedTitle": "2.00 C. Egeberg 18/8-'91"
       },
       "f4169141735d8d60e51409ca7e73f4adedcefef2": {
         "file": "Blinky [Hans Christian Egeberg] (alt).ch8",
@@ -95,15 +96,23 @@
     "title": "Blitz",
     "authors": ["David Winter"],
     "description": "Blitz, by David Winter\n\nThis game is a BOMBER clone. You are in a plane, and you must destroy the towers of a town. Your plane is flying left to right, and goes down. Use 5 to drop a bomb. The game ends when you crash yourself on a tower...",
+    "release": "1996",
     "roms": {
       "6f6509f38220e057a7e32ebb22dd353c1078e3e7": {
         "file": "Blitz [David Winter].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "BLITZ By David WINTER",
+        "keys": {
+          "a": 5
+        }
       },
       "a3b80d4a9efa8e7700d348d3e3ddf81d3c7e92a9": {
         "file": "Blitz (fix) (by David Winter).ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "BLITZ fixed by J0hn"
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "BLITZ fixed by J0hn",
+        "keys": {
+          "a": 5
+        }
       }
     }
   },
@@ -136,7 +145,11 @@
     "roms": {
       "237756a4014fb3aa82a29246a7cdd534f8dc2dbb": {
         "file": "Breakout (Brix hack) [David Winter, 1997].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "left": 4,
+          "right": 6
+        }
       }
     }
   },
@@ -320,10 +333,15 @@
     "title": "Guess the Number",
     "description": "Guess, by David Winter\n\nThink to a number between 1 and 63. CHIP8 shows you several boards and you have to tell if you see your number in them. Press 5 if so, or another key if not. CHIP8 gives you the number...",
     "authors": ["David Winter"],
+    "release": "1996",
     "roms": {
       "137cb8397456f53fcab216124458238bc18c0965": {
         "file": "Guess [David Winter].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "a": 5,
+          "b": 6
+        }
       }
     }
   },
@@ -335,13 +353,28 @@
     "roms": {
       "050f07a54371da79f924dd0227b89d07b4f2aed0": {
         "file": "Hidden [David Winter, 1996].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "HIDDEN! 1.0 By David WINTER",
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8,
+          "a": 5
+        }
       },
       "9b72b6656cb714cd64de00ac78dc7bf8374adec6": {
         "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where the last two tiles left are different, so you can't beat the game.)",
         "file": "Hidden (fix)[David Winter, 1996].ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "HIDDEN! 1.0 By David WINTER"
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "HIDDEN! 1.0 By David WINTER",
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8,
+          "a": 5
+        }
       }
     }
   },
@@ -387,7 +420,29 @@
     "roms": {
       "fc724ae0125f5f1ac94a79fe3afc6318b1f57556": {
         "file": "Kaleidoscope [Joseph Weisbecker, 1978].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8,
+          "a": 5,
+          "b": 0
+        }
+      },
+      "d6fa9dc9005dc0496f39ba52fef56f9fd0a5a158": {
+        "file": "KALEID.ch8",
+        "description": "Re-release by David Winter: A little program (not a game) to make funny graphics. Move around the screen with 2 4 6 8. To finish and make CHIP8 repeat your moves, press [.].",
+        "release": "1996",
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8,
+          "a": 5,
+          "b": 0
+        }
       }
     }
   },
@@ -465,11 +520,11 @@
     "roms": {
       "b9272ae1acdaaa79ab649f6b48b72088ca2b1d74": {
         "file": "Maze [David Winter, 199x].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"]
       },
       "8b70080adbac44513ec60005734a816372b845ec": {
         "file": "Maze (alt) (by David Winter)(199x).ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"]
       }
     }
   },
@@ -480,7 +535,7 @@
     "roms": {
       "d979858bb9ffd07b48f52f92a8bcac0199f3623e": {
         "file": "Merlin [David Winter].ch8",
-        "platforms": ["originalChip8"],
+        "platforms": ["originalChip8", "modernChip8"],
         "embeddedTitle": "MERLIN By David WINTER"
       }
     }
@@ -500,13 +555,16 @@
   {
     "title": "Missile Command",
     "description": "\nMissile Command - by David Winter (19xx)\n----------------------------------------\n\nYou must shoot the 8 targets on the screen using key 8. \n\nYour shooter moves a little bit faster each time you shoot. \nYou have 12 missiles to shoot all the targets, and you win 5\npoints per target shot.\n\n\n",
-    "release": "19xx",
+    "release": "1996",
     "authors": ["David Winter"],
     "roms": {
       "0d0cc129dad3c45ba672f85fec71a668232212cc": {
         "file": "Missile [David Winter].ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "MISSILE by David WINTER"
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "MISSILE by David WINTER",
+        "keys": {
+          "a": 8
+        }
       }
     }
   },
@@ -574,7 +632,13 @@
     "roms": {
       "1830eb401ba8789a477dfcf294873a5479ebcfe8": {
         "file": "Pong 2 (Pong hack) [David Winter, 1997].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "up": 1,
+          "down": 4,
+          "player2Up": 12,
+          "player2Down": 13
+        }
       }
     }
   },
@@ -784,7 +848,7 @@
     "title": "Space Invaders",
     "description": "Space Invaders (1978), by David Winter\n\nThe well known game. Destroy the invaders with your ship. Shoot with 5, move with 4 and 6. Press 5 to begin a game.",
     "authors": ["David Winter"],
-    "release": "1978",
+    "release": "1996",
     "roms": {
       "5c28a5f85289c9d859f95fd5eadbdcb1c30bb08b": {
         "file": "Space Invaders [David Winter].ch8",
@@ -831,12 +895,16 @@
   {
     "title": "Squash",
     "description": "Squash, by David Winter\n\nBounce a ball around a squash court with your paddle",
-    "release": "19xx",
+    "release": "1997",
     "authors": ["David Winter"],
     "roms": {
       "a58ec7cc63707f9e7274026de27c15ec1d9945bd": {
         "file": "Squash [David Winter].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "up": 1,
+          "down": 4
+        }
       }
     }
   },
@@ -952,10 +1020,18 @@
   {
     "title": "TIC-TAC-TOE",
     "description": "Tic-Tac-Toe, by David Winter\n\n2-player noughts and crosses board.",
+    "release": "1996",
     "roms": {
       "429d455a4bc53167942bf6fd934d72b0f648dce3": {
         "file": "Tic-Tac-Toe [David Winter].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["superchip"],
+        "embeddedTitle": "TICTAC by David WINTER"
+      },
+      "40329847cb898f9b34a6aea1095be0a1be0b4546": {
+        "file": "Tic-Tac-Toe (fix)[David Winter].ch8",
+        "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where score won't increment)\n",
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "TICTAC by David WINTER"
       }
     }
   },
@@ -1033,13 +1109,17 @@
   {
     "title": "Wall",
     "description": "\nWall - by David Winter (19xx)\n-----------------------------\n\nOne of these PONG variations. \n\nMove using 1 and 4. \n\nAs said in the early seventies: \"AVOID MISSING BALL FOR HIGH SCORE\" !!!\n\n*NOTE: 1->2 4->6",
-    "release": "19xx",
+    "release": "1997",
     "authors": ["David Winter"],
     "roms": {
       "09ce01c54ddddda42ca5cd171f1ffcfd47355d12": {
         "file": "Wall [David Winter].ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "WALL by David WINTER"
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "WALL by David WINTER",
+        "keys": {
+          "up": 1,
+          "down": 4
+        }
       }
     }
   },
@@ -3898,11 +3978,18 @@
     "title": "Breakfree",
     "authors": ["David Winter"],
     "description": "\nBreakfree - by David Winter (199x)\n----------------------------------\n\nEach players needs to destroy the player's wall. The first player to destroy\nall the bricks of the opposite player wins. \n\nPlayer 1: 1 to go UP and 4 to go DOWN.\nPlayer 2: 6 to go UP and 9 to go DOWN.\n\n",
+    "release": "199x",
     "roms": {
       "7d38669b1542d2352b900eed11b78dd1c8d144ec": {
         "file": "Breakfree (by David Winter).ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "BREAKFREE 0.1 By David WINTER"
+        "platforms": ["originalChip8", "modernChip8"],
+        "embeddedTitle": "BREAKFREE 0.1 By David WINTER",
+        "keys": {
+          "up": 1,
+          "down": 4,
+          "player2Up": 6,
+          "player2Down": 9
+        }
       }
     }
   },
@@ -4305,16 +4392,28 @@
     "title": "Connect 4",
     "authors": ["David Winter"],
     "description": "Connect 4, by David Winter\n\nThis game is for two players. The goal is to align 4 coins in the game area. Each player's coins are colored. When you drop a coin, it is paced on the latest dropped coin in the same column, or at the bottom if the column is empty. Once the column is full, you cannot place any more coins in it. To select a column, use 4 and 6.\n\nTo drop a coin, use 5. There is no winner detection yet. This will be soon avalaible (Hey! I don't spend my life on CHIP8 !).",
+    "release": "1996",
     "roms": {
       "c8d2ebbc16551a4bee1f0e2b33f0510e4170afcf": {
         "file": "Connect 4 (fix)[David Winter].ch8",
         "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where game pieces overwrite each other and only stack diagonally)",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "CONNECT4 by David WINTER"
+        "platforms": ["superchip"],
+        "embeddedTitle": "CONNECT4 by David WINTER",
+        "keys": {
+          "left": 4,
+          "right": 6,
+          "a": 5
+        }
       },
       "2d10c07b532f4fa7c07a07324ba26ca39fe484fd": {
         "file": "Connect 4 [David Winter].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["superchip"],
+        "embeddedTitle": "CONNECT4 by David WINTER",
+        "keys": {
+          "left": 4,
+          "right": 6,
+          "a": 5
+        }
       }
     }
   },
@@ -5458,15 +5557,23 @@
   },
   {
     "title": "Magic Square",
-    "release": "199x",
-    "authors": ["David Winter"],
     "description": "****************************************************************************\n                     ����  ����� �   � ����� ����� �����\n                      ���� �  �� �   � ����� ����  ���\n                      ���   �� �  ���  �   � �  �  �����\n                        A magic square in Super CHIP-8\n                      (C)Copyright 1997 by David WINTER\n****************************************************************************\n\n\n       This game, as well as the others for this scene, are FREE\n       and freely ditributable. If you paid to have it, you have\n       been stolen. If you got money to give it, you're a thief.\n\n\n\n       The rules of this game are very simple: the game is played\n       in a variable size grid made of 3*3 to 8*8 squares, so the\n       level of the game is designated by the width of the grid.\n       Initially, all the squares of the grid are WHITE. The goal\n       is to turn then BLACK by inverting their color, knowing\n       that inverting the colour of a square will also invert these\n       of the squares placed just on the left, right, up and down\n       of it...\n       Some levels are very simple: level 3 can be finished with\n       only 5 inversions, and level 4 needs only 4 inversions to\n       be completed...\n       Once a level is completed, the game is finished. To play\n       again, just reset the emulator.\n\n       I know I could have implemented some sort of inversions\n       counter, and next-level playing after a level is finished,\n       but I missed some time to do this... Anyway, have fun !\n\n       I could also have given the source of this program, but it\n       is not documented, so it would not be interesting to those\n       who are looking for help in programming.\n\n\n       The keys are:\n                   [8] :   UP\n                   [4] :   LEFT (lower level under level selection)\n                   [5] :   INVERT SQUARE (start game under level selection)\n                   [6] :   RIGHT (upper level under level selection)\n                   [2] :   DOWN\n",
+    "authors": ["David Winter"],
     "images": ["Magic_Square_SCHIP__1.png"],
+    "release": "1997",
+    "copyright": "This game, as well as the others for this scene, are FREE and freely ditributable. If you paid to have it, you have been stolen. If you got money to give it, you're a thief.",
     "roms": {
       "e4ef6fff9813c43bd7ad2ecaf02d1a3135d68418": {
         "file": "Magic Square (by David Winter)(199x).sc8",
         "platforms": ["superchip"],
-        "embeddedTitle": "Magic Square v1.0 by David WINTER"
+        "embeddedTitle": "Magic Square v1.0 by David WINTER",
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8,
+          "a": 5
+        }
       }
     }
   },
@@ -5539,14 +5646,23 @@
   },
   {
     "title": "Mines! - The minehunter",
-    "release": "199x",
-    "authors": ["David Winter"],
     "description": "MINES\nA mine hunter in Super CHIP-8\n(C)Copyright 1997 by David WINTER\n\n\nThis source is to show to the novice programmer how we can program some nice games (i.e: not PONG and clones (just teasing the nostalgics...)) in CHIP-8 and Super CHIP-8.\n\nI decided to diffuse this source in the hope that some people will write new games for the SCHIP/CHIP-8 emulators.\n\nThis game, as well as the others for this scene, are FREE and freely distributable. If you paid to have it, you have been stolen. If you got money to give it, you're a thief.\n\n\n\nThe rules of this game are very simple: the game is played on a 18*9 squares playing field. On this playing field, some squares are MINED, some others are not. The goal is to find all the non mined ones. To do so, you just move around a cursor, and check the squares you want. If the square you're checking is mined, you lost, and all the mines are shown. If not, the game puts a number on the square, which tells how many mines are placed around it (if there are no mines around, the square is blanked). It is to you to make the logic deductions to find the non mined squares. To help you, the game allows putting marks on the squares which are believed to be mined.\n\nThe keys are:\n[8] :   UP\n[4] :   LEFT (lower level under level selection)\n[5] :   SHOW SQUARE (start game under level selection)\n[6] :   RIGHT (upper level under level selection)\n[2] :   DOWN\n[*] :   MARK SQUARE AS MINED\n",
+    "authors": ["David Winter"],
+    "release": "1997",
+    "copyright": "This game, as well as the others for this scene, are FREE and freely distributable. If you paid to have it, you have been stolen. If you got money to give it, you're a thief.",
     "roms": {
       "6d4514ae3a43c307763648b0bdd485fb77bcf20d": {
         "file": "Mines! - The minehunter (by David Winter)(199x).sc8",
         "platforms": ["superchip"],
-        "embeddedTitle": "MINES! 1.00 By David WINTER"
+        "embeddedTitle": "MINES! 1.00 By David WINTER",
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8,
+          "a": 5,
+          "b": 12
+        }
       }
     }
   },
@@ -6510,7 +6626,7 @@
   },
   {
     "title": "Super Maze",
-    "release": "199x",
+    "release": "1996",
     "authors": ["David Winter"],
     "description": "SuperMaze, by David Winter\n\nDrawing a random maze like this one consists in drawing random diagonal\nlines. There are two possibilities: right-to-left line, and left-to-right\nline. Each line is composed of a 4*4 bitmap. As the lines must form non-\ncircular angles, the two bitmaps won't be '/' and '\\'. The first one\n(right line) will be a little bit modified. See at the end of this source.\n\nThe maze is composed of 16 lines (as the bitmaps are 4 pixels high), each\nline consists of 32 bitmaps.\nBitmaps are drawn in random mode. We choose a random value (0 or 1).\nIf it is 1, we draw a left line bitmap. If it is 0, we draw a right one.\n",
     "roms": {
@@ -6673,18 +6789,6 @@
       "f274bf62145ba9f7740aab9d83e5b15db8047a1d": {
         "file": "Thom8s Was Alone (jusion)(2014).ch8",
         "platforms": ["originalChip8"]
-      }
-    }
-  },
-  {
-    "title": "Tic-Tac-Toe",
-    "authors": ["David Winter"],
-    "description": "This version does not have the Fx55/Fx65 (load_store_quirk) issue (where score won't increment)\n",
-    "roms": {
-      "40329847cb898f9b34a6aea1095be0a1be0b4546": {
-        "file": "Tic-Tac-Toe (fix)[David Winter].ch8",
-        "platforms": ["originalChip8"],
-        "embeddedTitle": "TICTAC by David WINTER"
       }
     }
   },
@@ -6975,6 +7079,24 @@
           "up": 14,
           "down": 15,
           "a": 10
+        }
+      }
+    }
+  },
+  {
+    "title": "15PUZZLE",
+    "description": "Same than PUZZLE2. Wait for randomization... Instead of moving the item by pressing his associated key, move it UP DOWN LEFT RIGHT with respectively 2 8 4 6. Up and Down are inverted as the game uses the original CHIP8 keyboard.",
+    "authors": ["David Winter"],
+    "release": "1996",
+    "roms": {
+      "cf3a8c546038c63cd4cc1de8d171b9bf0d57c0ee": {
+        "file": "15PUZZLE.ch8",
+        "platforms": ["originalChip8", "modernChip8"],
+        "keys": {
+          "up": 2,
+          "left": 4,
+          "right": 6,
+          "down": 8
         }
       }
     }
