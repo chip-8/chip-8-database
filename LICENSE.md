@@ -23,11 +23,11 @@ https://github.com/chip-8/chip-8-database
 Your request can be handled more swiftly if you are able to provide this
 information:
 
-  * Which information you hold the copyright of, and that you take issue with
-    being in this database;
-  * Where that information is stored in our database;
-  * A proof of authorship of the information in question;
-  * How we can reach you with any further questions.
+- Which information you hold the copyright of, and that you take issue with
+  being in this database;
+- Where that information is stored in our database;
+- A proof of authorship of the information in question;
+- How we can reach you with any further questions.
 
 ## License
 
