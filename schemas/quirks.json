@@ -1,0 +1,34 @@
+{
+  "description": "JSON Schema definition of the quirks of different CHIP-8 systems.",
+  "definitions": {
+    "quirk": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "default": {
+          "type": "boolean"
+        },
+        "ifTrue": {
+          "type": "string"
+        },
+        "ifFalse": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "name", "default", "ifTrue", "ifFalse"],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/quirk"
+  }
+}

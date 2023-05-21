@@ -1,0 +1,94 @@
+{
+  "description": "JSON Schema definition of the known CHIP-8 platforms.",
+  "definitions": {
+    "platform": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "An ID for this platform, by which to reference it in programs.json."
+        },
+        "name": {
+          "type": "string",
+          "description": "The full name of the platform, by which it is most commonly known."
+        },
+        "description": {
+          "type": "string",
+          "description": "A generic description of the platform."
+        },
+        "release": {
+          "type": "string",
+          "description": "The date at which the platform was first released in ISO 8601 date format. Can be a year, a year and a month or a year, month and day.",
+          "pattern": "^[\\dx\\?]{4}(\\-\\d{1,2}){0,2}$"
+        },
+        "authors": {
+          "type": "array",
+          "description": "The list of authors who worked on developing this platform.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "urls": {
+          "type": "array",
+          "description": "A list of URLs that are relevant for this platform, like a systems specification or additional materials.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "copyright": {
+          "type": "string",
+          "description": "The copyright situation of this platform. May be free form text. If a specific license is known, please use the `license` field instead."
+        },
+        "license": {
+          "type": "string",
+          "description": "The license(s) applicable to this platform. Must be an SPDX license expression (see https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/ and https://spdx.org/licenses/)."
+        },
+        "displayResolutions": {
+          "type": "array",
+          "description": "All the display resolutions that this platform supports.",
+          "items": {
+            "type": "string",
+            "pattern": "^\\d+x\\d+$"
+          }
+        },
+        "defaultTickrate": {
+          "type": "integer",
+          "description": "The preferred number of cycles per frame to run the interpreter at. It's the default because ROMs can overwrite this value. CHIP-8 runs at a framerate of 60Hz, so this tickrate times 60 is the desired 'CPU clockspeed' of the system."
+        },
+        "quirks": {
+          "type": "object",
+          "description": "The quirk settings as they are known for this platform. Each key references a quirk from quirks.json.",
+          "propertyNames": {
+            "type": "string",
+            "enum": [
+              "shift",
+              "memoryIncrementByX",
+              "memoryLeaveIUnchanged",
+              "wrap",
+              "jump",
+              "vblank",
+              "logic"
+            ]
+          },
+          "patternProperties": {
+            ".*": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "displayResolutions",
+        "defaultTickrate",
+        "quirks"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/platform"
+  }
+}

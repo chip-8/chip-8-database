@@ -1,129 +1,305 @@
 {
   "description": "JSON Schema definition of the programs.json structure for the CHIP-8 database.",
   "definitions": {
-    "rom": {
+    "program": {
       "type": "object",
       "properties": {
         "title": {
-          "type": "string"
-        },
-        "file": {
-          "type": "string"
-        },
-        "sha1": {
           "type": "string",
-          "format": "sha1"
+          "description": "The title of the program, preferably in the way the original author intended it."
         },
-        "event": {
-          "type": "string"
+        "origin": {
+          "type": "object",
+          "description": "The origin of this program; was it created at some event, for a game jam, or published in a magazine somewhere?",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["gamejam", "event", "magazine", "manual"]
+            },
+            "reference": {
+              "type": "string"
+            }
+          }
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "description": "A description of the program, preferably in the way the original author described or published it."
         },
         "release": {
           "type": "string",
+          "description": "The date at which the program was first released in ISO 8601 date format. Can be a year, a year and a month or a year, month and day.",
           "pattern": "^[\\dx\\?]{4}(\\-\\d{1,2}){0,2}$"
         },
-        "platform": {
+        "copyright": {
           "type": "string",
-          "enum": [
-            "chip8",
-            "schip",
-            "xochip",
-            "chip8x",
-            "megachip8",
-            "hybrid-vip",
-            "hires-chip8"
-          ]
+          "description": "The copyright situation of this program. May be free form text. If a specific license is known, please use the `license` field instead."
+        },
+        "license": {
+          "type": "string",
+          "description": "The license(s) applicable to this program. Must be an SPDX license expression (see https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/ and https://spdx.org/licenses/)."
         },
         "authors": {
           "type": "array",
+          "description": "The list of authors who worked on developing this program.",
           "items": {
             "type": "string"
           }
         },
         "images": {
           "type": "array",
+          "description": "A list of file names of images that display this program (to figure out: do we also host the images in the database?).",
           "items": {
             "type": "string"
           }
         },
         "urls": {
           "type": "array",
+          "description": "A list of URLs that are relevant for this program, like a source code repository or additional materials.",
           "items": {
             "type": "string"
           }
         },
-        "options": {
+        "roms": {
           "type": "object",
-          "$ref": "#/definitions/options"
+          "description": "A map of SHA1 hashes to ROM files that relate to this program.",
+          "propertyNames": {
+            "type": "string",
+            "format": "sha1"
+          },
+          "patternProperties": {
+            ".*": {
+              "$ref": "#/definitions/rom"
+            }
+          }
         }
       },
-      "required": ["title", "file", "sha1"],
+      "required": ["title", "roms"],
       "additionalProperties": false
     },
-    "options": {
+    "rom": {
       "type": "object",
       "properties": {
+        "file": {
+          "type": "string",
+          "description": "The file name of this ROM as it was observed when added to the database."
+        },
+        "embeddedTitle": {
+          "type": "string",
+          "description": "The title that was extracted from the ROM file. Mostly superchip ROMs could start with a JUMP instruction over a string, allowing the interpreter to show the user the program title."
+        },
+        "description": {
+          "type": "string",
+          "description": "If there is anything relevant to add about this specific ROM that isn't already in the program description, it can be added in this field."
+        },
+        "release": {
+          "type": "string",
+          "description": "The date at which this particular ROM was first released, if it differs from the program's release date. Can be a year, a year and a month or a year, month and day.",
+          "pattern": "^[\\dx\\?]{4}(\\-\\d{1,2}){0,2}$"
+        },
+        "platforms": {
+          "type": "array",
+          "description": "An ordered list of the platforms that this ROM can successfully run on with that platform's default quirks. The list is sorted by 'best' to 'worst' gameplay. See `database/platforms.json` for platform specifications. See also `quirkyPlatforms` below.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "originalChip8",
+              "hybridVIP",
+              "modernChip8",
+              "chip48",
+              "superchip1",
+              "superchip",
+              "xochip",
+              "chip8x",
+              "megachip8"
+            ]
+          }
+        },
+        "quirkyPlatforms": {
+          "type": "object",
+          "description": "In some cases, a ROM was designed for a combination of a platform and quirks that is not considered an historic platform. For example because someone wrote the ROM for a badly written interpreter or made liberal use of quirks settings to achieve some goal. In those cases, this map of quirky platforms can be used to override the quirks of a base platform. If an interpreter supports quirky platforms, a quirky platform should be preferred over the regular `platforms` list. Otherwise, `quirkyPlatforms` should just be ignored.",
+          "properties": {
+            "originalChip8": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "hybridVIP": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "modernChip8": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "chip48": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "superchip1": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "superchip": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "xochip": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "chip8x": {
+              "$ref": "#/definitions/quirkset"
+            },
+            "megachip8": {
+              "$ref": "#/definitions/quirkset"
+            }
+          }
+        },
+        "authors": {
+          "type": "array",
+          "description": "The list of authors who worked on developing this ROM.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "images": {
+          "type": "array",
+          "description": "A list of file names of images that display this ROM (to figure out: do we also host the images in the database?).",
+          "items": {
+            "type": "string"
+          }
+        },
+        "urls": {
+          "type": "array",
+          "description": "A list of URLs that are relevant for this ROM, like a source code repository or additional materials.",
+          "items": {
+            "type": "string"
+          }
+        },
         "tickrate": {
-          "type": "integer"
+          "type": "integer",
+          "description": "The preferred number of cycles per frame to run the ROM at. CHIP-8 runs at a framerate of 60Hz, so this tickrate times 60 is the desired 'CPU clockspeed' of the system."
         },
-        "fillColor": {
-          "type": "string",
-          "pattern": "^#[0-9a-f]{6}$"
-        },
-        "fillColor2": {
-          "type": "string",
-          "pattern": "^#[0-9a-f]{6}$"
-        },
-        "blendColor": {
-          "type": "string",
-          "pattern": "^#[0-9a-f]{6}$"
-        },
-        "backgroundColor": {
-          "type": "string",
-          "pattern": "^#[0-9a-f]{6}$"
-        },
-        "buzzColor": {
-          "type": "string",
-          "pattern": "^#[0-9a-f]{6}$"
-        },
-        "quietColor": {
-          "type": "string",
-          "pattern": "^#[0-9a-f]{6}$"
-        },
-        "shiftQuirks": {
-          "type": "boolean"
-        },
-        "loadStoreQuirks": {
-          "type": "boolean"
-        },
-        "vfOrderQuirks": {
-          "type": "boolean"
-        },
-        "clipQuirks": {
-          "type": "boolean"
-        },
-        "jumpQuirks": {
-          "type": "boolean"
-        },
-        "vBlankQuirks": {
-          "type": "boolean"
-        },
-        "logicQuirks": {
-          "type": "boolean"
-        },
-        "enableXO": {
-          "type": "boolean"
+        "startAddress": {
+          "type": "integer",
+          "description": "The start address from which the ROM should be run. This defaults to 0x200 (512), so this field should only be specified if the program needs to be run from a different address."
         },
         "screenRotation": {
-          "type": "integer"
+          "type": "integer",
+          "description": "The screen orientation, in degrees rotated clockwise from the normal position.",
+          "enum": [0, 90, 180, 270]
+        },
+        "keys": {
+          "type": "object",
+          "description": "A mapping of common keys to hexadecimal key values for the CHIP-8 keypad. For systems with dual keypads, add 0x10 (16) to the hexadecimal key value to indicate keypad number two.",
+          "properties": {
+            "up": {
+              "type": "integer"
+            },
+            "down": {
+              "type": "integer"
+            },
+            "left": {
+              "type": "integer"
+            },
+            "right": {
+              "type": "integer"
+            },
+            "a": {
+              "type": "integer"
+            },
+            "b": {
+              "type": "integer"
+            },
+            "player2Up": {
+              "type": "integer"
+            },
+            "player2Down": {
+              "type": "integer"
+            },
+            "player2Left": {
+              "type": "integer"
+            },
+            "player2Right": {
+              "type": "integer"
+            },
+            "player2A": {
+              "type": "integer"
+            },
+            "player2B": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
         },
         "touchInputMode": {
-          "type": "string"
+          "type": "string",
+          "description": "The preferred touch input mode, values as used by Octo.",
+          "enum": ["none", "swipe", "seg16", "seg16fill", "gamepad", "vip"]
         },
         "fontStyle": {
-          "type": "string"
+          "type": "string",
+          "description": "The preferred style of font to use by the interpreter.",
+          "enum": [
+            "octo",
+            "vip",
+            "schip",
+            "dream6800",
+            "eti660",
+            "fish",
+            "akouz1"
+          ]
+        },
+        "colors": {
+          "$ref": "#/definitions/colors"
+        }
+      },
+      "required": ["platforms"],
+      "additionalProperties": false
+    },
+    "quirkset": {
+      "type": "object",
+      "description": "Overrides for the 'quirks' of a platform. See `database/quirks.json` for details on what the quirks do.",
+      "properties": {
+        "shift": {
+          "type": "boolean"
+        },
+        "memoryIncrementByX": {
+          "type": "boolean"
+        },
+        "memoryLeaveIUnchanged": {
+          "type": "boolean"
+        },
+        "wrap": {
+          "type": "boolean"
+        },
+        "jump": {
+          "type": "boolean"
+        },
+        "vblank": {
+          "type": "boolean"
+        },
+        "logic": {
+          "type": "boolean"
+        }
+      }
+    },
+    "colors": {
+      "type": "object",
+      "description": "An object with hexadecimal color properties (#RRGGBB).",
+      "properties": {
+        "pixels": {
+          "type": "array",
+          "description": "Colors for all the states a pixel can be in. The length of this array depends on the platform and the number of colors used by the ROM. The colors are sorted by the binary values that represent the pixel's state. So for a single plane, the first color is the 'off' or background color (`0`) and the second color is the 'on' or foreground color (`1`). For programs with two planes the order of colors is: both 'off' (`00`), plane 2 'off' and plane 1 'on' (`01`), plane 2 'on' and plane 1 'off' (`10`) and finally both 'on' (`11`). This extends to more planes for the few programs that support them: adding another plane adds another most significant bit.",
+          "items": {
+            "type": "string",
+            "pattern": "^#[0-9a-f]{6}$",
+            "format": "color"
+          }
+        },
+        "buzzer": {
+          "type": "string",
+          "description": "A color that can be used to show a visual 'beep', to accompany the sound timer.",
+          "pattern": "^#[0-9a-f]{6}$",
+          "format": "color"
+        },
+        "silence": {
+          "type": "string",
+          "description": "The color of the visual 'beep' when there is no sound (the sound timer is zero).",
+          "pattern": "^#[0-9a-f]{6}$",
+          "format": "color"
         }
       },
       "additionalProperties": false
@@ -131,6 +307,6 @@
   },
   "type": "array",
   "items": {
-    "$ref": "#/definitions/rom"
+    "$ref": "#/definitions/program"
   }
 }

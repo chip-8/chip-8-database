@@ -1,18 +1,22 @@
 const fs = require("fs");
 const path = require("path");
-const { sha1Hash, mergeIn, writeProgramsJSON } = require("./helpers.js");
-const programs = require("../database/programs.json");
+const {
+  sha1Hash,
+  mergeWithPrograms,
+  writeProgramsJSON,
+  getEmbeddedTitle,
+} = require("./helpers.js");
 
 const docTypes = ["txt", "md"];
 const imageTypes = ["jpg", "jpeg", "png", "gif"];
 const romTypes = {
-  ch8: "chip8",
-  sc8: "schip",
+  ch8: "originalChip8",
+  sc8: "superchip",
   xo8: "xochip",
   c8x: "chip8x",
   mc8: "megachip8",
-  hc8: "hybrid-vip",
-  c8h: "hires-chip8",
+  hc8: "hybridVIP",
+  c8h: "hiresChip8",
 };
 
 // Find all the files in this directory, and sort by type
@@ -47,7 +51,8 @@ for (const rom of roms) {
   newPrograms.push({
     file: path.basename(rom),
     sha1: sha1Hash(fs.readFileSync(rom)),
-    platform: romTypes[rom.split(".").pop()],
+    platforms: [romTypes[rom.split(".").pop()]],
+    embeddedTitle: getEmbeddedTitle(fs.readFileSync(rom)),
   });
 }
 
@@ -102,9 +107,26 @@ console.log(
 console.log("Image files left:", images.filter((img) => img).length);
 if (verbose) console.log(images.filter((img) => img).map((img) => img.file));
 
+// Clean up results to match programs.json structure
+
+for (const program of newPrograms) {
+  program.roms = {};
+  program.roms[program.sha1] = {
+    file: program.file,
+    platforms: program.platforms,
+  };
+  if (program.embeddedTitle)
+    program.roms[program.sha1].embeddedTitle = program.embeddedTitle;
+
+  delete program.file;
+  delete program.platforms;
+  delete program.sha1;
+  delete program.embeddedTitle;
+}
+
 // Save results to the `programs.json` file
 
-const updated = mergeIn(programs, newPrograms, overwrite);
+const updated = mergeWithPrograms(newPrograms, overwrite);
 writeProgramsJSON(updated);
 
 // Helper functions from here on down
@@ -145,7 +167,7 @@ function addMetaDataFromFileName(program) {
     )
   );
   if (remarks.length > 0) {
-    program.remarks = remarks.join(" ");
+    // program.remarks = remarks.join(" ");
     for (const remark of remarks) {
       thingsInBrackets.splice(thingsInBrackets.indexOf(remark), 1);
     }

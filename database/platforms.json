@@ -1,0 +1,167 @@
+[
+  {
+    "id": "originalChip8",
+    "name": "Cosmac VIP CHIP-8",
+    "description": "CHIP-8 was first designed by Joseph Weisbecker for the Cosmac VIP hobbyist DIY computer in 1977. After publishing about the virtual instruction set in the december 1978 issue of Byte magazine (under the title \"An easy programming system\") it took off on more hobbyist computers. One of the biggest advantages of programming in CHIP-8, apart from being relatively easy to use, was the fact that CHIP-8 ROMs were binary compatible between several different hobbyist computers.",
+    "release": "1978-12",
+    "displayResolutions": ["64x32"],
+    "defaultTickrate": 15,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": true,
+      "logic": true
+    }
+  },
+  {
+    "id": "hybridVIP",
+    "name": "CHIP-8 with Cosmac VIP instructions",
+    "description": "Some CHIP-8 games would first patch the Cosmac VIP interpreter to gain more features. Others would jump to parts of the interpreter that were not necessarily supposed to be used that way. One way or another, they would execute native instructions for the Cosmac VIP's RCA 1802 processor, and by doing so leave the realm of \"compatible CHIP-8\".",
+    "release": "1978-12",
+    "displayResolutions": ["64x32"],
+    "defaultTickrate": 15,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": true,
+      "logic": true
+    }
+  },
+  {
+    "id": "modernChip8",
+    "name": "Modern CHIP-8",
+    "description": "This is the way CHIP-8 is usually implemented in modern times. People often don't bother implementing the vBlank quirk, which leads to a more fluid, slightly faster execution. The vF reset on logic operations is also usually ignored because the impact is minimal and the quirk is fairly unknown. Some ROMs have come to depend on this \"simpler\" implementation, and as a result do not run very well on the original interpreter.",
+    "displayResolutions": ["64x32"],
+    "defaultTickrate": 12,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "chip8x",
+    "name": "CHIP-8X",
+    "description": "CHIP-8X was the \"official\" successor to CHIP-8 as released by RCA. This version did not see quite as much popularity as its predecessor, which probably had a lot to do with the relatively high requirements it put on the hardware. CHIP-8X added support for a colour display, a sound board and a second keypad. Not very many hobbyists had such hardware at the time.",
+    "release": "1980",
+    "urls": [
+      "https://github.com/trapexit/chip-8_documentation/blob/master/Misc/VP580%2C%20VP585%2C%20VP590%2C%20VP595%20Instruction%20Manual%20Including%20CHIP-8X.pdf"
+    ],
+    "displayResolutions": ["64x32"],
+    "defaultTickrate": 15,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": false,
+      "vblank": true,
+      "logic": true
+    }
+  },
+  {
+    "id": "chip48",
+    "name": "CHIP48 for the HP48",
+    "description": "The first CHIP-8 interpreter for the HP48 calculator was a straight implementation of CHIP-8, without any additional features. It did however introduce a couple of errors in the intepretation, introducing the shirt quirk, the memory quirk and the jump quirk.",
+    "release": "1990-09",
+    "authors": ["Andreas Gustafsson"],
+    "copyright": "(C) Copyright 1990 Andreas Gustafsson\n\nNoncommercial distribution allowed, provided that this\ncopyright message is preserved, and any modified versions\nare clearly marked as such.\n\nThe program makes use of undocumented low-level features of\nthe HP48SX calculator, and may or may not cause loss of data,\nexcessive battery drainage, and/or damage to the calculator\nhardware. The Author takes no responsibility whatsoever for\nany damage caused by the use of this program.\n\n THIS SOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+    "displayResolutions": ["64x32"],
+    "defaultTickrate": 30,
+    "quirks": {
+      "shift": true,
+      "memoryIncrementByX": true,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "superchip1",
+    "name": "Superchip 1.0",
+    "description": "Superchip, also known as SuperCHIP, SUPER-CHIP, S-CHIP or SCHIP, is an extension of CHIP48. It retains all the issues with the CHIP48 interpreter, but adds a couple of feature, the most interesting on which is the double resolution mode, or `hires` mode. After just a little over a week Superchip 1.0 was superceded by Superchip 1.1, so few games were made with this interpreter in mind.",
+    "release": "1991-05-16",
+    "authors": ["Erik Bryntse"],
+    "displayResolutions": ["64x32", "128x64"],
+    "defaultTickrate": 30,
+    "quirks": {
+      "shift": true,
+      "memoryIncrementByX": true,
+      "memoryLeaveIUnchanged": false,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "superchip",
+    "name": "Superchip 1.1",
+    "description": "Superchip 1.1 is the platform that most \"superchip\" interpreters implement, because it is the latest version and also because the difference between Superchip version 1.0 and 1.1 is pretty small. This version is faster than its predecessor and adds scroll instructions and a large numeric font. It does however introduces a new quirk by not incrementing the index register when reading or writing registers to memory.",
+    "release": "1991-05-24",
+    "authors": ["Erik Bryntse"],
+    "displayResolutions": ["64x32", "128x64"],
+    "defaultTickrate": 30,
+    "quirks": {
+      "shift": true,
+      "memoryLeaveIUnchanged": true,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "megachip8",
+    "name": "MEGA-CHIP",
+    "description": "MEGA-CHIP, MEGA-CHIP8 or MCHIP8 is an extension of Superchip, developed by Revival Studios. Only very few ROMs were made for it and the specification of the system is not super clear. It can however display images up to 256 by 192 pixels with 255 different colours. The set of colours can be defined by the program. It can also play digitized sound and hold ROMs up to 32MB in size.",
+    "release": "2007",
+    "authors": ["Revival Studios", "Martijn Wenting"],
+    "urls": ["https://www.revival-studios.com/other.php#chip8"],
+    "displayResolutions": ["64x32", "128x64", "256x192"],
+    "defaultTickrate": 1000,
+    "quirks": {
+      "shift": true,
+      "memoryLeaveIUnchanged": true,
+      "wrap": false,
+      "jump": true,
+      "vblank": false,
+      "logic": false
+    }
+  },
+  {
+    "id": "xochip",
+    "name": "XO-CHIP",
+    "description": "XO-CHIP is a more modern extension to CHIP-8, designed by John Earnest aka Internet Janitor in 2014, later improved in several incremental steps. XO-CHIP brings several big improvements over \"plain\" CHIP-8, like more memory, more sound capabilities and more flexible saving and loading of registers. It also allows the developer to double the display buffer (using \"planes\"), bringing four colour graphics to CHIP-8. The colours are defined by the user or the interpreter and not by the program.",
+    "license": "MIT",
+    "copyright": "The MIT License (MIT)\n\nCopyright (c) 2015, John Earnest\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+    "release": "2014-11-5",
+    "authors": ["John Earnest"],
+    "urls": [
+      "https://github.com/JohnEarnest/Octo/blob/gh-pages/docs/XO-ChipSpecification.md"
+    ],
+    "displayResolutions": ["64x32", "128x64"],
+    "defaultTickrate": 100,
+    "quirks": {
+      "shift": false,
+      "memoryIncrementByX": false,
+      "memoryLeaveIUnchanged": false,
+      "wrap": true,
+      "jump": false,
+      "vblank": false,
+      "logic": false
+    }
+  }
+]

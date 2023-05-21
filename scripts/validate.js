@@ -9,7 +9,12 @@ require("colors");
 
 // Which files to test?
 
-const checks = [check("programs"), check("sha1-hashes")];
+const checks = [
+  check("programs"),
+  check("sha1-hashes"),
+  check("quirks"),
+  check("platforms"),
+];
 
 // Do JSON Schema checks
 
@@ -25,7 +30,7 @@ console.log(resultString[success ? "brightGreen" : "brightRed"].bold);
 console.log("\nChecking internal consistency of JSON files...");
 const hashes = require("../database/sha1-hashes.json");
 const programs = require("../database/programs.json");
-const programHashes = programs.map((prog) => prog.sha1);
+const programHashes = programs.map((prog) => Object.keys(prog.roms)).flat();
 const hashesHashes = Object.keys(hashes);
 const notInPrograms = hashesHashes.filter(
   (hash) => !programHashes.includes(hash)
@@ -59,6 +64,54 @@ if (notInHashes.length > 0) {
   console.log(
     indent(`✔ All hashes in programs.json are also in sha1-hashes.json`, 1)
       .green
+  );
+}
+const complete = Object.keys(hashes).map((hash) =>
+  Object.keys(programs[hashes[hash]]?.roms ?? []).includes(hash)
+);
+if (!complete.every((h) => h)) {
+  success = false;
+  console.log(
+    indent(
+      `𝘅 ${complete.reduce(
+        (a, h) => a + h,
+        0
+      )} hashes in sha1-hashes.json do not point to the right programs`,
+      1
+    ).red
+  );
+} else {
+  console.log(
+    indent(`✔ All hashes in sha1-hashes.json point to the right programs`, 1)
+      .green
+  );
+}
+
+// Check if all programs are unique
+
+const seen = [];
+let doubles = 0;
+for (const program of programs) {
+  const matcher = `${program.title} (${program.authors})`;
+  if (seen.includes(matcher)) {
+    console.log(indent(`* ${matcher}`, 2));
+    doubles++;
+  } else {
+    seen.push(matcher);
+  }
+}
+
+if (doubles > 0) {
+  success = false;
+  console.log(
+    indent(
+      `𝘅 ${doubles} programs have the same title and author in programs.json`,
+      1
+    ).red
+  );
+} else {
+  console.log(
+    indent(`✔ All program titles in programs.json are unique`, 1).green
   );
 }
 
