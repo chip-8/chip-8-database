@@ -104,7 +104,7 @@ Then, because we found the value `65`, we look up the 65th entry in the array in
   "title": "Space Invaders",
   "description": "Space Invaders (1978), by David Winter\n\nThe well known game. Destroy the invaders with your ship. Shoot with 5, move with 4 and 6. Press 5 to begin a game.",
   "authors": ["David Winter"],
-  "release": "1978",
+  "release": "1996",
   "roms": {
     "5c28a5f85289c9d859f95fd5eadbdcb1c30bb08b": {
       "file": "Space Invaders [David Winter].ch8",
@@ -167,8 +167,8 @@ configure our interpreter. The `platforms.json` and `quirks.json` files may be
 of help here.
 
 The `platforms` list in the ROM object references IDs of platforms from the file
-`platforms.json`. If we look at the definition for `superchip` for Space
-Invaders, we find this:
+`platforms.json`. If we look at the definition for `superchip`, which is the
+platform we need for Space Invaders, we find this:
 
 ```json
 {
@@ -192,8 +192,8 @@ Invaders, we find this:
 
 We see that we can find some generic information about the platform that we
 could show to the user of our interpreter. It also holds the resolutions,
-"quirks" and default tick rate. If the ROM does not specify a desired tick rate,
-we can use this default one from the platform.
+"quirks" and default tick rate. The Space Invaders ROM does not explicitly
+specify a desired tick rate, so we can use this default one from the platform.
 
 The quirks reference IDs in the file `quirks.json`. Let's take the `shift` quirk
 as an example:
@@ -214,7 +214,7 @@ opcodes to properly interpret Superchip.
 
 So in the end, we can use all of this information to properly configure our
 interpreter, and we can show the user that they have just loaded the game Space
-Invaders by David Winter.
+Invaders from 1996 by David Winter.
 
 And when they press play, everything just runs like magic 🪄
 
