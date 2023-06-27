@@ -3892,7 +3892,7 @@
         "file": "Astro Dodge [Revival Studios, 2008].ch8",
         "platforms": [],
         "quirkyPlatforms": {
-          "original-chip8": {
+          "originalChip8": {
             "memoryLeaveIUnchanged": true
           }
         }
