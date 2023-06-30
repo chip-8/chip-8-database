@@ -7,8 +7,7 @@
   },
   "patternProperties": {
     ".*": {
-      "type": "string",
-      "format": "integer"
+      "type": "integer"
     }
   },
   "additionalProperties": false

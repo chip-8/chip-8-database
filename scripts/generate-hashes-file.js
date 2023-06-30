@@ -9,7 +9,7 @@ const programs = require(programsFile);
 const hashes = {};
 for (const id in programs) {
   for (const hash of Object.keys(programs[id].roms)) {
-    hashes[hash] = id;
+    hashes[hash] = parseInt(id, 10);
   }
 }
 
