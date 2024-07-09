@@ -6994,6 +6994,33 @@
     }
   },
   {
+    "title": "CHIP-8 test suite",
+    "release": "2022-06-27",
+    "authors": ["Timendus"],
+    "urls": [
+      "https://github.com/Timendus/chip8-test-suite"
+    ],
+    "description": "See https://github.com/Timendus/chip8-test-suite",
+    "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+    "roms": {
+      "f1634709d78b6303870b1c888f91a828a0feb211": {
+        "file": "chip8-test-suite.ch8",
+        "description": "Timendus's CHIP-8 Test Suite v1",
+        "release": "2022-06-27"
+      },
+      "83ac2b329d06f13ff80f814782d337c494777e6e": {
+        "file": "chip8-test-suite.ch8",
+        "description": "Timendus's CHIP-8 Test Suite v2",
+        "release": "2022-06-30"
+      },
+      "5a8e1cada60dddd388ac954852aac63f284589ff": {
+        "file": "chip8-test-suite.ch8",
+        "description": "Timendus's CHIP-8 Test Suite v3",
+        "release": "2022-12-31"
+      }
+    }
+  },
+  {
     "title": "CHIP-8 test suite: splash screen",
     "release": "2023-04-12",
     "authors": ["Timendus"],
