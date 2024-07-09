@@ -7223,5 +7223,60 @@
         }
       }
     }
+  },
+  {
+    "title": "Octojam 10 Title",
+    "authors": ["JohnEarnest"],
+    "release": "2023-10-01",
+    "description": "Greetings program for the tenth annual 2023 Octojam.",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam10"
+    },
+    "roms": {
+      "1dda7d92450c8eee2753a9350a1a0d524b1019b4": {
+        "file": "octojam10title.ch8",
+        "platforms": ["modernChip8"],
+        "tickrate": 7,
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#662200", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        },
+        "touchInputMode": "none"
+      }
+    },
+    "images": ["octojam10title.gif"]
+  },
+  {
+    "title": "Knumber Knower",
+    "authors": ["JohnEarnest"],
+    "release": "2023-10-28",
+    "description": "A game of bad typography.",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam10"
+    },
+    "roms": {
+      "95f4af2d410c1acfd1b0657721a870a57c55b49b": {
+        "file": "knumberknower.ch8",
+        "platforms": ["modernChip8"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "right": 9
+        },
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#ffffff", "#000000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    },
+    "images": ["knumberknower.gif"]
   }
 ]
