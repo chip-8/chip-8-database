@@ -6997,9 +6997,7 @@
     "title": "CHIP-8 test suite",
     "release": "2022-06-27",
     "authors": ["Timendus"],
-    "urls": [
-      "https://github.com/Timendus/chip8-test-suite"
-    ],
+    "urls": ["https://github.com/Timendus/chip8-test-suite"],
     "description": "See https://github.com/Timendus/chip8-test-suite",
     "roms": {
       "f1634709d78b6303870b1c888f91a828a0feb211": {
