@@ -7031,6 +7031,14 @@
     "roms": {
       "0df2789f661358d8f7370e6cf93490c5bcd44b01": {
         "file": "1-chip8-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Splash Screen",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "8e96555ee62ed3c4dcd082fdef5d16450dcb99af": {
+        "file": "1-chip8-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Splash Screen",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7044,6 +7052,14 @@
     "roms": {
       "d3554b9789728294d881823126ba6eb8103bd42c": {
         "file": "2-ibm-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: IBM Logo",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "e670ac22abbfe46a3bcf98e36ac5a34074c43693": {
+        "file": "2-ibm-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: IBM Logo",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7057,6 +7073,14 @@
     "roms": {
       "949b661091efe706a32fb0d89991005783243bb9": {
         "file": "3-corax+.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Corax+",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "55eab50c53a102bea5d2848d29d6546fb79ae0c0": {
+        "file": "3-corax+.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Corax+",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7070,6 +7094,14 @@
     "roms": {
       "0572f188fc25ccda14b0c306c4156fe4b1d21ae1": {
         "file": "4-flags.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Flags",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "e0596d264ead3c71cf76b352f71959c82c748519": {
+        "file": "4-flags.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Flags",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7083,6 +7115,19 @@
     "roms": {
       "4309cba3fb0b96761fcba01acaf233e0ca585b4d": {
         "file": "5-quirks.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Quirks",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      },
+      "402ea1ede1cc4ab1c074b89b2ed5e9845f056fc3": {
+        "file": "5-quirks.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Quirks",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
         "keys": {
           "up": 14,
@@ -7101,6 +7146,19 @@
     "roms": {
       "8c7f101c61f82cacaacc45f8c11c1a00c8cc451e": {
         "file": "6-keypad.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Keypad",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      },
+      "9909082230fd33218ac374acaeaaefbb786e3194": {
+        "file": "6-keypad.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Keypad",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
         "keys": {
           "up": 14,
