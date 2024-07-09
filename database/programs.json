@@ -7169,6 +7169,44 @@
     }
   },
   {
+    "title": "CHIP-8 test suite: Beep test",
+    "release": "2023-11-13",
+    "authors": ["Timendus"],
+    "urls": ["https://github.com/Timendus/chip8-test-suite#beep-test"],
+    "description": "See https://github.com/Timendus/chip8-test-suite#beep-test",
+    "roms": {
+      "b119651b5aa08557a85ca2ad5de3d1a86796b66b": {
+        "file": "7-beep.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Beep",
+        "release": "2023-11-13",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "a": 11
+        }
+      }
+    }
+  },
+  {
+    "title": "CHIP-8 test suite: Scrolling test",
+    "release": "2023-11-13",
+    "authors": ["Timendus"],
+    "urls": ["https://github.com/Timendus/chip8-test-suite#scrolling-test"],
+    "description": "See https://github.com/Timendus/chip8-test-suite#scrolling-test",
+    "roms": {
+      "67384436edd903e4b0051be02c600730d649dd4b": {
+        "file": "8-scrolling.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Scrolling",
+        "release": "2023-11-13",
+        "platforms": ["superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      }
+    }
+  },
+  {
     "title": "15PUZZLE",
     "description": "Same than PUZZLE2. Wait for randomization... Instead of moving the item by pressing his associated key, move it UP DOWN LEFT RIGHT with respectively 2 8 4 6. Up and Down are inverted as the game uses the original CHIP8 keyboard.",
     "authors": ["David Winter"],
