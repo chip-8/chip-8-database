@@ -6994,6 +6994,33 @@
     }
   },
   {
+    "title": "CHIP-8 test suite",
+    "release": "2022-06-27",
+    "authors": ["Timendus"],
+    "urls": ["https://github.com/Timendus/chip8-test-suite"],
+    "description": "See https://github.com/Timendus/chip8-test-suite",
+    "roms": {
+      "f1634709d78b6303870b1c888f91a828a0feb211": {
+        "file": "chip8-test-suite.ch8",
+        "description": "Timendus's CHIP-8 Test Suite v1",
+        "release": "2022-06-27",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "83ac2b329d06f13ff80f814782d337c494777e6e": {
+        "file": "chip8-test-suite.ch8",
+        "description": "Timendus's CHIP-8 Test Suite v2",
+        "release": "2022-06-30",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "5a8e1cada60dddd388ac954852aac63f284589ff": {
+        "file": "chip8-test-suite.ch8",
+        "description": "Timendus's CHIP-8 Test Suite v3",
+        "release": "2022-12-31",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      }
+    }
+  },
+  {
     "title": "CHIP-8 test suite: splash screen",
     "release": "2023-04-12",
     "authors": ["Timendus"],
@@ -7004,6 +7031,14 @@
     "roms": {
       "0df2789f661358d8f7370e6cf93490c5bcd44b01": {
         "file": "1-chip8-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Splash Screen",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "8e96555ee62ed3c4dcd082fdef5d16450dcb99af": {
+        "file": "1-chip8-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Splash Screen",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7017,6 +7052,14 @@
     "roms": {
       "d3554b9789728294d881823126ba6eb8103bd42c": {
         "file": "2-ibm-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: IBM Logo",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "e670ac22abbfe46a3bcf98e36ac5a34074c43693": {
+        "file": "2-ibm-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: IBM Logo",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7030,6 +7073,14 @@
     "roms": {
       "949b661091efe706a32fb0d89991005783243bb9": {
         "file": "3-corax+.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Corax+",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "55eab50c53a102bea5d2848d29d6546fb79ae0c0": {
+        "file": "3-corax+.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Corax+",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7043,6 +7094,14 @@
     "roms": {
       "0572f188fc25ccda14b0c306c4156fe4b1d21ae1": {
         "file": "4-flags.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Flags",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "e0596d264ead3c71cf76b352f71959c82c748519": {
+        "file": "4-flags.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Flags",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7056,6 +7115,19 @@
     "roms": {
       "4309cba3fb0b96761fcba01acaf233e0ca585b4d": {
         "file": "5-quirks.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Quirks",
+        "release": "2023-04-12",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      },
+      "402ea1ede1cc4ab1c074b89b2ed5e9845f056fc3": {
+        "file": "5-quirks.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Quirks",
+        "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
         "keys": {
           "up": 14,
@@ -7074,7 +7146,58 @@
     "roms": {
       "8c7f101c61f82cacaacc45f8c11c1a00c8cc451e": {
         "file": "6-keypad.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.0: Keypad",
+        "release": "2023-04-12",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      },
+      "9909082230fd33218ac374acaeaaefbb786e3194": {
+        "file": "6-keypad.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Keypad",
+        "release": "2023-11-13",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      }
+    }
+  },
+  {
+    "title": "CHIP-8 test suite: Beep test",
+    "release": "2023-11-13",
+    "authors": ["Timendus"],
+    "urls": ["https://github.com/Timendus/chip8-test-suite#beep-test"],
+    "description": "See https://github.com/Timendus/chip8-test-suite#beep-test",
+    "roms": {
+      "b119651b5aa08557a85ca2ad5de3d1a86796b66b": {
+        "file": "7-beep.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Beep",
+        "release": "2023-11-13",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "a": 11
+        }
+      }
+    }
+  },
+  {
+    "title": "CHIP-8 test suite: Scrolling test",
+    "release": "2023-11-13",
+    "authors": ["Timendus"],
+    "urls": ["https://github.com/Timendus/chip8-test-suite#scrolling-test"],
+    "description": "See https://github.com/Timendus/chip8-test-suite#scrolling-test",
+    "roms": {
+      "67384436edd903e4b0051be02c600730d649dd4b": {
+        "file": "8-scrolling.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.1: Scrolling",
+        "release": "2023-11-13",
+        "platforms": ["superchip", "xochip"],
         "keys": {
           "up": 14,
           "down": 15,
@@ -7100,5 +7223,60 @@
         }
       }
     }
+  },
+  {
+    "title": "Octojam 10 Title",
+    "authors": ["JohnEarnest"],
+    "release": "2023-10-01",
+    "description": "Greetings program for the tenth annual 2023 Octojam.",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam10"
+    },
+    "roms": {
+      "1dda7d92450c8eee2753a9350a1a0d524b1019b4": {
+        "file": "octojam10title.ch8",
+        "platforms": ["modernChip8"],
+        "tickrate": 7,
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#662200", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        },
+        "touchInputMode": "none"
+      }
+    },
+    "images": ["octojam10title.gif"]
+  },
+  {
+    "title": "Knumber Knower",
+    "authors": ["JohnEarnest"],
+    "release": "2023-10-28",
+    "description": "A game of bad typography.",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam10"
+    },
+    "roms": {
+      "95f4af2d410c1acfd1b0657721a870a57c55b49b": {
+        "file": "knumberknower.ch8",
+        "platforms": ["modernChip8"],
+        "keys": {
+          "up": 5,
+          "left": 7,
+          "right": 9
+        },
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#ffffff", "#000000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    },
+    "images": ["knumberknower.gif"]
   }
 ]
