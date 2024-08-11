@@ -199,6 +199,17 @@
     }
   },
   {
+    "title": "Chip8AllInOne",
+    "description": "A General All-In-One Chip8 Test Rom. Press any key to forward to the next screen.",
+    "authors": ["Madster"],
+    "roms": {
+      "0DF98270298124A3E04D8DA748E43C60D8DC7F42": {
+        "file": "Chip8AllInOne.ch8",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      }
+    }
+  },
+  {
     "title": "Chip8 Picture",
     "description": "Chip8 test program",
     "roms": {
@@ -1166,7 +1177,26 @@
       "f2e9c480af31a4039af02dd7a2b8d5d1f859704d": {
         "file": "ZeroPong [zeroZshadow, 2007].ch8",
         "platforms": ["originalChip8"]
+      },
+      "f26993a4afd5cda2fea19935773fd3db54866623": {
+        "file": "octojam1title.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#aa4400", "#ffaa00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
+    },
+    "images": ["octojam1title.gif"],
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
@@ -1179,6 +1209,20 @@
       "f26993a4afd5cda2fea19935773fd3db54866623": {
         "file": "octojam1title.ch8",
         "platforms": ["superchip", "xochip"],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#aa4400", "#ffaa00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "11c68038d64a09be549a6c1e50724808914d8991": {
+        "file": "octojam2title.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
         "tickrate": 7,
         "colors": {
           "pixels": ["#aa4400", "#ffaa00"],
@@ -1208,6 +1252,21 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "493c76b9d9252e1d349d408d341daff5267f35fa": {
+        "file": "octojam3title.ch8",
+        "platforms": [
+          "superchip",
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1228,6 +1287,20 @@
         "tickrate": 7,
         "colors": {
           "pixels": ["#aa4400", "#ffaa00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "9f55f7abc8f2bc4b59a01515f1d887a6568a8ab4": {
+        "file": "octojam4title.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "colors": {
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -1254,6 +1327,20 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "d6d8efef811350e7fba6197024c4973b360749b8": {
+        "file": "octojam5title.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#ff69b4", "#000080", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1276,6 +1363,20 @@
           "pixels": ["#ff69b4", "#000080", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
+        }
+      },
+      "18aef6d2d3b560681038d0dda2273d780dc1daa5": {
+        "file": "octojam6title.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#aaaaff", "#330033", "#00ffff", "#ffffff"],
+          "buzzer": "#990099",
+          "silence": "#330033"
         }
       }
     },
@@ -1300,6 +1401,22 @@
           "buzzer": "#990099",
           "silence": "#330033"
         }
+      },
+      "9a9c341571ace516c9789b1eb92590833af13239": {
+        "file": "octojam7title.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#662200", "#ff8c1f", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1322,6 +1439,22 @@
         "fontStyle": "octo",
         "colors": {
           "pixels": ["#662200", "#ff8c1f", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "959ed7d6b61e667bb59d1b497401258463f88454": {
+        "file": "octojam8title.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "touchInputMode": "none",
+        "fontStyle": "fish",
+        "colors": {
+          "pixels": ["#aa4400", "#ffaa00", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -1350,6 +1483,18 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "5a6366decb08df66da8bd685b497ccce0884c307": {
+        "file": "octojam9title.ch8",
+        "platforms": ["originalChip8"],
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1373,6 +1518,21 @@
         "colors": {
           "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "b693e60f161e69c98b0bb2bc1761cf434f8fbb0e": {
+        "file": "garlicscape.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#001000", "#e0ffff", "#7fffd4", "#7fffd4"],
+          "buzzer": "#333333",
           "silence": "#000000"
         }
       }
@@ -1400,6 +1560,22 @@
           "buzzer": "#333333",
           "silence": "#000000"
         }
+      },
+      "440c5fbe9f5f840e76c308738fb0d37772d66674": {
+        "file": "superneatboy.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#100010", "#e6e6fa", "#ff1493", "#ff1493"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1425,6 +1601,20 @@
           "buzzer": "#000000",
           "silence": "#000000"
         }
+      },
+      "fcaa793332a83c93f4ed79f5ffbc8403c8b8aea0": {
+        "file": "eaty.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "colors": {
+          "pixels": ["#aa7700", "#443300"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1446,6 +1636,20 @@
         "colors": {
           "pixels": ["#aa7700", "#443300", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "0cd895dc3d489d0e40656218900a04310e95f560": {
+        "file": "fuse.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#8bac0f", "#306230", "#ff6600", "#662200"],
+          "buzzer": "#333333",
           "silence": "#000000"
         }
       }
@@ -1471,6 +1675,20 @@
           "buzzer": "#333333",
           "silence": "#000000"
         }
+      },
+      "e6af47843f0ecc3302027a3756dd7b389a15e437": {
+        "file": "blackrainbow.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#808080", "#d3d3d3", "#ff6600", "#662200"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1492,6 +1710,20 @@
         "colors": {
           "pixels": ["#808080", "#d3d3d3", "#ff6600", "#662200"],
           "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
+      },
+      "9d834860f455aec7e95fb886984497e5be501610": {
+        "file": "slipperyslope.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "colors": {
+          "pixels": ["#b0e0e6", "#000080", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
           "silence": "#000000"
         }
       }
@@ -1535,6 +1767,20 @@
           "right": 9,
           "a": 6
         }
+      },
+      "ab5cbf267d74c168e174041b9594ae856cbd671d": {
+        "file": "chipwar.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#6699ff", "#000066"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1558,6 +1804,20 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "400dbd1aa2b79b9b8546bc615bfb735c1bd1d268": {
+        "file": "caveexplorer.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     }
   },
@@ -1575,6 +1835,20 @@
         "colors": {
           "pixels": ["#996600", "#ffcc00"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "531c44e8204d8ab8c078bad36e34067baddfccdb": {
+        "file": "sweetcopter.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "colors": {
+          "pixels": ["#117799", "#ffffff"],
+          "buzzer": "#1166dd",
           "silence": "#000000"
         }
       }
@@ -1596,7 +1870,25 @@
           "buzzer": "#1166dd",
           "silence": "#000000"
         }
+      },
+      "518c1d40f5d768ee49d2b7951d998588ef8238ba": {
+        "file": "wonkypong.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "colors": {
+          "pixels": ["#ffffff", "#000000", "missing color", "missing color"],
+          "buzzer": "#666666",
+          "silence": "#000000"
+        }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam4"
     }
   },
   {
@@ -1613,6 +1905,20 @@
         "colors": {
           "pixels": ["#ffffff", "#000000"],
           "buzzer": "#666666",
+          "silence": "#000000"
+        }
+      },
+      "9797a7eaf1e80ec19c085c60bb37991420f54678": {
+        "file": "gradsim.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#808080", "#000000"],
+          "buzzer": "#ffaa00",
           "silence": "#000000"
         }
       }
@@ -1638,6 +1944,20 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "63e787fc3e78e5fb3a394cf1bc654ad9633d8907": {
+        "file": "mondrian.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     }
   },
@@ -1655,6 +1975,20 @@
         "colors": {
           "pixels": ["#996600", "#ffcc00"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "a9d3c975a5e733646a04f6e61deebcd0ad50f700": {
+        "file": "outlaw.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#664400", "#aa4400"],
+          "buzzer": "#ff7f50",
           "silence": "#000000"
         }
       }
@@ -1676,7 +2010,25 @@
           "buzzer": "#ff7f50",
           "silence": "#000000"
         }
+      },
+      "a6f3ac2d89cdc1d7b22013301863bad6a4fb7318": {
+        "file": "RPS.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#aa9999", "#220000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam1"
     }
   },
   {
@@ -1694,6 +2046,20 @@
           "pixels": ["#aa9999", "#220000"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
+        }
+      },
+      "39970ccfd3a3f00180d53464d4fd7862193eaf0f": {
+        "file": "octoachip8story.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#111111", "#eeeeee"],
+          "buzzer": "#ffff00",
+          "silence": "#222222"
         }
       }
     },
@@ -1715,6 +2081,20 @@
         "tickrate": 7,
         "colors": {
           "pixels": ["#111111", "#eeeeee"],
+          "buzzer": "#ffff00",
+          "silence": "#222222"
+        }
+      },
+      "b2abb5312f0ad28421c1190a65a73d98d4ebf401": {
+        "file": "pumpkindressup.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#ffa500", "#111122"],
           "buzzer": "#ffff00",
           "silence": "#222222"
         }
@@ -1741,6 +2121,20 @@
           "buzzer": "#ffff00",
           "silence": "#222222"
         }
+      },
+      "3be683d1ac0b27ae47a09984e420853fff0b7e0d": {
+        "file": "petdog.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#0c0c0c", "#fafafa"],
+          "buzzer": "#fafafa",
+          "silence": "#1a1a1a"
+        }
       }
     },
     "origin": {
@@ -1764,6 +2158,20 @@
           "buzzer": "#fafafa",
           "silence": "#1a1a1a"
         }
+      },
+      "3ddf7b76b8f63d0089e00e3b518f78c213b74b1e": {
+        "file": "8ceattourny_d1.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
+        }
       }
     },
     "origin": {
@@ -1784,6 +2192,20 @@
         "tickrate": 7,
         "colors": {
           "pixels": ["#0f0f0f", "#f1f1f1"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
+        }
+      },
+      "82fd0d202a068bedfb869fc303fdeae0c814024f": {
+        "file": "8ceattourny_d2.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
@@ -1810,6 +2232,20 @@
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
+      },
+      "419a0110d41332457c15ae09fff62cbd7ad197fc": {
+        "file": "8ceattourny_d3.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
+        }
       }
     },
     "origin": {
@@ -1832,6 +2268,20 @@
           "pixels": ["#0f0f0f", "#f1f1f1"],
           "buzzer": "#aaff55",
           "silence": "#777777"
+        }
+      },
+      "627f01b20ce4d33f6df1aa88acb405a3a732bde0": {
+        "file": "DVN8.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#f0f0f0", "#1f1f1f", "#ff6600", "#662200"],
+          "buzzer": "#aa2222",
+          "silence": "#000000"
         }
       }
     },
@@ -1856,6 +2306,20 @@
           "buzzer": "#aa2222",
           "silence": "#000000"
         }
+      },
+      "8263bac7d98d94097171f0a5dc6f210f77543080": {
+        "file": "octorancher.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#0f0f0f", "#f1f1f1", "#ff6600", "#662200"],
+          "buzzer": "#aaff55",
+          "silence": "#777777"
+        }
       }
     },
     "origin": {
@@ -1879,6 +2343,18 @@
           "buzzer": "#aaff55",
           "silence": "#777777"
         }
+      },
+      "3f9ef8dec999574a188ec3b9615cff9888283c85": {
+        "file": "tank.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "colors": {
+          "pixels": ["missing color", "missing color"]
+        }
       }
     },
     "origin": {
@@ -1897,6 +2373,20 @@
         "file": "tank.ch8",
         "platforms": ["modernChip8"],
         "tickrate": 200
+      },
+      "b76fbca2ec089c7e77f4a2f754db37854b99debc": {
+        "file": "rockto.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#333333", "#cccccc"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1917,6 +2407,20 @@
         "tickrate": 15,
         "colors": {
           "pixels": ["#333333", "#cccccc"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
+      },
+      "821751787374cc362f4c58759961f0aa7a2fd410": {
+        "file": "flightrunner.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#0000ff", "#ffcc00"],
           "buzzer": "#ffffff",
           "silence": "#000000"
         }
@@ -1943,6 +2447,20 @@
           "buzzer": "#ffffff",
           "silence": "#000000"
         }
+      },
+      "d03f27f85a1cf68465e0853cc0c4abee4a94a4e5": {
+        "file": "turnover77.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "colors": {
+          "pixels": ["#ed7f37", "#ffe900"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -1965,6 +2483,20 @@
           "pixels": ["#ed7f37", "#ffe900"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
+        }
+      },
+      "12572c9e957cace53076d1656ea1b12cd0f331af": {
+        "file": "ultimatetictactoe.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#ffffff", "#553300"],
+          "buzzer": "#ffaa00",
+          "silence": "#ffffff"
         }
       }
     },
@@ -1989,6 +2521,20 @@
           "buzzer": "#ffaa00",
           "silence": "#ffffff"
         }
+      },
+      "8b2fc2e08830b8a9e604d11c9b319e2cc0a581b3": {
+        "file": "t8nks.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#87ceeb", "#554422", "#456543", "#eeeeff"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2010,6 +2556,20 @@
         "colors": {
           "pixels": ["#87ceeb", "#554422", "#456543", "#eeeeff"],
           "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
+      },
+      "33abb5f1ba7db3166636911c6cfa81a5ce5b861c": {
+        "file": "octopaint.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
           "silence": "#000000"
         }
       }
@@ -2035,7 +2595,24 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "ab36ced6e34affacd57b2874ede3f95b669a424c": {
+        "file": "jub8-1.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
+        }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
@@ -2048,6 +2625,19 @@
       "ab36ced6e34affacd57b2874ede3f95b669a424c": {
         "file": "jub8-1.ch8",
         "platforms": ["xochip"],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
+        }
+      },
+      "12e053d66be67836deff1c07af93fe1d33a8eec5": {
+        "file": "jub8-2.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
         "tickrate": 1000,
         "colors": {
           "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
@@ -2077,6 +2667,19 @@
           "buzzer": "#353c41",
           "silence": "#353c41"
         }
+      },
+      "9bf96e23963995c6d702ae21c9b8741cbb688f47": {
+        "file": "jub8-3.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
+        }
       }
     },
     "origin": {
@@ -2094,6 +2697,19 @@
       "9bf96e23963995c6d702ae21c9b8741cbb688f47": {
         "file": "jub8-3.ch8",
         "platforms": ["xochip"],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
+        }
+      },
+      "7e8d5a79cabeb9a791524ea7126867a539d825ee": {
+        "file": "jub8-4.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
         "tickrate": 1000,
         "colors": {
           "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
@@ -2123,6 +2739,19 @@
           "buzzer": "#353c41",
           "silence": "#353c41"
         }
+      },
+      "b274ab30ed7678400dc2283431a45f7d98d9fced": {
+        "file": "jub8-5.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
+        }
       }
     },
     "origin": {
@@ -2140,6 +2769,19 @@
       "b274ab30ed7678400dc2283431a45f7d98d9fced": {
         "file": "jub8-5.ch8",
         "platforms": ["xochip"],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
+          "buzzer": "#353c41",
+          "silence": "#353c41"
+        }
+      },
+      "3fd62ae2bfe2572ceb194f1d3d1bd5a01695b86c": {
+        "file": "jub8-6.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
         "tickrate": 1000,
         "colors": {
           "pixels": ["#353c41", "#000000", "#fdffd5", "#ba5a1a"],
@@ -2169,6 +2811,21 @@
           "buzzer": "#353c41",
           "silence": "#353c41"
         }
+      },
+      "64536d549c986e9edf25de9fa89db60d2ade85c0": {
+        "file": "sub8.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 60,
+        "screenRotation": 270,
+        "colors": {
+          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#111111"
+        }
       }
     },
     "origin": {
@@ -2193,6 +2850,20 @@
           "buzzer": "#ffaa00",
           "silence": "#111111"
         }
+      },
+      "7a4a89870f2ab23c28024dd1c3dd52cf1af1ad00": {
+        "file": "octopeg.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "colors": {
+          "pixels": ["#113152", "#acd5ff"],
+          "buzzer": "#264c74",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2214,6 +2885,20 @@
         "colors": {
           "pixels": ["#113152", "#acd5ff"],
           "buzzer": "#264c74",
+          "silence": "#000000"
+        }
+      },
+      "fb48e162c7f2e8853909acc5534b55fb55030f9f": {
+        "file": "masquer8.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#1a3674", "#ff6666"],
+          "buzzer": "#3b6c83",
           "silence": "#000000"
         }
       }
@@ -2239,6 +2924,19 @@
           "buzzer": "#3b6c83",
           "silence": "#000000"
         }
+      },
+      "58f7ce407aedf456dc8992342f4a6f9f0647383b": {
+        "file": "sens8tion.ch8",
+        "platforms": [
+          "superchip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#bad9b6", "#1a3279"],
+          "buzzer": "#fff6d6",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2260,6 +2958,20 @@
         "colors": {
           "pixels": ["#bad9b6", "#1a3279"],
           "buzzer": "#fff6d6",
+          "silence": "#000000"
+        }
+      },
+      "2e0f2268c9a3be0fbb839f918336f161815bb80a": {
+        "file": "carbon8.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#0000ff", "#ffcc00", "missing color", "missing color"],
+          "buzzer": "#ffffff",
           "silence": "#000000"
         }
       }
@@ -2285,6 +2997,18 @@
           "buzzer": "#ffffff",
           "silence": "#000000"
         }
+      },
+      "0f479a10fec51d159866e5760069cd18bdfd293f": {
+        "file": "BadKaiJuJu.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#aaaaff", "#330033"]
+        }
       }
     },
     "origin": {
@@ -2306,6 +3030,20 @@
         "colors": {
           "pixels": ["#aaaaff", "#330033"]
         }
+      },
+      "7da3eba52a8d8025ddf14ee40d28f151585529a0": {
+        "file": "piper.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "colors": {
+          "pixels": ["#0000ff", "#ffcc00", "missing color", "missing color"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2326,6 +3064,20 @@
         "tickrate": 200,
         "colors": {
           "pixels": ["#0000ff", "#ffcc00"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
+        }
+      },
+      "9f7cf6fe0025878c26b317160c57edd06b3361ba": {
+        "file": "supersquare.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 500,
+        "colors": {
+          "pixels": ["#552200", "#ffffff", "missing color", "missing color"],
           "buzzer": "#ffffff",
           "silence": "#000000"
         }
@@ -2352,6 +3104,19 @@
           "buzzer": "#ffffff",
           "silence": "#000000"
         }
+      },
+      "76a770000b314659ac792e17724b783a464ab67e": {
+        "file": "civiliz8n.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "colors": {
+          "pixels": ["#141421", "#754d27", "#738c3a", "#e2cb8a"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2373,6 +3138,16 @@
         "colors": {
           "pixels": ["#141421", "#754d27", "#738c3a", "#e2cb8a"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "8ebf74e790e58a8d5a7beff598bb32ed7eeeabf7": {
+        "file": "skyward.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#121212", "#4b636f", "#af2d3d", "#af2d3d"],
+          "buzzer": "#000000",
           "silence": "#000000"
         }
       }
@@ -2403,6 +3178,19 @@
           "buzzer": "#000000",
           "silence": "#000000"
         }
+      },
+      "a3f0eae99964b873eb1adbd3e8bcb90d15f762c3": {
+        "file": "mini-lights-out.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "touchInputMode": "seg16",
+        "colors": {
+          "pixels": ["missing color", "missing color"]
+        }
       }
     },
     "origin": {
@@ -2426,6 +3214,19 @@
       "2e2d9b370e08d6994fd2ded938a56b32b07ad768": {
         "file": "Mini Lights Out (by Tobias V. Langhoff)(2019).ch8",
         "platforms": ["originalChip8"]
+      },
+      "afd9fee7565c54970b6bd7758aa8aa7843dd2e86": {
+        "file": "anEveningToDieFor.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 500,
+        "colors": {
+          "pixels": ["#ffffff", "#000000", "#ff0000", "#ff0000"],
+          "buzzer": "#808080",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2459,6 +3260,20 @@
           "buzzer": "#808080",
           "silence": "#000000"
         }
+      },
+      "28ac3467fbb4544a3e3a1ec3cd27d9e819ac7323": {
+        "file": "horseWorldOnline.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "colors": {
+          "pixels": ["#a0cb6d", "#783809"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2486,6 +3301,20 @@
       "84d612c7eccf24835eb585711a49964572444737": {
         "file": "Horse World Online (TomR)(2014).ch8",
         "platforms": ["originalChip8"]
+      },
+      "df5ced9c20d00bf7be7d3361d76f27d0d577abfb": {
+        "file": "horseyJump.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#006c00", "#c3c3c3"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2525,6 +3354,19 @@
             "memoryLeaveIUnchanged": false
           }
         }
+      },
+      "a98ed56f88f11156871d871d9200fc4bb45190a4": {
+        "file": "superOctoTrackXO.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "colors": {
+          "pixels": ["#000000", "#ff00ff", "#00ffff", "#ffffff"],
+          "buzzer": "#990099",
+          "silence": "#330033"
+        }
       }
     },
     "origin": {
@@ -2553,6 +3395,20 @@
           "buzzer": "#990099",
           "silence": "#330033"
         }
+      },
+      "1e3be162480380b6276d0848e1c71576b4c041f2": {
+        "file": "ghostEscape.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#00ffff", "#ff00ff", "#ff6600", "#662200"],
+          "buzzer": "#990099",
+          "silence": "#330033"
+        }
       }
     },
     "origin": {
@@ -2576,6 +3432,21 @@
           "buzzer": "#990099",
           "silence": "#330033"
         }
+      },
+      "6e7cb52ec99e10f934b76eaf3fddeb8f2e2e14e1": {
+        "file": "tombstontipp.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "touchInputMode": "seg16",
+        "colors": {
+          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2598,6 +3469,19 @@
         "colors": {
           "pixels": ["#000000", "#ffffff"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "a4a9351775b2a64bbd14e3980968db19c254a988": {
+        "file": "flutterby.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#0f380f", "#9bbc0f", "#8bac0f", "#306230"],
+          "buzzer": "#333333",
           "silence": "#000000"
         }
       }
@@ -2627,6 +3511,20 @@
       "808aeb072604809e0ef13c245115a81f40422d1d": {
         "file": "Flutter By (by Tom Rintjema)(2019).sc8",
         "platforms": ["superchip"]
+      },
+      "31fc1c53cc610a9f4b9c5705c5a0f33fc028d123": {
+        "file": "br8kout.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "colors": {
+          "pixels": ["#ca2553", "#ff84fe"],
+          "buzzer": "#ffaa00",
+          "silence": "#f090e4"
+        }
       }
     },
     "origin": {
@@ -2660,6 +3558,20 @@
           "buzzer": "#ffaa00",
           "silence": "#f090e4"
         }
+      },
+      "018442698067c95d67e27a94e6642c11f049f108": {
+        "file": "1dcell.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#274a17", "#00f80a"],
+          "buzzer": "#ffaa00",
+          "silence": "#142a12"
+        }
       }
     },
     "origin": {
@@ -2682,6 +3594,20 @@
           "pixels": ["#274a17", "#00f80a"],
           "buzzer": "#ffaa00",
           "silence": "#142a12"
+        }
+      },
+      "fbc7711ad068015b957e91d8714636b2ac90d9cb": {
+        "file": "keshaWasBird.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#59755e", "#b8cd9e", "#ed656b", "#55989e"],
+          "buzzer": "#000000",
+          "silence": "#000000"
         }
       }
     },
@@ -2706,7 +3632,24 @@
           "buzzer": "#000000",
           "silence": "#000000"
         }
+      },
+      "92a325c36ad2116a5256946b8bf711ed9befd319": {
+        "file": "keshaWasBiird.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#fafdf9", "#1a1c19", "#a0a29f", "#5d5b5d"],
+          "buzzer": "#222211",
+          "silence": "#212110"
+        }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
@@ -2724,6 +3667,19 @@
           "pixels": ["#fafdf9", "#1a1c19", "#a0a29f", "#5d5b5d"],
           "buzzer": "#222211",
           "silence": "#212110"
+        }
+      },
+      "4564a1bf149e5ab9777d33813a92cfd6ffc7a0bb": {
+        "file": "keshaWasNiiinja.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#283593", "#b22d10", "#10b258", "#ffffff"],
+          "buzzer": "#182583",
+          "silence": "#182583"
         }
       }
     },
@@ -2748,6 +3704,19 @@
           "buzzer": "#182583",
           "silence": "#182583"
         }
+      },
+      "e14350d3b19443e5ad2848172bef9719a8680b01": {
+        "file": "redOctober.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 10000,
+        "colors": {
+          "pixels": ["#b22d10", "#000000", "#ffff00", "#808000"],
+          "buzzer": "#400000",
+          "silence": "#400000"
+        }
       }
     },
     "origin": {
@@ -2770,6 +3739,20 @@
           "pixels": ["#b22d10", "#000000", "#ffff00", "#808000"],
           "buzzer": "#400000",
           "silence": "#400000"
+        }
+      },
+      "1b6dcf8c02ea0b89a4f04ce28e7c39a5e7a513d6": {
+        "file": "sk8.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#d4d4d4", "#7b0201", "#f2faf7", "#e7ed3e"],
+          "buzzer": "#990099",
+          "silence": "#330033"
         }
       }
     },
@@ -2798,6 +3781,20 @@
       "f12038dcd28ca71661162bfb6fc92a8826f7d6b9": {
         "file": "SK8 H8 1988 (by Team Out of Left Field)(2015).xo8",
         "platforms": ["xochip"]
+      },
+      "06a6692c92eb8077329b6d4e59d55479d60574a8": {
+        "file": "snake.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#30283e", "#84a174"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2837,6 +3834,20 @@
           "down": 8,
           "right": 9
         }
+      },
+      "9f9a4affbf7afd70bb594fb321e16579318c0164": {
+        "file": "spacejam.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "colors": {
+          "pixels": ["#111111", "#fcfcfc"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2857,6 +3868,20 @@
         "tickrate": 100,
         "colors": {
           "pixels": ["#111111", "#fcfcfc"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "898ef1505c874065697ffc6cba688367e143d82e": {
+        "file": "mastermind.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#005e20", "#fcfcfc"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -2887,6 +3912,20 @@
       "d2fa3927b31f81fc06cd9466123309c59264fa41": {
         "file": "Mastermind (William Donnelly)(2015).ch8",
         "platforms": ["modernChip8"]
+      },
+      "659cb966e976fcbcae76f6a8a07c65be4d18aae8": {
+        "file": "spaceracer.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#111111", "#fcfcfc", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2927,6 +3966,20 @@
           "down": 8,
           "right": 9
         }
+      },
+      "1368d7eae124661aacaf3411819ca9c113c0c10c": {
+        "file": "down8.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "colors": {
+          "pixels": ["#3dbdfa", "#27130f"],
+          "buzzer": "#ff6600",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -2948,6 +4001,20 @@
         "colors": {
           "pixels": ["#3dbdfa", "#27130f"],
           "buzzer": "#ff6600",
+          "silence": "#000000"
+        }
+      },
+      "19279f8cfbb58a925a80b52e690ad71ee0907134": {
+        "file": "trucksimul8or.ch8",
+        "platforms": [
+          "xochip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
           "silence": "#000000"
         }
       }
@@ -2977,7 +4044,25 @@
       "018e6da9937173b1ac44d4261e848af485dcd305": {
         "file": "Truck Simul8or (by Bjorn Kempen)(2015).xo8",
         "platforms": ["xochip"]
+      },
+      "e74f20f234753e0cc2f58e29dc02d6128a6a3d97": {
+        "file": "binding.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
+    },
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam3"
     }
   },
   {
@@ -2993,6 +4078,20 @@
         "tickrate": 1000,
         "colors": {
           "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "83300ff710acdd8417376b88adf40f68171f7ec7": {
+        "file": "chipcross.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 20,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
@@ -3014,6 +4113,20 @@
         "file": "chipcross.ch8",
         "platforms": ["xochip"],
         "tickrate": 20,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "fcecf90496dadd214486a7a769e3a07f2b8f4eab": {
+        "file": "knight.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
         "colors": {
           "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
@@ -3064,6 +4177,21 @@
           "a": 6,
           "b": 4
         }
+      },
+      "f4392681b1fa38d7ad0a7d7a59cecf247ac1457a": {
+        "file": "chipquarium.ch8",
+        "platforms": [
+          "modernChip8",
+          "originalChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "colors": {
+          "pixels": ["#0072ff", "#ffffff"],
+          "buzzer": "#ffaa00",
+          "silence": "#0000ff"
+        }
       }
     },
     "origin": {
@@ -3087,6 +4215,20 @@
           "pixels": ["#0072ff", "#ffffff"],
           "buzzer": "#ffaa00",
           "silence": "#0000ff"
+        }
+      },
+      "2cdcb3c29a5f013a991db5909ca8e18e27b3c42b": {
+        "file": "glitchGhost.ch8",
+        "platforms": [
+          "originalChip8",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "colors": {
+          "pixels": ["#555555", "#ffffff"],
+          "buzzer": "#ffffff",
+          "silence": "#000000"
         }
       }
     },
@@ -3129,6 +4271,20 @@
           "right": 9,
           "a": 6
         }
+      },
+      "74936ffb0db233c722f5a39932d75240b6437a72": {
+        "file": "octovore.ch8",
+        "platforms": [
+          "superchip",
+          "modernChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 120,
+        "colors": {
+          "pixels": ["#8bdce8", "#5b1b96"],
+          "buzzer": "#68e022",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3156,6 +4312,20 @@
       "1ff6e2a8920c5b48def34348df65226285f39ce9": {
         "file": "Octovore (by Pangasaurus Rex)(2015).sc8",
         "platforms": ["superchip"]
+      },
+      "33ec2f3081bed56438dc207477f06cd77f3f07d9": {
+        "file": "businessiscontagious.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "touchInputMode": "gamepad",
+        "colors": {
+          "pixels": ["#c7f0d8", "#43523d", "#43523d", "#43523d"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
+        }
       }
     },
     "origin": {
@@ -3180,6 +4350,20 @@
           "buzzer": "#43523d",
           "silence": "#43523d"
         }
+      },
+      "61931487c694c5bc6978ae22c0a36aca5a647e24": {
+        "file": "nokiatemplate.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "colors": {
+          "pixels": ["#43523d", "#c7f0d8", "#c7f0d8", "#c7f0d8"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
+        }
       }
     },
     "origin": {
@@ -3200,6 +4384,21 @@
         "tickrate": 30,
         "colors": {
           "pixels": ["#43523d", "#c7f0d8"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
+        }
+      },
+      "77dc518e6779ccd862205cfeb0f3f7772caed60e": {
+        "file": "expedition.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#c7f0d8", "#43523d", "#43523d", "#43523d"],
           "buzzer": "#43523d",
           "silence": "#43523d"
         }
@@ -3228,6 +4427,21 @@
           "buzzer": "#43523d",
           "silence": "#43523d"
         }
+      },
+      "d52c2f85f56c963ff5e48a096afc61d3c8a71c11": {
+        "file": "OctoPartyMix.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#000000", "#55ff55", "#ff7700", "#ffffff"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3251,6 +4465,21 @@
         "colors": {
           "pixels": ["#000000", "#55ff55", "#ff7700", "#ffffff"],
           "buzzer": "#000000",
+          "silence": "#000000"
+        }
+      },
+      "c606d52970b86edcca4e87e9f6fae4b1ccbbbb0f": {
+        "file": "chickenScratch.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 500,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#d5a08c", "#7c4300", "#fd8100", "#fd8100"],
+          "buzzer": "#3c2300",
           "silence": "#000000"
         }
       }
@@ -3298,6 +4527,20 @@
           "a": 6,
           "b": 4
         }
+      },
+      "bcbf36a68cf389e87dd54a9707cf35c4436dcb92": {
+        "file": "applejak.ch8",
+        "platforms": [
+          "superchip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "colors": {
+          "pixels": ["#001000", "#b00000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3322,6 +4565,21 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "b277c053b5b4ff9e40cd52cd4125a35ec22ccd0a": {
+        "file": "bulb.ch8",
+        "platforms": [
+          "superchip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#f9ffb3", "#1e90ff"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3344,6 +4602,21 @@
         "fontStyle": "octo",
         "colors": {
           "pixels": ["#f9ffb3", "#1e90ff"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
+        }
+      },
+      "abfce04ddd0f72838dd887f3db3106066fd675b3": {
+        "file": "squad.ch8",
+        "platforms": [
+          "superchip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 500,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#663300", "#ffaf00"],
           "buzzer": "#f9ffb3",
           "silence": "#000000"
         }
@@ -3372,6 +4645,22 @@
           "buzzer": "#f9ffb3",
           "silence": "#000000"
         }
+      },
+      "b66f55f83eb264d2b73c0b4ac81ea5044bf73138": {
+        "file": "spockpaperscissors.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#323232", "#b4b4b4", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3397,6 +4686,22 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "7fb69647e6b10e2b12f9357d5c1c177349028236": {
+        "file": "dodge.ch8",
+        "platforms": [
+          "superchip",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3414,6 +4719,22 @@
       "7fb69647e6b10e2b12f9357d5c1c177349028236": {
         "file": "dodge.ch8",
         "platforms": ["superchip", "xochip"],
+        "tickrate": 1000,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "bb5740042385cae10724b051208bb95e5341f56d": {
+        "file": "snek.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
         "tickrate": 1000,
         "touchInputMode": "swipe",
         "fontStyle": "octo",
@@ -3447,6 +4768,21 @@
           "buzzer": "#ffaa00",
           "silence": "#000000"
         }
+      },
+      "bb1e786cb921f51d0540cca9a216c0b72bceb443": {
+        "file": "octogon.ch8",
+        "platforms": [
+          "superchip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "touchInputMode": "swipe",
+        "fontStyle": "fish",
+        "colors": {
+          "pixels": ["#000000", "#ff69b4"],
+          "buzzer": "#111111",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3471,6 +4807,21 @@
           "pixels": ["#000000", "#ff69b4"],
           "buzzer": "#111111",
           "silence": "#000000"
+        }
+      },
+      "f9d0bdf4a80d5570a9af9fd13769e528dff411df": {
+        "file": "ordinaryidlegarden.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 200,
+        "touchInputMode": "none",
+        "fontStyle": "fish",
+        "colors": {
+          "pixels": ["#c7f0d8", "#43523d", "#43523d", "#43523d"],
+          "buzzer": "#43523d",
+          "silence": "#43523d"
         }
       }
     },
@@ -3497,6 +4848,21 @@
           "buzzer": "#43523d",
           "silence": "#43523d"
         }
+      },
+      "80feda2028aa31788d3d1d9e062d77d2fd9308cc": {
+        "file": "octoma.ch8",
+        "platforms": [
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 10000,
+        "touchInputMode": "none",
+        "fontStyle": "fish",
+        "colors": {
+          "pixels": ["#000000", "#ff00ff", "#00ffff", "#ffffff"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3522,6 +4888,22 @@
           "buzzer": "#000000",
           "silence": "#000000"
         }
+      },
+      "2c761f70a44e521ee848834cfdd2bd1646157d29": {
+        "file": "superpong.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 30,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#c7f0d8", "#43523d", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "origin": {
@@ -3545,6 +4927,21 @@
         "colors": {
           "pixels": ["#c7f0d8", "#43523d", "#ff6600", "#662200"],
           "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      },
+      "a8d6e9b1976c99ddc0c4818828a6d3cb3ae6f348": {
+        "file": "wdl.ch8",
+        "platforms": [
+          "originalChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#d3d3d3", "#808080"],
+          "buzzer": "#ff0000",
           "silence": "#000000"
         }
       }
@@ -4460,7 +5857,26 @@
       "8198311054b6cd440dde42d6efed0eda1b1e461d": {
         "file": "D8GN (SystemLogoff)(2020).xo8",
         "platforms": ["xochip"]
+      },
+      "ff6b8ac59bf281cd4b5ab6e161600b00f85a0265": {
+        "file": "danm8ku.ch8",
+        "platforms": [
+          "modernChip8",
+          "originalChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 1000,
+        "colors": {
+          "pixels": ["#000000", "#00ff00"],
+          "buzzer": "#999900",
+          "silence": "#333300"
+        }
       }
+    },
+    "images": ["title.gif", "gameplay.gif"],
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam2"
     }
   },
   {
@@ -7221,7 +8637,28 @@
           "right": 6,
           "down": 8
         }
+      },
+      "1dda7d92450c8eee2753a9350a1a0d524b1019b4": {
+        "file": "octojam10title.ch8",
+        "platforms": [
+          "originalChip8",
+          "xochip",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 7,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#662200", "#ffaa00", "#ff6600", "#662200"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
+    },
+    "images": ["octojam10title.gif"],
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam10"
     }
   },
   {
@@ -7245,6 +8682,21 @@
           "silence": "#000000"
         },
         "touchInputMode": "none"
+      },
+      "95f4af2d410c1acfd1b0657721a870a57c55b49b": {
+        "file": "knumberknower.ch8",
+        "platforms": [
+          "originalChip8",
+          "PLEASE MANUALLY CHECK PLATFORMS, THIS IS PROBABLY WRONG"
+        ],
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#ffffff", "#000000"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
       }
     },
     "images": ["octojam10title.gif"]
