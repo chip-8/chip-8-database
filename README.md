@@ -231,3 +231,55 @@ are some places you can find the games listed in this database:
 - [David Winter's CHIP-8 games](https://www.pong-story.com/chip8/): A collection
   of David Winter's games, which are traditionally included in many emulators
   today.
+
+## Contributing
+
+### Prerequisites
+
+This project uses [NPM][] to manage dependencies and run scripts, including
+[jsonschema](https://www.npmjs.com/package/jsonschema) and
+[Prettier](https://prettier.io/). Follow the instructions to
+[download and install npm on your system](https://nodejs.org/en/download/package-manager).
+
+Once NPM is installed, navigate to the root of this repository and execute
+`npm install` to install this project's dependencies.
+
+### Updating the Database from Octo
+
+The CI system checks to ensure that the database is up to date with the contents
+of the [CHIP-8 Archive], and will fail if there are programs there that are not
+listed in [`programs.json`](./database/programs.json).
+
+Before making your changes, it is advised that you run `npm start` to
+automatically create entries for the new files.
+
+If there are any changes (check with `git status` or `git diff`), review the
+newly generated entries at the end of
+[`programs.json`](./database/programs.json) and perform any cleanup that needs
+to occur. In particular, determine appropriate values for the `"platforms"`
+section for each newly added program.
+
+If you made any changes, run `npm run format` before committing.
+
+### Adding a new program
+
+Edit [`programs.json`](./database/programs.json) and add a new object at the end
+of the array. Include data for at least the following keys:
+
+- `title`
+- `description`
+- `authors`
+- `release`
+- `roms.{hash}.file`
+- `roms.{hash}.platforms`
+
+If you are familiar with
+[JSON Schema](https://json-schema.org/understanding-json-schema), review
+[`schemas/programs.json`](./schemas/programs.json) for type definitions and
+validation info.
+
+Otherwise you can look at existing entries and use `npm run test` to
+automatically validate against the schema.
+
+Once you're done making your changes, run `npm start` and `npm run format`
+before committing.
