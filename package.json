@@ -25,6 +25,11 @@
       "name": "Timendus",
       "email": "mail@timendus.com",
       "url": "https://github.com/Timendus"
+    },
+    {
+      "name": "Estus",
+      "email": "git@estus.dev",
+      "url": "https://github.com/Estus-Dev"
     }
   ],
   "bugs": {
