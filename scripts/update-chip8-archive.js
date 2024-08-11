@@ -83,17 +83,25 @@ function cleanedROM(archiveProgram) {
       allowedROMOptions[property]
     );
   }
-  result.colors = {
-    pixels: [
-      cast(archiveProgram.options.backgroundColor, "color") || "missing color",
-      cast(archiveProgram.options.fillColor, "color") || "missing color",
-      cast(archiveProgram.options.fillColor2, "color") || "missing color",
-      cast(archiveProgram.options.blendColor, "color") || "missing color",
-    ],
-    buzzer: cast(archiveProgram.options.buzzColor, "color"),
-    silence: cast(archiveProgram.options.quietColor, "color"),
-  };
-  if (!result.platforms.includes("xochip")) result.colors.pixels.splice(2);
+  let { backgroundColor, fillColor, fillColor2, blendColor } =
+    archiveProgram.options;
+  backgroundColor = cast(backgroundColor, "color");
+  fillColor = cast(fillColor, "color");
+  if (backgroundColor && fillColor) {
+    result.colors = {
+      pixels: [backgroundColor, fillColor],
+      buzzer: cast(archiveProgram.options.buzzColor, "color"),
+      silence: cast(archiveProgram.options.quietColor, "color"),
+    };
+    fillColor2 = cast(fillColor2, "color");
+    blendColor = cast(blendColor, "color");
+    if (result.platforms.includes("xochip") && fillColor2 && blendColor) {
+      result.colors.pixels.push(fillColor2);
+      result.colors.pixels.push(blendColor);
+    }
+  } else {
+    delete result.colors;
+  }
   if (result.screenRotation == "0") delete result.screenRotation;
   return result;
 }
