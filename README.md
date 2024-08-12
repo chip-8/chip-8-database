@@ -263,8 +263,11 @@ If you made any changes, run `npm run format` before committing.
 
 ### Adding a new program
 
-Edit [`programs.json`](./database/programs.json) and add a new object at the end
-of the array. Include data for at least the following keys:
+Edit [`programs.json`](./database/programs.json) and add a new object **at the
+end** of the array. If you insert a new item in the middle (i.e. alphabetically)
+it will change existing data that comes afterward.
+
+Include data for at least the following keys:
 
 - `title`
 - `description`
