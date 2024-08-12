@@ -236,8 +236,8 @@ are some places you can find the games listed in this database:
 
 ### Prerequisites
 
-This project uses [NPM][] to manage dependencies and run scripts, including
-[jsonschema](https://www.npmjs.com/package/jsonschema) and
+This project uses [NPM](https://www.npmjs.com/) to manage dependencies and run
+scripts, including [jsonschema](https://www.npmjs.com/package/jsonschema) and
 [Prettier](https://prettier.io/). Follow the instructions to
 [download and install npm on your system](https://nodejs.org/en/download/package-manager).
 
