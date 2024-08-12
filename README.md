@@ -234,6 +234,16 @@ are some places you can find the games listed in this database:
 
 ## Contributing
 
+The CHIP-8 database is always a work in progress. So if you run into ROMs that
+are not in the database yet, or if you find information that is not correct,
+please open an issue or a pull request to add them. So that over time this
+database approaches a reliable and exhaustive list.
+
+The database files are automatically checked for each pull request. Github will
+complain about your pull request if it does not adhere to the schema definitions
+or the style guidelines. So don't be afraid to try things if you're not sure how
+it should be; nobody will accidentally merge a malformed pull request.
+
 ### Prerequisites
 
 This project uses [NPM](https://www.npmjs.com/) to manage dependencies and run
@@ -248,21 +258,62 @@ Once NPM is installed, navigate to the root of this repository and execute
 
 Edit [`programs.json`](./database/programs.json) and add a new object **at the
 end** of the array. If you insert a new item in the middle (i.e. alphabetically)
-it will change existing data that comes afterward.
+it will change existing data that comes afterward, and make the pull request
+harder to review.
 
-Include data for at least the following keys:
+You can start by copying this and filling in the blanks:
 
-- `title`
-- `description`
-- `authors`
-- `release`
-- `roms.{hash}.file`
-- `roms.{hash}.platforms`
+```json
+{
+  "title": "ENTER TITLE HERE",
+  "description": "ENTER DESCRIPTION THAT DESCRIBES THIS PROGRAM HERE",
+  "release": "ENTER YEAR/DATE OF RELEASE HERE",
+  "authors": ["ENTER NAME OF AUTHOR HERE"],
+  "roms": {
+    "ENTER SHA1 HASH OF ROM FILE HERE": {
+      "platforms": ["ENTER PLATFORM HERE"]
+    }
+  }
+}
+```
+
+To create the SHA1 hash, you can use `sha1sum`, or if your operating system does
+not supply it, run our helper script like so:
+
+```bash
+npm run hash path/to/somefile.ch8
+```
+
+The `release` field may be a year (YYYY) a year and a month (YYYY-MM) or a full
+date (YYYY-MM-DD).
+
+The `platforms` field is a list that may contain one or more of these platform
+IDs:
+
+- originalChip8
+- hybridVIP
+- modernChip8
+- chip8x
+- chip48
+- superchip1
+- superchip
+- megachip8
+- xochip
+
+See [`platforms.json`](./database/platforms.json) for more information about
+these platforms, so you can make an informed choice.
+
+The platforms list should be in order of "most desired to least desired". For
+example; if a game was written for Superchip, but it happens to run just as well
+on regular CHIP-8, then Superchip should come first because that is more
+"canonical". If a game runs on Superchip, but it has a few minor bugs in
+Superchip that don't show up when you run it as XO-CHIP, then XO-CHIP should be
+first in the list.
 
 If you are familiar with
 [JSON Schema](https://json-schema.org/understanding-json-schema), review
-[`schemas/programs.json`](./schemas/programs.json) for type definitions and
-validation info.
+[`schemas/programs.json`](./schemas/programs.json) for more information on type
+definitions and validation info.
 
 Once you're done making your changes, run `npm start` and ensure `npm test`
 passes before committing.
