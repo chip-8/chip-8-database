@@ -231,3 +231,51 @@ are some places you can find the games listed in this database:
 - [David Winter's CHIP-8 games](https://www.pong-story.com/chip8/): A collection
   of David Winter's games, which are traditionally included in many emulators
   today.
+
+## Contributing
+
+### Prerequisites
+
+This project uses [NPM](https://www.npmjs.com/) to manage dependencies and run
+scripts, including [jsonschema](https://www.npmjs.com/package/jsonschema) and
+[Prettier](https://prettier.io/). Follow the instructions to
+[download and install npm on your system](https://nodejs.org/en/download/package-manager).
+
+Once NPM is installed, navigate to the root of this repository and execute
+`npm install` to install this project's dependencies.
+
+### Adding a new program
+
+Edit [`programs.json`](./database/programs.json) and add a new object **at the
+end** of the array. If you insert a new item in the middle (i.e. alphabetically)
+it will change existing data that comes afterward.
+
+Include data for at least the following keys:
+
+- `title`
+- `description`
+- `authors`
+- `release`
+- `roms.{hash}.file`
+- `roms.{hash}.platforms`
+
+If you are familiar with
+[JSON Schema](https://json-schema.org/understanding-json-schema), review
+[`schemas/programs.json`](./schemas/programs.json) for type definitions and
+validation info.
+
+Once you're done making your changes, run `npm start` and ensure `npm test`
+passes before committing.
+
+### Updating the Database from the [CHIP-8 Archive](https://github.com/JohnEarnest/Chip8Archive)
+
+To update the database with new entries from the CHIP-8 Archive, use
+`npm run update`.
+
+If there are any changes (check with `git status` or `git diff`), review the
+newly generated entries at the end of
+[`programs.json`](./database/programs.json) and perform any cleanup that needs
+to occur. In particular, determine appropriate values for the `"platforms"`
+section for each newly added program.
+
+Before committing any changes, run `npm start` and ensure `npm test` passes.

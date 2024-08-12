@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "A database of CHIP-8 game metadata",
   "scripts": {
-    "start": "npm run update-chip8-archive && npm run generate-hashes-file && npm run check-formatting && npm run test",
-    "test": "node ./scripts/validate.js",
+    "start": "npm run generate-hashes-file && npm run format",
+    "update": "npm run update-chip8-archive && npm run generate-hashes-file && npm run check-formatting && npm run test",
+    "test": "npm run validate-schema && npm run check-formatting",
+    "validate-schema": "node ./scripts/validate.js",
     "check-formatting": "prettier --check .",
     "format": "prettier --write .",
     "update-chip8-archive": "node ./scripts/update-chip8-archive.js",
@@ -25,6 +27,11 @@
       "name": "Timendus",
       "email": "mail@timendus.com",
       "url": "https://github.com/Timendus"
+    },
+    {
+      "name": "Estus",
+      "email": "git@estus.dev",
+      "url": "https://github.com/Estus-Dev"
     }
   ],
   "bugs": {
