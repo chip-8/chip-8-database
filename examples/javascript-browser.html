@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <title>CHIP-8 Database Example</title>
+    <script type="text/javascript">
+      /**
+       * Example script for querying the `programs.json` file on Github in the
+       * browser.
+       */
+
+      let hashes, programs;
+
+      // Returns a SHA1 hash of the given binary data
+      async function sha1Hash(data) {
+        const hash = await crypto.subtle.digest("SHA-1", data);
+        const array = Array.from(new Uint8Array(hash));
+        return array.map((b) => b.toString(16).padStart(2, "0")).join("");
+      }
+
+      // Fetches the database files from Github and caches them
+      async function loadDatabase() {
+        if (hashes && programs) return true;
+
+        const hashesRequest = await fetch(
+          "https://raw.githubusercontent.com/chip-8/chip-8-database/master/database/sha1-hashes.json"
+        );
+        if (!hashesRequest.ok) return alert("Could not load database!");
+        hashes = await hashesRequest.json();
+
+        const programsRequest = await fetch(
+          "https://raw.githubusercontent.com/chip-8/chip-8-database/master/database/programs.json"
+        );
+        if (!programsRequest.ok) return alert("Could not load database!");
+        programs = await programsRequest.json();
+
+        return true;
+      }
+
+      // Looks up a ROM file in the database
+      async function loadROM(file) {
+        if (!(await loadDatabase())) return;
+
+        // Calculate the SHA1 hash
+        const hash = await sha1Hash(file);
+
+        // Find the program and ROM metadata in the CHIP-8 database
+        if (!(hash in hashes)) {
+          alert("That file is not in the CHIP-8 database!");
+          return;
+        }
+        const programMetadata = programs[hashes[hash]];
+        const romMetadata = programMetadata.roms[hash];
+
+        console.log("Program metadata:", programMetadata);
+        console.log("ROM metadata:", romMetadata);
+
+        // Check to see if we can run this program in our interpreter by finding the
+        // intersection between what we support and what the ROM supports. The order of
+        // the ROM's platforms array defines its preference, so take the first match.
+        const platformsWeSupport = [
+          "originalChip8",
+          "modernChip8",
+          "superchip",
+        ];
+        const platformsTheRomSupports = romMetadata.platforms;
+        const chosenPlatform = platformsTheRomSupports.find((p) =>
+          platformsWeSupport.includes(p)
+        );
+
+        console.log("Running the interpreter with platform:", chosenPlatform);
+
+        if (!chosenPlatform) {
+          console.error(
+            "We pretend don't support the requested platform(s) for this ROM"
+          );
+        }
+
+        // Do whatever with this ROM and the information from the database:
+        // startInterpreter(file, chosenPlatform);
+
+        return [programMetadata, romMetadata, chosenPlatform];
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelector("form").addEventListener("submit", (event) => {
+          event.preventDefault();
+
+          const file = document.querySelector("#file").files[0];
+          if (!file) return alert("Please select a file");
+
+          const reader = new FileReader();
+          reader.onload = async (event) => {
+            const [programMetadata, romMetadata, chosenPlatform] =
+              await loadROM(event.target.result);
+
+            const { roms, ...programWithoutRoms } = programMetadata;
+
+            document.querySelector("#program").value = JSON.stringify(
+              programWithoutRoms,
+              null,
+              "  "
+            );
+            document.querySelector("#rom").value = JSON.stringify(
+              romMetadata,
+              null,
+              "  "
+            );
+            document.querySelector("#platform").value =
+              chosenPlatform ||
+              "We don't support the requested platform(s) for this ROM";
+          };
+          reader.readAsArrayBuffer(file);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>CHIP-8 Database Example</h1>
+
+    <h2>Load a CHIP-8 ROM</h2>
+    <form>
+      <input type="file" id="file" />
+      <button type="submit">Load ROM</button>
+    </form>
+
+    <h2>Program data:</h2>
+    <textarea id="program" rows="12" cols="50" disabled> </textarea>
+    <h2>ROM data:</h2>
+    <textarea id="rom" rows="12" cols="50" disabled></textarea>
+    <h2>Chosen platform</h2>
+    <p>
+      given we pretend to support "originalChip8", "modernChip8" and
+      "superchip":
+    </p>
+    <input type="text" id="platform" size="50" disabled />
+  </body>
+</html>
