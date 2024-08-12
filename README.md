@@ -244,7 +244,7 @@ scripts, including [jsonschema](https://www.npmjs.com/package/jsonschema) and
 Once NPM is installed, navigate to the root of this repository and execute
 `npm install` to install this project's dependencies.
 
-### Updating the Database from Octo
+### Updating the Database from the [CHIP-8 Archive](https://github.com/JohnEarnest/Chip8Archive)
 
 The CI system checks to ensure that the database is up to date with the contents
 of the [CHIP-8 Archive], and will fail if there are programs there that are not
