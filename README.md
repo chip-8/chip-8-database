@@ -244,19 +244,6 @@ scripts, including [jsonschema](https://www.npmjs.com/package/jsonschema) and
 Once NPM is installed, navigate to the root of this repository and execute
 `npm install` to install this project's dependencies.
 
-### Updating the Database from the [CHIP-8 Archive](https://github.com/JohnEarnest/Chip8Archive)
-
-To update the database with new entries from the CHIP-8 Archive, use
-`npm run update`.
-
-If there are any changes (check with `git status` or `git diff`), review the
-newly generated entries at the end of
-[`programs.json`](./database/programs.json) and perform any cleanup that needs
-to occur. In particular, determine appropriate values for the `"platforms"`
-section for each newly added program.
-
-Before committing any changes, run `npm start` and ensure `npm test` passes.
-
 ### Adding a new program
 
 Edit [`programs.json`](./database/programs.json) and add a new object **at the
@@ -279,3 +266,16 @@ validation info.
 
 Once you're done making your changes, run `npm start` and ensure `npm test`
 passes before committing.
+
+### Updating the Database from the [CHIP-8 Archive](https://github.com/JohnEarnest/Chip8Archive)
+
+To update the database with new entries from the CHIP-8 Archive, use
+`npm run update`.
+
+If there are any changes (check with `git status` or `git diff`), review the
+newly generated entries at the end of
+[`programs.json`](./database/programs.json) and perform any cleanup that needs
+to occur. In particular, determine appropriate values for the `"platforms"`
+section for each newly added program.
+
+Before committing any changes, run `npm start` and ensure `npm test` passes.
