@@ -246,12 +246,8 @@ Once NPM is installed, navigate to the root of this repository and execute
 
 ### Updating the Database from the [CHIP-8 Archive](https://github.com/JohnEarnest/Chip8Archive)
 
-The CI system checks to ensure that the database is up to date with the contents
-of the [CHIP-8 Archive], and will fail if there are programs there that are not
-listed in [`programs.json`](./database/programs.json).
-
-Before making your changes, it is advised that you run `npm start` to
-automatically create entries for the new files.
+To update the database with new entries from the CHIP-8 Archive, use
+`npm run update`.
 
 If there are any changes (check with `git status` or `git diff`), review the
 newly generated entries at the end of
@@ -259,7 +255,7 @@ newly generated entries at the end of
 to occur. In particular, determine appropriate values for the `"platforms"`
 section for each newly added program.
 
-If you made any changes, run `npm run format` before committing.
+Before committing any changes, run `npm start` and ensure `npm test` passes.
 
 ### Adding a new program
 
@@ -281,8 +277,5 @@ If you are familiar with
 [`schemas/programs.json`](./schemas/programs.json) for type definitions and
 validation info.
 
-Otherwise you can look at existing entries and use `npm run test` to
-automatically validate against the schema.
-
-Once you're done making your changes, run `npm start` and `npm run format`
-before committing.
+Once you're done making your changes, run `npm start` and ensure `npm test`
+passes before committing.
