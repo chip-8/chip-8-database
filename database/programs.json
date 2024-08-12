@@ -7284,7 +7284,7 @@
     "description": "A General All-In-One Chip8 Test Rom. Press any key to forward to the next screen.",
     "authors": ["Madster"],
     "roms": {
-      "0DF98270298124A3E04D8DA748E43C60D8DC7F42": {
+      "0df98270298124a3e04d8da748e43c60d8dc7f42": {
         "file": "Chip8AllInOne.ch8",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
