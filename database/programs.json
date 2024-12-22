@@ -972,7 +972,7 @@
     "roms": {
       "1bdb4ddaa7049266fa3226851f28855a365cfd12": {
         "file": "Syzygy [Roy Trevino, 1990].ch8",
-        "platforms": ["originalChip8"]
+        "platforms": ["chip48"]
       }
     }
   },
