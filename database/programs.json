@@ -7082,6 +7082,12 @@
         "description": "Timendus' CHIP-8 Test Suite v4.1: Corax+",
         "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "b2dacf6d85785d6c2315ce449912c8a8a5954e2e": {
+        "file": "3-corax+.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: Corax+",
+        "release": "2024-08-30",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
   },
@@ -7128,6 +7134,17 @@
         "file": "5-quirks.ch8",
         "description": "Timendus' CHIP-8 Test Suite v4.1: Quirks",
         "release": "2023-11-13",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      },
+      "e2149cb836131a142ca7e2dc2f2283381ae5faaa": {
+        "file": "5-quirks.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: Quirks",
+        "release": "2024-08-30",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
         "keys": {
           "up": 14,
