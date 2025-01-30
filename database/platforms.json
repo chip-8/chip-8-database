@@ -72,7 +72,7 @@
   {
     "id": "chip48",
     "name": "CHIP48 for the HP48",
-    "description": "The first CHIP-8 interpreter for the HP48 calculator was a straight implementation of CHIP-8, without any additional features. It did however introduce a couple of errors in the intepretation, introducing the shirt quirk, the memory quirk and the jump quirk.",
+    "description": "The first CHIP-8 interpreter for the HP48 calculator was a straight implementation of CHIP-8, without any additional features. It did however introduce a couple of errors in the intepretation, introducing the shift quirk, the memory quirk and the jump quirk.",
     "release": "1990-09",
     "authors": ["Andreas Gustafsson"],
     "copyright": "(C) Copyright 1990 Andreas Gustafsson\n\nNoncommercial distribution allowed, provided that this\ncopyright message is preserved, and any modified versions\nare clearly marked as such.\n\nThe program makes use of undocumented low-level features of\nthe HP48SX calculator, and may or may not cause loss of data,\nexcessive battery drainage, and/or damage to the calculator\nhardware. The Author takes no responsibility whatsoever for\nany damage caused by the use of this program.\n\n THIS SOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
