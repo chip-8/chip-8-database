@@ -7040,6 +7040,12 @@
         "description": "Timendus' CHIP-8 Test Suite v4.1: Splash Screen",
         "release": "2023-11-13",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "30f27e5cee5b325fd1681ee98a14de60bfbe951f": {
+        "file": "1-chip8-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: Splash Screen",
+        "release": "2024-08-30",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
   },
@@ -7060,6 +7066,12 @@
         "file": "2-ibm-logo.ch8",
         "description": "Timendus' CHIP-8 Test Suite v4.1: IBM Logo",
         "release": "2023-11-13",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "b9bbc12cee3f7b9d3b1f69161f7d7a2d86953379": {
+        "file": "2-ibm-logo.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: IBM Logo",
+        "release": "2024-08-30",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7108,6 +7120,12 @@
         "file": "4-flags.ch8",
         "description": "Timendus' CHIP-8 Test Suite v4.1: Flags",
         "release": "2023-11-13",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      },
+      "55a6716dacc2f93dce3d39fb8d231083016a1cc0": {
+        "file": "4-flags.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: Flags",
+        "release": "2024-08-30",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
@@ -7182,6 +7200,17 @@
           "down": 15,
           "a": 10
         }
+      },
+      "455b9fc69cc06e2b5b72f7d1ac5f6c86ac349e77": {
+        "file": "6-keypad.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: Keypad",
+        "release": "2024-08-30",
+        "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
       }
     }
   },
@@ -7214,6 +7243,17 @@
         "file": "8-scrolling.ch8",
         "description": "Timendus' CHIP-8 Test Suite v4.1: Scrolling",
         "release": "2023-11-13",
+        "platforms": ["superchip", "xochip"],
+        "keys": {
+          "up": 14,
+          "down": 15,
+          "a": 10
+        }
+      },
+      "477b3e09c43839ea5478b4f0e24536edab594f89": {
+        "file": "8-scrolling.ch8",
+        "description": "Timendus' CHIP-8 Test Suite v4.2: Scrolling",
+        "release": "2024-08-30",
         "platforms": ["superchip", "xochip"],
         "keys": {
           "up": 14,
