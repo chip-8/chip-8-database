@@ -3777,7 +3777,8 @@
     "roms": {
       "24ef21009527ee674de44ccb37e37081654883f9": {
         "file": "Alien-Inv8sion.xo8",
-        "platforms": ["xochip"]
+        "platforms": ["xochip"],
+        "tickrate": 200000
       }
     }
   },
