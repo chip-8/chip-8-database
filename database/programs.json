@@ -6562,8 +6562,7 @@
       },
       "ac30bca77d47b252c0764aff94fcac5202779f18": {
         "file": "Spacefight 2091 (by Carsten Soerensen)(1992).sc8",
-        "platforms": ["superchip"],
-        "embeddedTitle": "SpaceFight2091 by Slammer/Anarchy! (fixed by Chromatophore)"
+        "platforms": ["superchip"]
       }
     }
   },
