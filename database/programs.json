@@ -1417,6 +1417,11 @@
       "440c5fbe9f5f840e76c308738fb0d37772d66674": {
         "file": "superneatboy.ch8",
         "platforms": ["xochip"],
+        "quirkyPlatforms": {
+          "xochip": {
+            "wrap": false
+          }
+        },
         "tickrate": 1000,
         "touchInputMode": "none",
         "fontStyle": "octo",
