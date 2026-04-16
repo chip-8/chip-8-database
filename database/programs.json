@@ -1417,6 +1417,11 @@
       "440c5fbe9f5f840e76c308738fb0d37772d66674": {
         "file": "superneatboy.ch8",
         "platforms": ["xochip"],
+        "quirkyPlatforms": {
+          "xochip": {
+            "wrap": false
+          }
+        },
         "tickrate": 1000,
         "touchInputMode": "none",
         "fontStyle": "octo",
@@ -3772,7 +3777,8 @@
     "roms": {
       "24ef21009527ee674de44ccb37e37081654883f9": {
         "file": "Alien-Inv8sion.xo8",
-        "platforms": ["xochip"]
+        "platforms": ["xochip"],
+        "tickrate": 200000
       }
     }
   },
@@ -6553,6 +6559,12 @@
         "file": "Spacefight 2091 (by Carsten Soerensen)(1992).sc8",
         "platforms": ["superchip"],
         "embeddedTitle": "SpaceFight2091 by Slammer/Anarchy!"
+      },
+      "ac30bca77d47b252c0764aff94fcac5202779f18": {
+        "file": "Spacefight 2091 (by Carsten Soerensen)(1992).sc8",
+        "platforms": ["superchip"],
+        "embeddedTitle": "SpaceFight2091 by Slammer/Anarchy!",
+        "description": "A patched version of the original rom by @Chromatophore which fixes the game's reliance on a myth about FX1E changing vF."
       }
     }
   },
