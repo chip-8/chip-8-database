@@ -34,7 +34,7 @@
   {
     "id": "jump",
     "name": "Jump quirk",
-    "description": "The jump to `<address> + v0` opcode was wronly implemented on all the HP48 interpreters as jump to `<address> + vX`, introducing the jump quirk.",
+    "description": "The jump to `<address> + v0` opcode was wrongly implemented on all the HP48 interpreters as jump to `<address> + vX`, introducing the jump quirk.",
     "default": false,
     "ifTrue": "Opcode `BXNN` jumps to address `XNN + vX`",
     "ifFalse": "Opcode `BNNN` jumps to address `NNN + v0`"
