@@ -5768,13 +5768,24 @@
     }
   },
   {
-    "title": "Mr",
+    "title": "Mr Worm",
     "release": "2014",
     "authors": ["Ryan Hitchman"],
     "roms": {
       "6f8e85158be98f30bf3cd5df60d7a7ad71c5f3e1": {
         "file": "Mr. Worm (by Ryan Hitchman)(2014).sc8",
         "platforms": ["superchip"]
+      },
+      "08cff17fa88aaecb11dd439e2f9780f77831de02": {
+        "file": "mrworm.ch8",
+        "tickrate": 20,
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false
+          }
+        }
       }
     }
   },
