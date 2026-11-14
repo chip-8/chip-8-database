@@ -7358,5 +7358,70 @@
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
       }
     }
+  },
+  {
+    "title": "Dino Run",
+    "description": "An endless runner game for Chip-8.",
+    "release": "2026-05-25",
+    "authors": ["Andrezinrc"],
+    "images": ["screenshot.gif"],
+    "roms": {
+      "1a7a2138161b06e083722f978f8cbaaa1ad5344d": {
+        "file": "dinorun.ch8",
+        "platforms": ["originalChip8", "modernChip8"],
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#c7f0d8", "#004020"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        },
+        "keys": {
+          "a": 5
+        }
+      }
+    }
+  },
+  {
+    "title": "Mato8",
+    "description": "Snake game (matopeli in Finnish)",
+    "release": "2023-01-14",
+    "authors": ["nortti"],
+    "images": ["itch-image.png"],
+    "origin": {
+      "type": "gamejam",
+      "reference": "GAMES MADE QVIICK???"
+    },
+    "roms": {
+      "673f98c66168190aa5b1e5dda5d0d80da7826dd1": {
+        "file": "mato8.ch8",
+        "platforms": ["modernChip8"]
+      }
+    }
+  },
+  {
+    "title": "Tick",
+    "description": "Rhythm one button game for Chip-8",
+    "release": "2026-08-11",
+    "authors": ["StanislavDidus"],
+    "images": ["recording.gif"],
+    "roms": {
+      "3d81c0462c722c2d8a79f6e1b571e9aa21d36b1f": {
+        "file": "tick.ch8",
+        "platforms": ["modernChip8"],
+        "tickrate": 12,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#1e1e1e", "#7bff00"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        },
+        "keys": {
+          "a": 10
+        }
+      }
+    }
   }
 ]
