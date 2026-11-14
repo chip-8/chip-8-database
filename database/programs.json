@@ -255,11 +255,19 @@
   },
   {
     "title": "Delay Timer Test",
+    "authors": ["Matthew Mikolay"],
+    "release": "2010",
     "description": "Delay Timer Test (2010), by Matthew Mikolay\n\nHere's another little program I wrote to test out a feature in my game. This program allows the user to change the value of the V3 register using the 2 and 8 keys. When the 5 key is pressed, the delay timer starts counting down from the value the user placed into the V3 register, and the screen is updated as the value changes.",
     "roms": {
       "082c71b67e36e033c2e615ad89ba4ed5d55a56d0": {
         "file": "Delay Timer Test [Matthew Mikolay, 2010].ch8",
         "platforms": ["originalChip8"]
+      },
+      "ba603bde1d8596c575e81096fff3cea40173d7e3": {
+        "file": "delay_timer_test.ch8",
+        "release": "2016",
+        "platforms": ["originalChip8"],
+        "description": "The version in the author's repository, https://github.com/mattmikolay/chip-8, built from its Octo source."
       }
     }
   },
@@ -341,6 +349,14 @@
         "keys": {
           "a": 5,
           "b": 6
+        }
+      },
+      "5260f8931e0e9f41e555b382a14a88368e3ed886": {
+        "file": "Guess [David Winter] (alt).ch8",
+        "platforms": ["originalChip8", "modernChip8"],
+        "description": "Another build of Guess: the GUESS file in David Winter's CHIP8 2.2.0 package and Zophar's Chip-8 Games Pack.",
+        "keys": {
+          "a": 5
         }
       }
     }
@@ -673,6 +689,12 @@
       "f1e036fb93b482b1ddfcb2bc1a4de43c8cf51def": {
         "file": "Random Number Test [Matthew Mikolay, 2010].ch8",
         "platforms": ["originalChip8"]
+      },
+      "b7b46ad49871e54302496c95c41be842e4a4abdf": {
+        "file": "random_number_test.ch8",
+        "release": "2016",
+        "platforms": ["originalChip8"],
+        "description": "The version in the author's repository, https://github.com/mattmikolay/chip-8, built from its Octo source."
       }
     }
   },
@@ -740,6 +762,18 @@
       "4639f86beb0a203ae512b85d3b56d813b2dea7b4": {
         "file": "Rush Hour [Hap, 2006].ch8",
         "platforms": ["originalChip8"]
+      },
+      "29a41ab4d0aa3bc0d6a9d2fa71d533fe463344b3": {
+        "file": "Rush Hour [Hap, 2006] (alt).ch8",
+        "platforms": ["originalChip8"],
+        "description": "The other of Rush Hour's two versions (1.0 of 2006-12-17, 1.1 of 2008-02-08).",
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9,
+          "a": 10
+        }
       }
     }
   },
