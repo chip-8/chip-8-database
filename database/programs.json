@@ -4390,6 +4390,7 @@
     "roms": {
       "46b281516a3e9d1526bea224b79cc18ddd71833d": {
         "file": "Computer Simulator.xo8",
+        "screenRotation": 90,
         "platforms": ["xochip"]
       }
     }
@@ -5174,6 +5175,7 @@
     "roms": {
       "2cda3b309234e693e5ab6179767a8f019dfd5c6e": {
         "file": "Infini Br8kr (HailTheFish)(2020).xo8",
+        "screenRotation": 90,
         "platforms": ["xochip"]
       }
     }
@@ -5946,6 +5948,7 @@
     "roms": {
       "838706ee2d7001e6e909360f9a02f48d81d3a0d6": {
         "file": "Octo Space Program (rozisdead)(2020).xo8",
+        "screenRotation": 270,
         "platforms": ["xochip"]
       }
     }
@@ -7356,6 +7359,785 @@
       "0df98270298124a3e04d8da748e43c60d8dc7f42": {
         "file": "Chip8AllInOne.ch8",
         "platforms": ["originalChip8", "modernChip8", "superchip", "xochip"]
+      }
+    }
+  },
+  {
+    "title": "Dino Run",
+    "description": "An endless runner game for Chip-8.",
+    "release": "2026-05-25",
+    "authors": ["Andrezinrc"],
+    "images": ["screenshot.gif"],
+    "roms": {
+      "1a7a2138161b06e083722f978f8cbaaa1ad5344d": {
+        "file": "dinorun.ch8",
+        "platforms": ["originalChip8", "modernChip8"],
+        "tickrate": 15,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#c7f0d8", "#004020"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        },
+        "keys": {
+          "a": 5
+        }
+      }
+    }
+  },
+  {
+    "title": "Mato8",
+    "description": "Snake game (matopeli in Finnish)",
+    "release": "2023-01-14",
+    "authors": ["nortti"],
+    "images": ["itch-image.png"],
+    "origin": {
+      "type": "gamejam",
+      "reference": "GAMES MADE QVIICK???"
+    },
+    "roms": {
+      "673f98c66168190aa5b1e5dda5d0d80da7826dd1": {
+        "file": "mato8.ch8",
+        "platforms": ["modernChip8"]
+      }
+    }
+  },
+  {
+    "title": "Tick",
+    "description": "Rhythm one button game for Chip-8",
+    "release": "2026-08-11",
+    "authors": ["StanislavDidus"],
+    "images": ["recording.gif"],
+    "roms": {
+      "3d81c0462c722c2d8a79f6e1b571e9aa21d36b1f": {
+        "file": "tick.ch8",
+        "platforms": ["modernChip8"],
+        "tickrate": 12,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#1e1e1e", "#7bff00"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        },
+        "keys": {
+          "a": 10
+        }
+      }
+    }
+  },
+  {
+    "title": "Bad Apple!!",
+    "authors": ["koorogi"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://koorogi.itch.io/bad-apple"],
+    "roms": {
+      "c9117dd291d81c309994fe43e54cc34a0d9f9047": {
+        "file": "bad-apple-koorogi.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 20000,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Bad Apple",
+    "authors": ["Timendus"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://timendus.itch.io/bad-apple"],
+    "roms": {
+      "be412b33d82be1d4b89247f9e88525b616ec4669": {
+        "file": "bad-apple-timendus.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 40000,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#000000", "#ffffff", "#ff6600", "#662200"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Beware of Sn8k!",
+    "authors": ["Cratmang"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://cratmang.itch.io/beware-of-sn8k"],
+    "roms": {
+      "8b67dadaa32bdfc86835135fc5f2bfe12214c15a": {
+        "file": "beware-of-sn8k.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "xochip": {
+            "memoryLeaveIUnchanged": true,
+            "wrap": false
+          }
+        },
+        "tickrate": 20000,
+        "touchInputMode": "gamepad",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#000000", "#000000", "#ff55ff", "#55ff55"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "BIM Logo Animation",
+    "authors": ["Sysl"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://sysl.itch.io/bim-logo-animation"],
+    "roms": {
+      "f9f29b7d19dedfc33689b2972fac4f37c8a1ac3f": {
+        "file": "bim-logo-animation.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 500,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#f0f0f0", "#0f0f0f", "#0f0f0f", "#f0f0f0"],
+          "buzzer": "#0b0b0b",
+          "silence": "#0b0b0b"
+        }
+      }
+    }
+  },
+  {
+    "title": "Blobo",
+    "authors": ["Voror"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://voror.itch.io/blobo"],
+    "roms": {
+      "528404afc02cacef8481827cfc66b9569a5d97e2": {
+        "file": "blobo.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false,
+            "wrap": true,
+            "jump": false
+          }
+        },
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#8bac0f", "#306230"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "C8SALT logo",
+    "authors": ["NinjaWeedle"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://ninjaweedle.itch.io/c8salt-logo"],
+    "roms": {
+      "654053fabf6d022838a038e3fd63e2004034620e": {
+        "file": "c8salt-logo.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "jump": false
+          }
+        },
+        "tickrate": 7,
+        "touchInputMode": "none",
+        "fontStyle": "vip",
+        "colors": {
+          "pixels": ["#abcc80", "#00131a"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Chipception OS",
+    "authors": ["Timendus"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://timendus.itch.io/chipception-os"],
+    "roms": {
+      "e755da9ce583a235194213c8897d1a85f5d0fae9": {
+        "file": "chipception-os.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 200000,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#434343", "#ffffff", "#1a7eb3", "#e59823"],
+          "buzzer": "#000000",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Collision Course",
+    "authors": ["NinjaWeedle"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://ninjaweedle.itch.io/collision-course"],
+    "roms": {
+      "287e4e704448d963ed6187f9f4f5876d92754cc0": {
+        "file": "collision-course.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "modernChip8": {
+            "shift": true,
+            "memoryLeaveIUnchanged": true
+          }
+        },
+        "tickrate": 200,
+        "touchInputMode": "none",
+        "fontStyle": "vip",
+        "colors": {
+          "pixels": ["#000000", "#0060ff"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Destroy The Line",
+    "authors": ["TomR"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://atomr.itch.io/destroy-the-line"],
+    "roms": {
+      "02af3bc8632511dac957d7d4430f35c510ccf3f2": {
+        "file": "destroy-the-line.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false,
+            "wrap": true,
+            "jump": false
+          }
+        },
+        "tickrate": 7,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "screenRotation": 270,
+        "colors": {
+          "pixels": ["#181718", "#fe0470"],
+          "buzzer": "#ff87ca",
+          "silence": "#632c4f"
+        }
+      }
+    }
+  },
+  {
+    "title": "Dodge Catch Shoot",
+    "authors": ["miratha"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://miratha.itch.io/dodge-catch-shoot"],
+    "roms": {
+      "6281eb5dbde6ac33dec3e74b957e38adb6c4f5ae": {
+        "file": "dodge-catch-shoot.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "modernChip8": {
+            "memoryLeaveIUnchanged": true
+          }
+        },
+        "tickrate": 500,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Duel Of The F8s: Special Edition",
+    "authors": ["Chromatophore"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://chromatophore.itch.io/duel-of-the-f8s-special-edition"],
+    "roms": {
+      "8deef9510369ac9581ab03b44cfdec95bbdbc4c2": {
+        "file": "duel-of-the-f8s-special-edition.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 20000,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#888888", "#000000", "#ff0000", "#00ff00"],
+          "buzzer": "#aaaaaa",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Enter the mine",
+    "authors": ["tquester"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://tquester.itch.io/enter-the-mine"],
+    "roms": {
+      "6d6759a9ecff04d0923569e5d62bad1b2530951f": {
+        "file": "enter-the-mine.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false,
+            "wrap": true,
+            "jump": false
+          }
+        },
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "F-Chip8 Racing",
+    "authors": ["darklynx"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://darklynx.itch.io/f-chip8-racing"],
+    "roms": {
+      "f81e5d41007b896a9d906c1360de2d7577b87415": {
+        "file": "f-chip8-racing.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "modernChip8": {
+            "wrap": true
+          }
+        },
+        "tickrate": 20,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#f9ffb3", "#3d8026"],
+          "buzzer": "#f9ffb3",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Falling Ghosts",
+    "authors": ["veganjay"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://veganjay.itch.io/falling-ghosts"],
+    "roms": {
+      "edac5665df9bc6c6a4217318f51b622611402606": {
+        "file": "falling-ghosts.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "modernChip8": {
+            "wrap": true
+          }
+        },
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Fencing",
+    "authors": ["Estus Dev"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://estus-dev.itch.io/fencing"],
+    "roms": {
+      "cbdd143ffabd419999cea7be8e6d54dcbec1b931": {
+        "file": "fencing.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "modernChip8": {
+            "wrap": true
+          }
+        },
+        "tickrate": 20,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "H8 2: Carry Flag",
+    "authors": ["Chromatophore"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://chromatophore.itch.io/h8-2-carry-flag"],
+    "roms": {
+      "b2fc2fb35533625d55e9401eda3b243321d51e58": {
+        "file": "h8-2-carry-flag.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "xochip": {
+            "wrap": false
+          }
+        },
+        "tickrate": 20000,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "screenRotation": 270,
+        "colors": {
+          "pixels": ["#aaaaaa", "#222222", "#888888", "#000000"],
+          "buzzer": "#666666",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Halloween-Blaster",
+    "authors": ["tquester"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://tquester.itch.io/halloween-blaster"],
+    "roms": {
+      "ae8622969efbf66054111d1bf54b348f9d77da1b": {
+        "file": "halloween-blaster.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false,
+            "wrap": true,
+            "jump": false
+          }
+        },
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Invisible Man",
+    "authors": ["MrEmerson"],
+    "release": "2020",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 7"
+    },
+    "urls": ["https://mremerson.itch.io/invisible-man"],
+    "roms": {
+      "5d9a7db1299ea3bacdc4abe7f9ee985b08179575": {
+        "file": "invisible-man.ch8",
+        "platforms": ["originalChip8"],
+        "tickrate": 7,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#000000", "#dddddd"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Kanji Calculator (WIP)",
+    "authors": ["Cratmang"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://cratmang.itch.io/kanji-calculator"],
+    "roms": {
+      "0c9b5a4a3cd8466a6283b9210fae298412b7148d": {
+        "file": "kanji-calculator.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 200,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#f6d6b7", "#000000", "#bf1e1e", "#663931"],
+          "buzzer": "#647b55",
+          "silence": "#647b55"
+        }
+      }
+    }
+  },
+  {
+    "title": "Man Hang",
+    "authors": ["TomR"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://atomr.itch.io/man-hang"],
+    "roms": {
+      "4969623607f6a519e1eb09e4527267727991a61c": {
+        "file": "man-hang.ch8",
+        "platforms": ["originalChip8"],
+        "tickrate": 15,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Octogon Trail",
+    "authors": ["tarsi"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://tarsi.itch.io/octogon-trail"],
+    "roms": {
+      "a5dfee1ea75ec9c9ff7d92e009588bd359b3479a": {
+        "file": "octogon-trail.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 500,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#006000", "#00ff00", "#ff0000", "#ffff00"],
+          "buzzer": "#999900",
+          "silence": "#333300"
+        }
+      }
+    }
+  },
+  {
+    "title": "Octris",
+    "authors": ["sunil."],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://zunil.itch.io/octris"],
+    "roms": {
+      "6d073d659c5bfe625498f1cb45b9a3684463d721": {
+        "file": "octris.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "modernChip8": {
+            "wrap": true
+          }
+        },
+        "tickrate": 100,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "screenRotation": 90,
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "Termlib demo",
+    "authors": ["pushfoo"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://pushfoo.itch.io/termlib-demo"],
+    "roms": {
+      "9d2035ba3ea24d33c405829c2722fce8fe7e5842": {
+        "file": "termlib-demo.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 100,
+        "touchInputMode": "none",
+        "fontStyle": "fish",
+        "colors": {
+          "pixels": ["#294482", "#ffffff", "#ff0000", "#7390ad"],
+          "buzzer": "#666666",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "RPN Calculator",
+    "authors": ["tquester"],
+    "release": "2023",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 10"
+    },
+    "urls": ["https://tquester.itch.io/upn-calculator"],
+    "roms": {
+      "8b1cd5ed305922234ce5d0a847ba64b5ed0fb99d": {
+        "file": "upn-calculator.ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "superchip": {
+            "shift": false,
+            "memoryLeaveIUnchanged": false,
+            "wrap": true,
+            "jump": false
+          }
+        },
+        "tickrate": 200,
+        "touchInputMode": "none",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#996600", "#ffcc00"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "XO-NYANCAT!!",
+    "authors": ["Kouzerumatsukite"],
+    "release": "2022",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 9"
+    },
+    "urls": ["https://kouzeru.itch.io/xo-nyancat"],
+    "roms": {
+      "aae22735122c1e15df1dde4ef19e7b4968d88f6f": {
+        "file": "xo-nyancat.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 20000,
+        "touchInputMode": "swipe",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#662200", "#ffcc00", "#ff6600", "#996600"],
+          "buzzer": "#ffaa00",
+          "silence": "#000000"
+        }
+      }
+    }
+  },
+  {
+    "title": "XO-TRACKER DEMO",
+    "authors": ["Kouzerumatsukite"],
+    "release": "2021",
+    "origin": {
+      "type": "gamejam",
+      "reference": "Octojam 8"
+    },
+    "urls": ["https://kouzeru.itch.io/xo-tracker-demo"],
+    "roms": {
+      "ac3bd99bee9547f8916e86cf4ab882924fdd6bad": {
+        "file": "xo-tracker-demo.ch8",
+        "platforms": ["xochip"],
+        "tickrate": 6400,
+        "touchInputMode": "vip",
+        "fontStyle": "octo",
+        "colors": {
+          "pixels": ["#000000", "#888888", "#333333", "#ffffff"],
+          "buzzer": "#111111",
+          "silence": "#000000"
+        }
       }
     }
   }
