@@ -292,6 +292,7 @@ IDs:
 
 - originalChip8
 - hybridVIP
+- hiresChip8
 - modernChip8
 - chip8x
 - chip48
