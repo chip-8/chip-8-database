@@ -104,7 +104,7 @@
             "enum": [
               "originalChip8",
               "hybridVIP",
-              "hiresChip8",
+              "twoPageChip8",
               "modernChip8",
               "chip48",
               "superchip1",
@@ -125,7 +125,7 @@
             "hybridVIP": {
               "$ref": "#/definitions/quirkset"
             },
-            "hiresChip8": {
+            "twoPageChip8": {
               "$ref": "#/definitions/quirkset"
             },
             "modernChip8": {

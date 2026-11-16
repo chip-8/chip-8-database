@@ -34,9 +34,10 @@
     }
   },
   {
-    "id": "hiresChip8",
-    "name": "Cosmac VIP Hires CHIP-8",
-    "description": "A 64x64 mode for CHIP-8 on the Cosmac VIP, using two pages of display memory. It runs on an unmodified VIP: each program starts with a jump (1260) over a short machine-code patch that switches the interpreter to 64x64, and the CHIP-8 program starts at 0x2C0. 0230 clears the 64x64 screen. Emulators can skip the patch: when the first instruction at 0x200 is 1260, switch to 64x64 and continue at 0x2C0. Not to be confused with Tom Swan's 64x128 HI-RES CHIP-8 (1980).",
+    "id": "twoPageChip8",
+    "name": "2 Page Display for CHIP-8",
+    "description": "Andy Modla and Jef Winsor's 64x64 mode for CHIP-8 on the Cosmac VIP, using two pages of display memory (VIPER volume 1 issue 3, pp. 10-12). It patches the interpreter, and every program includes a machine-code patch at 0x200-0x249: the first instruction (1260) jumps over it, and the CHIP-8 program starts at 0x260. 0230 calls the patch's routine that clears both pages (the whole 64x64 screen). The known ROMs (kripod/chip8-roms' hires folder) also patch the interpreter themselves, so they run on an unmodified VIP: their CHIP-8 code at 0x260 copies the changes into the interpreter, calls more machine code (02AC) and clears the screen, and the program proper starts at 0x2C0. Emulators can apply the patch instead of running its 1802 code: when 0x200 holds 1260 and 0x202-0x249 hold the patch, switch to 64x64 and continue at 0x260, or at 0x2C0 after the self-patching code; then treat 0230 as clearing the screen. Often called \"Hires CHIP-8\"; not to be confused with Tom Swan's 64x128 HI-RES CHIP-8 (1980).",
+    "release": "1978-09",
     "displayResolutions": ["64x64"],
     "defaultTickrate": 15,
     "quirks": {
