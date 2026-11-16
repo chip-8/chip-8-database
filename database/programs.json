@@ -8185,5 +8185,118 @@
         }
       }
     }
+  },
+  {
+    "title": "Astro Dodge Hires",
+    "description": "The 64x64 version of Astro Dodge: make your way through the asteroid field, scoring a point for each asteroid you dodge. Keys 2, 4, 6 and 8 move the ship; 5 starts the game.",
+    "release": "2008",
+    "authors": ["Revival Studios", "Martijn Wenting"],
+    "roms": {
+      "066e7a84efde433e4d937d8aa41518666955086c": {
+        "file": "Astro Dodge Hires [Revival Studios, 2008].ch8",
+        "platforms": ["twoPageChip8"],
+        "keys": {
+          "up": 2,
+          "down": 8,
+          "left": 4,
+          "right": 6,
+          "a": 5
+        }
+      }
+    }
+  },
+  {
+    "title": "Hires Maze",
+    "description": "The 64x64 version of Maze: draws a random maze of diagonal lines across the whole screen.",
+    "release": "199x",
+    "authors": ["David Winter"],
+    "roms": {
+      "70aa0e7f25f0f0fd6ec7c59e427bf1d03ee95617": {
+        "file": "Hires Maze [David Winter, 199x].ch8",
+        "platforms": ["twoPageChip8"]
+      }
+    }
+  },
+  {
+    "title": "Hires Particle Demo",
+    "description": "The 64x64 version of zeroZshadow's particle demo. Works on real hardware as well as emulators.",
+    "release": "2008",
+    "authors": ["zeroZshadow"],
+    "roms": {
+      "1ebcb2ec0be2ec9fa209d5c73be19b2d408399bf": {
+        "file": "Hires Particle Demo [zeroZshadow, 2008].ch8",
+        "platforms": ["twoPageChip8"]
+      }
+    }
+  },
+  {
+    "title": "Hires Sierpinski",
+    "description": "The 64x64 version of the Sierpinski demo.",
+    "release": "2010",
+    "authors": ["Sergey Naydenov"],
+    "roms": {
+      "200b313e4d4c1970641142cc7ff578d7956b93da": {
+        "file": "Hires Sierpinski [Sergey Naydenov, 2010].ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "twoPageChip8": {
+            "memoryLeaveIUnchanged": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Hires Stars",
+    "description": "The 64x64 version of the Stars demo.",
+    "release": "2010",
+    "authors": ["Sergey Naydenov"],
+    "roms": {
+      "af98ee11adae28a6153cae8e4c16afa00f861907": {
+        "file": "Hires Stars [Sergey Naydenov, 2010].ch8",
+        "platforms": [],
+        "quirkyPlatforms": {
+          "twoPageChip8": {
+            "memoryLeaveIUnchanged": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Hires Test",
+    "description": "Draws 16 squares down the diagonal of the 64x64 screen, to show that the mode works. It is the test program printed with the 2 Page Display article (VIPER volume 1 issue 3, p. 12), moved to 0x2C0 after the self-patching code. kripod/chip8-roms credits it to Tom Swan (1979), who used the 2 Page Display in his book PIPS for VIPs.",
+    "release": "1978-09",
+    "authors": ["Andy Modla", "Jef Winsor"],
+    "roms": {
+      "8d56a781bf16acccb307177b80ff326f62aabbdc": {
+        "file": "Hires Test [Tom Swan, 1979].ch8",
+        "platforms": ["twoPageChip8"]
+      }
+    }
+  },
+  {
+    "title": "Hires Worm V4",
+    "description": "The 64x64 port of SuperWorm V4, Martijn Wenting's update of RB's SUPER-CHIP game Worm3.",
+    "release": "2007",
+    "authors": ["RB-Revival Studios", "Martijn Wenting"],
+    "roms": {
+      "71d06da9e605804d2099b808c02548ab2b3511b2": {
+        "file": "Hires Worm V4 [RB-Revival Studios, 2007].ch8",
+        "platforms": ["twoPageChip8"]
+      }
+    }
+  },
+  {
+    "title": "Trip8 Hires Demo",
+    "description": "The 64x64 version of the Trip8 demo: an intro, 3D vector balls and four randomised dot effects.",
+    "release": "2008",
+    "authors": ["Revival Studios"],
+    "roms": {
+      "b2c55b6aba3e2910036d5b5bc3956cf7493e0221": {
+        "file": "Trip8 Hires Demo (2008) [Revival Studios].ch8",
+        "platforms": ["twoPageChip8"]
+      }
+    }
   }
 ]
