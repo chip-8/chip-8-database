@@ -994,7 +994,13 @@
       },
       "2d415bf1f31777b22ad73208c4d1ad27d5d4f367": {
         "file": "SuperWorm V4 (by RB & Revival Studios)(2007).sc8",
-        "platforms": ["superchip"]
+        "platforms": ["superchip"],
+        "keys": {
+          "up": 2,
+          "down": 8,
+          "left": 4,
+          "right": 6
+        }
       }
     }
   },
@@ -3812,7 +3818,14 @@
       "24ef21009527ee674de44ccb37e37081654883f9": {
         "file": "Alien-Inv8sion.xo8",
         "platforms": ["xochip"],
-        "tickrate": 200000
+        "tickrate": 200000,
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9,
+          "a": 6
+        }
       }
     }
   },
@@ -3935,6 +3948,13 @@
           "originalChip8": {
             "memoryLeaveIUnchanged": true
           }
+        },
+        "keys": {
+          "up": 2,
+          "down": 8,
+          "left": 4,
+          "right": 6,
+          "a": 5
         }
       },
       "0b1040d556cba3b8e086f44ea76f78e26fd28093": {
@@ -3944,7 +3964,14 @@
       "c2a361700209116a300457eacbf33a8c40c01b83": {
         "file": "Super Astro Dodge (by Revival Studios)(2008).sc8",
         "platforms": ["superchip"],
-        "embeddedTitle": "REVIVALSTUDIOS2008"
+        "embeddedTitle": "REVIVALSTUDIOS2008",
+        "keys": {
+          "up": 2,
+          "down": 8,
+          "left": 4,
+          "right": 6,
+          "a": 5
+        }
       }
     }
   },
@@ -4365,8 +4392,12 @@
     "roms": {
       "9d9f88509b5033152b7b49d2c7ea3c3c5fce2bd6": {
         "file": "Climax Slideshow - Part 1 (by Revival Studios)(2008).sc8",
+        "description": "Key 5 shows the next picture.",
         "platforms": ["superchip"],
-        "embeddedTitle": "REVIVALSTUDIOS2008"
+        "embeddedTitle": "REVIVALSTUDIOS2008",
+        "keys": {
+          "a": 5
+        }
       }
     }
   },
@@ -4378,8 +4409,12 @@
     "roms": {
       "6bb78d8a0aba93ea18eabdd0134cbdccd1dc2d16": {
         "file": "Climax Slideshow - Part 2 (by Revival Studios)(2008).sc8",
+        "description": "Key 5 shows the next picture.",
         "platforms": ["superchip"],
-        "embeddedTitle": "REVIVALSTUDIOS2008"
+        "embeddedTitle": "REVIVALSTUDIOS2008",
+        "keys": {
+          "a": 5
+        }
       }
     }
   },
@@ -5519,15 +5554,32 @@
     "roms": {
       "3c444e43e5f02dac4324b7b24cd38ef4938a4b56": {
         "file": "Loopz (by Andreas Daumann)(1993).sc8",
+        "description": "The HP48 original. On the calculator, its launcher chose the level and stored it in the RPL user flags with two check bytes ($AA), which the program reads with F285; without them, it exits at once (00FD). Hap's 2006 version adds a difficulty select and runs on any SUPER-CHIP interpreter. Keys: 7 and 8 move left and right, C and D up and down, 6 turns, 5 drops and confirms.",
         "platforms": ["superchip"],
-        "embeddedTitle": "(c) A.Daumann"
+        "embeddedTitle": "(c) A.Daumann",
+        "keys": {
+          "up": 12,
+          "down": 13,
+          "left": 7,
+          "right": 8,
+          "a": 6,
+          "b": 5
+        }
       },
       "a2788177b820a28cd27e6d2d180340cb7f4948fb": {
         "file": "Loopz (with difficulty select) (by hap)(2006).sc8",
         "description": "difficulty select for Loopz, by hap, feb 17th 2006\n\nAndreas Daumann's Loopz was originally only for HP48\nthis change adds difficulty select within the SCHIP program, so it'll work\non SCHIP emulators, no changes were made in the main program\n\nto select difficulty:\nsame keys as in loopz: c=up, d=down, 5=ok\n\nv0,v1,v2 are set before running loopz\nv1 and v2 should be $AA, dunno why\nv0 is the difficulty (0 to 9)\nsaved into flags and the game runs as normal\n\noriginal loopz program: $200-$f9d\ndifficulty select: $f9e-$fff (full ;p )\n\n",
         "release": "2006-02-17",
         "platforms": ["superchip"],
-        "authors": ["Andreas Daumann", "Hap"]
+        "authors": ["Andreas Daumann", "Hap"],
+        "keys": {
+          "up": 12,
+          "down": 13,
+          "left": 7,
+          "right": 8,
+          "a": 6,
+          "b": 5
+        }
       }
     }
   },
@@ -5660,6 +5712,7 @@
     "roms": {
       "24fd50a95b84e3a42e336a06567a9752f17b9979": {
         "file": "Matches (unknown author)(199x).sc8",
+        "description": "Keys 1 and 3 set fewer or more matches, and 2 starts the game. Player 1 takes 1, 2 or 3 matches with keys 4, 5 and 6; player 2 with keys 7, 8 and 9.",
         "platforms": ["superchip"]
       }
     }
@@ -6566,7 +6619,15 @@
     "roms": {
       "c7c59b38129fdcec5bb0775a9a141b6ba936e706": {
         "file": "Sokoban (by hap)(2006).sc8",
-        "platforms": ["superchip"]
+        "platforms": ["superchip"],
+        "keys": {
+          "up": 5,
+          "down": 8,
+          "left": 7,
+          "right": 9,
+          "a": 10,
+          "b": 0
+        }
       }
     }
   },
